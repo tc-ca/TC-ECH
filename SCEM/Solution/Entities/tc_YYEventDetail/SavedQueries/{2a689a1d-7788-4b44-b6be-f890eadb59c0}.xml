@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2a689a1d-7788-4b44-b6be-f890eadb59c0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_yyeventdetailnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yyeventdetailid">
+          <cell name="tc_eventid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_eventdetailtypecd" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_titletxt" width="100" />
+          <cell name="tc_commentnotetxt" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_organizationid" width="100" />
+          <cell name="tc_actionitemassignedtoid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_duedte" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyeventdetail">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_titletxt" />
+          <attribute name="tc_organizationid" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="tc_eventdetailtypecd" />
+          <attribute name="tc_eventid" />
+          <attribute name="tc_duedte" />
+          <attribute name="tc_commentnotetxt" />
+          <attribute name="tc_actionitemassignedtoid" />
+          <attribute name="tc_yyeventdetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Event Details" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

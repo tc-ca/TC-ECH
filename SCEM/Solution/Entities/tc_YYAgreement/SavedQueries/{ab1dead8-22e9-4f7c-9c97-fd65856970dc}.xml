@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ab1dead8-22e9-4f7c-9c97-fd65856970dc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_agreementnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yyagreementid">
+          <cell name="tc_agreementnm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyagreement">
+          <attribute name="tc_yyagreementid" />
+          <attribute name="tc_agreementnm" />
+          <attribute name="createdon" />
+          <order attribute="tc_agreementnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.2.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Agreements" languagecode="1033" />
+      <LocalizedName description="Ententes inactives" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0a844e18-adee-4169-9828-6a68cfa4c835}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900" headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{19405af7-cdde-4870-a276-f014da678b13}" IsUserDefined="1" name="{19405af7-cdde-4870-a276-f014da678b13}" locklevel="0" expanded="true" showlabel="true" visible="false">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7f689829-b0f7-494b-a41d-bcc7047dce65}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4a18830e-f0a2-4a5e-8d70-2e930d820259}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="tc_yyeventdetailnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_yyeventdetailnm" uniqueid="{a7e623e2-ba65-9d05-93cb-d4a621540291}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25745a9e-d057-473c-b451-d6138efa46f8}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{194303a1-a260-ec90-aa09-a83d0b883a40}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Main" languagecode="1033" />
+            <label description="Principal" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{3055312d-e011-66b5-490b-5494189312c7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5a1db923-6e5a-5863-05ac-dcc94eab4c67}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Detail Type" languagecode="1033" />
+                          <label description="Type de détail d'événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventdetailtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventdetailtypecd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eab05478-c140-5a51-1791-639e4a90c437}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                          <label description="Titre" languagecode="1036" />
+                        </labels>
+                        <control id="tc_titletxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_titletxt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68e8ed17-277e-7edc-5d9a-d6c943a9b6d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                          <label description="Pays" languagecode="1036" />
+                        </labels>
+                        <control id="tc_country" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_country" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9462666e-03d4-1ed5-5834-a76659c09ce1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Compte" languagecode="1036" />
+                        </labels>
+                        <control id="tc_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_organizationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1ccfac8-46f3-468e-b8ef-87ede18f6fd7}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Contacts" languagecode="1033" />
+                        </labels>
+                        <control id="tc_contacts" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_contacts" disabled="false" uniqueid="{05d494bb-1ae8-63ea-9b28-acbeab18b5a3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2bae4549-1ead-d292-2c0b-b760996192bc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Commitment" languagecode="1033" />
+                          <label description="Engagement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_commitmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_commitmentid" disabled="false" uniqueid="{17ec7317-30ab-3265-8423-aace77116543}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{478d6a74-dac2-81ee-735b-41dda9372d6e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Item Status" languagecode="1033" />
+                          <label description="État de la mesure de suivi" languagecode="1036" />
+                        </labels>
+                        <control id="tc_actionitemstatuscd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_actionitemstatuscd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{175192a3-3ccc-bce9-65a4-d08dbd47eee5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Item Assigned To" languagecode="1033" />
+                          <label description="Mesure de suivi assignée à" languagecode="1036" />
+                        </labels>
+                        <control id="tc_actionitemassignedtoid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_actionitemassignedtoid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d39283b-81c3-83d8-9a23-b4470b9da6de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                          <label description="Date d’échéance" languagecode="1036" />
+                        </labels>
+                        <control id="tc_duedte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_duedte" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_2" showlabel="true" showbar="true" locklevel="0" id="{0d50a880-86b4-8ea4-7c6b-908b6ad0a610}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Comment/Note" languagecode="1033" />
+                    <label description="Commentaire/Note" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e553d67c-5254-ed06-2204-ad7eb81d182a}" showlabel="true" locklevel="0" auto="true" rowspan="3">
+                        <labels>
+                          <label description="Comment/Note" languagecode="1033" />
+                          <label description="Commentaire/Note" languagecode="1036" />
+                        </labels>
+                        <control id="tc_commentnotetxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_commentnotetxt" disabled="false" uniqueid="{59273887-0546-41ca-7e99-b741b87316a5}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="contacts" id="{3340a425-a947-8ce0-a55d-eea9cc14bbee}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Contacts" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{974897a8-e506-c8d4-3132-c1657690d404}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{501ae4a2-6249-47a9-0842-2b247d029408}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Contacts" languagecode="1033" />
+                          <label description="Contacts" languagecode="1036" />
+                        </labels>
+                        <control id="contactGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{D870BDAD-6EB5-E811-80E8-005056815FA7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_EventDetails_Contacts</RelationshipName>
+                            <TargetEntityType>contact</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds />
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{29934869-1930-4fa7-badc-c3dde5b01eca}" columns="111">
+        <rows>
+          <row>
+            <cell id="{6d23b851-500c-c55d-552b-8a49e04d72b3}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Event" languagecode="1033" />
+                <label description="Événement" languagecode="1036" />
+              </labels>
+              <control id="header_tc_eventid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventid" disabled="false" />
+            </cell>
+            <cell id="{7fab50f3-bb15-4e56-8dc5-c25c30699148}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1d632f13-b34c-43e8-8ebd-720935405964}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{5eba3c0a-2cc9-46ff-9697-b3e1bc2401f9}" columns="111">
+        <rows>
+          <row>
+            <cell id="{de1c0d0e-e3c4-ee32-443e-87b2e8012c85}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{1a5a9e34-801c-2014-7195-7a0155c25d47}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{6273197b-5bca-1209-3a03-9c38dce757bd}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="tc_EventDetail" libraryUniqueId="{0aa262ee-24e0-e4ec-703c-eab645c96a90}" />
+        <Library name="tc_/OPP/SetEventDetailsType.js" libraryUniqueId="{7164191a-4314-5d43-58ab-87e5ad02dedd}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler handlerUniqueId="{8c6d326b-c724-7090-423d-dad9107b205b}" functionName="showHideActionItemsTab" libraryName="tc_EventDetail" enabled="true" passExecutionContext="true" parameters="" />
+            <Handler functionName="setEventDetailType" libraryName="tc_/OPP/SetEventDetailsType.js" handlerUniqueId="{a8c2e914-e047-769a-4074-576ad0c12138}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions>
+        <controlDescription forControl="{05d494bb-1ae8-63ea-9b28-acbeab18b5a3}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>tc_contacts</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_contacts</value>
+              <linkedEntityName static="true" type="SingleLine.Text">contact</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">fullname</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">contactid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_EventDetails_Contacts</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_eventdetails_contacts</relationshipEntity>
+              <linkedEntityFetchXmlResource static="true" type="SingleLine.Text">WebResources/tc_/Core/EventDetailContactsFetchXML</linkedEntityFetchXmlResource>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_contacts</value>
+              <linkedEntityName static="true" type="SingleLine.Text">contact</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">fullname</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">contactid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_EventDetails_Contacts</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_eventdetails_contacts</relationshipEntity>
+              <linkedEntityFetchXmlResource static="true" type="SingleLine.Text">WebResources/tc_/Core/EventDetailContactsFetchXML</linkedEntityFetchXmlResource>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_contacts</value>
+              <linkedEntityName static="true" type="SingleLine.Text">contact</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">fullname</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">contactid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_EventDetails_Contacts</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_eventdetails_contacts</relationshipEntity>
+              <linkedEntityFetchXmlResource static="true" type="SingleLine.Text">WebResources/tc_/Core/EventDetailContactsFetchXML</linkedEntityFetchXmlResource>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

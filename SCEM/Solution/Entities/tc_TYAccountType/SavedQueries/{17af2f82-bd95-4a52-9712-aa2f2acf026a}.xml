@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{17af2f82-bd95-4a52-9712-aa2f2acf026a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_typenm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tyaccounttypeid">
+          <cell name="tc_typenm" width="300" />
+          <cell name="tc_categorycd" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tyaccounttype">
+          <attribute name="tc_typenm" />
+          <order attribute="tc_typenm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="tc_typenm" operator="like" value="{0}" />
+            <condition attribute="tc_categorycd" operator="like" value="{0}" />
+          </filter>
+          <attribute name="tc_categorycd" />
+          <attribute name="tc_tyaccounttypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Organization Types" languagecode="1033" />
+      <LocalizedName description="Recherche rapide « Types d’organisations actives »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

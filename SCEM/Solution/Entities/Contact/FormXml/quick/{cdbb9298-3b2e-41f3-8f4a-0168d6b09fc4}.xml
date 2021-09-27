@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{d6ea078f-a7b7-4482-8027-72ce7413b948}" name="tab_1" showlabel="false" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section id="{538cd0a6-79be-427d-841d-c9dee4b87b4d}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{aebdd260-1038-9c1d-4434-3a7514a6dab9}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Job Title" languagecode="1033" solutionaction="Added" />
+                          <label description="Fonction" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad8eee9a-3526-2043-148d-8bc285650879}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Modified">
+                        <labels>
+                          <label description="Business Phone" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26165708-c954-a18c-2367-d7c9a48b5a1a}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Modified">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" solutionaction="Added" />
+                          <label description="Téléphone mobile" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{835b00ee-d41a-2742-3982-1b61318213be}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Nom de la société" languagecode="1036" />
+                        </labels>
+                        <control id="parentcustomerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcustomerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="App for Outlook Contact Card" languagecode="1033" />
+      <LocalizedName description="Carte de contact App for Outlook" languagecode="1036" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>tc_SCEM</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="tc_SCEM" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+    <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+    <AppModuleComponent type="60" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+    <AppModuleComponent type="60" id="{07cd1be2-c999-4376-b319-632e1b8e93ad}" />
+    <AppModuleComponent type="60" id="{796bb226-f352-424d-a990-bc3301205337}" />
+    <AppModuleComponent type="60" id="{b37cef44-361d-ec11-b6e7-000d3a09e6b7}" />
+    <AppModuleComponent type="1" schemaName="tc_contact_yyevent" />
+    <AppModuleComponent type="1" schemaName="tc_yycountry" />
+    <AppModuleComponent type="1" schemaName="tc_yyevent" />
+    <AppModuleComponent type="60" id="{3d743845-aa5c-4cb4-b71d-e079af5f55f1}" />
+    <AppModuleComponent type="60" id="{237b8696-3775-4011-a779-6a466879935d}" />
+    <AppModuleComponent type="1" schemaName="tc_feedbackform" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+    <AppModuleComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+    <AppModuleComponent type="60" id="{2d05903d-83dd-4d0c-b5d8-72369c780f31}" />
+    <AppModuleComponent type="60" id="{81393505-8fa9-45d9-b700-082bb29d0e8b}" />
+    <AppModuleComponent type="60" id="{bd455e79-d532-495e-ac40-764d895eccd7}" />
+    <AppModuleComponent type="60" id="{35d2d301-af6d-47be-a491-aec044bf5320}" />
+    <AppModuleComponent type="60" id="{32f176d2-d15c-460e-9e2d-13950ed0b0aa}" />
+    <AppModuleComponent type="60" id="{16519a7f-b0e2-4139-9618-f96df4528519}" />
+    <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666000}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001200}" />
+    <AppModuleComponent type="26" id="{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
+    <AppModuleComponent type="1" schemaName="tc_tyregion" />
+    <AppModuleComponent type="1" schemaName="report" />
+    <AppModuleComponent type="26" id="{69969211-241f-ec11-b6e6-0022486d8d6f}" />
+    <AppModuleComponent type="1" schemaName="tc_aystakeholdergroup" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="SCEM" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Stakeholder Consultation and Engagement Management" languagecode="1033" />
+  </Descriptions>
+</AppModule>

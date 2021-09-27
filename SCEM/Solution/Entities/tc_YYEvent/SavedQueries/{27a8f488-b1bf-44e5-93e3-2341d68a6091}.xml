@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{27a8f488-b1bf-44e5-93e3-2341d68a6091}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yyeventid">
+          <cell name="tc_eventnm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyevent">
+          <attribute name="tc_yyeventid" />
+          <attribute name="tc_eventnm" />
+          <attribute name="createdon" />
+          <order attribute="tc_eventnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Events" languagecode="1033" />
+      <LocalizedName description="Événements inactifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8f0df06d-3101-41df-be9c-7a6a74cb95e7}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="tc_agreementnm" select="1" icon="1" preview="1">
+        <row name="tc_yyagreement" id="tc_yyagreementid">
+          <cell name="tc_agreementnm" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyagreement">
+          <attribute name="tc_agreementnm" />
+          <order attribute="tc_agreementnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_yyagreementid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.2.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Agreement Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée « Entente »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

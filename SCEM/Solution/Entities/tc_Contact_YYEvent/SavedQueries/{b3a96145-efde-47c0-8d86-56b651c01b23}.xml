@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b3a96145-efde-47c0-8d86-56b651c01b23}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="tc_eventnm" select="1" icon="1" preview="1">
+        <row name="tc_contact_yyevent" id="tc_contact_yyeventid">
+          <cell name="tc_contactid" width="150" />
+          <cell name="a_7f2b36713f22e8118141000c2958e3a5.jobtitle" width="100" disableSorting="1" />
+          <cell name="a_7f2b36713f22e8118141000c2958e3a5.parentcustomerid" width="150" disableSorting="1" />
+          <cell name="tc_eventid" width="150" />
+          <cell name="tc_invitedind" width="100" />
+          <cell name="tc_attendedind" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_contact_yyevent">
+          <order attribute="tc_contactid" descending="false" />
+          <order attribute="tc_eventid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_eventid" />
+          <attribute name="tc_contactid" />
+          <attribute name="tc_attendedind" />
+          <attribute name="tc_invitedind" />
+          <link-entity alias="a_7f2b36713f22e8118141000c2958e3a5" name="contact" from="contactid" to="tc_contactid" link-type="outer" visible="false">
+            <attribute name="parentcustomerid" />
+            <attribute name="jobtitle" />
+          </link-entity>
+          <attribute name="tc_contact_yyeventid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contact Event Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée « Événement de contact »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

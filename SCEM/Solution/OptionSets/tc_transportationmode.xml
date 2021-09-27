@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_transportationmode" localizedName="Transportation Mode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Transportation Mode" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="Marine" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="Road" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010002">
+      <labels>
+        <label description="Aviation" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010003">
+      <labels>
+        <label description="Rail" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery unmodified="1">
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9216876b-518e-4331-9a17-09eab22321da}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="0" preview="0" icon="1">
+        <row name="result" id="reportid">
+          <cell name="name" width="300" />
+          <cell name="reporttypecode" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="description" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="report">
+          <attribute name="name" />
+          <attribute name="reporttypecode" />
+          <attribute name="modifiedon" />
+          <attribute name="description" />
+          <order attribute="name" descending="false" />
+          <attribute name="reportid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Report Lookup View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche de rapports" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

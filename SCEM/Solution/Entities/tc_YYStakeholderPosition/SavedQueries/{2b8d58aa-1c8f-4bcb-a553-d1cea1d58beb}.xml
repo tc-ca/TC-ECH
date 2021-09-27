@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2b8d58aa-1c8f-4bcb-a553-d1cea1d58beb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_stakeholderpositionnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yystakeholderpositionid">
+          <cell name="tc_contactid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_organizationid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_stakeholderpositioncd" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_eventid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_objectivepriorityid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yystakeholderposition">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_stakeholderpositioncd" />
+          <attribute name="tc_organizationid" />
+          <attribute name="tc_objectivepriorityid" />
+          <attribute name="tc_eventid" />
+          <attribute name="tc_contactid" />
+          <attribute name="tc_yystakeholderpositionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Stakeholders Position" languagecode="1033" />
+      <LocalizedName description="Position active des intervenants " languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

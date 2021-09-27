@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{955e6b84-0d48-4089-8a5c-e794203076e4}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="tc_yyeventdetailnm" select="1" icon="1" preview="1">
+        <row name="tc_yyeventdetail" id="tc_yyeventdetailid">
+          <cell name="tc_yyeventdetailnm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyeventdetail">
+          <attribute name="tc_yyeventdetailid" />
+          <attribute name="tc_yyeventdetailnm" />
+          <attribute name="createdon" />
+          <order attribute="tc_yyeventdetailnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Event Detail Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

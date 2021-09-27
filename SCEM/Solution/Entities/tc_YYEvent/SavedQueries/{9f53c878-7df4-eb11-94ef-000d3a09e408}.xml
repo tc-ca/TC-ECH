@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{9f53c878-7df4-eb11-94ef-000d3a09e408}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" preview="1" icon="1">
+        <row name="result" id="tc_yyeventid">
+          <cell name="tc_eventnm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_startdte" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="tc_yyevent">
+          <attribute name="tc_eventnm" />
+          <order attribute="tc_startdte" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="tc_yyeventdetail" from="tc_eventid" to="tc_yyeventid" alias="aa">
+            <filter type="and">
+              <filter type="and">
+                <condition attribute="tc_eventdetailtypecd" operator="eq" value="1" />
+                <condition attribute="tc_actionitemstatuscd" operator="not-in">
+                  <value>4</value>
+                  <value>5</value>
+                </condition>
+              </filter>
+            </filter>
+          </link-entity>
+          <attribute name="tc_startdte" />
+          <attribute name="tc_yyeventid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.61.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Events with Active Commitments Made" languagecode="1033" />
+      <LocalizedName description="Événements avec des engagements pris actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

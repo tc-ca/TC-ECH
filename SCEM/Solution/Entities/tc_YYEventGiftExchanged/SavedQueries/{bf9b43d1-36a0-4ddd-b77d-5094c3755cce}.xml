@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bf9b43d1-36a0-4ddd-b77d-5094c3755cce}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventgiftexchangednm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yyeventgiftexchangedid">
+          <cell name="tc_gifttypecd" width="100" />
+          <cell name="tc_giftitemtxt" width="100" />
+          <cell name="tc_receivedfromid" width="100" />
+          <cell name="tc_giftrecipientid" width="100" />
+          <cell name="tc_giftcostamt" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="tc_eventid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyeventgiftexchanged">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_receivedfromid" />
+          <attribute name="tc_gifttypecd" />
+          <attribute name="tc_giftrecipientid" />
+          <attribute name="tc_giftitemtxt" />
+          <attribute name="tc_giftcostamt" />
+          <attribute name="tc_eventid" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="tc_yyeventgiftexchangedid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Event Gifts Exchanged" languagecode="1033" />
+      <LocalizedName description="Événement – Cadeaux échangés actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

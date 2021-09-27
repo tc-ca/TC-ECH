@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_eventtypeopt" localizedName="Event Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Event Type" languagecode="1033" />
+    <displayname description="Type d’événement" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="948010002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Assembly" languagecode="1033" />
+        <label description="Assemblée" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="13" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Bilateral Meeting" languagecode="1033" />
+        <label description="Réunion bilatérale" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="7" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Capacity Development Activities" languagecode="1033" />
+        <label description="Activités de renforcement des capacités" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Conference" languagecode="1033" />
+        <label description="Conférence – Haut niveau" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="8" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Coordination" languagecode="1033" />
+        <label description="Coordination" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="12" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Inspections" languagecode="1033" />
+        <label description="Inspections" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Meeting" languagecode="1033" />
+        <label description="Réunion" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Multilateral" languagecode="1033" />
+        <label description="Multilatéraux" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Mutual Recognition" languagecode="1033" />
+        <label description="Reconnaissance mutuelle" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="10" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+        <label description="Autre" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Panel" languagecode="1033" />
+        <label description="Comité d’experts" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="5" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Symposium" languagecode="1033" />
+        <label description="Symposium" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Task Force" languagecode="1033" />
+        <label description="Groupe de travail" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Working Group" languagecode="1033" />
+        <label description="Groupe de travail" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="9" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Workshop" languagecode="1033" />
+        <label description="Atelier" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7c89af75-c87e-404b-be13-480810fe14b6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventissuenm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yyeventissueid">
+          <cell name="tc_eventissuenm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyeventissue">
+          <attribute name="tc_yyeventissueid" />
+          <attribute name="tc_eventissuenm" />
+          <attribute name="createdon" />
+          <order attribute="tc_eventissuenm" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Event Issue Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée Enjeu de l’événement" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{347b30ad-480e-eb11-a813-000d3af46865}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_name" select="1" preview="1" icon="1">
+        <row name="result" id="tc_organizationcontactid">
+          <cell name="tc_organizationid" width="100" />
+          <cell name="tc_email1" width="100" />
+          <cell name="tc_mobilephone" width="100" />
+          <cell name="tc_position" width="100" />
+          <cell name="tc_rolesandresponsibilities" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="tc_organizationcontact">
+          <attribute name="tc_position" />
+          <attribute name="tc_organizationid" />
+          <attribute name="tc_mobilephone" />
+          <attribute name="tc_email1" />
+          <order attribute="tc_email1" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_organizationcontactid" />
+          <attribute name="tc_rolesandresponsibilities" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.51.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Related Organizations" languagecode="1033" />
+      <LocalizedName description="Organisations liées actives" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

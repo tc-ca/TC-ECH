@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{3b14cdaf-764a-e911-80f1-005056814435}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_contact_yyeventid">
+          <cell name="tc_contactid" width="150" />
+          <cell name="tc_eventid" width="150" />
+          <cell name="tc_invitedind" width="100" />
+          <cell name="tc_attendedind" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_interestedind" width="100" />
+          <cell name="tc_mailoutind" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="tc_contact_yyevent">
+          <attribute name="tc_mailoutind" />
+          <attribute name="tc_interestedind" />
+          <attribute name="tc_eventid" />
+          <attribute name="tc_contactid" />
+          <attribute name="tc_attendedind" />
+          <attribute name="tc_invitedind" />
+          <order attribute="tc_contactid" descending="false" />
+          <order attribute="tc_eventid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="tc_yyevent" from="tc_yyeventid" to="tc_eventid" alias="aa">
+            <filter type="and">
+              <condition attribute="tc_startdte" operator="next-x-days" value="500" />
+              <condition attribute="statecode" operator="eq" value="0" />
+            </filter>
+          </link-entity>
+          <link-entity name="contact" from="contactid" to="tc_contactid" alias="ab">
+            <filter type="and">
+              <condition attribute="parentcustomerid" operator="eq" uiname="Transport Canada" uitype="account" value="{BFE4AF7C-F201-E811-810C-005056817939}" />
+            </filter>
+          </link-entity>
+          <attribute name="tc_contact_yyeventid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="ASIES - TC attendees for upcoming events" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

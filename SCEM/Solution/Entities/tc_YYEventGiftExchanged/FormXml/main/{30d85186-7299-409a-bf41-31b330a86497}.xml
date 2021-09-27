@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{30d85186-7299-409a-bf41-31b330a86497}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{250cbf01-aac6-4162-beaf-d287874926b3}" IsUserDefined="1" name="{250cbf01-aac6-4162-beaf-d287874926b3}" locklevel="0" expanded="true" showlabel="true" visible="false">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{fd5e3352-0e12-4d0e-855a-a9bb0ab0951a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9dfe47dd-67b2-455c-a693-39af0cdc5b23}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventgiftexchangednm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventgiftexchangednm" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{807c24f6-5279-4e3a-ae49-91d3a18f92d0}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{e9ca2cea-9300-94c7-c451-723ae4b6d5ac}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Gift Info" languagecode="1033" />
+            <label description="Info sur le cadeau" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{48e84462-390d-d157-c822-0e77a206858c}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0c13eca0-98a0-8147-7e54-a60b78608d68}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gift Type" languagecode="1033" />
+                          <label description="Type de cadeau" languagecode="1036" />
+                        </labels>
+                        <control id="tc_gifttypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_gifttypecd" disabled="false" />
+                      </cell>
+                      <cell id="{3cb064db-88e7-82ae-81d5-53b9d39b356a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gift Cost" languagecode="1033" />
+                          <label description="Prix du cadeau" languagecode="1036" />
+                        </labels>
+                        <control id="tc_giftcostamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_giftcostamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e6e6805-aee7-3400-3611-093a55eb1d71}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Presented by" languagecode="1033" />
+                        </labels>
+                        <control id="tc_receivedfromid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_receivedfromid" disabled="false" uniqueid="{aa0394a7-ac03-d845-77c2-c52e3b7c7ece}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{b13b8d5a-55ba-c09d-9583-c75cc19b96e4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Gift Recipient" languagecode="1033" />
+                          <label description="Bénéficiaire du cadeau" languagecode="1036" />
+                        </labels>
+                        <control id="tc_giftrecipientid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_giftrecipientid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db378116-30b8-88dd-9598-e336b1257d9a}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Gift Item" languagecode="1033" />
+                          <label description="Cadeau" languagecode="1036" />
+                        </labels>
+                        <control id="tc_giftitemtxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_giftitemtxt" disabled="false" uniqueid="{2e869569-9098-5395-5d9e-d2c761985729}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc81c278-36c7-7c56-836d-8c29be04c135}" showlabel="true" locklevel="0" colspan="2" rowspan="4">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                          <label description="Commentaires" languagecode="1036" />
+                        </labels>
+                        <control id="tc_commentstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_commentstxt" disabled="false" uniqueid="{1c1ec1bc-5667-79dd-10b9-aa31425203c0}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4d754242-7579-4056-abc4-2835a28d7c94}" columns="111">
+        <rows>
+          <row>
+            <cell id="{46475cb8-e4e0-46f1-b95e-7975ef54c2bc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{83242279-8d3d-4cb0-8670-6c8a27614167}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{52e5622a-91de-0276-89ec-bb2e3692e968}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Event" languagecode="1033" />
+                <label description="Événement" languagecode="1036" />
+              </labels>
+              <control id="header_tc_eventid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{cec9ba3b-441d-4574-9085-cd71238f7168}" columns="111">
+        <rows>
+          <row>
+            <cell id="{ce49119a-d453-03ee-73d6-2e3529be36e4}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{3b2eb741-31d6-82dc-5d33-123a3ed29062}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{bed909ea-2a71-9bc6-ced8-e031b489b8e1}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

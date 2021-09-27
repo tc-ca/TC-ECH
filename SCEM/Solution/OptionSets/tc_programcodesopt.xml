@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_programcodesopt" localizedName="Program Codes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Program Codes" languagecode="1033" />
+    <displayname description="Codes de programmes" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1" Color="#0000ff">
+      <labels>
+        <label description="3.6 Aviation Security" languagecode="1033" />
+        <label description="P_1.1_Transport_Marché_Cadres" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" Color="#0000ff">
+      <labels>
+        <label description="1.1 Transportation Marketplace Frameworks" languagecode="1033" />
+        <label description="P_1.2_Portes d’entrée_et_Corridors" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" Color="#0000ff">
+      <labels>
+        <label description="1.2 Gateways and Corridors" languagecode="1033" />
+        <label description="P_1.3_Transport_Infrastructure" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010000" Color="#0000ff">
+      <labels>
+        <label description="1.3 Transportation Infrastructure" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010001" Color="#0000ff">
+      <labels>
+        <label description="2.1 Clearn Air from Transportation" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010002" Color="#0000ff">
+      <labels>
+        <label description="2.2 Clean Water from Transporation" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010003" Color="#0000ff">
+      <labels>
+        <label description="2.3 Environmental Stewardship of Transportation" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010004" Color="#0000ff">
+      <labels>
+        <label description="3.1 Aviation Safety" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010005" Color="#0000ff">
+      <labels>
+        <label description="3.2 Marine Safety" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010006" Color="#0000ff">
+      <labels>
+        <label description="3.3 Rail Safety" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010007" Color="#0000ff">
+      <labels>
+        <label description="3.4 Motor Vehicle Safety" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010008" Color="#0000ff">
+      <labels>
+        <label description="3.5 Transporation of Dangerous Goods" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010009" Color="#0000ff">
+      <labels>
+        <label description="3.7 Marine Security" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010010" Color="#0000ff">
+      <labels>
+        <label description="3.8 Surface &amp; Intermodal Security" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010011" Color="#0000ff">
+      <labels>
+        <label description="3.9 Multimodal Safety &amp; Security" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010012" Color="#0000ff">
+      <labels>
+        <label description="4.1 Management &amp; Oversight" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010013" Color="#0000ff">
+      <labels>
+        <label description="4.2 Communications" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010014" Color="#0000ff">
+      <labels>
+        <label description="4.3 Legal" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010015" Color="#0000ff">
+      <labels>
+        <label description="4.4 Human Resource Management" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010016" Color="#0000ff">
+      <labels>
+        <label description="4.5 Information Management" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010017" Color="#0000ff">
+      <labels>
+        <label description="4.6 Information Technology" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010018" Color="#0000ff">
+      <labels>
+        <label description="4.7 Financial Management" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010019" Color="#0000ff">
+      <labels>
+        <label description="4.8 Real Property" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010020" Color="#0000ff">
+      <labels>
+        <label description="4.9 Materiel" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010021" Color="#0000ff">
+      <labels>
+        <label description="4.10 Acquisition" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

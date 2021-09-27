@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3776389b-b5ab-4b52-8676-ba6ffbd61232}</formid>
+    <IntroducedVersion>1.12.1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{850e579d-9a20-4b6d-af76-344a2867bd09}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{5a6c69d7-eed2-4a53-896f-0897a77131bc}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{71566a3e-0179-99c5-ad76-7cb6588b24dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pillar" languagecode="1033" />
+                          <label description="Volet" languagecode="1036" />
+                        </labels>
+                        <control id="tc_pillarcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_pillarcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0651e0d8-aaa0-4a01-5926-8ce601b76938}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Does this initiative require engagement?" languagecode="1033" />
+                          <label description="Cette initiative nécessite-t-elle de la mobilisation?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_engagementind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_engagementind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63c42573-c6c8-8854-ba4e-6d763366902e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Initiative Lead" languagecode="1033" />
+                          <label description="Responsable de la mise en oevre de l'initiative" languagecode="1036" />
+                        </labels>
+                        <control id="tc_initiativelead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_initiativelead" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Initiative Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

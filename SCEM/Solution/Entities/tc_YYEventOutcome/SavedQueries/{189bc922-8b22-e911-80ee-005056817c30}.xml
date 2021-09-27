@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{189bc922-8b22-e911-80ee-005056817c30}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventoutcomenm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yyeventoutcomeid">
+          <cell name="tc_outcometypecd" width="100" />
+          <cell name="tc_eventoutcomenm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_outcomemetcd" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_eventid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="tc_yyeventoutcome">
+          <attribute name="createdon" />
+          <attribute name="tc_outcometypecd" />
+          <attribute name="tc_outcomemetcd" />
+          <attribute name="tc_eventid" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <order attribute="tc_outcometypecd" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="tc_outcometypecd" operator="eq" value="1" />
+          </filter>
+          <attribute name="tc_eventoutcomenm" />
+          <attribute name="tc_yyeventoutcomeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Desired Event Outcomes" languagecode="1033" />
+      <LocalizedName description="Résultats souhaités pour l’événement" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

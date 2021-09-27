@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{373015f8-49af-49c5-b4ef-c97632459a45}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_namenm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tbconsultationaudienceid">
+          <cell name="tc_namenm" width="300" />
+          <cell name="tc_pcoid" width="100" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tbconsultationaudience">
+          <attribute name="tc_namenm" />
+          <order attribute="modifiedon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="tc_pcoid" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="tc_tbconsultationaudienceid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.2.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Audiences" languagecode="1033" />
+      <LocalizedName description="Publics inactifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

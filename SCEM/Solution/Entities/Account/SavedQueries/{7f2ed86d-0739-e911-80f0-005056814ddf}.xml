@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7f2ed86d-0739-e911-80f0-005056814ddf}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="account">
+          <attribute name="name" />
+          <order attribute="name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="tc_account_tytag" from="accountid" to="accountid" visible="false" intersect="true">
+            <link-entity name="tc_tytag" from="tc_tytagid" to="tc_tytagid" alias="ab">
+              <filter type="and">
+                <condition attribute="tc_tytagid" operator="eq" uiname="Proponents" uitype="tc_tytag" value="{3FF10230-EFBC-E911-80F6-005056836FBF}" />
+              </filter>
+            </link-entity>
+          </link-entity>
+          <attribute name="accountid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.24</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="IEC Proponents" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

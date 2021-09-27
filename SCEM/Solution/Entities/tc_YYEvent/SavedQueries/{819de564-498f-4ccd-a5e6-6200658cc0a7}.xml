@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{819de564-498f-4ccd-a5e6-6200658cc0a7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_yyeventid">
+          <cell name="tc_eventnm" width="300" />
+          <cell name="tc_startdte" width="100" />
+          <cell name="tc_enddte" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyevent">
+          <attribute name="tc_eventnm" />
+          <order attribute="tc_startdte" descending="false" />
+          <order attribute="tc_eventnm" descending="false" />
+          <attribute name="tc_startdte" />
+          <attribute name="tc_enddte" />
+          <attribute name="tc_yyeventid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="tc_eventnm" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Events" languagecode="1033" />
+      <LocalizedName description="Recherche rapide « Événements actifs »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2bf58969-8432-414d-91e4-a85b4109f19f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_rolenm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tycontactinitiativeroleid">
+          <cell name="tc_rolenm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tycontactinitiativerole">
+          <attribute name="tc_tycontactinitiativeroleid" />
+          <attribute name="tc_rolenm" />
+          <attribute name="createdon" />
+          <order attribute="tc_rolenm" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.3.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Initiative Role Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée « Rôle de l’initiative »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

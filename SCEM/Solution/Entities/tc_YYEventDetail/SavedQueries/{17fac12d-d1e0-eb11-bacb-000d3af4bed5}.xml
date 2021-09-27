@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{17fac12d-d1e0-eb11-bacb-000d3af4bed5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_yyeventdetailnm" select="1" preview="1" icon="1">
+        <row name="result" id="tc_yyeventdetailid">
+          <cell name="tc_titletxt" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_commentnotetxt" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_organizationid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_duedte" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="tc_yyeventdetail">
+          <attribute name="tc_titletxt" />
+          <attribute name="tc_commentnotetxt" />
+          <attribute name="tc_organizationid" />
+          <attribute name="tc_duedte" />
+          <order attribute="tc_duedte" descending="false" />
+          <filter type="and">
+            <condition attribute="tc_duedte" operator="next-x-weeks" value="2" />
+          </filter>
+          <attribute name="tc_yyeventdetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.54.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Asies Commitments Made" languagecode="1033" />
+      <LocalizedName description="SMISA – Engagement pris" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

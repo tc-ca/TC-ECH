@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{35d2d301-af6d-47be-a491-aec044bf5320}</formid>
+    <IntroducedVersion>0.32.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{494e0f31-13ee-4af0-a955-06ebf25af798}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{f45f685b-d18a-4569-b160-e5458a1bcd63}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0042d2b4-b0e9-6142-0b6c-3d2640c89005}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom de l'organisation" languagecode="1036" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" uniqueid="{a4cec902-c0d7-e2c2-d98e-825314032565}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{bbb84733-6705-4423-8d23-d06a9477a0bd}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a4d627e8-9dcd-a006-2311-0b9a987333ee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Tags" languagecode="1033" />
+                          <label description="Balises" languagecode="1036" />
+                        </labels>
+                        <control id="tc_tags" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_tags" disabled="false" uniqueid="{08ad8907-4b6a-a202-a00c-e9ce95eb8d4c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{8580c7cd-edef-4106-9f3b-3fab5b4bc768}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{052ba630-b9c8-5ae5-84c6-e777b15cab32}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                          <label description="Contact principal" languagecode="1036" />
+                        </labels>
+                        <control id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a527b75-ae59-444c-72db-47e53e1b4b84}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Secondary Contact" languagecode="1033" />
+                          <label description="Contact secondaire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_secondarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_secondarycontactid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{08ad8907-4b6a-a202-a00c-e9ce95eb8d4c}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>tc_tags</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_tags</value>
+              <linkedEntityName static="true" type="SingleLine.Text">tc_tytag</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">tc_tagnm</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">tc_tytagid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_Account_TYTag</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_account_tytag</relationshipEntity>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_tags</value>
+              <linkedEntityName static="true" type="SingleLine.Text">tc_tytag</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">tc_tagnm</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">tc_tytagid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_Account_TYTag</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_account_tytag</relationshipEntity>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_tags</value>
+              <linkedEntityName static="true" type="SingleLine.Text">tc_tytag</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">tc_tagnm</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">tc_tytagid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_Account_TYTag</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_account_tytag</relationshipEntity>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="IEC Organization Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
