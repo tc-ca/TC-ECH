@@ -34,6 +34,7 @@
     <RolePrivilege name="prvAppendtc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvAppendtc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvAppendtc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvAppendtc_TYRegion" level="Global" />
     <RolePrivilege name="prvAppendtc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYComment" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYContactInitiative" level="Deep" />
@@ -86,6 +87,7 @@
     <RolePrivilege name="prvAppendTotc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvAppendTotc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvAppendTotc_TYRegion" level="Global" />
     <RolePrivilege name="prvAppendTotc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYComment" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYContactInitiative" level="Deep" />
@@ -129,6 +131,7 @@
     <RolePrivilege name="prvAssigntc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvAssigntc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvAssigntc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvAssigntc_TYRegion" level="Global" />
     <RolePrivilege name="prvAssigntc_YYComment" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYCountry" level="Global" />
     <RolePrivilege name="prvAssigntc_YYEvent" level="Deep" />
@@ -182,6 +185,7 @@
     <RolePrivilege name="prvCreatetc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvCreatetc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvCreatetc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvCreatetc_TYRegion" level="Global" />
     <RolePrivilege name="prvCreatetc_YYComment" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYContactInitiative" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYCountry" level="Global" />
@@ -279,6 +283,7 @@
     <RolePrivilege name="prvReadtc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvReadtc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvReadtc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvReadtc_TYRegion" level="Global" />
     <RolePrivilege name="prvReadtc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvReadtc_YYComment" level="Deep" />
     <RolePrivilege name="prvReadtc_YYContactInitiative" level="Global" />
@@ -324,6 +329,7 @@
     <RolePrivilege name="prvSharetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvSharetc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvSharetc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvSharetc_TYRegion" level="Global" />
     <RolePrivilege name="prvSharetc_YYComment" level="Deep" />
     <RolePrivilege name="prvSharetc_YYCountry" level="Global" />
     <RolePrivilege name="prvSharetc_YYEvent" level="Deep" />
@@ -377,6 +383,7 @@
     <RolePrivilege name="prvWritetc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvWritetc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvWritetc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvWritetc_TYRegion" level="Global" />
     <RolePrivilege name="prvWritetc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvWritetc_YYComment" level="Deep" />
     <RolePrivilege name="prvWritetc_YYContactInitiative" level="Deep" />
