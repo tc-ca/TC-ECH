@@ -11,13 +11,9 @@
     <RolePrivilege name="prvAppendDocumentTemplate" level="Global" />
     <RolePrivilege name="prvAppendEmailTemplate" level="Deep" />
     <RolePrivilege name="prvAppendExpiredProcess" level="Global" />
-    <RolePrivilege name="prvAppendLeadToOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvAppendMailMergeTemplate" level="Deep" />
-    <RolePrivilege name="prvAppendNewProcess" level="Global" />
     <RolePrivilege name="prvAppendNote" level="Deep" />
-    <RolePrivilege name="prvAppendOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvAppendPersonalDocumentTemplate" level="Global" />
-    <RolePrivilege name="prvAppendPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendReport" level="Basic" />
     <RolePrivilege name="prvAppendSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvAppendtc_AYContactGroupMember" level="Deep" />
@@ -25,7 +21,7 @@
     <RolePrivilege name="prvAppendtc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvAppendtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvAppendtc_Contact_YYEvent" level="Deep" />
-    <RolePrivilege name="prvAppendtc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAppendtc_feedbackform" level="Global" />
     <RolePrivilege name="prvAppendtc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvAppendtc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAppendtc_ProtectedBDocument" level="Global" />
@@ -59,13 +55,9 @@
     <RolePrivilege name="prvAppendToDocumentTemplate" level="Global" />
     <RolePrivilege name="prvAppendToEmailTemplate" level="Deep" />
     <RolePrivilege name="prvAppendToExpiredProcess" level="Global" />
-    <RolePrivilege name="prvAppendToLeadToOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvAppendToMailMergeTemplate" level="Deep" />
-    <RolePrivilege name="prvAppendToNewProcess" level="Global" />
     <RolePrivilege name="prvAppendToNote" level="Deep" />
-    <RolePrivilege name="prvAppendToOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvAppendToPersonalDocumentTemplate" level="Global" />
-    <RolePrivilege name="prvAppendToPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendToReport" level="Basic" />
     <RolePrivilege name="prvAppendToSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvAppendTotc_AYContactGroupMember" level="Deep" />
@@ -73,7 +65,7 @@
     <RolePrivilege name="prvAppendTotc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvAppendTotc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvAppendTotc_Contact_YYEvent" level="Deep" />
-    <RolePrivilege name="prvAppendTotc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_feedbackform" level="Global" />
     <RolePrivilege name="prvAppendTotc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvAppendTotc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAppendTotc_ProtectedBDocument" level="Global" />
@@ -114,13 +106,11 @@
     <RolePrivilege name="prvAssigntc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvAssigntc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvAssigntc_Contact_YYEvent" level="Deep" />
-    <RolePrivilege name="prvAssigntc_Covid19Measure" level="Deep" />
     <RolePrivilege name="prvAssigntc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvAssigntc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAssigntc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvAssigntc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvAssigntc_YYComment" level="Deep" />
-    <RolePrivilege name="prvAssigntc_YYCountry" level="Global" />
     <RolePrivilege name="prvAssigntc_YYEvent" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYEventDetail" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYEventGiftExchanged" level="Deep" />
@@ -148,30 +138,24 @@
     <RolePrivilege name="prvCreateDocumentTemplate" level="Global" />
     <RolePrivilege name="prvCreateEmailTemplate" level="Deep" />
     <RolePrivilege name="prvCreateExpiredProcess" level="Global" />
-    <RolePrivilege name="prvCreateLeadToOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvCreateMailMergeTemplate" level="Deep" />
-    <RolePrivilege name="prvCreateNewProcess" level="Global" />
     <RolePrivilege name="prvCreateNote" level="Deep" />
-    <RolePrivilege name="prvCreateOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvCreateOrgEmailTemplates" level="Global" />
     <RolePrivilege name="prvCreatePersonalDocumentTemplate" level="Global" />
-    <RolePrivilege name="prvCreatePhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvCreateReport" level="Basic" />
     <RolePrivilege name="prvCreateSharePointData" level="Global" />
     <RolePrivilege name="prvCreateSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvCreatetc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvCreatetc_AYOrganizationGroupMember" level="Deep" />
-    <RolePrivilege name="prvCreatetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvCreatetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvCreatetc_Contact_YYEvent" level="Deep" />
-    <RolePrivilege name="prvCreatetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvCreatetc_feedbackform" level="Deep" />
     <RolePrivilege name="prvCreatetc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvCreatetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvCreatetc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvCreatetc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvCreatetc_YYComment" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYContactInitiative" level="Deep" />
-    <RolePrivilege name="prvCreatetc_YYCountry" level="Global" />
     <RolePrivilege name="prvCreatetc_YYEvent" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventDetail" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventGiftExchanged" level="Deep" />
@@ -186,7 +170,6 @@
     <RolePrivilege name="prvCreatetc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYProvinceState" level="Global" />
-    <RolePrivilege name="prvCreatetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvCreateTranslationProcess" level="Global" />
     <RolePrivilege name="prvCreateUserForm" level="Basic" />
     <RolePrivilege name="prvCreateUserQuery" level="Basic" />
@@ -195,12 +178,8 @@
     <RolePrivilege name="prvDeleteConnection" level="Deep" />
     <RolePrivilege name="prvDeleteDocumentTemplate" level="Global" />
     <RolePrivilege name="prvDeleteExpiredProcess" level="Global" />
-    <RolePrivilege name="prvDeleteLeadToOpportunitySalesProcess" level="Global" />
-    <RolePrivilege name="prvDeleteNewProcess" level="Global" />
     <RolePrivilege name="prvDeleteNote" level="Basic" />
-    <RolePrivilege name="prvDeleteOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvDeletePersonalDocumentTemplate" level="Basic" />
-    <RolePrivilege name="prvDeletePhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvDeleteReport" level="Basic" />
     <RolePrivilege name="prvDeleteSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvDeletetc_businessprocessflowevent" level="Global" />
@@ -209,6 +188,7 @@
     <RolePrivilege name="prvDeleteUserQuery" level="Basic" />
     <RolePrivilege name="prvDocumentGeneration" level="Global" />
     <RolePrivilege name="prvExportToExcel" level="Global" />
+    <RolePrivilege name="prvFlow" level="Global" />
     <RolePrivilege name="prvLanguageSettings" level="Global" />
     <RolePrivilege name="prvMailMerge" level="Global" />
     <RolePrivilege name="prvPrint" level="Global" />
@@ -218,39 +198,57 @@
     <RolePrivilege name="prvReadActionCard" level="Basic" />
     <RolePrivilege name="prvReadActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvReadActivity" level="Deep" />
+    <RolePrivilege name="prvReadAppModule" level="Global" />
+    <RolePrivilege name="prvReadAsyncOperation" level="Deep" />
+    <RolePrivilege name="prvReadAttribute" level="Global" />
+    <RolePrivilege name="prvReadAttributeMap" level="Global" />
     <RolePrivilege name="prvReadAuditSummary" level="Global" />
+    <RolePrivilege name="prvReadBusinessUnit" level="Deep" />
+    <RolePrivilege name="prvReadCallbackRegistration" level="Deep" />
+    <RolePrivilege name="prvReadComplexControl" level="Global" />
     <RolePrivilege name="prvReadConnection" level="Deep" />
     <RolePrivilege name="prvReadConnectionRole" level="Global" />
     <RolePrivilege name="prvReadContact" level="Deep" />
+    <RolePrivilege name="prvReadCustomization" level="Global" />
     <RolePrivilege name="prvReadDocumentTemplate" level="Global" />
     <RolePrivilege name="prvReadEmailTemplate" level="Deep" />
+    <RolePrivilege name="prvReadEntity" level="Global" />
+    <RolePrivilege name="prvReadEntityMap" level="Global" />
     <RolePrivilege name="prvReadExpiredProcess" level="Global" />
-    <RolePrivilege name="prvReadLeadToOpportunitySalesProcess" level="Global" />
+    <RolePrivilege name="prvReadHierarchyRule" level="Global" />
     <RolePrivilege name="prvReadMailMergeTemplate" level="Deep" />
     <RolePrivilege name="prvReadmsdyn_AIModel" level="Basic" />
     <RolePrivilege name="prvReadmsdyn_AIOdLabel" level="Global" />
     <RolePrivilege name="prvReadmsdyn_AITemplate" level="Global" />
-    <RolePrivilege name="prvReadNewProcess" level="Global" />
     <RolePrivilege name="prvReadNote" level="Deep" />
-    <RolePrivilege name="prvReadOpportunitySalesProcess" level="Global" />
+    <RolePrivilege name="prvReadOptionSet" level="Global" />
+    <RolePrivilege name="prvReadOrganization" level="Global" />
     <RolePrivilege name="prvReadPersonalDocumentTemplate" level="Global" />
-    <RolePrivilege name="prvReadPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvReadPluginAssembly" level="Global" />
     <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadPublisher" level="Global" />
+    <RolePrivilege name="prvReadQuery" level="Global" />
     <RolePrivilege name="prvReadRecordAuditHistory" level="Global" />
+    <RolePrivilege name="prvReadRelationship" level="Global" />
     <RolePrivilege name="prvReadReport" level="Basic" />
+    <RolePrivilege name="prvReadRole" level="Deep" />
+    <RolePrivilege name="prvReadSavedQueryVisualizations" level="Global" />
     <RolePrivilege name="prvReadSdkMessage" level="Global" />
     <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
     <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadServiceEndpoint" level="Global" />
     <RolePrivilege name="prvReadSharePointData" level="Global" />
     <RolePrivilege name="prvReadSharePointDocument" level="Global" />
     <RolePrivilege name="prvReadSharePointDocumentLocation" level="Global" />
+    <RolePrivilege name="prvReadSolution" level="Global" />
+    <RolePrivilege name="prvReadSystemApplicationMetadata" level="Global" />
+    <RolePrivilege name="prvReadSystemForm" level="Global" />
     <RolePrivilege name="prvReadtc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvReadtc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvReadtc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvReadtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvReadtc_Contact_YYEvent" level="Deep" />
-    <RolePrivilege name="prvReadtc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvReadtc_feedbackform" level="Deep" />
     <RolePrivilege name="prvReadtc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvReadtc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvReadtc_pcrcovid19test" level="Deep" />
@@ -276,9 +274,17 @@
     <RolePrivilege name="prvReadtc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvReadtc_YYProvinceState" level="Global" />
     <RolePrivilege name="prvReadtc_YYStakeholderPosition" level="Deep" />
+    <RolePrivilege name="prvReadTeam" level="Deep" />
+    <RolePrivilege name="prvReadTheme" level="Global" />
     <RolePrivilege name="prvReadTranslationProcess" level="Global" />
+    <RolePrivilege name="prvReadUser" level="Deep" />
+    <RolePrivilege name="prvReadUserApplicationMetadata" level="Basic" />
     <RolePrivilege name="prvReadUserForm" level="Basic" />
     <RolePrivilege name="prvReadUserQuery" level="Basic" />
+    <RolePrivilege name="prvReadUserSettings" level="Deep" />
+    <RolePrivilege name="prvReadWebResource" level="Global" />
+    <RolePrivilege name="prvReadWorkflow" level="Deep" />
+    <RolePrivilege name="prvReadWorkflowSession" level="Deep" />
     <RolePrivilege name="prvShareAccount" level="Deep" />
     <RolePrivilege name="prvShareActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvShareActivity" level="Deep" />
@@ -294,13 +300,11 @@
     <RolePrivilege name="prvSharetc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvSharetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvSharetc_Contact_YYEvent" level="Deep" />
-    <RolePrivilege name="prvSharetc_Covid19Measure" level="Deep" />
     <RolePrivilege name="prvSharetc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvSharetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvSharetc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvSharetc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvSharetc_YYComment" level="Deep" />
-    <RolePrivilege name="prvSharetc_YYCountry" level="Global" />
     <RolePrivilege name="prvSharetc_YYEvent" level="Deep" />
     <RolePrivilege name="prvSharetc_YYEventDetail" level="Deep" />
     <RolePrivilege name="prvSharetc_YYEventGiftExchanged" level="Deep" />
@@ -319,6 +323,7 @@
     <RolePrivilege name="prvSharetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvShareUserForm" level="Basic" />
     <RolePrivilege name="prvShareUserQuery" level="Basic" />
+    <RolePrivilege name="prvWorkflowExecution" level="Global" />
     <RolePrivilege name="prvWriteAccount" level="Deep" />
     <RolePrivilege name="prvWriteActionCard" level="Basic" />
     <RolePrivilege name="prvWriteActionCardUserSettings" level="Basic" />
@@ -329,13 +334,9 @@
     <RolePrivilege name="prvWriteDocumentTemplate" level="Global" />
     <RolePrivilege name="prvWriteEmailTemplate" level="Deep" />
     <RolePrivilege name="prvWriteExpiredProcess" level="Global" />
-    <RolePrivilege name="prvWriteLeadToOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvWriteMailMergeTemplate" level="Deep" />
-    <RolePrivilege name="prvWriteNewProcess" level="Global" />
     <RolePrivilege name="prvWriteNote" level="Deep" />
-    <RolePrivilege name="prvWriteOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvWritePersonalDocumentTemplate" level="Global" />
-    <RolePrivilege name="prvWritePhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvWriteReport" level="Basic" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
     <RolePrivilege name="prvWriteSharePointDocumentLocation" level="Global" />
@@ -344,7 +345,7 @@
     <RolePrivilege name="prvWritetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvWritetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvWritetc_Contact_YYEvent" level="Deep" />
-    <RolePrivilege name="prvWritetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvWritetc_feedbackform" level="Basic" />
     <RolePrivilege name="prvWritetc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvWritetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvWritetc_ProtectedBDocument" level="Global" />

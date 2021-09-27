@@ -26,10 +26,13 @@
     <RolePrivilege name="prvAppendtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvAppendtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAppendtc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAppendtc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvAppendtc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvAppendtc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAppendtc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvAppendtc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvAppendtc_TYRegion" level="Global" />
+    <RolePrivilege name="prvAppendtc_TYTag" level="Global" />
     <RolePrivilege name="prvAppendtc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYComment" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYContactInitiative" level="Deep" />
@@ -43,6 +46,7 @@
     <RolePrivilege name="prvAppendtc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYEventOutcome" level="Deep" />
+    <RolePrivilege name="prvAppendtc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYIssue" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYOrganizationAgreement" level="Deep" />
@@ -74,10 +78,13 @@
     <RolePrivilege name="prvAppendTotc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvAppendTotc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAppendTotc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvAppendTotc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvAppendTotc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAppendTotc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvAppendTotc_TYRegion" level="Global" />
+    <RolePrivilege name="prvAppendTotc_TYTag" level="Global" />
     <RolePrivilege name="prvAppendTotc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYComment" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYContactInitiative" level="Deep" />
@@ -91,6 +98,7 @@
     <RolePrivilege name="prvAppendTotc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYEventOutcome" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYIssue" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYOrganizationAgreement" level="Deep" />
@@ -115,6 +123,7 @@
     <RolePrivilege name="prvAssigntc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvAssigntc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAssigntc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAssigntc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvAssigntc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvAssigntc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAssigntc_ProtectedBDocument" level="Global" />
@@ -130,6 +139,7 @@
     <RolePrivilege name="prvAssigntc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYEventOutcome" level="Deep" />
+    <RolePrivilege name="prvAssigntc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYIssue" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYOrganizationAgreement" level="Deep" />
@@ -161,17 +171,17 @@
     <RolePrivilege name="prvCreateSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvCreatetc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvCreatetc_AYOrganizationGroupMember" level="Deep" />
-    <RolePrivilege name="prvCreatetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvCreatetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvCreatetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvCreatetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvCreatetc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvCreatetc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvCreatetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvCreatetc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvCreatetc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvCreatetc_TYTag" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYComment" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYContactInitiative" level="Deep" />
-    <RolePrivilege name="prvCreatetc_YYCountry" level="Global" />
     <RolePrivilege name="prvCreatetc_YYEvent" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventDetail" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventGiftExchanged" level="Deep" />
@@ -181,6 +191,7 @@
     <RolePrivilege name="prvCreatetc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventOutcome" level="Deep" />
+    <RolePrivilege name="prvCreatetc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYOrganizationObjective" level="Deep" />
@@ -247,15 +258,18 @@
     <RolePrivilege name="prvReadSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvReadtc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvReadtc_AYOrganizationGroupMember" level="Deep" />
-    <RolePrivilege name="prvReadtc_AYStakeholderGroup" level="Deep" />
+    <RolePrivilege name="prvReadtc_AYStakeholderGroup" level="Global" />
     <RolePrivilege name="prvReadtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvReadtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvReadtc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvReadtc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvReadtc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvReadtc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvReadtc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvReadtc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvReadtc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvReadtc_TYRegion" level="Global" />
+    <RolePrivilege name="prvReadtc_TYTag" level="Deep" />
     <RolePrivilege name="prvReadtc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvReadtc_YYComment" level="Deep" />
     <RolePrivilege name="prvReadtc_YYContactInitiative" level="Global" />
@@ -269,6 +283,7 @@
     <RolePrivilege name="prvReadtc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvReadtc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvReadtc_YYEventOutcome" level="Deep" />
+    <RolePrivilege name="prvReadtc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvReadtc_YYIssue" level="Deep" />
     <RolePrivilege name="prvReadtc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvReadtc_YYOrganizationAgreement" level="Deep" />
@@ -295,6 +310,7 @@
     <RolePrivilege name="prvSharetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvSharetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvSharetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvSharetc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvSharetc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvSharetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvSharetc_ProtectedBDocument" level="Global" />
@@ -310,6 +326,7 @@
     <RolePrivilege name="prvSharetc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvSharetc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvSharetc_YYEventOutcome" level="Deep" />
+    <RolePrivilege name="prvSharetc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvSharetc_YYIssue" level="Deep" />
     <RolePrivilege name="prvSharetc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvSharetc_YYOrganizationAgreement" level="Deep" />
@@ -341,18 +358,18 @@
     <RolePrivilege name="prvWriteSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvWritetc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvWritetc_AYOrganizationGroupMember" level="Deep" />
-    <RolePrivilege name="prvWritetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvWritetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvWritetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvWritetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvWritetc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvWritetc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvWritetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvWritetc_ProtectedBDocument" level="Global" />
     <RolePrivilege name="prvWritetc_TYAerodrome" level="Global" />
+    <RolePrivilege name="prvWritetc_TYTag" level="Deep" />
     <RolePrivilege name="prvWritetc_YYAgreement" level="Deep" />
     <RolePrivilege name="prvWritetc_YYComment" level="Deep" />
     <RolePrivilege name="prvWritetc_YYContactInitiative" level="Deep" />
-    <RolePrivilege name="prvWritetc_YYCountry" level="Global" />
     <RolePrivilege name="prvWritetc_YYEvent" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEventDetail" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEventGiftExchanged" level="Deep" />
@@ -362,6 +379,7 @@
     <RolePrivilege name="prvWritetc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEventOutcome" level="Deep" />
+    <RolePrivilege name="prvWritetc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvWritetc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvWritetc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvWritetc_YYOrganizationObjective" level="Deep" />

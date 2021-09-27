@@ -14,24 +14,40 @@
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
     <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
-    <AppModuleComponent type="60" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
-    <AppModuleComponent type="60" id="{07cd1be2-c999-4376-b319-632e1b8e93ad}" />
     <AppModuleComponent type="60" id="{796bb226-f352-424d-a990-bc3301205337}" />
     <AppModuleComponent type="60" id="{b37cef44-361d-ec11-b6e7-000d3a09e6b7}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001210}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666400}" />
+    <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001003}" />
     <AppModuleComponent type="1" schemaName="tc_contact_yyevent" />
     <AppModuleComponent type="1" schemaName="tc_yycountry" />
     <AppModuleComponent type="1" schemaName="tc_yyevent" />
-    <AppModuleComponent type="60" id="{3d743845-aa5c-4cb4-b71d-e079af5f55f1}" />
     <AppModuleComponent type="60" id="{237b8696-3775-4011-a779-6a466879935d}" />
+    <AppModuleComponent type="26" id="{08cad00d-277a-449d-907d-3852906ac450}" />
+    <AppModuleComponent type="26" id="{3d0e40f3-0619-4cd2-b7ff-269dbb22310f}" />
+    <AppModuleComponent type="26" id="{057d9d8f-ad72-4902-a76f-b54b2e8dc9e2}" />
+    <AppModuleComponent type="26" id="{78156ed1-3d72-43b5-a919-93bcf31ad2cb}" />
+    <AppModuleComponent type="26" id="{4d83a1d1-2322-e911-80ee-005056815fa7}" />
+    <AppModuleComponent type="26" id="{bee375ea-2322-e911-80ee-005056815fa7}" />
+    <AppModuleComponent type="26" id="{36160e00-c942-e911-80ef-005056817c30}" />
+    <AppModuleComponent type="26" id="{3f8ff630-2422-e911-80ee-005056815fa7}" />
+    <AppModuleComponent type="26" id="{d9021646-2422-e911-80ee-005056815fa7}" />
+    <AppModuleComponent type="26" id="{cb77f4ce-c842-e911-80ef-005056817c30}" />
+    <AppModuleComponent type="26" id="{6dd0d55d-2422-e911-80ee-005056815fa7}" />
+    <AppModuleComponent type="26" id="{abda1585-7df4-eb11-94ef-000d3a09e408}" />
+    <AppModuleComponent type="26" id="{9f53c878-7df4-eb11-94ef-000d3a09e408}" />
+    <AppModuleComponent type="26" id="{27a8f488-b1bf-44e5-93e3-2341d68a6091}" />
+    <AppModuleComponent type="26" id="{e8e80387-d3fa-e711-8140-000c2958e3a5}" />
     <AppModuleComponent type="1" schemaName="tc_feedbackform" />
     <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="60" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
     <AppModuleComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
-    <AppModuleComponent type="60" id="{2d05903d-83dd-4d0c-b5d8-72369c780f31}" />
-    <AppModuleComponent type="60" id="{81393505-8fa9-45d9-b700-082bb29d0e8b}" />
-    <AppModuleComponent type="60" id="{bd455e79-d532-495e-ac40-764d895eccd7}" />
     <AppModuleComponent type="60" id="{35d2d301-af6d-47be-a491-aec044bf5320}" />
-    <AppModuleComponent type="60" id="{32f176d2-d15c-460e-9e2d-13950ed0b0aa}" />
     <AppModuleComponent type="60" id="{16519a7f-b0e2-4139-9618-f96df4528519}" />
     <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666000}" />
@@ -47,6 +63,7 @@
     <AppModuleComponent type="1" schemaName="tc_aystakeholdergroup" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
+    <Role id="{ae0a3a4a-bf1c-ec11-b6e7-000d3a09e6b7}" />
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
     <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
   </AppModuleRoleMaps>
