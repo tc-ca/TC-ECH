@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{cd6ea8a5-9bd6-4200-a9ff-92ac91186868}</formid>
+    <IntroducedVersion>1.45.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{1c83aa62-b8ff-4f78-8024-baceea839092}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{375c2e76-bb85-4a26-8ec0-1d91390ced01}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ab717755-ce0d-0c9c-e8e7-be1cd2d17954}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_organizationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4140c560-b425-db8b-37d0-a5dcead21296}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                          <label description="Contact" languagecode="1036" />
+                        </labels>
+                        <control id="tc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{5454818c-b2a4-4d4f-994f-562efd1e771e}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c519a291-b70c-3008-2767-c6e0c59695b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                          <label description="Courrier électronique" languagecode="1036" />
+                        </labels>
+                        <control id="tc_email1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="tc_email1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42b8ca46-306d-3e87-1ae5-1c4c539857c8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                          <label description="Téléphone mobile" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{f0911827-4140-44e1-b1c0-cff4e0a06446}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{999e0d5a-6938-bbae-be1c-9aba64a0cec3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                          <label description="Contact principal" languagecode="1036" />
+                        </labels>
+                        <control id="tc_isprimarycontact" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_isprimarycontact" disabled="false" uniqueid="{798caa04-9621-c019-5eed-12581d3d0912}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d9c7c0b-ab97-c5c5-ac2d-cd0849871d41}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Position" languagecode="1033" />
+                        </labels>
+                        <control id="tc_position" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_position" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc5d92f0-b9d2-4d3c-943c-f6f3118b9f4e}" locklevel="0" colspan="1" rowspan="3">
+                        <labels>
+                          <label description="Roles and Responsibilities" languagecode="1033" />
+                          <label description="Rôles et Responsabilités" languagecode="1036" />
+                        </labels>
+                        <control id="tc_rolesandresponsibilities" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="tc_rolesandresponsibilities" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{798caa04-9621-c019-5eed-12581d3d0912}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_isprimarycontact</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_isprimarycontact</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_isprimarycontact</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_isprimarycontact</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,1528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{cbd51c6c-5f0b-4300-a3fe-6893fbe2e0f8}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" labelid="{7dada960-fd50-4a97-a325-aee010e5308d}" name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="48%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{648cd797-4310-441a-83cd-6d66e4916f19}" labelid="{73617975-ac54-44a4-b766-bc16eb1472f3}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Généralités" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fbe75e66-771a-4bfe-b62a-00a0e0e98120}" labelid="{5d37c9ed-112f-4815-9c67-d7d379099f15}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventnm" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a287497e-ea04-643c-db93-6358406c931b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Event Level Code" languagecode="1033" />
+                          <label description="Échelon de l’événement principal" languagecode="1036" />
+                        </labels>
+                        <control id="tc_primaryeventlevelcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_primaryeventlevelcd" disabled="false" uniqueid="{85687e67-7848-1286-0728-e64ca18035a9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1aee1e74-0b51-434a-307d-c162a50bd9cb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category of travel" languagecode="1033" />
+                          <label description="Catégorie d’événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventcategorycd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventcategorycd" disabled="false" uniqueid="{6e0e908a-d523-0963-0484-856231ce045e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1cb52d51-9470-a005-1d7c-9c2e73708292}" showlabel="true" locklevel="0" labelid="{6355ab96-54d8-4f46-860c-acbafad46ea3}">
+                        <labels>
+                          <label description="Start" languagecode="1033" />
+                          <label description="Début" languagecode="1036" />
+                        </labels>
+                        <control id="tc_startdte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{912519d8-64d8-2730-3970-3930e9a35a1a}" showlabel="true" locklevel="0" labelid="{9e6689c7-74f4-41ad-9a83-a03738f5b19c}">
+                        <labels>
+                          <label description="End" languagecode="1033" />
+                          <label description="Fin" languagecode="1036" />
+                        </labels>
+                        <control id="tc_enddte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be6bc523-15c8-a711-d329-4165d283c22d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Working Group" languagecode="1033" />
+                          <label description="Groupe de travail" languagecode="1036" />
+                        </labels>
+                        <control id="tc_stakeholdergroupid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_stakeholdergroupid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8bdd3bc2-458a-89e4-632a-2317e25602a5}" showlabel="true" locklevel="0" rowspan="2" labelid="{7bfdfc42-a723-4f8d-8332-f0a294121f79}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                          <label description="Description" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_eventtxt" disabled="false" uniqueid="{dc9724a7-4127-00d3-d73a-d956cc55bc46}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell id="{e509e825-5441-e95c-9a77-e87a880332a0}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Purpose" languagecode="1033" />
+                          <label description="But" languagecode="1036" />
+                        </labels>
+                        <control id="tc_purposetxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_purposetxt" disabled="false" uniqueid="{971e5a24-4e2a-6cdc-209b-a70e2a1bb74e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell id="{314ca493-eb3a-8a93-dad7-1d0e3b88e3cd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Share In Calendar" languagecode="1033" />
+                          <label description="Partagé dans le calendrier" languagecode="1036" />
+                        </labels>
+                        <control id="tc_shareincalendar" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_shareincalendar" disabled="false" uniqueid="{dd2648c7-6024-9895-1561-b24c02489c32}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}_section_4" showlabel="true" showbar="true" locklevel="0" id="{31dbbe43-9805-a6a3-122d-055c5a0e3b28}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Participants" languagecode="1033" />
+                    <label description="Participants" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7b362c95-b883-945c-a594-7e1250d72136}" showlabel="true" colspan="1" auto="false" rowspan="9">
+                        <labels>
+                          <label description="Contact Events (Event)" languagecode="1033" />
+                          <label description="Activité de jumelage (événements)" languagecode="1036" />
+                        </labels>
+                        <control id="contactSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{5c929247-9092-6bcc-9e09-cc8db912d45d}">
+                          <parameters>
+                            <ViewId>{3AADCCF7-BA49-E911-80F1-005056810AF7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_YYEvent_Contact_EventId</RelationshipName>
+                            <TargetEntityType>tc_contact_yyevent</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds>{3AADCCF7-BA49-E911-80F1-005056810AF7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{FDCEA99A-754A-E911-80F1-005056814435}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="52%">
+              <sections>
+                <section name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}_section_2" showlabel="true" showbar="true" locklevel="0" id="{21b5194e-393e-a486-2e46-d80c56d5e382}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Location" languagecode="1033" />
+                    <label description="Lieu" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{20b3c5dc-69c1-3e04-06ce-e89d61cc6399}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                          <label description="Pays" languagecode="1036" />
+                        </labels>
+                        <control id="tc_countryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_countryid" disabled="false" uniqueid="{c7ba35c7-8c52-4e04-273a-b8b3aa63dcd3}" />
+                      </cell>
+                      <cell id="{03ed5bd9-4ac1-b45a-38b8-cb67ba1613e0}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="EsriAboriginalConsultationMaps" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_EsriAboriginalConsultationMaps" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/EGISIntegration/EsriAboriginalConsultationMaps.html</Url>
+                            <Data>{
+  "coordinates": "tc_addresscomposite",
+  "openStreetMapBaseLayer": true
+}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{710080D5-447E-EA11-A811-000D3AF4346A}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3947695-92d4-7011-d5bc-87637ae56e9c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Province" languagecode="1033" />
+                          <label description="Province" languagecode="1036" />
+                        </labels>
+                        <control id="tc_provinceid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_provinceid" disabled="false" uniqueid="{0ab6b14d-953b-ee32-ddcc-91aeabccc906}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{7FB6E471-2694-41DB-8A9A-8CBE37FBFD51}</DefaultViewId>
+                            <FilterRelationshipName>tc_tc_yycountry_tc_yyprovincestate</FilterRelationshipName>
+                            <DependentAttributeName>tc_yyevent.tc_countryid</DependentAttributeName>
+                            <DependentAttributeType>tc_yycountry</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1da625d-e8e1-8d30-b952-38cbd0444002}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                          <label description="Adresse" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventaddresstxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventaddresstxt" disabled="false" uniqueid="{07b21c87-172e-d33e-d638-3ca33c0cec28}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c64852e7-c73b-081a-0636-3a9913ecae49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                          <label description="Ville" languagecode="1036" />
+                        </labels>
+                        <control id="tc_citynm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_citynm" disabled="false" uniqueid="{c8e4e7d3-bb9c-1ece-93dc-66a867e2102d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5974ad6-6385-852d-7560-7b64075c8111}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Postal/Zip Code" languagecode="1033" />
+                          <label description="Code postal" languagecode="1036" />
+                        </labels>
+                        <control id="tc_postalzipcd" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_postalzipcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0a2c577-805a-258b-7ebd-588c2209530c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Aerodrome" languagecode="1033" />
+                          <label description="Aérodrome" languagecode="1036" />
+                        </labels>
+                        <control id="tc_aerodromeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_aerodromeid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7051e23a-8c13-0137-6811-29cd34e8949e}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Aerodrome" languagecode="1033" />
+                          <label description="Aérodrome" languagecode="1036" />
+                        </labels>
+                        <control id="AerodromeQvf" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="tc_aerodromeid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="tc_tyaerodrome"&gt;bb18447a-f0ce-4ebb-961c-abe1e2bf7806&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{0539019a-7cb8-9826-8000-a0a127e0bc60}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Address Composite" languagecode="1033" />
+                        </labels>
+                        <control id="tc_addresscomposite" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_addresscomposite" disabled="false" uniqueid="{54d69333-71ca-734d-629d-55bd02cc87dd}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}_section_3" showlabel="true" showbar="true" locklevel="0" id="{26bee808-83e0-10e6-3390-146ba5ac4121}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                    <label description="Notes" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{265c7d04-d825-0451-6bb4-a33685bce761}" showlabel="false" rowspan="14" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="Texte de la note" languagecode="1036" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{d557a4a8-e183-5267-461c-62254ee7444c}" disabled="false">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_9" id="{a8c081b6-ddea-081a-62d1-c6a6ea3a8788}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Engagement Themes" languagecode="1033" />
+            <label description="Thèmes d'engagement" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_9_section_1" showlabel="false" showbar="false" locklevel="0" id="{c689c846-1a62-c4d0-a740-4b77597ceb94}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ad9420b8-c65c-78b3-b98e-e2283ae06c15}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Issues (Event)" languagecode="1033" />
+                          <label description="Enjeux de l’événement (événement)" languagecode="1036" />
+                        </labels>
+                        <control id="EventIssuesSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{3a0779c5-b13c-7eae-1c38-706122acc95e}">
+                          <parameters>
+                            <ViewId>{EA9602A0-6D9A-4937-9135-D53F05B8307E}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventissue_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventissue</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{EA9602A0-6D9A-4937-9135-D53F05B8307E}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="commentTab" id="{0129bc31-10ea-314a-0272-023bb270aea8}" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{615d6381-bfc3-4b59-b183-5c50c4b3fb52}" expanded="false">
+          <labels>
+            <label description="Objectives &amp; Key Messages" languagecode="1033" />
+            <label description="Objectifs et messages clés" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{35dd0b7b-9eba-e492-c285-7c785e66c2a3}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" labelid="{dd870dca-de08-475f-b2af-b3eb7d94a411}" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a7e7e3d0-a9ae-a252-0be9-512b55779355}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Objectives" languagecode="1033" />
+                          <label description="Objectifs de l’événement" languagecode="1036" />
+                        </labels>
+                        <control id="EventObjectivesSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{7c608e9e-e40a-d231-2bc7-d310c2042685}">
+                          <parameters>
+                            <ViewId>{9A2AE1ED-84E7-4AC8-8D6D-2BE88E1FD409}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventobjective_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventobjective</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{9A2AE1ED-84E7-4AC8-8D6D-2BE88E1FD409}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <HeaderColorCode />
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{4c10a21c-03e4-1b0d-5110-d5d6375b5406}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Key Messages" languagecode="1033" />
+                          <label description="Messages clés de l’événement" languagecode="1036" />
+                        </labels>
+                        <control id="EventKeyMessagesSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{bd68452d-91d5-0681-5ce6-a1d9390c5c38}">
+                          <parameters>
+                            <ViewId>{DCD16533-7458-452A-AD1E-5FE63C467945}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventkeymessage_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventkeymessage</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{DCD16533-7458-452A-AD1E-5FE63C467945}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <HeaderColorCode />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{33d5803b-1712-a5aa-886a-b160b8a6cd81}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Outcomes &amp; Indicators" languagecode="1033" />
+            <label description="Résultats" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_2" showlabel="false" showbar="false" locklevel="0" id="{95093b90-35d6-3a80-514e-905d03d82e26}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{424a776c-8e6a-a8ac-67cc-17e600889a4c}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Outcomes" languagecode="1033" />
+                          <label description="Résultats de l’événement" languagecode="1036" />
+                        </labels>
+                        <control id="DesiredEventOutcomesSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a3e20b5d-ad64-eb72-b628-bd0193bcc96a}">
+                          <parameters>
+                            <ViewId>{823F63B6-6793-424B-82B9-1270A4534F9C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventoutcome_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventoutcome</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{823F63B6-6793-424B-82B9-1270A4534F9C},{189BC922-8B22-E911-80EE-005056817C30}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{AEEFA565-8B22-E911-80EE-005056817C30}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{b7d583e3-8acd-829d-203c-218926659686}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Indicators" languagecode="1033" />
+                          <label description="Indicateurs d'événement" languagecode="1036" />
+                        </labels>
+                        <control id="DesiredEventIndicatorsSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{14c02415-7132-ca17-4d68-0c786e4554cc}">
+                          <parameters>
+                            <ViewId>{607953C0-B9E4-4344-9A4D-8B5658525F25}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventindicator_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventindicator</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{607953C0-B9E4-4344-9A4D-8B5658525F25}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="{ac29aa9d-5d9e-3a0e-6d25-0408655140de}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Post-Event - Commitments Made" languagecode="1033" />
+            <label description="Après l’événement – Engagements pris" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_3" showlabel="false" showbar="false" locklevel="0" id="{505e7755-80bc-5e55-09e8-a57060c2675e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{889ce3a3-6aa7-537a-bed6-369cb0b8671a}" showlabel="false" colspan="1" auto="false" rowspan="5">
+                        <labels>
+                          <label description="Event Details" languagecode="1033" />
+                          <label description="Contacts Événements" languagecode="1036" />
+                        </labels>
+                        <control id="EventCommitmentsSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{3454ad0b-d46b-c0c0-b119-331840234dc8}">
+                          <parameters>
+                            <ViewId>{D063DE4C-4022-E911-80EE-005056810268}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventdetail_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2A689A1D-7788-4B44-B6BE-F890EADB59C0},{D063DE4C-4022-E911-80EE-005056810268}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="{e67bb91b-e389-b929-2601-79ca478c0d37}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Post-Event - General Comments" languagecode="1033" />
+            <label description="Après l’événement – Commentaires généraux" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" showlabel="false" showbar="false" locklevel="0" id="{713e0a09-b615-7952-98a7-d5564e6c1698}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4e521639-526b-33ea-9c09-5c711eb4e27e}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Details" languagecode="1033" />
+                          <label description="Contacts Événements" languagecode="1036" />
+                        </labels>
+                        <control id="EventGeneralCommentsSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{6A26BD64-4022-E911-80EE-005056810268}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventdetail_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2A689A1D-7788-4B44-B6BE-F890EADB59C0},{6A26BD64-4022-E911-80EE-005056810268}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_7" id="{4728e580-ca90-69e0-95ed-432c8e790de0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Post-Event - Action Items" languagecode="1033" />
+            <label description="Après l’événement – Mesures de suivi" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_1" showlabel="false" showbar="false" locklevel="0" id="{11534761-d8c3-d3ba-9231-a355e44973a5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cbd4c5ce-18e4-bb39-b306-c48e78b5c52c}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Details" languagecode="1033" />
+                          <label description="Contacts Événements" languagecode="1036" />
+                        </labels>
+                        <control id="EventActionItemsSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{B1A1D617-4022-E911-80EE-005056810268}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventdetail_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B1A1D617-4022-E911-80EE-005056810268},{2A689A1D-7788-4B44-B6BE-F890EADB59C0}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="{52a7a111-a2ae-2500-ecde-a8728a9e5799}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Post-Event - Gifts Exchanged" languagecode="1033" />
+            <label description="Après l’événement – Cadeaux échangés" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{b1734e73-2d47-a29e-a76c-29b1e38a944a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{230a4943-13b4-2c92-87a4-5b1640090e27}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Gifts Exchanged (Event)" languagecode="1033" />
+                          <label description="Événement – Cadeaux échangés (événement)" languagecode="1036" />
+                        </labels>
+                        <control id="EventGiftsExchangedSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{BF9B43D1-36A0-4DDD-B77D-5094C3755CCE}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventgiftexchanged_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventgiftexchanged</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{BF9B43D1-36A0-4DDD-B77D-5094C3755CCE}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_8" id="{6d2838c6-58a4-ae49-c53c-ed35d6e6e231}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Stakeholder Positions" languagecode="1033" />
+            <label description="Positions des intervenants" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_8_section_1" showlabel="false" showbar="false" locklevel="0" id="{8c41aec5-316d-ab2a-5ad3-0418cd51a68d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0da919de-ee93-6d91-3dac-7de5292843ad}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Stakeholders Position (Event)" languagecode="1033" />
+                          <label description="Position des intervenants (Événement)" languagecode="1036" />
+                        </labels>
+                        <control id="StakeholdersPositionSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{2B8D58AA-1C8F-4BCB-A553-D1CEA1D58BEB}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yystakeholderposition_EventId</RelationshipName>
+                            <TargetEntityType>tc_yystakeholderposition</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2B8D58AA-1C8F-4BCB-A553-D1CEA1D58BEB}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Documents" id="{1063d7b4-8111-4c00-3c9e-16437bd0a8a4}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+            <label description="Documents" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_13_section_1" showlabel="true" showbar="true" locklevel="0" id="{d82ada6e-8814-2586-b6dc-c8b563c266eb}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="View Documents" languagecode="1033" />
+                    <label description="Voir Les Documents" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2bb5c09d-5776-d2ab-0b0c-296dd3b87ade}" showlabel="false" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="List" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_List" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/List.html</Url>
+                            <Data>{
+  "control": "WebResource_List",
+  "field": "tc_documentstxt"
+}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{9E41960E-6579-E811-8B89-00155DDC0400}</WebResourceId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{700ea25e-a551-9957-4078-4e2dde9b666b}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Documents" languagecode="1033" />
+                          <label description="Documents" languagecode="1036" />
+                        </labels>
+                        <control id="tc_documentstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_documentstxt" disabled="false" uniqueid="{50089762-5991-a10d-8632-c4e01257e583}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_Documents_section_4" showlabel="false" showbar="false" locklevel="0" id="{86186030-2517-11bc-28d5-35ccab0ecd01}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4cc8d60d-2b51-43a8-6a66-4472c487dcc3}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Protected B Documents" languagecode="1033" />
+                          <label description="Documents B protégés" languagecode="1036" />
+                        </labels>
+                        <control id="pbDocuments" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{b0a358ee-995b-2887-9a7e-11de914b91d0}">
+                          <parameters>
+                            <ViewId>{B3B8F0EC-231A-469C-AABC-18037F5D0215}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_event_protectedbdocuments</RelationshipName>
+                            <TargetEntityType>tc_protectedbdocument</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B3B8F0EC-231A-469C-AABC-18037F5D0215}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_13_section_2" showlabel="true" showbar="true" locklevel="0" id="{a3aa187d-24ed-6741-db8c-24100ba25e06}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Associate an Existing RDIMS Document" languagecode="1033" />
+                    <label description="Associer un Document Existant du SGDDI" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b4a6e1e5-cb20-87cb-b51e-74d952739d63}" showlabel="false" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Search" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/Search.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>true</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Data>{
+  "control": "WebResource_Search",
+  "field": "tc_documentstxt",
+  "view": "WebResource_List"
+}</Data>
+                            <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_13_section_3" showlabel="true" showbar="true" locklevel="0" id="{8aea6574-4adc-3684-671c-8d5d4a508b34}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Upload a Document to RDIMS" languagecode="1033" />
+                    <label description="Enregistrer un document dans le SGDDI" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row height="auto">
+                      <cell id="{243770eb-d312-3028-2cb2-318a2034b75a}" showlabel="false" colspan="1" auto="true" rowspan="1">
+                        <labels>
+                          <label description="Update" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_Update" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/Upload.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>true</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Data>{
+  "control": "WebResource_Update",
+  "field": "tc_documentstxt",
+  "view": "WebResource_List"
+}</Data>
+                            <WebResourceId>{CA0CAB12-9A02-E711-8133-000C2958E3A5}</WebResourceId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_11" id="{170e31a1-edec-5511-5d2a-59c89eb44132}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Financials" languagecode="1033" />
+            <label description="Données financières" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="tab_11_section_1" showlabel="false" showbar="false" locklevel="0" id="{e8bb55ae-892a-2ed2-bdd7-0b61204a3e20}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13e414a5-b88d-ce38-7a54-47a692c3407c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quarter" languagecode="1033" />
+                          <label description="Trimestre" languagecode="1036" />
+                        </labels>
+                        <control id="tc_quartercd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_quartercd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3c87792-abd1-44cb-9eb0-a2ddd2d672bc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Code" languagecode="1033" />
+                          <label description="Code d’événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventcd" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e00e9c01-ecd0-a11d-5abb-442d69c60742}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_11_section_4" showlabel="true" showbar="true" locklevel="0" id="{023b27c6-40ab-0535-9ea7-888d200dcc9b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Forecast" languagecode="1033" />
+                    <label description="Prévisions" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{12726590-9303-e628-876a-87a8ee5b304a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Airfare (F)" languagecode="1033" />
+                          <label description="Tarifs aériens (repas)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_airfareforecastamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_airfareforecastamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aab0a893-7e05-4b46-b2b5-517eb80745b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Accommodation Expense (F)" languagecode="1033" />
+                          <label description="Frais d’hébergement (repas)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_accommodationexpenseforecastamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_accommodationexpenseforecastamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83d063d2-5ed1-9c41-e3b8-4a2199ba6959}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Meals/Incidentals (F)" languagecode="1033" />
+                          <label description="Repas/Faux frais (repas)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mealsincidentalsforecastamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_mealsincidentalsforecastamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e4084e7-e74a-902a-12c5-cbe8e1aa4942}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other Expenses (F)" languagecode="1033" />
+                          <label description="Autres frais de transport (repas)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_othertransportationexpenseforecastamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_othertransportationexpenseforecastamt" disabled="false" uniqueid="{3a7e787d-033d-de8c-79ab-999cddea1d86}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50bd0465-5b69-d532-8835-e346e485b894}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Hospitality Expense (F)" languagecode="1033" />
+                          <label description="Dépenses d’accueil (repas)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_hospitalityexpenseforecastamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_hospitalityexpenseforecastamt" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_11_section_7" showlabel="false" showbar="false" locklevel="0" id="{caab22cb-4484-d7ea-ce44-411eec5a889e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d5281619-cdeb-ce45-64b1-a92e07e0a904}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Travel Cost (F)" languagecode="1033" />
+                          <label description="Total des frais de déplacement (repas)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_totaltravelcostforecastamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_totaltravelcostforecastamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30e23a99-83b7-cca8-9d66-27c7a7e61e47}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Overtime (F)" languagecode="1033" />
+                          <label description="Heures supplémentaires (repas)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_overtimeforecastnbr" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_overtimeforecastnbr" disabled="false" uniqueid="{2c2d7361-1be0-8a0c-3a24-94447aea4a9e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_11_section_2" showlabel="false" showbar="false" locklevel="0" id="{30893cce-852a-cc9d-5bd9-a05692d6269e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{06c3d496-0e9c-ad2a-1196-37e0dc016a61}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Group/Region" languagecode="1033" />
+                          <label description="Groupe/Région" languagecode="1036" />
+                        </labels>
+                        <control id="tc_groupregioncd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_groupregioncd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc1445ab-117c-ddd3-0963-49b2525ad59d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Program Code" languagecode="1033" />
+                          <label description="Code de programme" languagecode="1036" />
+                        </labels>
+                        <control id="tc_programcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_programcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c6c9cb8-0345-2064-682d-42eaab5528cc}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_11_section_6" showlabel="true" showbar="true" locklevel="0" id="{07e1768c-4e2a-b136-b529-72c204a0cee7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Travel Authority" languagecode="1033" />
+                    <label description="Autorisation de voyager" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2ea88aab-c138-aca6-0a83-2a9da2540721}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Airfare (TA)" languagecode="1033" />
+                          <label description="Tarifs aériens (AV)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_airfaretaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_airfaretaamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{887cc7ed-0675-eb51-4b5b-284d63becea8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Accommodation Expense (TA)" languagecode="1033" />
+                          <label description="Frais d’hébergement (AV)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_accommodationexpensetaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_accommodationexpensetaamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0915e519-344b-6914-24be-b3566ed57d99}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Meals/Incidentals (TA)" languagecode="1033" />
+                          <label description="Repas/Faux frais (AV)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mealsincidentalstaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_mealsincidentalstaamt" disabled="false" uniqueid="{d019bcb2-e0ab-3c22-4a27-77e765d45699}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d01ed9e-9be1-ee42-9b02-d3beb0880173}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other Expenses (TA)" languagecode="1033" />
+                          <label description="Autres frais de transport (AV)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_othertransportationexpensetaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_othertransportationexpensetaamt" disabled="false" uniqueid="{a1cec213-b3d9-ba35-e99e-709539ea222d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c15b130b-5138-748a-7957-8b2e128124e2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Hospitality Expense (TA)" languagecode="1033" />
+                          <label description="Dépenses d’accueil (AV)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_hospitalityexpensetaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_hospitalityexpensetaamt" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_11_section_9" showlabel="false" showbar="false" locklevel="0" id="{3a454198-7611-588c-c279-29528bb79946}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c4290839-6ca9-ae20-3d23-c055e2cbd2c9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Travel Cost (TA)" languagecode="1033" />
+                          <label description="Total des frais de déplacement (AV)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_totaltravelcosttaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_totaltravelcosttaamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ba0a761d-ede3-8321-298d-9cee97064b87}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Overtime (TA)" languagecode="1033" />
+                          <label description="Heures supplémentaires (AV)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_overtimetanbr" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_overtimetanbr" disabled="false" uniqueid="{e2904a88-903d-5533-7b69-0b789a206a83}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_11_section_3" showlabel="false" showbar="false" locklevel="0" id="{22506264-7d32-19dc-2154-5014c285e4dd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{927a2b86-7481-b598-0632-d40328558b56}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="SO / RS" languagecode="1033" />
+                          <label description="SO / RS" languagecode="1036" />
+                        </labels>
+                        <control id="tc_sorscd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_sorscd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d618040-22b8-569d-ad62-12110846e388}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="PI" languagecode="1033" />
+                          <label description="PAA/AAP" languagecode="1036" />
+                        </labels>
+                        <control id="tc_paaappcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_paaappcd" disabled="false" uniqueid="{898d73a6-3c72-8381-ea7b-60e07bc8ae8e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de5891d6-8242-3156-4341-2c68bba7852b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Code" languagecode="1033" />
+                          <label description="Code de projet" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectcd" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_projectcd" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_11_section_5" showlabel="true" showbar="true" locklevel="0" id="{c73964b5-3c38-d140-904c-b8a07bece373}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Actuals" languagecode="1033" />
+                    <label description="Données réelles" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1a4be26b-9307-93b6-e561-33d6ea2c234e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Airfare (A)" languagecode="1033" />
+                          <label description="Tarifs aériens (A)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_airfareactualamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_airfareactualamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{296209ae-212d-cb30-5726-2165c6156953}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Accommodation Expense (A)" languagecode="1033" />
+                          <label description="Frais d’hébergement (A)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_accommodationexpenseactualamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_accommodationexpenseactualamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d47b2a7-d8b1-ebb8-b411-4002982b4edb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Meals/Incidentals (A)" languagecode="1033" />
+                          <label description="Repas/Faux frais (A)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mealsincidentalsactualamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_mealsincidentalsactualamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11e418b2-485d-a22b-848e-90becde93823}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other Expenses (A)" languagecode="1033" />
+                          <label description="Autres frais de transport (A)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_othertransportationexpenseactualamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_othertransportationexpenseactualamt" disabled="false" uniqueid="{e359b9b7-a5d2-ca31-301a-7916820ae0ee}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bbae2e14-726c-0256-5945-2ebab32954d9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Hospitality Expense (A)" languagecode="1033" />
+                          <label description="Dépenses d’accueil (A)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_hospitalityexpenseactualamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_hospitalityexpenseactualamt" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_11_section_8" showlabel="false" showbar="false" locklevel="0" id="{778e817d-9368-e51d-4152-c8c013241220}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c7e957ed-6a81-c6b7-a3ce-aa8a8a5974a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Travel Cost (A)" languagecode="1033" />
+                          <label description="Total des frais de déplacement (A)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_totaltravelcostactualamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_totaltravelcostactualamt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2023eda6-e0de-9a01-199a-9247ce646059}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Overtime (A)" languagecode="1033" />
+                          <label description="Heures supplémentaires (A)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_overtimeactualnbr" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_overtimeactualnbr" disabled="false" uniqueid="{9886a902-93c8-51a1-8390-ebd543195139}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_10" id="{3658331a-5669-adc8-a869-b2965556b32d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Related Events" languagecode="1033" />
+            <label description="Événements liés" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_10_section_1" showlabel="false" showbar="false" locklevel="0" id="{c6342665-9736-72ec-23a2-dd7c7a3c9224}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a4531aa9-4c8c-7d78-ebdd-921ad69a1a1c}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Connections (Connected From)" languagecode="1033" />
+                          <label description="Connexions" languagecode="1036" />
+                        </labels>
+                        <control id="EventConnectionsSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{7C0E0725-CCD9-4525-9313-665FD075652F}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_connections1</RelationshipName>
+                            <TargetEntityType>connection</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0d59fa7c-de6e-4472-bb56-d6d4f0e9861d}" columns="111">
+        <rows>
+          <row>
+            <cell id="{52d1ab1b-3751-1cdb-6753-485bd7c43331}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Attending ?" languagecode="1033" />
+                <label description="Présents?" languagecode="1036" />
+              </labels>
+              <control id="header_tc_attendingind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_attendingind" disabled="true" uniqueid="{a1175cd5-536b-398d-c364-b3ec61c62d7b}" />
+            </cell>
+            <cell id="{cde7d792-9c53-0b52-599a-2c41366c74d9}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Event Type" languagecode="1033" />
+                <label description="Type d’événement" languagecode="1036" />
+              </labels>
+              <control id="header_tc_eventtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventtypecd" disabled="false" />
+            </cell>
+            <cell id="{ae5aa834-be85-6ae9-543a-edd4b22bc2e0}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Event Status" languagecode="1033" />
+                <label description="État de l’événement" languagecode="1036" />
+              </labels>
+              <control id="header_tc_eventstatuscd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventstatuscd" disabled="true" uniqueid="{ab58c066-b674-8cba-6a62-37c29ac38ac8}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ed7a68eb-7e86-4fa2-ba14-ba2b3df04e5d}" columns="111">
+        <rows>
+          <row>
+            <cell id="{64347709-5635-5eba-3906-7b41e2792e26}" showlabel="true" locklevel="0" labelid="{c0180bf4-52b3-42d5-9e4c-556cac473f51}">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{991c8131-4b67-6d15-2ece-46c99bba56b7}" showlabel="true" locklevel="0" labelid="{9ec72e81-63f5-4358-8a32-acb3a3b6565a}">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{a9923d48-a15e-97cd-a755-493796c9b0b5}" showlabel="true" locklevel="0" labelid="{65c7b979-84d6-411f-adea-6ac1ba00e643}">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYComment_EventId" Sequence="10001" Area="Info" Id="nav_tc_YYEvent_YYComment_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Comments" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_tc_yyevent_tc_businessprocessflowevent" Sequence="10002" Area="Info" Id="nav_bpf_tc_yyevent_tc_businessprocessflowevent">
+            <Titles>
+              <Title LCID="1033" Text="tc_yyevent" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventdetail_EventId" Sequence="10003" Area="Info" Id="nav_tc_yyevent_yyeventdetail_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Details" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventgiftexchanged_EventId" Sequence="10004" Area="Info" Id="nav_tc_yyevent_yyeventgiftexchanged_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Gifts Exchanged" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventissue_EventId" Sequence="10005" Area="Info" Id="nav_tc_yyevent_yyeventissue_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Themes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventkeymessage_EventId" Sequence="10006" Area="Info" Id="nav_tc_yyevent_yyeventkeymessage_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Key Messages" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventobjective_EventId" Sequence="10007" Area="Info" Id="nav_tc_yyevent_yyeventobjective_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Objectives" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventoutcome_EventId" Sequence="10008" Area="Info" Id="nav_tc_yyevent_yyeventoutcome_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Outcomes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventindicator_EventId" Sequence="10009" Area="Info" Id="nav_tc_yyevent_yyeventindicator_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Indicators" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yystakeholderposition_EventId" Sequence="10010" Area="Info" Id="nav_tc_yyevent_yystakeholderposition_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Stakeholders Position" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYInitiative" Sequence="10011" Area="Info" Id="nav_tc_YYEvent_YYInitiative">
+            <Titles>
+              <Title LCID="1033" Text="Initiatives" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{dd2648c7-6024-9895-1561-b24c02489c32}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_shareincalendar</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_shareincalendar</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_shareincalendar</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_shareincalendar</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="tc_/EGISIntegration/EsriAboriginalConsultationMaps.js" libraryUniqueId="{d688823b-5939-92ba-9b8a-4e046b558650}" />
+        <Library name="tc_/Core/Documents/list.js" libraryUniqueId="{674e513b-29c0-e0bc-4bba-ac7929a1d1c9}" />
+      </formLibraries>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{23844816-EBCB-E811-80E8-005056812059}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Asies-Event" languagecode="1033" />
+      <LocalizedName description="SMISA – Événement" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Asies Event Form" languagecode="1033" />
+      <Description description="SMISA – Formulaire d’événement" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

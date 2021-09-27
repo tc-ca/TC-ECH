@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_yystakeholderposition.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.tc_yystakeholderposition.AddExistingAssoc" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_yystakeholderposition.AddExistingStandard.Hide" Location="Mscrm.SubGrid.tc_yystakeholderposition.AddExistingStandard" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_yystakeholderposition.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.tc_yystakeholderposition.OpenAssociatedGridViewStandard" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5d7949b5-3bf3-4032-a313-eaf2985b1921}" Name="Business Process Flow - Event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BusinessProcessFlow-Event-5D7949B5-3BF3-4032-A313-EAF2985B1921.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{8EC6249F-74B9-4FF5-BA2A-19D516A30983}" /&gt;&lt;Role Id="{3DA0125A-90C4-425D-9962-9877835E7192}" /&gt;&lt;Role Id="{6E735A05-00F2-4A92-8960-EF098C5588A4}" /&gt;&lt;Role Id="{670E141E-9BE4-4178-BE15-F07D499A444C}" /&gt;&lt;Role Id="{33978014-A29C-44BC-BF46-CEC43F4937DD}" /&gt;&lt;Role Id="{A5FB16EB-DF56-4526-BA56-C4B898E246DD}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;Role Id="{AB4635E7-3430-43F8-9181-071877FB5196}" /&gt;&lt;Role Id="{2C4637B8-0B4D-44A1-A1EC-083C8D22E021}" /&gt;&lt;Role Id="{D013BF59-CE4D-4099-9D6C-0AB0F979926B}" /&gt;&lt;Role Id="{B62F3AAB-E59E-4A03-A59A-3C7D424EC570}" /&gt;&lt;Role Id="{DD9EB436-2DAB-4528-A3FF-5EC7C10F7185}" /&gt;&lt;Role Id="{7A63AA99-69F1-4433-A255-DA36EC0B141D}" /&gt;&lt;Role Id="{55056C70-568C-493F-83AC-1AC6C09B89A2}" /&gt;&lt;Role Id="{72CC1CA1-94D6-4D7D-B5FA-611CB0DCE650}" /&gt;&lt;Role Id="{1A189D85-E4AB-4C26-A654-87D53A4FBC18}" /&gt;&lt;Role Id="{FF601540-59B3-4069-8DF1-BA4FE6FC289A}" /&gt;&lt;Role Id="{E9FE9080-789F-468E-87D3-6544B5D4E891}" /&gt;&lt;Role Id="{64339DCF-CC81-4890-909C-705A7C9A806A}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>tc_businessprocessflowevent</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>tc_YYEvent</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Business Process Flow - Event" />
+    <LocalizedName languagecode="1036" description="Processus Métier - Événement" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{59a53387-ad56-48e3-93f7-11ea13724fa1}">
+      <label languagecode="1033" description="Received/Initiated" />
+      <label languagecode="1036" description="Reçu/Lancé" />
+    </steplabels>
+    <steplabels id="{d17cf86f-d971-4d2a-94b1-9986d9580adf}">
+      <label languagecode="1033" description="Received Date" />
+      <label languagecode="1036" description="Reçu le " />
+    </steplabels>
+    <steplabels id="{b68fc584-2ea4-4496-8a6a-85553fe3d3c7}">
+      <label languagecode="1033" description="Event Status" />
+      <label languagecode="1036" description="État de l’événement" />
+    </steplabels>
+    <steplabels id="{bb066135-da2f-40c7-be7c-d275ad5d095a}">
+      <label languagecode="1033" description="Event Type" />
+      <label languagecode="1036" description="Type d’événement" />
+    </steplabels>
+    <steplabels id="{80682bce-ddfb-4574-b344-dea086385e8f}">
+      <label languagecode="1033" description="Working Group" />
+      <label languagecode="1036" description="Groupe de travail" />
+    </steplabels>
+    <steplabels id="{bc291870-15aa-4ab8-bd02-43bdfa8c7411}">
+      <label languagecode="1033" description="Triage" />
+      <label languagecode="1036" description="Triage" />
+    </steplabels>
+    <steplabels id="{cafd9afa-12a1-4f7c-af45-2e405cdcf316}">
+      <label languagecode="1033" description="Attending ?" />
+      <label languagecode="1036" description="Présents?" />
+    </steplabels>
+    <steplabels id="{d9703993-30e9-4403-99a2-f299dca76f04}">
+      <label languagecode="1033" description="Participants Selected ?" />
+      <label languagecode="1036" description="Participants sélectionnés?" />
+    </steplabels>
+    <steplabels id="{fd3c78cb-df10-4a3c-9a4e-81c0cc1ff8b7}">
+      <label languagecode="1033" description="Pre-Event" />
+      <label languagecode="1036" description="Avant l’événement" />
+    </steplabels>
+    <steplabels id="{67e69985-2f0d-46d4-905b-a16f872019ab}">
+      <label languagecode="1033" description="Objectives &amp; Outcomes ?" />
+      <label languagecode="1036" description="Objectifs et résultats?" />
+    </steplabels>
+    <steplabels id="{8179e10e-7cb0-4689-b99e-05f45779c4cf}">
+      <label languagecode="1033" description="Planning Completed ?" />
+      <label languagecode="1036" description="Planification achevée?" />
+    </steplabels>
+    <steplabels id="{e6238e78-2568-4436-beb0-70e3af44ecad}">
+      <label languagecode="1033" description="Recording Completed" />
+      <label languagecode="1036" description="Après l’événement" />
+    </steplabels>
+    <steplabels id="{476af609-788b-4bc3-b45f-907b1cf3b41c}">
+      <label languagecode="1033" description="Recording Completed ?" />
+      <label languagecode="1036" description="Suivi achevé?" />
+    </steplabels>
+    <steplabels id="{8aa32b6e-d5d6-4491-b2ec-9163cb851a48}">
+      <label languagecode="1033" description="Action Items Created ?" />
+    </steplabels>
+    <steplabels id="{703e7a9f-7abf-44f9-8ab4-c80f55a79aef}">
+      <label languagecode="1033" description="Action Items Assigned ?" />
+    </steplabels>
+    <steplabels id="{338bdf79-ffb1-4234-b744-6b42efc90efe}">
+      <label languagecode="1033" description="Close Event" />
+      <label languagecode="1036" description="Fermer l’événement" />
+    </steplabels>
+    <steplabels id="{e6331d8f-51ea-4113-bb3e-0ce8a08c05f3}">
+      <label languagecode="1033" description="Close Event ?" />
+      <label languagecode="1036" description="Fermer l’événement?" />
+    </steplabels>
+    <steplabels id="{0152fda4-701c-4650-ad76-0648670507e2}">
+      <label languagecode="1033" description="Close Event" />
+      <label languagecode="1036" description="Fermer l’événement" />
+    </steplabels>
+    <steplabels id="{4a2056b2-48c4-4eb6-ba66-158537fcc033}">
+      <label languagecode="1033" description="Event Cancelled ?" />
+      <label languagecode="1036" description="Événement annulé?" />
+    </steplabels>
+    <steplabels id="{8cbe88a1-5e60-4d37-a556-4a8c434bc93d}">
+      <label languagecode="1033" description="Close Event ?" />
+      <label languagecode="1036" description="Fermer l’événement?" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{abde11d3-e31b-ec11-b6e6-000d3af45c37}">
+      <controltype>1</controltype>
+      <methodid>{bc291870-15aa-4ab8-bd02-43bdfa8c7411}</methodid>
+      <scope>1</scope>
+      <controlname>tc_attendingind</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>tc_YYEvent</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

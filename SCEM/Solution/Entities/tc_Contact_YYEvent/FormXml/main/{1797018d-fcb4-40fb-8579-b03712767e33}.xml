@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1797018d-fcb4-40fb-8579-b03712767e33}</formid>
+    <IntroducedVersion>0.1.1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{cdc13b65-8167-4695-88a9-f6dc623fe760}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c1d4f4a8-33bb-46f5-b042-fc4af54c8b6f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Généralités" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{45940e18-d26f-48f1-822d-131fb94ac136}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Event Name" languagecode="1033" />
+                          <label description="Nom de l’événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventnm" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39e10044-c866-b90a-9e10-70331cd4a4a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                        </labels>
+                        <control id="tc_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_organizationid" disabled="false" uniqueid="{4684b419-8968-9e45-938d-b221629c57a5}">
+                          <parameters>
+                            <AutoResolve>false</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <FilterRelationshipName>tc_organization_organizationscontacts</FilterRelationshipName>
+                            <DependentAttributeName>tc_contact_yyevent.tc_relatedcontactid</DependentAttributeName>
+                            <DependentAttributeType>tc_organizationcontact</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{641a5732-754d-9eea-8a66-51beed2a26e4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="tc_relatedcontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_relatedcontactid" disabled="false" uniqueid="{8ee85b7a-e79a-b432-a523-ea35a1584ec1}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>true</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{C9A4B2F2-9C36-4067-9B66-DA4D217C2F5F}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d192b011-6644-9e57-620b-62e90561b6e2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Share In Calendar" languagecode="1033" />
+                          <label description="Partagé dans le calendrier" languagecode="1036" />
+                        </labels>
+                        <control id="tc_shareincalendar" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_shareincalendar" disabled="false" uniqueid="{a2ce173a-6ea0-1c53-ab6b-29b7e8a390a7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec540436-d257-464a-ba5b-244b287e359a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event" languagecode="1033" />
+                          <label description="Événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventid" disabled="false" uniqueid="{6b01b24e-26e6-23cb-d326-b5953b930182}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab42a3ce-05ed-4ae6-dab9-a6db1406ccea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invited" languagecode="1033" />
+                          <label description="Invité" languagecode="1036" />
+                        </labels>
+                        <control id="tc_invitedind" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="tc_invitedind" disabled="false" uniqueid="{040ac635-24cb-005d-7a47-5d80ebaad4e0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{78285e1e-9239-0352-2d4b-6b3b80d4e88e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Attended" languagecode="1033" />
+                          <label description="Présence" languagecode="1036" />
+                        </labels>
+                        <control id="tc_attendedind" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="tc_attendedind" disabled="false" uniqueid="{944222dc-ec21-c547-ca19-4019dcec5394}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{91ba8c1a-788e-4453-ae89-4649b44f05dd}" columns="111">
+        <rows>
+          <row>
+            <cell id="{79955f10-8775-4ec2-8d5d-0a0f178f6f53}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e20b3241-77a5-43b3-8551-331506cd2568}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{09b62d45-d040-25c4-d45d-cc92baa22d7e}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Responsable" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{752f2c1b-84f0-4f55-b7d6-40c3ea07f9ff}" columns="111">
+        <rows>
+          <row>
+            <cell id="{171a261b-3a36-11a1-671a-8147d361ca84}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{1362b242-7346-48dd-8d34-5780d137372c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Date de modification" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{0c2b8a41-8bb1-4a96-b353-5057b136a610}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Date de création" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{a2ce173a-6ea0-1c53-ab6b-29b7e8a390a7}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_shareincalendar</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_shareincalendar</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_shareincalendar</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_shareincalendar</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9b38a6bc-2984-48ee-8af3-fbe7f8cbddf1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_contact_yyeventid">
+          <cell name="a_2e0579db240aeb11a813000d3af46865.tc_contactid" width="100" disableSorting="1" />
+          <cell name="tc_organizationid" width="100" />
+          <cell name="a_2e0579db240aeb11a813000d3af46865.tc_position" width="100" disableSorting="1" />
+          <cell name="tc_eventid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_83ef9b6c5debe911a812000d3af42c56.tc_startdte" width="100" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_83ef9b6c5debe911a812000d3af42c56.tc_enddte" width="100" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_invitedind" width="100" />
+          <cell name="tc_attendedind" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_contact_yyevent">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_attendedind" />
+          <attribute name="tc_invitedind" />
+          <attribute name="tc_organizationid" />
+          <attribute name="tc_eventid" />
+          <link-entity alias="a_2e0579db240aeb11a813000d3af46865" name="tc_organizationcontact" from="tc_organizationcontactid" to="tc_relatedcontactid" link-type="outer" visible="false">
+            <attribute name="tc_contactid" />
+            <attribute name="tc_position" />
+          </link-entity>
+          <link-entity alias="a_83ef9b6c5debe911a812000d3af42c56" name="tc_yyevent" from="tc_yyeventid" to="tc_eventid" link-type="outer" visible="false">
+            <attribute name="tc_startdte" />
+            <attribute name="tc_enddte" />
+            <order attribute="tc_startdte" descending="true" />
+          </link-entity>
+          <attribute name="tc_contact_yyeventid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contact Events" languagecode="1033" />
+      <LocalizedName description="Événements de contact" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

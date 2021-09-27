@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery unmodified="1">
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{919a0451-03fb-405e-a800-1047b6e83e80}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="0" preview="1" icon="1">
+        <row name="result" id="reportid" layoutstyle="ReportList">
+          <cell name="name" width="300" />
+          <cell name="reporttypecode" width="100" />
+          <cell name="ispersonal" width="125" />
+          <cell name="modifiedon" width="100" />
+          <cell name="languagecode" width="100" />
+          <cell name="description" width="200" />
+          <cell name="filename" width="200" ishidden="1" />
+          <cell name="bodyurl" width="200" ishidden="1" />
+          <cell name="iscustomreport" width="200" ishidden="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="report">
+          <attribute name="name" />
+          <attribute name="reporttypecode" />
+          <attribute name="filename" />
+          <attribute name="bodyurl" />
+          <attribute name="modifiedon" />
+          <attribute name="languagecode" />
+          <attribute name="description" />
+          <attribute name="ispersonal" />
+          <attribute name="reportid" />
+          <attribute name="iscustomreport" />
+          <order attribute="languagecode" descending="false" />
+          <order attribute="name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Reports, Including Sub-Reports" languagecode="1033" />
+      <LocalizedName description="Tous les rapports, y compris les sous-rapports" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

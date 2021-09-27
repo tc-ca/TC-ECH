@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bdb0ae1c-32fa-4374-b637-8dafe107bc44}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form hasmargin="false" shownavigationbar="false" solutionaction="Modified">
+      <tabs showlabels="false">
+        <tab name="general" verticallayout="true" id="{6fd9013a-2c88-4593-b364-c9f21e572640}" IsUserDefined="0" expanded="true" ordinalvalue="0" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="information" id="{a9d2c4bb-9863-4712-b13c-f27c88331597}" IsUserDefined="0" showlabel="false" showbar="false" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{958bb238-c9ac-42e8-7d34-4895b95e2650}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="First Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Prénom" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" uniqueid="{c7872b07-0002-65d6-3e3c-2eec3c44d2ee}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3627b14-9e4e-e767-71c3-dc88b9e4946d}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7d58014-ca91-7338-a507-25cd221ab7ab}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="Email" languagecode="1033" solutionaction="Added" />
+                          <label description="Courrier électronique" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{367e4a65-8596-10bc-4ce4-3e58d82ce46d}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Modified">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" solutionaction="Added" />
+                          <label description="Téléphone mobile" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0952bfb8-a6cf-4c90-b478-52faafa72151}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{77952620-8c4e-81b0-4ee4-1079a0711ceb}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Street 1" languagecode="1033" />
+                          <label description="Adresse 1 : Rue 1" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" uniqueid="{82c96b78-b00d-1c55-ab7b-6ac9e53bc5d3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{55bdae0e-7408-7ae8-a2c3-7a48c338887b}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                          <label description="Adresse 1 : Ville" languagecode="1036" />
+                        </labels>
+                        <control id="address1_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" uniqueid="{e3c77667-3dea-eb73-2845-e9b117cd6ed3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7069485c-17b6-c910-cec1-0e8a2867c625}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="ZIP/Postal Code" languagecode="1033" />
+                          <label description="Adresse 1 : Code postal" languagecode="1036" />
+                        </labels>
+                        <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" uniqueid="{c81866ba-a982-c640-5e5c-b261aac41752}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89d74dc7-043e-5eeb-98a9-b963a3595e0a}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                          <label description="Modifié par" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4b70d8d5-8507-ec31-d357-d72d079931eb}" showlabel="true" locklevel="0" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                          <label description="Modifié le" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Contact Quick Form" languagecode="1033" />
+      <LocalizedName description="Formulaire rapide de contact" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This is the form that is displayed for the contact Quick Form." languagecode="1033" />
+      <Description description="Il s'agit du formulaire qui s'affiche pour le formulaire rapide de contact." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

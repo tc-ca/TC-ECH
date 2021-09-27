@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{02f5ef86-1223-4e85-be34-c4d7b42a58ff}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{c84960e5-cee5-4713-815c-cd194a9df4ea}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+            <label description="Onglet" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="75%">
+              <sections>
+                <section id="{1ce37852-62d5-4ffd-84fd-3b2e98a8f993}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{487b45c9-4ee0-42e8-32bc-0a7bea7c88e7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Position Title" languagecode="1033" />
+                          <label description="Titre du poste" languagecode="1036" />
+                        </labels>
+                        <control id="tc_positiontitle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_positiontitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bbaed0c3-0aae-a58c-8e55-1d12d3e17d20}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Stakeholder Position" languagecode="1033" />
+                          <label description="Position de l’intervenant" languagecode="1036" />
+                        </labels>
+                        <control id="tc_stakeholderpositioncd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_stakeholderpositioncd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9041994-8d02-5879-9459-7ee58079cb6d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                          <label description="Personne-ressource" languagecode="1036" />
+                        </labels>
+                        <control id="tc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3bb924eb-21d9-d71b-e97a-997154b49ee3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Compte" languagecode="1036" />
+                        </labels>
+                        <control id="tc_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_organizationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc523bb8-d555-eec9-c0cb-aa14c7120099}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Objective/Priority" languagecode="1033" />
+                          <label description="Objectif/Priorité" languagecode="1036" />
+                        </labels>
+                        <control id="tc_objectivepriorityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_objectivepriorityid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e649030-40d7-95c2-4c31-5b171edaa8ab}" showlabel="true" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="Comment" languagecode="1033" />
+                          <label description="Commentaire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_commenttxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_commenttxt" disabled="false" uniqueid="{0d100531-6013-51bb-1c88-93ab5e87709b}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="24%">
+              <sections>
+                <section id="{170630d1-74ea-48be-bd8f-8c411e8d2873}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b93197ec-61a9-8eec-88a6-d455697275b6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event" languagecode="1033" />
+                          <label description="Événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="1%">
+              <sections>
+                <section id="{e95b84cd-205e-4cae-a645-ef71cbd3510c}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8148b22a-75eb-4f21-be87-efb1d22223bb}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Stakeholder Position Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

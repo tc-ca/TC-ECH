@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{23018871-1994-4348-85ff-0a61ab92aba8}</formid>
+    <IntroducedVersion>1.25.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d3705f4e-ae6c-4b46-818b-ee696ba33214}" IsUserDefined="1" name="{d3705f4e-ae6c-4b46-818b-ee696ba33214}" locklevel="0" expanded="true" showlabel="true" visible="false">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a0b79451-04a8-40c1-b205-b860e2336a76}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4145e13b-130d-4720-b749-f18be23f4d3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Indicateurs" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventindicatornm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventindicatornm" uniqueid="{071c48d6-e11b-2421-65ba-cb779cbeb238}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3235c2b2-211a-4f67-86bb-6145b4e09ebd}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="event_indicator_tab" id="{7d54154c-333c-695a-9ba3-7b7a5e556567}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Event Indicator" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{8107ac0c-2088-bb08-684e-7b7c7b1e2db1}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row height="auto">
+                      <cell id="{7bd82763-4c13-4325-566b-2e10c6e6a41e}" showlabel="true" locklevel="0" auto="true">
+                        <labels>
+                          <label description="Indicators" languagecode="1033" />
+                          <label description="Indicateurs" languagecode="1036" />
+                        </labels>
+                        <control id="tc_indicatorsnm" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_indicatorsnm" disabled="false" uniqueid="{62861baa-1030-3dda-80ea-a87d41e73196}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26bda544-2645-024e-1776-ab2ad1531e2a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Outcomes" languagecode="1033" />
+                          <label description="Résultats " languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventoutcomeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventoutcomeid" disabled="false" uniqueid="{601a7850-01b7-e51c-b0c3-57887cbbc145}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{8462A12B-0BE0-4B2C-8E27-87CC86E20765}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81614ae1-d7bd-ac0b-e1ab-abd14565092a}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="Key Performance Indicators" languagecode="1033" />
+                          <label description="Indicateurs clés de performance" languagecode="1036" />
+                        </labels>
+                        <control id="tc_keyperformanceindicators" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_keyperformanceindicators" disabled="false" uniqueid="{0b97e124-a0c0-50a8-5170-a53ab30d486d}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6c965593-e5d2-4a8b-991e-ab562dbef498}" columns="111">
+        <rows>
+          <row>
+            <cell id="{093a2308-5a71-4403-a873-d95e23c1155c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{251bab0b-4a2f-40ec-8972-395ae947da1e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e5639b20-0b16-198b-1aa4-6933cd8e2206}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Event" languagecode="1033" />
+                <label description="Événement" languagecode="1036" />
+              </labels>
+              <control id="header_tc_eventid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{b7d5426f-eaac-4f74-a2ff-d24f039d9722}" columns="111">
+        <rows>
+          <row>
+            <cell id="{b5b95428-d269-5248-1b11-5542e630d511}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{21cb01ca-20b2-6091-a7a0-a9bdd31be13c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{8b4eee73-50d3-aec6-1335-3c809d963e24}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3b05737b-d7cc-457b-b722-06e820cba739}</formid>
+    <IntroducedVersion>0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{1e62de24-749a-4c81-8729-343374b2a80d}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{e093b034-8e75-41d6-be78-b597e3b58c1c}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d7a385a5-e059-393b-b527-ba79875eeaa1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                          <label description="Personne-ressource" languagecode="1036" />
+                        </labels>
+                        <control id="tc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{2b5f6ad6-bade-4e24-a508-83185715f272}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dc8d937c-0207-ebb6-b2ba-9738a95e30da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invited ?" languagecode="1033" />
+                          <label description="Invité" languagecode="1036" />
+                        </labels>
+                        <control id="tc_invitedind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_invitedind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0066a4d4-b781-2984-d45d-6aca9051439c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interested" languagecode="1033" />
+                          <label description="Intérêt" languagecode="1036" />
+                        </labels>
+                        <control id="tc_interestedind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_interestedind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90110caa-679e-e187-951a-a3d141cd7b8b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Attended/Attending" languagecode="1033" />
+                          <label description="Présence" languagecode="1036" />
+                        </labels>
+                        <control id="tc_attendedind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_attendedind" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{32ca9a6f-9662-4179-882b-b7df3f15548a}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e021ce96-8271-1aca-97ed-b1c1e8bb0b46}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event" languagecode="1033" />
+                          <label description="Événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="ASIES Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

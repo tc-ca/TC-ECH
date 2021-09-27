@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2ea27f9c-2238-4541-87e4-79ea4fbb119d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_namenm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tbconsultationsubjectid">
+          <cell name="tc_namenm" width="300" />
+          <cell name="tc_subjecttxt" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_pcoid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tbconsultationsubject">
+          <attribute name="tc_namenm" />
+          <order attribute="tc_namenm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_pcoid" />
+          <attribute name="tc_subjecttxt" />
+          <attribute name="tc_tbconsultationsubjectid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.2.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Subjects" languagecode="1033" />
+      <LocalizedName description="Sujets actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

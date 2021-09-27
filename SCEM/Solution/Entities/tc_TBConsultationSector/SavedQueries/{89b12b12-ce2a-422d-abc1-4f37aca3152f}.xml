@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{89b12b12-ce2a-422d-abc1-4f37aca3152f}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="tc_namenm" select="1" icon="1" preview="0">
+        <row name="tc_tbconsultationsector" id="tc_tbconsultationsectorid">
+          <cell name="tc_namenm" width="300" />
+          <cell name="tc_pcoid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tbconsultationsector">
+          <attribute name="tc_tbconsultationsectorid" />
+          <attribute name="tc_namenm" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="tc_namenm" descending="false" />
+          <attribute name="tc_pcoid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.2.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Sector Lookup View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche « Secteur »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

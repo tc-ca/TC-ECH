@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{c18dbfc5-121a-ec11-b6e7-000d3a09e19f}" name="SCEM License Management" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendTeam" level="Local" />
+    <RolePrivilege name="prvAppendToTeam" level="Local" />
+    <RolePrivilege name="prvAppendToUser" level="Local" />
+    <RolePrivilege name="prvAppendUser" level="Local" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadTeam" level="Local" />
+    <RolePrivilege name="prvReadUser" level="Local" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+    <RolePrivilege name="prvWriteTeam" level="Local" />
+    <RolePrivilege name="prvWriteUser" level="Local" />
+  </RolePrivileges>
+</Role>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cdf9d587-ca37-4cac-86f6-0d5b7d920a7e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_contact_yyeventid">
+          <cell name="tc_contactid" width="150" />
+          <cell name="a_7f2b36713f22e8118141000c2958e3a5.parentcustomerid" width="150" disableSorting="1" />
+          <cell name="tc_eventid" width="150" />
+          <cell name="tc_attendedind" width="100" />
+          <cell name="tc_interestedind" width="100" />
+          <cell name="tc_mailoutind" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_contact_yyevent">
+          <order attribute="tc_contactid" descending="false" />
+          <order attribute="tc_eventid" descending="false" />
+          <attribute name="tc_eventid" />
+          <attribute name="tc_contactid" />
+          <attribute name="tc_mailoutind" />
+          <attribute name="tc_interestedind" />
+          <attribute name="tc_attendedind" />
+          <link-entity alias="a_7f2b36713f22e8118141000c2958e3a5" name="contact" from="contactid" to="tc_contactid" link-type="outer" visible="false">
+            <attribute name="parentcustomerid" />
+          </link-entity>
+          <attribute name="tc_contact_yyeventid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contact Event Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée « Événement de contact »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

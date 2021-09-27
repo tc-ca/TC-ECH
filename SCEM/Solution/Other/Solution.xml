@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21092.137" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>SCEM</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>DefaultPublisherTransportCanada</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Transport Canada" languagecode="1033" />
+        <LocalizedName description="Transports Canada" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Default publisher for this organization" languagecode="1033" />
+        <Description description="Éditeur par défaut pour cette organisation" languagecode="1036" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true">
+      </EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true">
+      </SupportingWebsiteUrl>
+      <CustomizationPrefix>tc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>94801</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true">
+          </AddressTypeCode>
+          <City xsi:nil="true">
+          </City>
+          <County xsi:nil="true">
+          </County>
+          <Country xsi:nil="true">
+          </Country>
+          <Fax xsi:nil="true">
+          </Fax>
+          <FreightTermsCode xsi:nil="true">
+          </FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true">
+          </ImportSequenceNumber>
+          <Latitude xsi:nil="true">
+          </Latitude>
+          <Line1 xsi:nil="true">
+          </Line1>
+          <Line2 xsi:nil="true">
+          </Line2>
+          <Line3 xsi:nil="true">
+          </Line3>
+          <Longitude xsi:nil="true">
+          </Longitude>
+          <Name xsi:nil="true">
+          </Name>
+          <PostalCode xsi:nil="true">
+          </PostalCode>
+          <PostOfficeBox xsi:nil="true">
+          </PostOfficeBox>
+          <PrimaryContactName xsi:nil="true">
+          </PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true">
+          </ShippingMethodCode>
+          <StateOrProvince xsi:nil="true">
+          </StateOrProvince>
+          <Telephone1 xsi:nil="true">
+          </Telephone1>
+          <Telephone2 xsi:nil="true">
+          </Telephone2>
+          <Telephone3 xsi:nil="true">
+          </Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true">
+          </TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true">
+          </UPSZone>
+          <UTCOffset xsi:nil="true">
+          </UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true">
+          </UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true">
+          </AddressTypeCode>
+          <City xsi:nil="true">
+          </City>
+          <County xsi:nil="true">
+          </County>
+          <Country xsi:nil="true">
+          </Country>
+          <Fax xsi:nil="true">
+          </Fax>
+          <FreightTermsCode xsi:nil="true">
+          </FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true">
+          </ImportSequenceNumber>
+          <Latitude xsi:nil="true">
+          </Latitude>
+          <Line1 xsi:nil="true">
+          </Line1>
+          <Line2 xsi:nil="true">
+          </Line2>
+          <Line3 xsi:nil="true">
+          </Line3>
+          <Longitude xsi:nil="true">
+          </Longitude>
+          <Name xsi:nil="true">
+          </Name>
+          <PostalCode xsi:nil="true">
+          </PostalCode>
+          <PostOfficeBox xsi:nil="true">
+          </PostOfficeBox>
+          <PrimaryContactName xsi:nil="true">
+          </PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true">
+          </ShippingMethodCode>
+          <StateOrProvince xsi:nil="true">
+          </StateOrProvince>
+          <Telephone1 xsi:nil="true">
+          </Telephone1>
+          <Telephone2 xsi:nil="true">
+          </Telephone2>
+          <Telephone3 xsi:nil="true">
+          </Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true">
+          </TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true">
+          </UPSZone>
+          <UTCOffset xsi:nil="true">
+          </UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true">
+          </UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="report" behavior="1" />
+      <RootComponent type="1" schemaName="systemuser" behavior="2" />
+      <RootComponent type="1" schemaName="tc_aycontactgroupmember" behavior="2" />
+      <RootComponent type="1" schemaName="tc_ayemployee" behavior="0" />
+      <RootComponent type="1" schemaName="tc_ayorganizationunit" behavior="0" />
+      <RootComponent type="1" schemaName="tc_aystakeholdergroup" behavior="0" />
+      <RootComponent type="1" schemaName="tc_businessprocessflowevent" behavior="2" />
+      <RootComponent type="1" schemaName="tc_contact_yyevent" behavior="0" />
+      <RootComponent type="1" schemaName="tc_dydocumentprofiletemplate" behavior="2" />
+      <RootComponent type="1" schemaName="tc_dyeventlog" behavior="2" />
+      <RootComponent type="1" schemaName="tc_dyidgenerator" behavior="0" />
+      <RootComponent type="1" schemaName="tc_eventregion" behavior="2" />
+      <RootComponent type="1" schemaName="tc_mbconsultation" behavior="2" />
+      <RootComponent type="1" schemaName="tc_myproject" behavior="2" />
+      <RootComponent type="1" schemaName="tc_organizationcontact" behavior="0" />
+      <RootComponent type="1" schemaName="tc_protectedbdocument" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tbconsultationaudience" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tbconsultationpartner" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tbconsultationrationale" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tbconsultationsector" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tbconsultationsubject" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tyaccounttype" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tyaerodrome" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tycontactinitiativerole" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tyregion" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tytag" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyagreement" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yycomment" behavior="2" />
+      <RootComponent type="1" schemaName="tc_yycontactinitiative" behavior="2" />
+      <RootComponent type="1" schemaName="tc_yycountry" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyevent" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyeventdetail" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyeventgiftexchanged" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyeventindicator" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyeventissue" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyeventkeymessage" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyeventobjective" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyeventoutcome" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyinitiative" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyorganizationagreement" behavior="2" />
+      <RootComponent type="1" schemaName="tc_yyprovincestate" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yystakeholderposition" behavior="0" />
+      <RootComponent type="9" schemaName="tc_contacttype" behavior="0" />
+      <RootComponent type="9" schemaName="tc_eventcategory" behavior="0" />
+      <RootComponent type="9" schemaName="tc_eventlevelopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_eventstatusopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_eventtypeopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_groupregioncodeopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_paa_aap_opt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_programcodesopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_quarter" behavior="0" />
+      <RootComponent type="9" schemaName="tc_scesthreeoptions" behavior="0" />
+      <RootComponent type="9" schemaName="tc_socodeopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_transportationmode" behavior="0" />
+      <RootComponent type="9" schemaName="tc_yesnonaopt" behavior="0" />
+      <RootComponent type="20" id="{1b87cce7-ab07-e911-8b93-00155ddc0400}" behavior="0" />
+      <RootComponent type="20" id="{23844816-ebcb-e811-80e8-005056812059}" behavior="0" />
+      <RootComponent type="20" id="{3f16a7fd-ab07-e911-8b93-00155ddc0400}" behavior="0" />
+      <RootComponent type="20" id="{62ec7617-92ae-e711-813b-000c2958e3a5}" behavior="0" />
+      <RootComponent type="20" id="{64a1937b-e25f-eb11-a812-000d3af4fb66}" behavior="0" />
+      <RootComponent type="20" id="{86e7d9f2-1d04-ec11-b6e7-0022486d73fd}" behavior="0" />
+      <RootComponent type="20" id="{ae0a3a4a-bf1c-ec11-b6e7-000d3a09e6b7}" behavior="0" />
+      <RootComponent type="20" id="{b4a54764-ea01-e811-8140-000c2958e3a5}" behavior="0" />
+      <RootComponent type="20" id="{c18dbfc5-121a-ec11-b6e7-000d3a09e19f}" behavior="0" />
+      <RootComponent type="20" id="{c5f2bed0-1d04-ec11-b6e7-0022486d73fd}" behavior="0" />
+      <RootComponent type="20" id="{c89d940b-92ae-e711-813b-000c2958e3a5}" behavior="0" />
+      <RootComponent type="20" id="{ed3e1428-a915-e811-8140-000c2958e3a5}" behavior="0" />
+      <RootComponent type="29" id="{5d7949b5-3bf3-4032-a313-eaf2985b1921}" behavior="0" />
+      <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      <RootComponent type="61" schemaName="tc_/Core/group16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/group32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/employee16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/Employee32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/SCES/Consultation16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/SCES/Consultation32.png" behavior="0" />
+      <RootComponent type="62" schemaName="tc_SCEM" behavior="0" />
+      <RootComponent type="80" schemaName="tc_SCEM" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

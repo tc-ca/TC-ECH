@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{da7c4799-d308-4a86-981c-9d4875f993ca}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_tagnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tytagid">
+          <cell name="tc_tagnm" width="300" />
+          <cell name="tc_categoryid" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tytag">
+          <attribute name="tc_tagnm" />
+          <order attribute="tc_tagnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="tc_categoryid" />
+          <attribute name="tc_tytagid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.2.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Tags" languagecode="1033" />
+      <LocalizedName description="Balises inactives" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

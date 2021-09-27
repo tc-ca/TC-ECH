@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{eb379d18-d1ce-468f-a05f-553df69fb5a2}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{353eff65-4dd9-4889-a8e9-2f30049ef220}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+            <label description="Onglet" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="70%">
+              <sections>
+                <section id="{f44fc20b-7b61-44c6-9fc3-5f54adef7609}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{de6b0730-293c-0209-0ea4-e2a0698431d4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Detail Type" languagecode="1033" />
+                          <label description="Type de détail d'événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventdetailtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventdetailtypecd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51c174c0-4848-09c0-d8b4-71a2c813bbd4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                          <label description="Titre" languagecode="1036" />
+                        </labels>
+                        <control id="tc_titletxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_titletxt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bdd9e623-aa09-c31d-9e41-839688d89b7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                          <label description="Pays" languagecode="1036" />
+                        </labels>
+                        <control id="tc_country" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_country" disabled="false" uniqueid="{52c44e00-86e4-ae7d-9c08-b08ea15a8bac}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b459a9be-a1bd-32d9-9c38-33a34bbc44e6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Compte" languagecode="1036" />
+                        </labels>
+                        <control id="tc_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_organizationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{80670f73-d8a4-41c1-9fd1-a3dc9823ce0c}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Contacts" languagecode="1033" />
+                        </labels>
+                        <control id="tc_contacts" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_contacts" disabled="false" uniqueid="{cb04a662-2ca4-5ca0-3434-30059ad47ad5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{042a8ea5-d3a2-a8be-5469-4112b6a19bbe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Commitment" languagecode="1033" />
+                          <label description="Engagement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_commitmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_commitmentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a916abc-2d49-28aa-e581-9035bb5577e2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Item Status" languagecode="1033" />
+                          <label description="État de la mesure de suivi" languagecode="1036" />
+                        </labels>
+                        <control id="tc_actionitemstatuscd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_actionitemstatuscd" disabled="false" uniqueid="{85958853-cac9-6392-a963-d65a13d89546}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47ac0c3d-ea6b-2478-8d69-57a3480bbc8b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Action Item Assigned To" languagecode="1033" />
+                          <label description="Mesure de suivi assignée à" languagecode="1036" />
+                        </labels>
+                        <control id="tc_actionitemassignedtoid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_actionitemassignedtoid" disabled="false" uniqueid="{78c6ee69-b93a-04eb-3e8a-23272c699d33}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4314ACC5-C239-E811-8141-000C2958E3A5}</DefaultViewId>
+                            <AvailableViewIds>{4314ACC5-C239-E811-8141-000C2958E3A5}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e18bded8-ec1d-3576-0290-053a6c3226d4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                          <label description="Date d’échéance" languagecode="1036" />
+                        </labels>
+                        <control id="tc_duedte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_duedte" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7d8cb9d-8c9b-5976-a9c0-a2a77bdb36a6}" showlabel="true" locklevel="0" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Comment/Note" languagecode="1033" />
+                          <label description="Commentaire/Note" languagecode="1036" />
+                        </labels>
+                        <control id="tc_commentnotetxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_commentnotetxt" disabled="false" uniqueid="{a8667841-5432-50a3-2ab3-84e8ce8beea6}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="5%">
+              <sections>
+                <section id="{73137e81-a91d-44cb-ab65-7493f7fec35f}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5ce4d6e6-e59e-46e9-b975-9059dcfd386f}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="25%">
+              <sections>
+                <section id="{eb1fe857-52bf-43c8-856e-500ce3b074a9}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{04473d76-0b95-2e99-22cc-142d2bc27ad0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event" languagecode="1033" />
+                          <label description="Événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_eventid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="tc_EventActionItemFormLoad" libraryUniqueId="{c919c727-078e-eb82-863a-2c78c2a0667e}" />
+        <Library name="tc_/OPP/SetEventDetailsType.js" libraryUniqueId="{1c8e5682-3261-4a92-cb1c-c92ba2348717}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler handlerUniqueId="{a8375a27-0e9b-73ea-33e9-21d81dc17b27}" functionName="eventActionItemFormLoad" libraryName="tc_EventActionItemFormLoad" enabled="true" passExecutionContext="true" parameters="" />
+            <Handler functionName="setEventDetailType" libraryName="tc_/OPP/SetEventDetailsType.js" handlerUniqueId="{8059aae1-eea6-86e6-7c3a-9e4022b16972}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions>
+        <controlDescription forControl="{cb04a662-2ca4-5ca0-3434-30059ad47ad5}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>tc_contacts</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_contacts</value>
+              <linkedEntityName static="true" type="SingleLine.Text">contact</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">fullname</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">contactid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_EventDetails_Contacts</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_eventdetails_contacts</relationshipEntity>
+              <linkedEntityFetchXmlResource static="true" type="SingleLine.Text">WebResources/tc_/Core/EventDetailContactsFetchXML</linkedEntityFetchXmlResource>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_contacts</value>
+              <linkedEntityName static="true" type="SingleLine.Text">contact</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">fullname</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">contactid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_EventDetails_Contacts</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_eventdetails_contacts</relationshipEntity>
+              <linkedEntityFetchXmlResource static="true" type="SingleLine.Text">WebResources/tc_/Core/EventDetailContactsFetchXML</linkedEntityFetchXmlResource>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
+            <parameters>
+              <value>tc_contacts</value>
+              <linkedEntityName static="true" type="SingleLine.Text">contact</linkedEntityName>
+              <nameAttribute static="true" type="SingleLine.Text">fullname</nameAttribute>
+              <idAttribute static="true" type="SingleLine.Text">contactid</idAttribute>
+              <relationshipName static="true" type="SingleLine.Text">tc_EventDetails_Contacts</relationshipName>
+              <relationshipEntity static="true" type="SingleLine.Text">tc_eventdetails_contacts</relationshipEntity>
+              <linkedEntityFetchXmlResource static="true" type="SingleLine.Text">WebResources/tc_/Core/EventDetailContactsFetchXML</linkedEntityFetchXmlResource>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Event Detail Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1eeed5d8-fa14-4a55-8113-bc958c739694}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_typenm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tyaccounttypeid">
+          <cell name="tc_typenm" width="300" />
+          <cell name="tc_categorycd" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tyaccounttype">
+          <attribute name="tc_typenm" />
+          <order attribute="tc_typenm" descending="false" />
+          <attribute name="tc_categorycd" />
+          <attribute name="tc_tyaccounttypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="OPP Organization Type Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée « Type d’organisation du PPO »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

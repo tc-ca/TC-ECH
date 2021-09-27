@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{01d7ba0b-b832-4407-90c5-d99092b948cd}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="tc_namenm" select="1" icon="1" preview="1">
+        <row name="tc_tbconsultationaudience" id="tc_tbconsultationaudienceid">
+          <cell name="tc_namenm" width="300" />
+          <cell name="tc_pcoid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tbconsultationaudience">
+          <attribute name="tc_namenm" />
+          <order attribute="tc_namenm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_pcoid" />
+          <attribute name="tc_tbconsultationaudienceid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.2.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Audience Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée « Public »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

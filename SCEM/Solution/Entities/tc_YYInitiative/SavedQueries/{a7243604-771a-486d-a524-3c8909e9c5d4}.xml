@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a7243604-771a-486d-a524-3c8909e9c5d4}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="tc_initiativenm" select="1" icon="1" preview="0">
+        <row name="tc_yyinitiative" id="tc_yyinitiativeid">
+          <cell name="tc_initiativenm" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyinitiative">
+          <attribute name="tc_yyinitiativeid" />
+          <attribute name="tc_initiativenm" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="tc_initiativenm" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Initiative Lookup View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche « Initiative »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_groupregioncodeopt" localizedName="Group / Region Code" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Group / Region Code" languagecode="1033" />
+    <displayname description="Code de groupe/Région" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="8" Color="#0000ff">
+      <labels>
+        <label description="HQ - S&amp;S" languagecode="1033" />
+        <label description="AC – S et S" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1" Color="#0000ff">
+      <labels>
+        <label description="Atlantic" languagecode="1033" />
+        <label description="Atlantique" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" Color="#0000ff">
+      <labels>
+        <label description="Quebec" languagecode="1033" />
+        <label description="Québec" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" Color="#0000ff">
+      <labels>
+        <label description="Ontario" languagecode="1033" />
+        <label description="Ontario" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" Color="#0000ff">
+      <labels>
+        <label description="PNR" languagecode="1033" />
+        <label description="RPN" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="5" Color="#0000ff">
+      <labels>
+        <label description="Pacific" languagecode="1033" />
+        <label description="Pacifique" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" Color="#0000ff">
+      <labels>
+        <label description="HQ - Corporate Services" languagecode="1033" />
+        <label description="AC – Services généraux" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="7" Color="#0000ff">
+      <labels>
+        <label description="HQ - Policy" languagecode="1033" />
+        <label description="AC – Politiques" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="9" Color="#0000ff">
+      <labels>
+        <label description="HQ - Programs" languagecode="1033" />
+        <label description="AC – Programmes" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="10" Color="#0000ff">
+      <labels>
+        <label description="HQ - Communications" languagecode="1033" />
+        <label description="AC – Communications" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="11" Color="#0000ff">
+      <labels>
+        <label description="HQ - Departmental General Counsel" languagecode="1033" />
+        <label description="AC – Avocat général du Ministère" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="12" Color="#0000ff">
+      <labels>
+        <label description="HQ - Corporate Secretariat" languagecode="1033" />
+        <label description="AC – Secrétariat ministériel" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="13" Color="#0000ff">
+      <labels>
+        <label description="HQ - Audit, Evaluation &amp; Advisory Services" languagecode="1033" />
+        <label description="AC – Services de vérification, d’évaluation et de conseils" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

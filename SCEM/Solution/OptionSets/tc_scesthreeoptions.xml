@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_scesthreeoptions" localizedName="SCES - Three Options" description="Expanded yes/no options" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>0.2.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="SCES - Three Options" languagecode="1033" />
+    <displayname description="SMCI - Trois options" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Expanded yes/no options" languagecode="1033" />
+    <Description description="Options oui/non prolongée" languagecode="1036" />
+  </Descriptions>
+  <options>
+    <option value="948010000" ExternalValue="" Color="">
+      <labels>
+        <label description="No" languagecode="1033" />
+        <label description="Non" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010001" ExternalValue="" Color="">
+      <labels>
+        <label description="Yes" languagecode="1033" />
+        <label description="Oui" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

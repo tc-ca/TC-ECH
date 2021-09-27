@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{78156ed1-3d72-43b5-a919-93bcf31ad2cb}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="tc_eventnm" select="1" icon="1" preview="0">
+        <row name="tc_yyevent" id="tc_yyeventid">
+          <cell name="tc_eventnm" width="300" />
+          <cell name="tc_startdte" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_yyevent">
+          <attribute name="tc_yyeventid" />
+          <attribute name="tc_eventnm" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="tc_eventnm" descending="false" />
+          <attribute name="tc_startdte" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Event Lookup View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche « Événement »" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{87564713-fd1e-4271-9997-51753062cc13}</formid>
+    <IntroducedVersion>0.2.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{a85d4d40-1e7f-4c94-a22d-9d483f1752af}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{628a55fe-7717-4c8a-8b5c-18c64d91d896}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Généralités" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4c4dba9e-1e2a-4346-bb91-37751b73bdc1}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="tc_namenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_namenm" uniqueid="{2405660a-6bde-4694-b0e6-ac30e39bd086}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a903290d-5b1b-25e3-dba5-da6d31743db4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="English Name" languagecode="1033" />
+                          <label description="Nom en anglais" languagecode="1036" />
+                        </labels>
+                        <control id="tc_nameenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_nameenm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e4dad79-556b-e539-50d8-9a46a04b5867}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="French Name" languagecode="1033" />
+                          <label description="Nom en français" languagecode="1036" />
+                        </labels>
+                        <control id="tc_namefnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_namefnm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e07d377-aa3d-b45d-2bae-cdd79a591308}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="English Description" languagecode="1033" />
+                          <label description="Description en anglais" languagecode="1036" />
+                        </labels>
+                        <control id="tc_sectoretxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_sectoretxt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40b602cb-56c8-4d59-5617-9a7e7679247c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="French Description" languagecode="1033" />
+                          <label description="Description en français" languagecode="1036" />
+                        </labels>
+                        <control id="tc_sectorftxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_sectorftxt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{890b98be-a92b-663c-3cb7-30a37d67481b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="PCO Id" languagecode="1033" />
+                          <label description="Identificateur du BCP" languagecode="1036" />
+                        </labels>
+                        <control id="tc_pcoid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_pcoid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{3bfc9576-25b3-4be6-92e4-83e3874f9ede}" columns="111">
+        <rows>
+          <row>
+            <cell id="{e8d98658-2466-190b-6772-686ed2ed0017}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{2eb7931b-e54e-1204-50d6-d6160053adb2}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{0d48e66c-9a99-a283-88c9-de018a2564b6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Renseignements" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

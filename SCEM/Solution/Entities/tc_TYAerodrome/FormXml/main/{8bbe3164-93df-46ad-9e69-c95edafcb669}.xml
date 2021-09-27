@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8bbe3164-93df-46ad-9e69-c95edafcb669}</formid>
+    <IntroducedVersion>0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{9f16b410-0170-4554-bacb-93bfc17f7064}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2396978e-6a14-4a9a-a2b8-561792198707}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{84428edc-7ab2-4729-9258-e2379fe75643}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="tc_aerodromenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_aerodromenm" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be159ac8-beb8-11b3-7c2d-8e84ccd544b7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name (English)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_aerodromeenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_aerodromeenm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21900b33-9ae2-36c7-5638-b33a24ec3a33}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name (French)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_aerodromefnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_aerodromefnm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13243c77-0c51-a3bb-bd64-6368c660c16e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Airport Name" languagecode="1033" />
+                          <label description="Nom de l’aéroport" languagecode="1036" />
+                        </labels>
+                        <control id="tc_airportnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_airportnm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1473665c-2371-82a0-68cd-a0a65c5d66dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                          <label description="Ville" languagecode="1036" />
+                        </labels>
+                        <control id="tc_citynm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_citynm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da1676c8-03cb-3337-8712-d74b468b8d08}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Province" languagecode="1033" />
+                        </labels>
+                        <control id="tc_provinceid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_provinceid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ae46c37-de6e-214a-6beb-76645eb6aab0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                          <label description="Pays" languagecode="1036" />
+                        </labels>
+                        <control id="tc_countryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_countryid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{415cdbb3-8325-1899-7e28-1818ed48b801}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude" languagecode="1033" />
+                          <label description="Latitude" languagecode="1036" />
+                        </labels>
+                        <control id="tc_latitudegis" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudegis" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a955e6e-8327-7ab0-d383-643c75dc1181}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude" languagecode="1033" />
+                          <label description="Longitude" languagecode="1036" />
+                        </labels>
+                        <control id="tc_longitudegis" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudegis" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ba2c398d-a58a-c2a9-4ee6-62bbd92dc364}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ICAO Code" languagecode="1033" />
+                          <label description="Code de l’OACI" languagecode="1036" />
+                        </labels>
+                        <control id="tc_icaocd" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_icaocd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5fa6e083-7f5d-488f-82d6-7fb508acd5c7}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

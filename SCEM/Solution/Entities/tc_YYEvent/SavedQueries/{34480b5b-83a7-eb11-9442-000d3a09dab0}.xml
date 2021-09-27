@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{34480b5b-83a7-eb11-9442-000d3a09dab0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" preview="1" icon="1">
+        <row name="result" id="tc_yyeventid">
+          <cell name="tc_eventnm" width="150" />
+          <cell name="tc_startdte" width="100" />
+          <cell name="tc_eventtxt" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="tc_yyevent">
+          <attribute name="tc_eventnm" />
+          <attribute name="tc_startdte" />
+          <attribute name="tc_eventtxt" />
+          <order attribute="tc_eventnm" descending="false" />
+          <filter type="and">
+            <condition attribute="tc_initiatives" operator="eq" value="OPP 2.0" />
+          </filter>
+          <attribute name="tc_yyeventid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.47.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="OPP Forward Planning" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

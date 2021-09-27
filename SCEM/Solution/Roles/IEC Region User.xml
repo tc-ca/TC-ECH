@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{64a1937b-e25f-eb11-a812-000d3af4fb66}" name="IEC Region User" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendAccount" level="Deep" />
+    <RolePrivilege name="prvAppendContact" level="Deep" />
+    <RolePrivilege name="prvAppendtc_TYBranch" level="Deep" />
+    <RolePrivilege name="prvAppendtc_TYLookupReference" level="Deep" />
+    <RolePrivilege name="prvAppendtc_TYOtherGovernment" level="Deep" />
+    <RolePrivilege name="prvAppendtc_TYTag" level="Deep" />
+    <RolePrivilege name="prvAppendtc_TYTagCategory" level="Deep" />
+    <RolePrivilege name="prvAppendToAccount" level="Deep" />
+    <RolePrivilege name="prvAppendToContact" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_TYBranch" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_TYLookupReference" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_TYOtherGovernment" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_TYTag" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_TYTagCategory" level="Deep" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadAccount" level="Deep" />
+    <RolePrivilege name="prvReadContact" level="Deep" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadtc_MYProject" level="Deep" />
+    <RolePrivilege name="prvReadtc_TYBranch" level="Deep" />
+    <RolePrivilege name="prvReadtc_TYLookupReference" level="Deep" />
+    <RolePrivilege name="prvReadtc_TYOtherGovernment" level="Deep" />
+    <RolePrivilege name="prvReadtc_TYTag" level="Deep" />
+    <RolePrivilege name="prvReadtc_TYTagCategory" level="Deep" />
+    <RolePrivilege name="prvWriteAccount" level="Deep" />
+    <RolePrivilege name="prvWriteContact" level="Deep" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

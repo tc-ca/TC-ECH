@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{33dbddcc-4e24-eb11-a813-000d3af4346a}</formid>
+    <IntroducedVersion>1.73.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{7d279c5c-2d0a-40c5-b760-08d0c15cfde5}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{27bf8b3d-b21b-4ba3-abde-ce5bfef8f13b}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e441a36e-8e3f-4b86-8de6-c488571ed031}" locklevel="0" labelid="{d4e51232-3825-45a5-a3f6-cb96e2e9a02f}">
+                        <labels>
+                          <label description="Number" languagecode="1033" />
+                          <label description="Nombre" languagecode="1036" />
+                        </labels>
+                        <control id="tc_number" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_number" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a0f16b2-170d-4067-91fb-df0261e2ba7d}" locklevel="0" labelid="{6598acdc-a51c-4167-b58b-1ac05f2ba4ad}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="tc_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2761778e-c570-44b3-b9fe-f56839cfecfa}" locklevel="0" labelid="{9b28a56c-80f1-4b5e-921a-f8c33fc04c7d}">
+                        <labels>
+                          <label description="Author" languagecode="1033" />
+                          <label description="Auteur" languagecode="1036" />
+                        </labels>
+                        <control id="tc_author" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_author" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{deae9bf8-ecc8-4ee6-b295-c9933641d084}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{43593510-2fa6-47a0-8647-de9f4d3c274c}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{51c52ec9-ed56-4c9f-9579-2a043333c41a}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{0a704818-56bb-4d76-a3e5-d641af27157c}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{8ec6249f-74b9-4ff5-ba2a-19d516a30983}" />
+        <Role Id="{b5aca535-7498-48b5-997a-1f8c675d1d10}" />
+        <Role Id="{72cc1ca1-94d6-4d7d-b5fa-611cb0dce650}" />
+        <Role Id="{e9fe9080-789f-468e-87d3-6544b5d4e891}" />
+        <Role Id="{3da0125a-90c4-425d-9962-9877835e7192}" />
+        <Role Id="{ff601540-59b3-4069-8df1-ba4fe6fc289a}" />
+        <Role Id="{a5fb16eb-df56-4526-ba56-c4b898e246dd}" />
+        <Role Id="{33978014-a29c-44bc-bf46-cec43f4937dd}" />
+        <Role Id="{6e735a05-00f2-4a92-8960-ef098c5588a4}" />
+        <Role Id="{670e141e-9be4-4178-be15-f07d499a444c}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description=" quick create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
