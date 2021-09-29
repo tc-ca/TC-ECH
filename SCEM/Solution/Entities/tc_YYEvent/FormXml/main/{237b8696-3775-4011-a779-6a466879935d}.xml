@@ -176,6 +176,7 @@
                       <cell id="{7bd71262-d475-824e-3d1d-7d39cb5b3442}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Virtual address" languagecode="1033" />
+                          <label description="Adresse virtuelle" languagecode="1036" />
                         </labels>
                         <control id="tc_virtualadress" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_virtualadress" disabled="false" />
                       </cell>
@@ -231,6 +232,7 @@
                       <cell id="{0a95e4b1-9413-936a-6ee4-111bcdc8b7a5}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Number of days at the event" languagecode="1033" />
+                          <label description="Nombre de jours à l'événement" languagecode="1036" />
                         </labels>
                         <control id="tc_numberofdayattheevent" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_numberofdayattheevent" disabled="false" />
                       </cell>
