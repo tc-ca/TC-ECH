@@ -4313,6 +4313,7 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="Number of days at the event" languagecode="1033" />
+            <displayname description="Nombre de jours à l'événement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -6392,6 +6393,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Virtual address" languagecode="1033" />
+            <displayname description="Adresse virtuelle" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />

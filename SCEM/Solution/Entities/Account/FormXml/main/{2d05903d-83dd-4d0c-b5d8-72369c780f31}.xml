@@ -5,14 +5,14 @@
     <IntroducedVersion>0.24.1.1</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form showImage="true" shownavigationbar="true" maxWidth="1900">
+    <form showImage="true" shownavigationbar="true" maxWidth="1900" headerdensity="HighWithControls">
       <ancestor id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       <hiddencontrols>
         <data id="address1_addressid" datafieldname="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{da62babb-a8bf-40d5-ae67-9a62d5ebb80d}">
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" labelid="{da62babb-a8bf-40d5-ae67-9a62d5ebb80d}">
           <labels>
             <label description="Summary" languagecode="1033" />
             <label description="Résumé" languagecode="1036" />
@@ -325,6 +325,63 @@
             </column>
           </columns>
         </tab>
+        <tab name="projecttab" id="{cd6b5075-8118-1376-8b8d-51641742d14c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Projects" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="{03faa8a3-26b1-4419-9088-2fb82e6f69d8}_section_5" showlabel="false" showbar="false" locklevel="0" id="{192cc86a-644e-d398-c519-d93ba8a6a16b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Projects" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b62c2e0c-b7ad-a56e-a66a-060465cea07c}" showlabel="true" colspan="1" auto="false" rowspan="13">
+                        <labels>
+                          <label description="Projects" languagecode="1033" />
+                          <label description="Droits du projet" languagecode="1036" />
+                        </labels>
+                        <control id="projectsGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e1e7a317-dddb-6b56-5675-a4900c8c0aad}">
+                          <parameters>
+                            <ViewId>{7AB0D636-4121-EC11-B6E6-0022486D86AE}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_proponent_proponentsprojects</RelationshipName>
+                            <TargetEntityType>tc_proponentsprojects</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{69A191EC-AB5C-4D9C-9F14-1A8B92B1C02D},{7AB0D636-4121-EC11-B6E6-0022486D86AE}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
         <tab name="tab_4" id="{574b28ea-43a0-5307-0d8b-c407b3035188}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Tags" languagecode="1033" />
@@ -610,6 +667,9 @@
       </footer>
       <formLibraries>
         <Library name="tc_switchforms" libraryUniqueId="{aa510067-50be-88da-2518-ba212eb16268}" />
+        <Library name="tc_/asce/save.form.js" libraryUniqueId="{b9a672ba-8d27-2064-a3cd-a2994d8ebc70}" />
+        <Library name="tc_ASCEScripts" libraryUniqueId="{a751bc20-e9a0-3815-aada-95e2b320c91c}" />
+        <Library name="tc_/EGISIntegration/EsriAboriginalConsultationMaps.js" libraryUniqueId="{6ae5e719-a96d-0ebb-358a-84e781771c9d}" />
       </formLibraries>
       <events>
         <event name="onload" application="false" active="false">
