@@ -171,6 +171,7 @@
     <RolePrivilege name="prvCreateSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvCreatetc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvCreatetc_AYOrganizationGroupMember" level="Deep" />
+    <RolePrivilege name="prvCreatetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvCreatetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvCreatetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvCreatetc_Covid19Measure" level="Deep" />
@@ -191,7 +192,6 @@
     <RolePrivilege name="prvCreatetc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYEventOutcome" level="Deep" />
-    <RolePrivilege name="prvCreatetc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYOrganizationObjective" level="Deep" />
@@ -258,7 +258,7 @@
     <RolePrivilege name="prvReadSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvReadtc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvReadtc_AYOrganizationGroupMember" level="Deep" />
-    <RolePrivilege name="prvReadtc_AYStakeholderGroup" level="Global" />
+    <RolePrivilege name="prvReadtc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvReadtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvReadtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvReadtc_Covid19Measure" level="Deep" />
@@ -358,6 +358,7 @@
     <RolePrivilege name="prvWriteSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvWritetc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvWritetc_AYOrganizationGroupMember" level="Deep" />
+    <RolePrivilege name="prvWritetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvWritetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvWritetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvWritetc_Covid19Measure" level="Deep" />

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{95313ee9-a693-4370-a961-0454d27955b0}</formid>
+    <IntroducedVersion>0.36.1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d8743186-0f48-42f8-a612-adb0bd6146b4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2a3405f0-d1d8-40d4-a1be-23e7a3561023}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2856e141-07d6-ed84-86d0-4e89c46d5a4e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                          <label description="Projet" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_projectid" disabled="false">
+                          <parameters>
+                            <DisableMru>true</DisableMru>
+                            <useMainFormDialogForCreate>true</useMainFormDialogForCreate>
+                            <useMainFormDialogForEdit>true</useMainFormDialogForEdit>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c17a06e-7cd6-260d-2259-da47aae6aa0d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Proponent" languagecode="1033" />
+                          <label description="Promoteur" languagecode="1036" />
+                        </labels>
+                        <control id="tc_proponentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_proponentid" disabled="false">
+                          <parameters>
+                            <DisableMru>true</DisableMru>
+                            <useMainFormDialogForCreate>true</useMainFormDialogForCreate>
+                            <useMainFormDialogForEdit>true</useMainFormDialogForEdit>
+                            <DefaultViewId>{7F2ED86D-0739-E911-80F0-005056814DDF}</DefaultViewId>
+                            <AvailableViewIds>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB},{61273827-328E-E011-95AE-00155D9CFA03},{61273827-328E-E011-95AE-00155D9CFA02},{15C63745-0A6E-4322-8416-A62C84D90279},{CFBCD7AF-AEE5-4E45-8ECC-C040D4020581},{49FB9771-09E1-4E70-B193-198752493577},{00000000-0000-0000-00AA-000010001002},{9FEC1C30-28A4-E911-80F7-005056817C30},{65FFAF9A-E8C5-432D-860B-32F841B00D87},{7DE498C2-508F-49A4-B2E8-D550D5B1B9EE},{2536DC68-BA2B-E911-80EF-005056815FA7},{98A6A403-5D8C-E911-80F6-005056817C30},{A259457E-0839-E911-80EF-005056815FA7},{7F2ED86D-0739-E911-80F0-005056814DDF},{00000000-0000-0000-00AA-000010001031},{00000000-0000-0000-00AA-000010001001},{D234426E-1F37-4944-9255-50E19B541C4C},{4680AD85-D8FA-E711-8140-000C2958E3A5},{D15E48F6-E8FE-E811-8165-000D3AF92C6E},{4B22F374-B2F5-E911-A813-000D3AF42C56}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a64f0114-9074-4cd4-87bf-e0cf7c5426b9}" columns="111">
+        <rows>
+          <row>
+            <cell id="{f2b072ed-7b5c-4630-bf86-b8cf644aa189}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2c6b8692-edee-6508-c9eb-4b5a83d84149}" showlabel="true" locklevel="0" visible="false">
+              <labels>
+                <label description="Name" languagecode="1033" />
+              </labels>
+              <control id="header_tc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_name" disabled="false" uniqueid="{ca682924-3e77-3762-062b-0398371445c0}" />
+            </cell>
+            <cell id="{aa9715e4-117c-c33e-3362-c4dd56282786}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f277817e-adae-4198-a3b1-17a5d47a814d}" columns="111">
+        <rows>
+          <row>
+            <cell id="{cd941c1d-4534-084e-4ca3-cc099233284c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{0493ce91-0e65-837a-6259-9d4052d0ad6a}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{cbeed0c3-c633-2532-8a91-aa1c6a9a6927}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+                <label description="Créé par" languagecode="1036" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

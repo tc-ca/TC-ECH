@@ -5,6 +5,7 @@
     <RolePrivilege name="prvAppendAccount" level="Deep" />
     <RolePrivilege name="prvAppendActionCard" level="Basic" />
     <RolePrivilege name="prvAppendActivity" level="Deep" />
+    <RolePrivilege name="prvAppendBusinessUnit" level="Deep" />
     <RolePrivilege name="prvAppendConnection" level="Deep" />
     <RolePrivilege name="prvAppendConnectionRole" level="Global" />
     <RolePrivilege name="prvAppendContact" level="Deep" />
@@ -33,6 +34,7 @@
     <RolePrivilege name="prvAppendtc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAppendtc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvAppendtc_ProtectedBDocument" level="Global" />
+    <RolePrivilege name="prvAppendtc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvAppendtc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvAppendtc_TYRegion" level="Global" />
     <RolePrivilege name="prvAppendtc_YYAgreement" level="Deep" />
@@ -55,9 +57,11 @@
     <RolePrivilege name="prvAppendtc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYProvinceState" level="Global" />
     <RolePrivilege name="prvAppendtc_YYStakeholderPosition" level="Deep" />
+    <RolePrivilege name="prvAppendTeam" level="Deep" />
     <RolePrivilege name="prvAppendToAccount" level="Deep" />
     <RolePrivilege name="prvAppendToActionCard" level="Global" />
     <RolePrivilege name="prvAppendToActivity" level="Deep" />
+    <RolePrivilege name="prvAppendToBusinessUnit" level="Deep" />
     <RolePrivilege name="prvAppendToConnection" level="Deep" />
     <RolePrivilege name="prvAppendToConnectionRole" level="Global" />
     <RolePrivilege name="prvAppendToContact" level="Deep" />
@@ -86,6 +90,7 @@
     <RolePrivilege name="prvAppendTotc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAppendTotc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvAppendTotc_ProtectedBDocument" level="Global" />
+    <RolePrivilege name="prvAppendTotc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvAppendTotc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYRegion" level="Global" />
     <RolePrivilege name="prvAppendTotc_YYAgreement" level="Deep" />
@@ -108,8 +113,11 @@
     <RolePrivilege name="prvAppendTotc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYProvinceState" level="Global" />
     <RolePrivilege name="prvAppendTotc_YYStakeholderPosition" level="Deep" />
+    <RolePrivilege name="prvAppendToTeam" level="Deep" />
     <RolePrivilege name="prvAppendToTranslationProcess" level="Global" />
+    <RolePrivilege name="prvAppendToUser" level="Deep" />
     <RolePrivilege name="prvAppendTranslationProcess" level="Global" />
+    <RolePrivilege name="prvAppendUser" level="Deep" />
     <RolePrivilege name="prvAssignAccount" level="Deep" />
     <RolePrivilege name="prvAssignActivity" level="Deep" />
     <RolePrivilege name="prvAssignConnection" level="Deep" />
@@ -130,6 +138,7 @@
     <RolePrivilege name="prvAssigntc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvAssigntc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvAssigntc_ProtectedBDocument" level="Global" />
+    <RolePrivilege name="prvAssigntc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvAssigntc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvAssigntc_TYRegion" level="Global" />
     <RolePrivilege name="prvAssigntc_YYComment" level="Deep" />
@@ -184,6 +193,7 @@
     <RolePrivilege name="prvCreatetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvCreatetc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvCreatetc_ProtectedBDocument" level="Global" />
+    <RolePrivilege name="prvCreatetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvCreatetc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvCreatetc_TYRegion" level="Global" />
     <RolePrivilege name="prvCreatetc_YYComment" level="Deep" />
@@ -243,6 +253,7 @@
     <RolePrivilege name="prvReadActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvReadActivity" level="Deep" />
     <RolePrivilege name="prvReadAuditSummary" level="Global" />
+    <RolePrivilege name="prvReadBusinessUnit" level="Deep" />
     <RolePrivilege name="prvReadConnection" level="Deep" />
     <RolePrivilege name="prvReadConnectionRole" level="Global" />
     <RolePrivilege name="prvReadContact" level="Deep" />
@@ -282,6 +293,7 @@
     <RolePrivilege name="prvReadtc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvReadtc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvReadtc_ProtectedBDocument" level="Global" />
+    <RolePrivilege name="prvReadtc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvReadtc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvReadtc_TYRegion" level="Global" />
     <RolePrivilege name="prvReadtc_YYAgreement" level="Deep" />
@@ -304,7 +316,9 @@
     <RolePrivilege name="prvReadtc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvReadtc_YYProvinceState" level="Global" />
     <RolePrivilege name="prvReadtc_YYStakeholderPosition" level="Deep" />
+    <RolePrivilege name="prvReadTeam" level="Deep" />
     <RolePrivilege name="prvReadTranslationProcess" level="Global" />
+    <RolePrivilege name="prvReadUser" level="Deep" />
     <RolePrivilege name="prvReadUserQuery" level="Basic" />
     <RolePrivilege name="prvReadWebWizard" level="Global" />
     <RolePrivilege name="prvReadWizardAccessPrivilege" level="Global" />
@@ -328,6 +342,7 @@
     <RolePrivilege name="prvSharetc_OtherMeasureType" level="Deep" />
     <RolePrivilege name="prvSharetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvSharetc_ProtectedBDocument" level="Global" />
+    <RolePrivilege name="prvSharetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvSharetc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvSharetc_TYRegion" level="Global" />
     <RolePrivilege name="prvSharetc_YYComment" level="Deep" />
@@ -353,6 +368,7 @@
     <RolePrivilege name="prvWriteActionCard" level="Basic" />
     <RolePrivilege name="prvWriteActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvWriteActivity" level="Deep" />
+    <RolePrivilege name="prvWriteBusinessUnit" level="Deep" />
     <RolePrivilege name="prvWriteConnection" level="Deep" />
     <RolePrivilege name="prvWriteConnectionRole" level="Global" />
     <RolePrivilege name="prvWriteContact" level="Deep" />
@@ -382,6 +398,7 @@
     <RolePrivilege name="prvWritetc_pbdocscountry" level="Global" />
     <RolePrivilege name="prvWritetc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvWritetc_ProtectedBDocument" level="Global" />
+    <RolePrivilege name="prvWritetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvWritetc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvWritetc_TYRegion" level="Global" />
     <RolePrivilege name="prvWritetc_YYAgreement" level="Deep" />
@@ -404,7 +421,9 @@
     <RolePrivilege name="prvWritetc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvWritetc_YYProvinceState" level="Global" />
     <RolePrivilege name="prvWritetc_YYStakeholderPosition" level="Deep" />
+    <RolePrivilege name="prvWriteTeam" level="Deep" />
     <RolePrivilege name="prvWriteTranslationProcess" level="Global" />
+    <RolePrivilege name="prvWriteUser" level="Deep" />
     <RolePrivilege name="prvWriteUserQuery" level="Basic" />
   </RolePrivileges>
 </Role>
