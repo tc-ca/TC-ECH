@@ -10,44 +10,50 @@
       <Titles>
         <Title LCID="1033" Title="General" />
       </Titles>
-      <Group Id="Dashboard_Group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false">
+      <Group Id="Dashboard_Group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Dashboard" />
         </Titles>
         <SubArea Id="NewSubArea_f7f5ddb2" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="9f3f1222-2e80-eb11-a812-000d3a09dd03" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-      </Group>
-      <Group Id="Main_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IsProfile="false">
-        <Titles>
-          <Title LCID="1033" Title="Main" />
-        </Titles>
-        <SubArea Entity="account" Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="SubArea_Account" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
-          <Privilege Entity="account" Privilege="Read" />
-        </SubArea>
-        <SubArea Entity="contact" Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="SubArea_Contact" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
-          <Privilege Entity="contact" Privilege="Read" />
-        </SubArea>
-        <SubArea Entity="tc_yyevent" Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="SubArea_Event" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
-          <Privilege Entity="tc_yyevent" Privilege="Read" />
-        </SubArea>
-        <SubArea Entity="report" Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="SubArea_Report" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_Report" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="report" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="report" Privilege="Read" />
         </SubArea>
       </Group>
-      <Group Id="Reference_Group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false">
+      <Group Id="Main_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Main" />
+        </Titles>
+        <SubArea Id="SubArea_Account" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+          <Privilege Entity="account" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="SubArea_Contact" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+          <Privilege Entity="contact" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="SubArea_Event" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_yyevent" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+          <Privilege Entity="tc_yyevent" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="NewSubArea_572013e9" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_myproject" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Privilege Entity="tc_myproject" Privilege="Write" />
+        </SubArea>
+        <SubArea Id="SubArea_Initiatives" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_yyinitiative" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Privilege Entity="tc_yyinitiative" Privilege="Create" />
+        </SubArea>
+      </Group>
+      <Group Id="Reference_Group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Resources" />
         </Titles>
-        <SubArea Id="SubArea_ENUserGuide" Url="http://mytc/rdims/16494322" ResourceId="SitemapDesigner.NewSubArea" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_ENUserGuide" ResourceId="SitemapDesigner.NewSubArea" Url="http://mytc/rdims/16494322" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Titles>
             <Title LCID="1033" Title="EN - User Guide" />
           </Titles>
         </SubArea>
-        <SubArea Id="SubArea_FRUserGuide" Url="http://mytc/rdims/16698942" ResourceId="SitemapDesigner.NewSubArea" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_FRUserGuide" ResourceId="SitemapDesigner.NewSubArea" Url="http://mytc/rdims/16698942" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Titles>
             <Title LCID="1033" Title="FR - User Guide" />
           </Titles>
         </SubArea>
-        <SubArea Entity="tc_feedbackform" Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="SubArea_feedbackform" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_feedbackform" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_feedbackform" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_feedbackform" Privilege="Read" />
         </SubArea>
       </Group>
@@ -56,24 +62,42 @@
       <Titles>
         <Title LCID="1033" Title="Administration" />
       </Titles>
-      <Group Id="Group_DataMgmt" ResourceId="SitemapDesigner.NewGroup" IsProfile="false">
+      <Group Id="Group_DataMgmt" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Data Management" />
         </Titles>
-        <SubArea Entity="tc_yycountry" Id="SubArea_Country" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="NewSubArea_4fc6c434" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_tybranch" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Branches /Programs" />
+          </Titles>
+          <Privilege Entity="tc_tybranch" Privilege="Write" />
+        </SubArea>
+        <SubArea Id="SubArea_Country" Entity="tc_yycountry" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_yycountry" Privilege="Create" />
         </SubArea>
-        <SubArea Entity="tc_tyregion" Id="SubArea_Region" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_LookupReference" Entity="tc_tylookupreference" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Privilege Entity="tc_tylookupreference" Privilege="Write" />
+        </SubArea>
+        <SubArea Id="NewSubArea_771c0b17" Entity="tc_tyaccounttype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Privilege Entity="tc_tyaccounttype" Privilege="Write" />
+        </SubArea>
+        <SubArea Id="SubArea_Region" Entity="tc_tyregion" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_tyregion" Privilege="Create" />
         </SubArea>
-        <SubArea Entity="tc_aystakeholdergroup" Id="SubArea_Stakeholdergroup" AvailableOffline="true" PassParams="false" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_Stakeholdergroup" Entity="tc_aystakeholdergroup" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_aystakeholdergroup" Privilege="Create" />
         </SubArea>
       </Group>
-      <Group Id="Group_UserMgmt" ResourceId="SitemapDesigner.NewGroup" IsProfile="false">
+      <Group Id="Group_UserMgmt" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="User Management" />
         </Titles>
+        <SubArea Id="SubArea_Team" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="team" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="License Management" />
+          </Titles>
+          <Privilege Entity="team" Privilege="Append" />
+        </SubArea>
       </Group>
     </Area>
   </SiteMap>

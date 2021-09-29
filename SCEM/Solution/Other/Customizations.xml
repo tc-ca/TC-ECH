@@ -5,12 +5,6 @@
   <Workflows />
   <FieldSecurityProfiles />
   <Templates />
-  <EntityImageConfigs>
-    <EntityImageConfig>
-      <parententitylogicalname>tc_myproject</parententitylogicalname>
-      <primaryimageattribute>tc_mapscreenshot</primaryimageattribute>
-    </EntityImageConfig>
-  </EntityImageConfigs>
   <EntityMaps />
   <EntityRelationships />
   <OrganizationSettings />
