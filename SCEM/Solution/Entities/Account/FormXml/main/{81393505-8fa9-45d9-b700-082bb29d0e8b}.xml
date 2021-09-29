@@ -419,6 +419,57 @@
             </column>
           </columns>
         </tab>
+        <tab name="Projects" id="{5d22951a-5a28-4d7c-5263-9e7009726455}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Projects" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="{03faa8a3-26b1-4419-9088-2fb82e6f69d8}_section_5" showlabel="false" showbar="false" locklevel="0" id="{3ad98010-9ae1-dbcb-d7a5-93949c6ce081}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Projects" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ea1363cb-a0b1-09b8-6508-6ab18a62063b}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Projects" languagecode="1033" />
+                          <label description="Droits du projet" languagecode="1036" />
+                        </labels>
+                        <control id="proponentGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{6328394b-a047-3cb5-5913-a63398a0ed12}">
+                          <parameters>
+                            <ViewId>{7AB0D636-4121-EC11-B6E6-0022486D86AE}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_proponent_proponentsprojects</RelationshipName>
+                            <TargetEntityType>tc_proponentsprojects</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{69A191EC-AB5C-4D9C-9F14-1A8B92B1C02D},{7AB0D636-4121-EC11-B6E6-0022486D86AE}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
         <tab name="tab_4" id="{6800958d-4392-ca60-0d42-a26166a683b2}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Tags" languagecode="1033" />
@@ -460,57 +511,6 @@
                         </control>
                       </cell>
                     </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="Project" id="{5d22951a-5a28-4d7c-5263-9e7009726455}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
-          <labels>
-            <label description="Project" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="{03faa8a3-26b1-4419-9088-2fb82e6f69d8}_section_5" showlabel="false" showbar="false" locklevel="0" id="{3ad98010-9ae1-dbcb-d7a5-93949c6ce081}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Proponents" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{ea1363cb-a0b1-09b8-6508-6ab18a62063b}" showlabel="true" colspan="1" auto="false" rowspan="7">
-                        <labels>
-                          <label description="Proponents" languagecode="1033" />
-                          <label description="Droits du projet" languagecode="1036" />
-                        </labels>
-                        <control id="proponentGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{6328394b-a047-3cb5-5913-a63398a0ed12}">
-                          <parameters>
-                            <ViewId>{7AB0D636-4121-EC11-B6E6-0022486D86AE}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>tc_proponent_proponentsprojects</RelationshipName>
-                            <TargetEntityType>tc_proponentsprojects</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{69A191EC-AB5C-4D9C-9F14-1A8B92B1C02D},{7AB0D636-4121-EC11-B6E6-0022486D86AE}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
                     <row />
                     <row />
                     <row />
@@ -760,9 +760,6 @@
       </controlDescriptions>
       <formLibraries>
         <Library name="tc_switchforms" libraryUniqueId="{8e1e0109-4823-9e9a-c521-2a51c0e6daa0}" />
-        <Library name="tc_ASCEScripts" libraryUniqueId="{275ce1c9-b409-e106-a74a-c49e106c9161}" />
-        <Library name="tc_/EGISIntegration/EsriAboriginalConsultationMaps.js" libraryUniqueId="{d9b388a3-599b-2ee2-3e61-64bedee3e6d6}" />
-        <Library name="tc_/asce/save.form.js" libraryUniqueId="{9b543101-66cd-d264-ed0c-eb4c4d04bc6d}" />
       </formLibraries>
       <events>
         <event name="onload" application="false" active="false">

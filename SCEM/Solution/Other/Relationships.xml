@@ -6,6 +6,7 @@
   <EntityRelationship Name="business_unit_tc_aystakeholdergroup" />
   <EntityRelationship Name="business_unit_tc_contact_yyevent" />
   <EntityRelationship Name="business_unit_tc_organizationcontact" />
+  <EntityRelationship Name="business_unit_tc_proponentsprojects" />
   <EntityRelationship Name="business_unit_tc_protectedbdocument" />
   <EntityRelationship Name="business_unit_tc_tyaccounttype" />
   <EntityRelationship Name="business_unit_tc_tycontactinitiativerole" />
@@ -37,6 +38,8 @@
   <EntityRelationship Name="lk_tc_contact_yyevent_modifiedby" />
   <EntityRelationship Name="lk_tc_organizationcontact_createdby" />
   <EntityRelationship Name="lk_tc_organizationcontact_modifiedby" />
+  <EntityRelationship Name="lk_tc_proponentsprojects_createdby" />
+  <EntityRelationship Name="lk_tc_proponentsprojects_modifiedby" />
   <EntityRelationship Name="lk_tc_protectedbdocument_createdby" />
   <EntityRelationship Name="lk_tc_protectedbdocument_modifiedby" />
   <EntityRelationship Name="lk_tc_tyaccounttype_createdby" />
@@ -80,6 +83,7 @@
   <EntityRelationship Name="owner_tc_aystakeholdergroup" />
   <EntityRelationship Name="owner_tc_contact_yyevent" />
   <EntityRelationship Name="owner_tc_organizationcontact" />
+  <EntityRelationship Name="owner_tc_proponentsprojects" />
   <EntityRelationship Name="owner_tc_protectedbdocument" />
   <EntityRelationship Name="owner_tc_tyaccounttype" />
   <EntityRelationship Name="owner_tc_tycontactinitiativerole" />
@@ -137,6 +141,8 @@
   <EntityRelationship Name="tc_organization_contactevents" />
   <EntityRelationship Name="tc_organization_organizationscontacts" />
   <EntityRelationship Name="tc_organizationcontact_contactevents" />
+  <EntityRelationship Name="tc_project_proponentsprojects" />
+  <EntityRelationship Name="tc_proponent_proponentsprojects" />
   <EntityRelationship Name="tc_systemuser_ayemployee_UserAccountId" />
   <EntityRelationship Name="tc_tc_tyaerodrome_yyevent_AerodromeId" />
   <EntityRelationship Name="tc_tc_yycountry_tc_yyprovincestate" />
@@ -172,6 +178,7 @@
   <EntityRelationship Name="team_tc_aystakeholdergroup" />
   <EntityRelationship Name="team_tc_contact_yyevent" />
   <EntityRelationship Name="team_tc_organizationcontact" />
+  <EntityRelationship Name="team_tc_proponentsprojects" />
   <EntityRelationship Name="team_tc_protectedbdocument" />
   <EntityRelationship Name="team_tc_tyaccounttype" />
   <EntityRelationship Name="team_tc_tycontactinitiativerole" />
@@ -195,6 +202,7 @@
   <EntityRelationship Name="user_tc_aystakeholdergroup" />
   <EntityRelationship Name="user_tc_contact_yyevent" />
   <EntityRelationship Name="user_tc_organizationcontact" />
+  <EntityRelationship Name="user_tc_proponentsprojects" />
   <EntityRelationship Name="user_tc_protectedbdocument" />
   <EntityRelationship Name="user_tc_tyaccounttype" />
   <EntityRelationship Name="user_tc_tycontactinitiativerole" />

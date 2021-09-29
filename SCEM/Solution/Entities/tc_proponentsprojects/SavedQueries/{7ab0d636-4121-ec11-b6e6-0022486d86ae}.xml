@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7ab0d636-4121-ec11-b6e6-0022486d86ae}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_name" select="1" preview="1" icon="1">
+        <row name="result" id="tc_proponentsprojectsid">
+          <cell name="tc_projectid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_f4b477709344eb11bb23000d3af43355.statuscode" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_f4b477709344eb11bb23000d3af43355.tc_daterequestdte" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_f4b477709344eb11bb23000d3af43355.ownerid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="tc_proponentsprojects">
+          <order attribute="tc_projectid" descending="false" />
+          <attribute name="tc_projectid" />
+          <link-entity alias="a_f4b477709344eb11bb23000d3af43355" name="tc_myproject" from="tc_myprojectid" to="tc_projectid" link-type="outer" visible="false">
+            <attribute name="statuscode" />
+            <attribute name="ownerid" />
+            <attribute name="tc_daterequestdte" />
+          </link-entity>
+          <attribute name="tc_proponentsprojectsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.141.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Proponent Projects" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

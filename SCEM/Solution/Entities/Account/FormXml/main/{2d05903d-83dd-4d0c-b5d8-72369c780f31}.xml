@@ -233,11 +233,6 @@
                             <WebResourceId>{9E41960E-6579-E811-8B89-00155DDC0400}</WebResourceId>
                           </parameters>
                         </control>
-                        <events>
-                          <event name="onload" application="false">
-                            <dependencies />
-                          </event>
-                        </events>
                       </cell>
                     </row>
                     <row>
@@ -277,11 +272,6 @@
                             <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
                           </parameters>
                         </control>
-                        <events>
-                          <event name="onload" application="false">
-                            <dependencies />
-                          </event>
-                        </events>
                       </cell>
                     </row>
                   </rows>
@@ -312,11 +302,6 @@
                             <WebResourceId>{CA0CAB12-9A02-E711-8133-000C2958E3A5}</WebResourceId>
                           </parameters>
                         </control>
-                        <events>
-                          <event name="onload" application="false">
-                            <dependencies />
-                          </event>
-                        </events>
                       </cell>
                     </row>
                   </rows>
@@ -667,9 +652,6 @@
       </footer>
       <formLibraries>
         <Library name="tc_switchforms" libraryUniqueId="{aa510067-50be-88da-2518-ba212eb16268}" />
-        <Library name="tc_/asce/save.form.js" libraryUniqueId="{b9a672ba-8d27-2064-a3cd-a2994d8ebc70}" />
-        <Library name="tc_ASCEScripts" libraryUniqueId="{a751bc20-e9a0-3815-aada-95e2b320c91c}" />
-        <Library name="tc_/EGISIntegration/EsriAboriginalConsultationMaps.js" libraryUniqueId="{6ae5e719-a96d-0ebb-358a-84e781771c9d}" />
       </formLibraries>
       <events>
         <event name="onload" application="false" active="false">
