@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -147,20 +147,10 @@
       <RootComponent type="1" schemaName="tc_businessprocessflowevent" behavior="2" />
       <RootComponent type="1" schemaName="tc_contact_yyevent" behavior="0" />
       <RootComponent type="1" schemaName="tc_dydocumentprofiletemplate" behavior="2" />
-      <RootComponent type="1" schemaName="tc_dyeventlog" behavior="2" />
-      <RootComponent type="1" schemaName="tc_dyidgenerator" behavior="0" />
       <RootComponent type="1" schemaName="tc_eventregion" behavior="2" />
-      <RootComponent type="1" schemaName="tc_mbconsultation" behavior="2" />
-      <RootComponent type="1" schemaName="tc_myproject" behavior="2" />
       <RootComponent type="1" schemaName="tc_organizationcontact" behavior="0" />
       <RootComponent type="1" schemaName="tc_protectedbdocument" behavior="0" />
-      <RootComponent type="1" schemaName="tc_tbconsultationaudience" behavior="0" />
-      <RootComponent type="1" schemaName="tc_tbconsultationpartner" behavior="0" />
-      <RootComponent type="1" schemaName="tc_tbconsultationrationale" behavior="0" />
-      <RootComponent type="1" schemaName="tc_tbconsultationsector" behavior="0" />
-      <RootComponent type="1" schemaName="tc_tbconsultationsubject" behavior="0" />
       <RootComponent type="1" schemaName="tc_tyaccounttype" behavior="0" />
-      <RootComponent type="1" schemaName="tc_tyaerodrome" behavior="0" />
       <RootComponent type="1" schemaName="tc_tycontactinitiativerole" behavior="0" />
       <RootComponent type="1" schemaName="tc_tyregion" behavior="0" />
       <RootComponent type="1" schemaName="tc_tytag" behavior="0" />
