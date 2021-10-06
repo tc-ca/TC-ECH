@@ -161,6 +161,7 @@
   <EntityRelationship Name="tc_YYComment_YYInitiative" />
   <EntityRelationship Name="tc_yycountry_account_CountryId" />
   <EntityRelationship Name="tc_yycountry_event_CountryId" />
+  <EntityRelationship Name="tc_YYEvent_Account_Account" />
   <EntityRelationship Name="tc_YYEvent_Contact_EventId" />
   <EntityRelationship Name="tc_YYEvent_IndigenousEntity_Account" />
   <EntityRelationship Name="tc_YYEvent_IndigenousPointsofContact_Cont" />
