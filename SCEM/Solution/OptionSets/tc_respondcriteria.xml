@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_respondcriteria" localizedName="Respond Criteria" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.2.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Respond Criteria" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="1 - Previous Involvement (TC, TDG) and/or Formal Agreement" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="2 - Topic Relevance " languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010002">
+      <labels>
+        <label description="3 - Additional Transportation Component " languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010003">
+      <labels>
+        <label description="4 - Canadian and International Scope" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010004">
+      <labels>
+        <label description="5 - Panel Composition - Speakers - Presenters" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010005">
+      <labels>
+        <label description="6 - Location" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010006">
+      <labels>
+        <label description="7 - Budget Estimate" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

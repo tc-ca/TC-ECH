@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_topicsofinterest" localizedName="Topics of interest " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.1.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Topics of interest " languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="Client Identification Database" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="Commercial Aviation in Canada" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010002">
+      <labels>
+        <label description="Competency Based Standards" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010003">
+      <labels>
+        <label description="Current TDG Issues" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010004">
+      <labels>
+        <label description="Emergency and Risk Management" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010005">
+      <labels>
+        <label description="Enforcement and Compliance Update" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010006">
+      <labels>
+        <label description="E-Shipping Documents" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010007">
+      <labels>
+        <label description="Flammable Liquids ERAP Requirements" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010008">
+      <labels>
+        <label description="Flight Training &amp; Dangerous Goods" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010009">
+      <labels>
+        <label description="Industry Updates" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010010">
+      <labels>
+        <label description="Inspection Planning" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010011">
+      <labels>
+        <label description="Inspection Training Requirements" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010012">
+      <labels>
+        <label description="New Awareness Materials" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010013">
+      <labels>
+        <label description="Outreach And Awareness Initiatives" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010014">
+      <labels>
+        <label description="Part 6 of the TDG Regulations (Training) " languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010015">
+      <labels>
+        <label description="Part 7 of the TDG Regulations (ERAP)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010016">
+      <labels>
+        <label description="Part 8 of the TDG Regulations (Reporting)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010017">
+      <labels>
+        <label description="RCC Work Plan Update" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010018">
+      <labels>
+        <label description="Regional and National Priorities" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010019">
+      <labels>
+        <label description="Regulatory and Standards Updates" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010020">
+      <labels>
+        <label description="Remote Inspection" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010021">
+      <labels>
+        <label description="Risk Prioritization Framework" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010022">
+      <labels>
+        <label description="Road Safety" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010023">
+      <labels>
+        <label description="Roles and Responsibilities of TDG" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010024">
+      <labels>
+        <label description="Supply Chain Safety Management" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010025">
+      <labels>
+        <label description="Transporting across the U.S./Canada Border" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

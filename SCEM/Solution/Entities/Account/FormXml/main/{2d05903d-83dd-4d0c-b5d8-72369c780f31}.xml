@@ -313,6 +313,7 @@
         <tab name="projecttab" id="{cd6b5075-8118-1376-8b8d-51641742d14c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Projects" languagecode="1033" />
+            <label description="Projets" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -320,6 +321,7 @@
                 <section name="{03faa8a3-26b1-4419-9088-2fb82e6f69d8}_section_5" showlabel="false" showbar="false" locklevel="0" id="{192cc86a-644e-d398-c519-d93ba8a6a16b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Projects" languagecode="1033" />
+                    <label description="Projets" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_organizationtypes" localizedName="Organization Types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.2.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Organization Types" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="Community" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="Tribal Council" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010002">
+      <labels>
+        <label description="Regional Government" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010003">
+      <labels>
+        <label description="National Body" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010004">
+      <labels>
+        <label description="Professional Organization" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

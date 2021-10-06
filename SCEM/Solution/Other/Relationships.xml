@@ -25,8 +25,8 @@
   <EntityRelationship Name="business_unit_tc_yyinitiative" />
   <EntityRelationship Name="business_unit_tc_yyprovincestate" />
   <EntityRelationship Name="business_unit_tc_yystakeholderposition" />
-  <EntityRelationship Name="contact_customer_contacts" unmodified="1" />
-  <EntityRelationship Name="contact_master_contact" unmodified="1" />
+  <EntityRelationship Name="contact_customer_contacts" />
+  <EntityRelationship Name="contact_master_contact" />
   <EntityRelationship Name="contact_parent_contact" />
   <EntityRelationship Name="lk_tc_ayemployee_createdby" />
   <EntityRelationship Name="lk_tc_ayemployee_modifiedby" />
@@ -34,6 +34,10 @@
   <EntityRelationship Name="lk_tc_ayorganizationunit_modifiedby" />
   <EntityRelationship Name="lk_tc_aystakeholdergroup_createdby" />
   <EntityRelationship Name="lk_tc_aystakeholdergroup_modifiedby" />
+  <EntityRelationship Name="lk_tc_businessprocessflowevent_activestageid" />
+  <EntityRelationship Name="lk_tc_businessprocessflowevent_createdby" />
+  <EntityRelationship Name="lk_tc_businessprocessflowevent_modifiedby" />
+  <EntityRelationship Name="lk_tc_businessprocessflowevent_processid" />
   <EntityRelationship Name="lk_tc_contact_yyevent_createdby" />
   <EntityRelationship Name="lk_tc_contact_yyevent_modifiedby" />
   <EntityRelationship Name="lk_tc_organizationcontact_createdby" />
@@ -80,6 +84,7 @@
   <EntityRelationship Name="msdyn_msdyn_functionallocation_account" />
   <EntityRelationship Name="organization_tc_ayemployee" />
   <EntityRelationship Name="organization_tc_ayorganizationunit" />
+  <EntityRelationship Name="organization_tc_businessprocessflowevent" />
   <EntityRelationship Name="owner_tc_aystakeholdergroup" />
   <EntityRelationship Name="owner_tc_contact_yyevent" />
   <EntityRelationship Name="owner_tc_organizationcontact" />
@@ -157,7 +162,13 @@
   <EntityRelationship Name="tc_yycountry_account_CountryId" />
   <EntityRelationship Name="tc_yycountry_event_CountryId" />
   <EntityRelationship Name="tc_YYEvent_Contact_EventId" />
+  <EntityRelationship Name="tc_YYEvent_IndigenousEntity_Account" />
+  <EntityRelationship Name="tc_YYEvent_IndigenousPointsofContact_Cont" />
+  <EntityRelationship Name="tc_YYEvent_Nameofsender_Contact" />
   <EntityRelationship Name="tc_YYEvent_OPI_Contact" />
+  <EntityRelationship Name="tc_YYEvent_Receivedby_Contact" />
+  <EntityRelationship Name="tc_YYEvent_TCLead_Contact" />
+  <EntityRelationship Name="tc_YYEvent_TDGleadformaterial_Contact" />
   <EntityRelationship Name="tc_YYEvent_YYComment_EventId" />
   <EntityRelationship Name="tc_yyevent_yyeventdetail_EventId" />
   <EntityRelationship Name="tc_yyevent_yyeventgiftexchanged_EventId" />
