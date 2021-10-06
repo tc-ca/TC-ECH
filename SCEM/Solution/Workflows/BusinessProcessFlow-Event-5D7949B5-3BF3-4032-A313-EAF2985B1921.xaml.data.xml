@@ -11,8 +11,8 @@
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
-  <StateCode>0</StateCode>
-  <StatusCode>1</StatusCode>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
   <processorder>100</processorder>
   <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{8EC6249F-74B9-4FF5-BA2A-19D516A30983}" /&gt;&lt;Role Id="{3DA0125A-90C4-425D-9962-9877835E7192}" /&gt;&lt;Role Id="{6E735A05-00F2-4A92-8960-EF098C5588A4}" /&gt;&lt;Role Id="{670E141E-9BE4-4178-BE15-F07D499A444C}" /&gt;&lt;Role Id="{33978014-A29C-44BC-BF46-CEC43F4937DD}" /&gt;&lt;Role Id="{A5FB16EB-DF56-4526-BA56-C4B898E246DD}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;Role Id="{AB4635E7-3430-43F8-9181-071877FB5196}" /&gt;&lt;Role Id="{2C4637B8-0B4D-44A1-A1EC-083C8D22E021}" /&gt;&lt;Role Id="{D013BF59-CE4D-4099-9D6C-0AB0F979926B}" /&gt;&lt;Role Id="{B62F3AAB-E59E-4A03-A59A-3C7D424EC570}" /&gt;&lt;Role Id="{DD9EB436-2DAB-4528-A3FF-5EC7C10F7185}" /&gt;&lt;Role Id="{7A63AA99-69F1-4433-A255-DA36EC0B141D}" /&gt;&lt;Role Id="{55056C70-568C-493F-83AC-1AC6C09B89A2}" /&gt;&lt;Role Id="{72CC1CA1-94D6-4D7D-B5FA-611CB0DCE650}" /&gt;&lt;Role Id="{1A189D85-E4AB-4C26-A654-87D53A4FBC18}" /&gt;&lt;Role Id="{FF601540-59B3-4069-8DF1-BA4FE6FC289A}" /&gt;&lt;Role Id="{E9FE9080-789F-468E-87D3-6544B5D4E891}" /&gt;&lt;Role Id="{64339DCF-CC81-4890-909C-705A7C9A806A}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
   <RunAs>1</RunAs>
@@ -108,16 +108,4 @@
       <label languagecode="1036" description="Fermer l’événement?" />
     </steplabels>
   </labels>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{abde11d3-e31b-ec11-b6e6-000d3af45c37}">
-      <controltype>1</controltype>
-      <methodid>{bc291870-15aa-4ab8-bd02-43bdfa8c7411}</methodid>
-      <scope>1</scope>
-      <controlname>tc_attendingind</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>tc_YYEvent</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

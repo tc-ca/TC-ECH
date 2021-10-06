@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_meetingseries" localizedName="Meeting series" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.2.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Meeting series" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="None" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="TMX meetings" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

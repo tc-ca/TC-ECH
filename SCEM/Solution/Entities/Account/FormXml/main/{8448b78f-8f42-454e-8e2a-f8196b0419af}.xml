@@ -1131,6 +1131,9 @@
       </controlDescriptions>
       <DisplayConditions FallbackForm="true" Order="2" solutionaction="Modified">
         <Everyone solutionaction="Removed" />
+        <Role Id="{C5F2BED0-1D04-EC11-B6E7-0022486D73FD}" solutionaction="Added" />
+        <Role Id="{86E7D9F2-1D04-EC11-B6E7-0022486D73FD}" solutionaction="Added" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" solutionaction="Added" />
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" solutionaction="Added" />
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" solutionaction="Added" />
       </DisplayConditions>

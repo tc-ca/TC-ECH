@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21092.137" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21093.138" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>SCEM</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.1.0.1</Version>
+    <Version>1.2.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -144,7 +144,7 @@
       <RootComponent type="1" schemaName="tc_ayemployee" behavior="0" />
       <RootComponent type="1" schemaName="tc_ayorganizationunit" behavior="0" />
       <RootComponent type="1" schemaName="tc_aystakeholdergroup" behavior="0" />
-      <RootComponent type="1" schemaName="tc_businessprocessflowevent" behavior="2" />
+      <RootComponent type="1" schemaName="tc_businessprocessflowevent" behavior="0" />
       <RootComponent type="1" schemaName="tc_contact_yyevent" behavior="0" />
       <RootComponent type="1" schemaName="tc_dydocumentprofiletemplate" behavior="2" />
       <RootComponent type="1" schemaName="tc_eventregion" behavior="2" />
@@ -171,17 +171,28 @@
       <RootComponent type="1" schemaName="tc_yyorganizationagreement" behavior="2" />
       <RootComponent type="1" schemaName="tc_yyprovincestate" behavior="0" />
       <RootComponent type="1" schemaName="tc_yystakeholderposition" behavior="0" />
+      <RootComponent type="9" schemaName="tc_communicationtypes" behavior="0" />
       <RootComponent type="9" schemaName="tc_contacttype" behavior="0" />
+      <RootComponent type="9" schemaName="tc_decisiontypes" behavior="0" />
+      <RootComponent type="9" schemaName="tc_desiredlevel" behavior="0" />
       <RootComponent type="9" schemaName="tc_eventcategory" behavior="0" />
       <RootComponent type="9" schemaName="tc_eventlevelopt" behavior="0" />
       <RootComponent type="9" schemaName="tc_eventstatusopt" behavior="0" />
       <RootComponent type="9" schemaName="tc_eventtypeopt" behavior="0" />
       <RootComponent type="9" schemaName="tc_groupregioncodeopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_grouptypes" behavior="0" />
+      <RootComponent type="9" schemaName="tc_meetingseries" behavior="0" />
+      <RootComponent type="9" schemaName="tc_nextmeetingtypes" behavior="0" />
+      <RootComponent type="9" schemaName="tc_organizationtypes" behavior="0" />
       <RootComponent type="9" schemaName="tc_paa_aap_opt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_participation" behavior="0" />
+      <RootComponent type="9" schemaName="tc_prioritytypes" behavior="0" />
       <RootComponent type="9" schemaName="tc_programcodesopt" behavior="0" />
       <RootComponent type="9" schemaName="tc_quarter" behavior="0" />
+      <RootComponent type="9" schemaName="tc_respondcriteria" behavior="0" />
       <RootComponent type="9" schemaName="tc_scesthreeoptions" behavior="0" />
       <RootComponent type="9" schemaName="tc_socodeopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_topicsofinterest" behavior="0" />
       <RootComponent type="9" schemaName="tc_transportationmode" behavior="0" />
       <RootComponent type="9" schemaName="tc_yesnonaopt" behavior="0" />
       <RootComponent type="20" id="{1b87cce7-ab07-e911-8b93-00155ddc0400}" behavior="0" />

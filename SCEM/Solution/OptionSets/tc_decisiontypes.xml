@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_decisiontypes" localizedName="Decision Types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.2.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Decision Types" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="Accepted" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="Declined" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
