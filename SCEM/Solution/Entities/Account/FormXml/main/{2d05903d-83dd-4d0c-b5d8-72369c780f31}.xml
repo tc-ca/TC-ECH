@@ -12,7 +12,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" labelid="{da62babb-a8bf-40d5-ae67-9a62d5ebb80d}">
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{da62babb-a8bf-40d5-ae67-9a62d5ebb80d}">
           <labels>
             <label description="Summary" languagecode="1033" />
             <label description="Résumé" languagecode="1036" />
@@ -310,7 +310,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="projecttab" id="{cd6b5075-8118-1376-8b8d-51641742d14c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="projecttab" id="{cd6b5075-8118-1376-8b8d-51641742d14c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Projects" languagecode="1033" />
             <label description="Projets" languagecode="1036" />
@@ -328,7 +328,7 @@
                       <cell id="{b62c2e0c-b7ad-a56e-a66a-060465cea07c}" showlabel="true" colspan="1" auto="false" rowspan="13">
                         <labels>
                           <label description="Projects" languagecode="1033" />
-                          <label description="Droits du projet" languagecode="1036" />
+                          <label description="Projets" languagecode="1036" />
                         </labels>
                         <control id="projectsGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e1e7a317-dddb-6b56-5675-a4900c8c0aad}">
                           <parameters>
