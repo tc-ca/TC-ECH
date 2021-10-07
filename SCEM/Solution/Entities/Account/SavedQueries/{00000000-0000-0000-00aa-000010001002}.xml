@@ -38,7 +38,7 @@
     </fetchxml>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Organizations" languagecode="1033" />
+      <LocalizedName description="Active Organizations" languagecode="1033" />
       <LocalizedName description="Comptes actifs" languagecode="1036" />
     </LocalizedNames>
   </savedquery>

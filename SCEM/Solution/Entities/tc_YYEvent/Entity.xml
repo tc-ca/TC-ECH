@@ -1028,6 +1028,7 @@
           <LogicalName>tc_account</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -1055,6 +1056,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Organization" languagecode="1033" />
+            <displayname description="Institution organisatrice" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -1671,6 +1673,7 @@
           </optionset>
           <displaynames>
             <displayname description="Is this event aligned with TDG's mandate/TASC?" languagecode="1033" />
+            <displayname description="Cet évenement est-il aligné avec le mandat du TMD/TASC?" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2385,6 +2388,7 @@
           <MaxLength>2000</MaxLength>
           <displaynames>
             <displayname description="Comments" languagecode="1033" />
+            <displayname description="Commentaires" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2466,6 +2470,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Date of next meeting" languagecode="1033" />
+            <displayname description="Date de la prochaine réunion" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2505,6 +2510,7 @@
           <OptionSetName>tc_decisiontypes</OptionSetName>
           <displaynames>
             <displayname description="Decision" languagecode="1033" />
+            <displayname description="Décision" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2544,6 +2550,7 @@
           <OptionSetName>tc_desiredlevel</OptionSetName>
           <displaynames>
             <displayname description="Type of desired level " languagecode="1033" />
+            <displayname description="Type de niveau souhaité" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2715,6 +2722,7 @@
           <MaxLength>2000</MaxLength>
           <displaynames>
             <displayname description="Details of Engagement" languagecode="1033" />
+            <displayname description="Détails de l'engagement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3714,6 +3722,7 @@
           </optionset>
           <displaynames>
             <displayname description="Does the Branch have the budget?" languagecode="1033" />
+            <displayname description="Est-ce que la direction a le budget?" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4054,6 +4063,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Indigenous Entity" languagecode="1033" />
+            <displayname description="Entité autochtone" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4093,6 +4103,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Indigenous Point(s) of Contact" languagecode="1033" />
+            <displayname description="Point(s) de contact autochtone(s)" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4154,6 +4165,7 @@
           </optionset>
           <displaynames>
             <displayname description="Does this need to be added to the event plan?" languagecode="1033" />
+            <displayname description="Cela nécessite-t-il d'être ajouté au plan des événements?" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4368,6 +4380,7 @@
           <MaxLength>2000</MaxLength>
           <displaynames>
             <displayname description="Justification" languagecode="1033" />
+            <displayname description="Justification" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4835,6 +4848,7 @@
           <OptionSetName>tc_meetingseries</OptionSetName>
           <displaynames>
             <displayname description="Meeting series" languagecode="1033" />
+            <displayname description="Série de réunions" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4985,6 +4999,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Name of sender" languagecode="1033" />
+            <displayname description="Nom de l'expéditeur" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -5025,6 +5040,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Name of TC Representative(s) " languagecode="1033" />
+            <displayname description="Nom du/des représentant(s) de TC" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -5064,6 +5080,7 @@
           <OptionSetName>tc_nextmeetingtypes</OptionSetName>
           <displaynames>
             <displayname description="Next meeting" languagecode="1033" />
+            <displayname description="Prochaine réunion" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -5304,6 +5321,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Other Government Department" languagecode="1033" />
+            <displayname description="Autre ministère du gouvernement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -5837,6 +5855,7 @@
           <OptionSetName>tc_participation</OptionSetName>
           <displaynames>
             <displayname description="Participation" languagecode="1033" />
+            <displayname description="Participation" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -6497,6 +6516,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Received by " languagecode="1033" />
+            <displayname description="Reçu par" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -6578,6 +6598,7 @@
           <MaxLength>2000</MaxLength>
           <displaynames>
             <displayname description="Recommendation" languagecode="1033" />
+            <displayname description="Recommandation" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -6759,6 +6780,7 @@
           </optionset>
           <displaynames>
             <displayname description="Response Sent" languagecode="1033" />
+            <displayname description="Réponse envoyée" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -6990,6 +7012,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Task number" languagecode="1033" />
+            <displayname description="Numéro de la tâche" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7029,6 +7052,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="TC Lead" languagecode="1033" />
+            <displayname description="Responsable de TC" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7069,6 +7093,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="TC lead OPI" languagecode="1033" />
+            <displayname description="BPR principal de TC" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7109,6 +7134,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="TC Point of Contact" languagecode="1033" />
+            <displayname description="Point de contact de TC" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7149,6 +7175,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="TC secondary OPI" languagecode="1033" />
+            <displayname description="BPR secondaire de TC" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7160,6 +7187,7 @@
           <LogicalName>tc_tdgleadformaterial</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -7187,6 +7215,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="TDG lead for material" languagecode="1033" />
+            <displayname description="Lead du TMD pour le matériel" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7267,6 +7296,7 @@
           <OptionSetName>tc_topicsofinterest</OptionSetName>
           <displaynames>
             <displayname description="Topics of interest " languagecode="1033" />
+            <displayname description="Sujets d'intérêt (description)" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="TDG-SEST-&#xA;Topics of interest" languagecode="1033" />
@@ -7693,6 +7723,7 @@
           <OptionSetName>tc_communicationtypes</OptionSetName>
           <displaynames>
             <displayname description="Type of communication " languagecode="1033" />
+            <displayname description="Renseignement sur l'expéditeur, type de communication" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7834,6 +7865,7 @@
           <MaxLength>2000</MaxLength>
           <displaynames>
             <displayname description="Web info on event" languagecode="1033" />
+            <displayname description="Information web sur l'évenement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
