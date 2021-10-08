@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{c8a4b308-c385-440d-8f87-c5d446b1ea8c}" IsUserDefined="1">
+        <tab verticallayout="true" id="{c8a4b308-c385-440d-8f87-c5d446b1ea8c}" IsUserDefined="1" expanded="false">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Général" languagecode="1036" />
@@ -169,7 +169,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="eventsTab" id="{94c32d0a-1101-13a9-9870-c89a4d7b427c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="eventsTab" id="{94c32d0a-1101-13a9-9870-c89a4d7b427c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Events" languagecode="1033" />
             <label description="Événements" languagecode="1036" />
@@ -216,6 +216,99 @@
                     <row />
                     <row />
                     <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="{62b8bd2a-cce3-9200-a8a8-a28101798364}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_5_section_1" showlabel="true" showbar="true" locklevel="0" id="{c5e837c1-024e-d871-1101-5adbbc922e7b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="View Documents" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a31b27ed-0a98-6c97-174b-5c8ce87dbe5d}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="List" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_List" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/List.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>true</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Data>{
+  "control": "WebResource_List",
+  "field": "tc_documentstxt"
+}
+</Data>
+                            <WebResourceId>{9E41960E-6579-E811-8B89-00155DDC0400}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84868c51-9c8e-1752-54a6-7ba64b5ac37e}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Documents" languagecode="1033" />
+                        </labels>
+                        <control id="tc_documentstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_documentstxt" disabled="false" uniqueid="{63691b48-dcbb-7b3c-326d-64cc3d24b38c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_5_section_2" showlabel="true" showbar="true" locklevel="0" id="{8492d1a6-dca6-e55a-b370-2e576839de8b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Associate an Existing RDIMS Document" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cc7edcd1-4856-69b1-ba4b-d0ba4c901326}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Search" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/Search.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>true</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Data>{
+  "control": "WebResource_Search",
+  "field": "tc_documentstxt",
+  "view": "WebResource_List"
+}</Data>
+                            <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -296,6 +389,9 @@
         </NavBarAreas>
       </Navigation>
       <controlDescriptions />
+      <formLibraries>
+        <Library name="tc_/Core/RequiredLevels.js" libraryUniqueId="{561bc1a1-2838-eac5-6a53-c67b4eb5a58b}" />
+      </formLibraries>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
