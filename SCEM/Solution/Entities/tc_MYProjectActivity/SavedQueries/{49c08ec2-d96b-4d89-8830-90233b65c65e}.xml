@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{49c08ec2-d96b-4d89-8830-90233b65c65e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_projectactivitynm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_myprojectactivityid">
+          <cell name="tc_interactioncd" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_interactiontypecd" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_projectactivitynm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_rdimsfilenum" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_myprojectactivity">
+          <order attribute="tc_interactioncd" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_rdimsfilenum" />
+          <attribute name="tc_interactiontypecd" />
+          <attribute name="tc_interactioncd" />
+          <attribute name="tc_projectactivitynm" />
+          <attribute name="tc_myprojectactivityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.18</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Project Activities" languagecode="1033" />
+      <LocalizedName description="Activités de projet actif" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

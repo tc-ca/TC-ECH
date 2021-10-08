@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{66d30869-9513-465c-b586-b55f7e5c4971}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_othergovernmentnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tyothergovernmentid">
+          <cell name="tc_othergovernmentnm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tyothergovernment">
+          <attribute name="tc_othergovernmentnm" />
+          <order attribute="tc_othergovernmentnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_tyothergovernmentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.17</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Other Governments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

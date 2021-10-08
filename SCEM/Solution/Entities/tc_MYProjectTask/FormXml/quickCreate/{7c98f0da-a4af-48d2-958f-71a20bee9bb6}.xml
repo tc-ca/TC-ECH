@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7c98f0da-a4af-48d2-958f-71a20bee9bb6}</formid>
+    <IntroducedVersion>0.1.0.17</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{794a1c38-249b-4570-8dbf-fd236b239357}" name="tab_1" showlabel="false" locklevel="0" expanded="true" labelid="{942dc59f-cc2a-483f-bcff-768a096e6670}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+            <label description="Onglet" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="60%">
+              <sections>
+                <section id="{237e2fb6-2e57-4d22-8e90-68eefeaf854d}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="true" IsUserDefined="0" locklevel="0" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" labelid="{43678490-722e-4dc9-8c39-cd2017458d87}">
+                  <labels>
+                    <label description="Project Actions Required" languagecode="1033" />
+                    <label description="Mesures du projet requises" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{48d4d432-70da-d214-8789-57a7cc5453d5}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Task Owner" languagecode="1033" />
+                          <label description="Propriétaire de la tâche" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" uniqueid="{e2692578-15c3-7c42-21d2-545dd4d08d57}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7d02d3b-7997-4983-b44e-b46b74de6963}" showlabel="true" locklevel="0" labelid="{d12a7cf3-3ee8-4426-bf6a-c170beffb692}">
+                        <labels>
+                          <label description="Action" languagecode="1033" />
+                          <label description="Mesures" languagecode="1036" />
+                        </labels>
+                        <control id="tc_actioncd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_actioncd" disabled="false" uniqueid="{dccc7b72-57aa-7ec6-cda9-4399c46e16bd}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c9dd54b0-bb9c-7975-102d-c195e51658d6}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="Comments for Reviewer/ Approver" languagecode="1033" />
+                          <label description="Commentaires pour l’examinateur / l’approbateur" languagecode="1036" />
+                        </labels>
+                        <control id="tc_commentforreviewertxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_commentforreviewertxt" disabled="false" uniqueid="{33673929-eeb5-8b4c-6167-0b4337b9875a}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{8c83aa7e-253a-62b4-c304-750bcbc74ae1}" showlabel="true" locklevel="0" labelid="{194b5d06-1f6d-4fe1-858a-203ccb24acfd}">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                          <label description="Date limite" languagecode="1036" />
+                        </labels>
+                        <control id="tc_dateduedte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_dateduedte" disabled="false" uniqueid="{1a449bab-1914-d9ab-3038-661c11738414}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="20%">
+              <sections>
+                <section id="{451f31bb-4798-499d-a374-082b806cc7be}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{819f029e-2db9-484c-94b1-ba6e13bb2fec}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{787029dc-8e97-4524-89d7-459c30818309}" showlabel="false" labelid="{f9f3fe62-0a28-4633-a0cc-c6f1907b81ed}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="20%">
+              <sections>
+                <section id="{d2a124e7-edb8-44ba-a8a4-00cab788507a}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{c00c7039-307a-4e25-a715-a8a011609999}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{df1807b8-4b04-4648-8a88-f70f0e3e7f58}" showlabel="false" labelid="{74a6e941-feed-4cd7-aced-581fa205a3c0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Project Task QC" languagecode="1033" />
+      <LocalizedName description="Droits du projet de QC" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Project Task QC" languagecode="1033" />
+      <Description description="Droits du projet de QC" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{31fffe62-0e56-4fcc-9b2b-c3352fbe5fb8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_projecttasknm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_myprojecttaskid">
+          <cell name="tc_projecttasknm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_myprojecttask">
+          <attribute name="tc_myprojecttaskid" />
+          <attribute name="tc_projecttasknm" />
+          <attribute name="createdon" />
+          <order attribute="tc_projecttasknm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.17</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Project Tasks" languagecode="1033" />
+      <LocalizedName description="Tâches du projet inactif" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

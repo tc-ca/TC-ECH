@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0e8fd0be-9230-e911-80ef-005056817c30}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_indigenousgroupnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tyindigenousgroupid">
+          <cell name="tc_indigenousgroupnm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tyindigenousgroup">
+          <attribute name="tc_indigenousgroupnm" />
+          <order attribute="tc_indigenousgroupnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_tyindigenousgroupid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.21</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Indigenous Groups" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Indigenous Groups" languagecode="1033" />
+      <Description description="Groupes indigènes" languagecode="1036" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

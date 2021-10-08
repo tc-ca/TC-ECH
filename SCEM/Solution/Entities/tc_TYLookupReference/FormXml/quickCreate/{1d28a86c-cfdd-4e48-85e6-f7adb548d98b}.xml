@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1d28a86c-cfdd-4e48-85e6-f7adb548d98b}</formid>
+    <IntroducedVersion>0.1.0.14</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{4650fe47-ecd8-4bb4-810c-85b28f3cec8a}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="66%">
+              <sections>
+                <section id="{d2dd5991-971b-465d-a6a2-5bd29a20c8d5}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="true" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{543a6a39-e077-7566-1407-ed18a5e58820}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lookup Type" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookuptypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_lookuptypecd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca258b84-7319-88b3-a124-3eecc61aa863}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookupreferencenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_lookupreferencenm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5ea442c-7ced-10a3-1496-36d9b9d2b8ca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="English name" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookupreferenceenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_lookupreferenceenm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ddd2a6c-3528-5384-bbbd-443d1716d7d5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="French Name" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookupreferencefnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_lookupreferencefnm" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="17%">
+              <sections>
+                <section id="{06dd277c-f56a-4a84-bf76-0e39e1b8fea9}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f835c2b2-8bda-416b-9c1c-16d23ad783cf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="17%">
+              <sections>
+                <section id="{228a708f-9444-4313-9ac0-cd82dcf59852}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{479d184b-470d-49c2-b493-8d131e7a8e9b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Lookup QC" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Lookup Quick Create form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

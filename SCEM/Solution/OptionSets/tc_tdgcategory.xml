@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_tdgcategory" localizedName="TDG Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.3.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="TDG Category" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="Safety Awareness" languagecode="1033" />
+        <label description="Sensibilisation à la sécurité" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="TDG Secretariat - External Invitations" languagecode="1033" />
+        <label description="Secrétariat du TMD - Invitations externes" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="948010002">
+      <labels>
+        <label description="Indigenous Engagement" languagecode="1033" />
+        <label description="Engagement autochtone" languagecode="1036" />
+      </labels>
+    </option>
+  </options>
+</optionset>

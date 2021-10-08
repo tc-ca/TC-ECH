@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f3c2989e-1d75-4d7e-841f-2dec81fc2f3e}</formid>
+    <IntroducedVersion>0.59.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{fa5a4721-62fd-4b9d-814c-5cf852c1c9cb}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{0b3201f6-704b-4997-882a-50e25e31cfca}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dcc59861-249e-a470-52d6-9b6b1b450725}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction Short Description" languagecode="1033" />
+                          <label description="Description courte de l’interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectactivitynm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_projectactivitynm" disabled="false" uniqueid="{718cd996-1a8a-6454-b529-0126915c5ecb}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{279ea0c7-3c10-7e2b-46ea-881d92b60abb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction Date" languagecode="1033" />
+                          <label description="Date de l’interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_dateinteractiondte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_dateinteractiondte" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04d423ea-d8cd-899b-10db-598d4d78c9b1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction" languagecode="1033" />
+                          <label description="Interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_interactioncd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_interactioncd" disabled="false" uniqueid="{b70d2e36-869b-016c-99d8-d0338011078b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{664c8e58-0376-a3dd-5c24-540036c43dde}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction Type" languagecode="1033" />
+                          <label description="Type d’interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_interactiontypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_interactiontypecd" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{18ec1671-a789-449b-9d17-274498328bb8}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{17d12c60-2ad7-d16e-cc6d-ce718ae4573d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="RDIMS File Number" languagecode="1033" />
+                          <label description="Numéro du dossier du SGDDI" languagecode="1036" />
+                        </labels>
+                        <control id="tc_rdimsfilenum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_rdimsfilenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39b2ab1c-884c-7409-49c1-c40386ce7451}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{54772608-dff9-4655-9661-9826bc50200a}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5aa755bd-6a8b-b9c3-7be2-b7248a181355}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                          <label description="Détails" languagecode="1036" />
+                        </labels>
+                        <control id="tc_detailtxt" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_detailtxt" disabled="false" uniqueid="{0a107002-362d-413e-087d-2c0eac6ec9a0}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{0a107002-362d-413e-087d-2c0eac6ec9a0}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>tc_detailtxt</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_detailtxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_detailtxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_detailtxt</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Project Activity Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

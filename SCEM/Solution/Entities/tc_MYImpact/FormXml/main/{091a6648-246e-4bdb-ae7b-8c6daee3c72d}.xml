@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{091a6648-246e-4bdb-ae7b-8c6daee3c72d}</formid>
+    <IntroducedVersion>0.1.0.3</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b2cd4614-1e4d-42db-a8be-fc142d5e5666}" IsUserDefined="1" name="{b2cd4614-1e4d-42db-a8be-fc142d5e5666}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="Adverse Impact Details" languagecode="1033" />
+            <label description="Détails sur l’incidence négative" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{cb3a5a63-dad7-413f-bc94-c4b74700e05f}" name="{cb3a5a63-dad7-413f-bc94-c4b74700e05f}" columns="1" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                    <label description="Détails" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{64927ab4-b945-9439-b5bb-dedbadd8742c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Right" languagecode="1033" />
+                          <label description="Droit" languagecode="1036" />
+                        </labels>
+                        <control id="tc_impactrightcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_impactrightcd" disabled="false" uniqueid="{6c180a61-917c-0896-7ae9-1a6c720ac5a1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3a412e6-d97a-7e0b-1cce-7ddba11d170b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Magnitude" languagecode="1033" />
+                          <label description="Magnitude" languagecode="1036" />
+                        </labels>
+                        <control id="tc_magnitudecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_magnitudecd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{561bab8d-51b6-c10e-5480-e4c89be1457d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Extent" languagecode="1033" />
+                          <label description="Étendue" languagecode="1036" />
+                        </labels>
+                        <control id="tc_extentcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_extentcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25789d75-996d-1919-5044-38ca7210bbdc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                          <label description="Durée" languagecode="1036" />
+                        </labels>
+                        <control id="tc_durationcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_durationcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d3e80436-3236-6d75-177c-060d4484ad73}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                          <label description="Fréquence" languagecode="1036" />
+                        </labels>
+                        <control id="tc_frequencycd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_frequencycd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0573db73-07e2-7c7b-deb0-7478117e073e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reversibility" languagecode="1033" />
+                          <label description="Réversibilité" languagecode="1036" />
+                        </labels>
+                        <control id="tc_reversibilitycd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_reversibilitycd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8da7c69-2c31-2074-d0ed-27e61abd2ae4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Probability" languagecode="1033" />
+                          <label description="Probabilité" languagecode="1036" />
+                        </labels>
+                        <control id="tc_probabilitycd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_probabilitycd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c984a1a-1a9d-629d-24a2-4acb4da87ed4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Are adverse impacts possible?" languagecode="1033" />
+                          <label description="Des effets préjudiciables sont-ils possibles?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_impactpossibility" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_impactpossibility" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c85aa08-6c77-e253-a495-c19c73dc4284}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="What is the degree of impact?" languagecode="1033" />
+                          <label description="Quel est le degré d'impact?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_impactdegree" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_impactdegree" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ef08631-ab6c-48bc-9798-d465e16ee70e}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="tc_impactnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_impactnm" uniqueid="{d539e991-839b-7497-257c-8a423e34a2ae}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{257a0d05-3e82-4c08-94f5-3ea86d99f080}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{4e024c7e-3d73-d545-9bcd-d956b3385ebb}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{b2cd4614-1e4d-42db-a8be-fc142d5e5666}_section_2" showlabel="false" showbar="false" locklevel="0" id="{3b181587-2547-0a43-31bc-9cac30eb0b76}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{717a6576-90c3-0e22-dbda-9b5e15784d09}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Context" languagecode="1033" />
+                          <label description="Contexte" languagecode="1036" />
+                        </labels>
+                        <control id="tc_contextcd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_contextcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db8d43ee-eb7a-a8a3-29a5-410717d8282e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Confidence" languagecode="1033" />
+                          <label description="Confiance" languagecode="1036" />
+                        </labels>
+                        <control id="tc_confidencecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_confidencecd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4953a843-257e-c902-126e-c765bdb6b615}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Severity" languagecode="1033" />
+                          <label description="Gravité" languagecode="1036" />
+                        </labels>
+                        <control id="tc_severitycd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_severitycd" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{b2cd4614-1e4d-42db-a8be-fc142d5e5666}_section_3" showlabel="false" showbar="false" locklevel="0" id="{8728c711-153d-d650-bae5-0626ed34daea}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{681d7e37-cb58-c532-e46a-b64ba465b9b2}" showlabel="true" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                          <label description="La description" languagecode="1036" />
+                        </labels>
+                        <control id="tc_impactdescriptiontxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_impactdescriptiontxt" disabled="false" uniqueid="{8e307e56-414e-cd4a-621a-e7b13d230b7c}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{87d69521-e77e-485f-82e8-f1020a0e1079}" columns="111">
+        <rows>
+          <row>
+            <cell id="{9d0e05b3-6453-5943-1dc2-8c1149eb8a16}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{bb5ddb0e-167c-ce31-56b3-c2e326105572}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{30399468-5b40-a61c-3a13-051202b28e1a}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Renseignements" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Un formulaire pour cette entité." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

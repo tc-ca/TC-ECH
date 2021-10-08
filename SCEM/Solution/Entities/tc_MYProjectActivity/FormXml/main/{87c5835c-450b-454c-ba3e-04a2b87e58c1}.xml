@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{87c5835c-450b-454c-ba3e-04a2b87e58c1}</formid>
+    <IntroducedVersion>0.1.0.18</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{a9088b65-da61-413e-ad11-08167def5e61}" IsUserDefined="1" name="{a9088b65-da61-413e-ad11-08167def5e61}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="Activities and Consultation" languagecode="1033" />
+            <label description="Activités et consultation" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{57a4c574-bda5-497d-8890-68e18ac57766}" name="{57a4c574-bda5-497d-8890-68e18ac57766}" columns="1" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General Details" languagecode="1033" />
+                    <label description="Détails généraux" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{28974a79-d371-4142-8054-64c33b5f3bf4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction Short Description" languagecode="1033" />
+                          <label description="Description courte de l’interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectactivitynm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_projectactivitynm" uniqueid="{d02d0123-06c7-27b3-2433-282d038e2c1e}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{203ea36e-5031-5dc8-b208-0cc1a96d9b28}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction Date" languagecode="1033" />
+                          <label description="Date de l’interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_dateinteractiondte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_dateinteractiondte" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c01229d5-b972-773c-b351-2878d0b34e83}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction" languagecode="1033" />
+                          <label description="Interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_interactioncd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_interactioncd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2aae0809-3621-42d5-0c9b-a349684ba2eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interaction Type" languagecode="1033" />
+                          <label description="Type d’interaction" languagecode="1036" />
+                        </labels>
+                        <control id="tc_interactiontypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_interactiontypecd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6cea4821-9852-122c-7d01-6b35808dc309}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="RDIMS File Number" languagecode="1033" />
+                          <label description="Numéro du dossier du SGDDI" languagecode="1036" />
+                        </labels>
+                        <control id="tc_rdimsfilenum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_rdimsfilenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{43eaacf9-d1cb-427d-98a0-afa7848c342a}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{c8d33341-e9d6-e26b-518b-506613a97b67}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section id="{5377f51b-8110-4638-be8b-7fcb8b453ba4}" name="{a9088b65-da61-413e-ad11-08167def5e61}_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b3b0828-8c54-d0ce-b7ac-6a3947777a64}" showlabel="true" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="Details" languagecode="1033" />
+                          <label description="Détails" languagecode="1036" />
+                        </labels>
+                        <control id="tc_detailtxt" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_detailtxt" disabled="false" uniqueid="{5a933438-8d49-36bc-28b5-a4262ed97715}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{2bb7107d-0427-a1d3-ce50-e697ad86760b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Parties" languagecode="1033" />
+            <label description="Parties" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{d5902116-bad1-cd61-3193-798ae399771b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{14220b26-6657-985d-8bb7-049e5628190b}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="TC Users" languagecode="1033" />
+                          <label description="Représentants de TC" languagecode="1036" />
+                        </labels>
+                        <control id="UserGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{eba38e2d-599d-06ec-20a3-2c1022e4dd2c}">
+                          <parameters>
+                            <ViewId>{784E2662-A92B-E911-80F1-005056814435}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProjectactivity_Systemuser</RelationshipName>
+                            <TargetEntityType>systemuser</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001019},{784E2662-A92B-E911-80F1-005056814435}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{7d68193b-9b0d-b2de-8c25-28595eb0629b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a3228ed5-b938-5244-ed38-b141504be1e3}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Organizations" languagecode="1033" />
+                          <label description="Organisations" languagecode="1036" />
+                        </labels>
+                        <control id="Organizations" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{2b5352d0-5b20-1741-8345-9e0be545b005}">
+                          <parameters>
+                            <ViewId>{A259457E-0839-E911-80EF-005056815FA7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProjectactivity_Account</RelationshipName>
+                            <TargetEntityType>account</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A259457E-0839-E911-80EF-005056815FA7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{74A622C0-5193-DE11-97D4-00155DA3B01E}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_2_section_3" showlabel="false" showbar="false" locklevel="0" id="{d305aaba-405c-6374-7e58-c43452ce9c5e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1cbb90ae-88dc-cc1c-879b-14350a1925cd}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Indigenous Groups" languagecode="1033" />
+                          <label description="Communauté autochtone" languagecode="1036" />
+                        </labels>
+                        <control id="IndigenousGroupGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{9d5ea371-bb5a-802c-a8e9-48d730d0283c}">
+                          <parameters>
+                            <ViewId>{2DA4261B-A0A6-4EBA-9CE8-893F21DEE0EA}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProjectactivity_TYIndigenousgroup</RelationshipName>
+                            <TargetEntityType>tc_tyindigenousgroup</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2DA4261B-A0A6-4EBA-9CE8-893F21DEE0EA}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{5a933438-8d49-36bc-28b5-a4262ed97715}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>tc_detailtxt</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_detailtxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_detailtxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_detailtxt</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Renseignements" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Un formulaire pour cette entité." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

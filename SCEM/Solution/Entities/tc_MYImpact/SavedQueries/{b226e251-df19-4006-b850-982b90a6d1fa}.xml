@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b226e251-df19-4006-b850-982b90a6d1fa}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_impactnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_myimpactid">
+          <cell name="tc_impactrightcd" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_impactdescriptiontxt" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_impactpossibility" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_impactdegree" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_myimpact">
+          <order attribute="tc_impactrightcd" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_impactrightcd" />
+          <attribute name="tc_impactdescriptiontxt" />
+          <attribute name="tc_impactdegree" />
+          <attribute name="tc_impactpossibility" />
+          <attribute name="tc_myimpactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Impacts" languagecode="1033" />
+      <LocalizedName description="Incidences actives" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e8aace43-a465-4828-af3b-8be349f9ca74}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_indigenousgroupnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tyindigenousgroupid">
+          <cell name="tc_indigenousgroupnm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tyindigenousgroup">
+          <attribute name="tc_tyindigenousgroupid" />
+          <attribute name="tc_indigenousgroupnm" />
+          <attribute name="createdon" />
+          <order attribute="tc_indigenousgroupnm" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.21</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Indigenous Group Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue de recherche avancée de groupe autochtone" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
