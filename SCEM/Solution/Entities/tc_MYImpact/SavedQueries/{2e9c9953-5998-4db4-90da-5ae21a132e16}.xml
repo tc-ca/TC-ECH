@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2e9c9953-5998-4db4-90da-5ae21a132e16}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_impactnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_myimpactid">
+          <cell name="tc_impactnm" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_myimpact">
+          <attribute name="tc_myimpactid" />
+          <attribute name="tc_impactnm" />
+          <attribute name="createdon" />
+          <order attribute="tc_impactnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Impacts" languagecode="1033" />
+      <LocalizedName description="Incidences inactives" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

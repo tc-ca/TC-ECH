@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3f9e4a8e-039b-4a5f-8955-f6ae23907b18}</formid>
+    <IntroducedVersion>0.1.0.12</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{9f045232-39e9-40db-aa9b-6669cbadf084}" IsUserDefined="1" name="{9f045232-39e9-40db-aa9b-6669cbadf084}" expanded="true" locklevel="0" showlabel="false">
+          <labels>
+            <label description="Reference Data" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="67%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{e2d3ff32-6792-42a5-99ea-a62e50b366e4}" name="{e2d3ff32-6792-42a5-99ea-a62e50b366e4}" columns="1" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Reference Data" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0bb4ba35-9b39-9d1e-e50e-941096abc6da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lookup Type" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookuptypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_lookuptypecd" disabled="false" uniqueid="{c0ce2516-d018-eeee-5445-4104ed84b486}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70e88c56-986d-4805-9233-d208f09c3629}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookupreferencenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_lookupreferencenm" uniqueid="{e5c00dbd-e3e5-a402-c4ab-ac2ea5b00da6}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c2c02133-2265-59c4-3112-3c6647779c73}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="English name" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookupreferenceenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_lookupreferenceenm" disabled="false" uniqueid="{51489082-d1de-0da1-d3a4-c0c979c9b233}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{565d8b8c-aa45-0bc2-b3b0-eb24ca262c90}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="French Name" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lookupreferencefnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_lookupreferencefnm" disabled="false" uniqueid="{85e346e3-b1b6-6790-ad15-15767805cdcb}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c45a4b4-6221-4127-8b74-022495b1116c}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{4350e15d-2819-c780-c9c7-809da5db9da2}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="{9f045232-39e9-40db-aa9b-6669cbadf084}_section_2" showlabel="false" showbar="false" locklevel="0" id="{7b021561-005a-ea27-0e2b-81eac8050281}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c7345507-363a-be72-e66d-73694ca2b3c4}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{dc185145-9bd2-4421-a011-04bd1ce73df5}" columns="111">
+        <rows>
+          <row>
+            <cell id="{c6598e94-3e29-960e-e4d0-3809666ce82e}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{668d973a-a25c-2586-1a37-52c38186c773}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{3b22782d-23a3-4634-7eea-9206e67b5c69}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

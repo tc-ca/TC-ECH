@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{dd45c675-97ff-45fd-9b31-d050ecdc0c3d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_name" select="1" icon="1" preview="1">
+        <row name="result" id="tc_organizationsprojectsid">
+          <cell name="tc_federaldepartmentid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_organizationsprojects">
+          <order attribute="tc_federaldepartmentid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_federaldepartmentid" />
+          <attribute name="tc_organizationsprojectsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.33.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Federal Departments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

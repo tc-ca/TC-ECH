@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9b00da39-9b3c-4b41-91e9-036d60a336fc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_indigenousgroupnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_tyindigenousgroupid">
+          <cell name="tc_indigenousgroupnm" width="300" />
+          <cell name="tc_communitytypecd" width="100" />
+          <cell name="tc_provincecd" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_tyindigenousgroup">
+          <attribute name="tc_indigenousgroupnm" />
+          <order attribute="tc_indigenousgroupnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="tc_provincecd" operator="like" value="{0}" />
+            <condition attribute="tc_communitytypecd" operator="like" value="{0}" />
+            <condition attribute="tc_indigenousgroupnm" operator="like" value="{0}" />
+          </filter>
+          <attribute name="tc_provincecd" />
+          <attribute name="tc_communitytypecd" />
+          <attribute name="tc_tyindigenousgroupid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.21</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Indigenous Groups" languagecode="1033" />
+      <LocalizedName description="Recherche rapide de groupes autochtones actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
+        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="false" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -21,19 +21,18 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{fbe75e66-771a-4bfe-b62a-00a0e0e98120}" labelid="{c57f9528-202f-4223-bc8b-34a35ad6247b}" showlabel="true" locklevel="0" colspan="1">
+                      <cell id="{6f6d115b-0739-49a8-8721-04ae829aaab7}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="TDG Category" languagecode="1033" />
+                        </labels>
+                        <control id="tc_tdgcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="tc_tdgcategory" disabled="false" uniqueid="{156c8c40-455e-ed0b-9e06-4e454a15c657}" />
+                      </cell>
+                      <cell id="{fbe75e66-771a-4bfe-b62a-00a0e0e98120}" labelid="{c57f9528-202f-4223-bc8b-34a35ad6247b}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Name of Event" languagecode="1033" />
                           <label description="Nom" languagecode="1036" />
                         </labels>
                         <control id="tc_eventnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventnm" uniqueid="{64e51e4b-2871-8d41-978c-38c65716239d}" disabled="false" />
-                      </cell>
-                      <cell id="{e66e775a-650b-ce02-7759-668d255edc47}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Event Type" languagecode="1033" />
-                          <label description="Type d’événement" languagecode="1036" />
-                        </labels>
-                        <control id="tc_eventtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventtypecd" disabled="false" />
                       </cell>
                       <cell id="{325c3e5c-364c-aac5-2c3b-28ce1412a680}" showlabel="true" locklevel="0">
                         <labels>
@@ -43,9 +42,30 @@
                         <control id="tc_eventstatuscd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventstatuscd" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{e66e775a-650b-ce02-7759-668d255edc47}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Event Type" languagecode="1033" />
+                          <label description="Type d’événement" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventtypecd" disabled="false" />
+                      </cell>
+                      <cell id="{9e8c1dc9-8928-64eb-2476-842d8419e136}" showlabel="true" locklevel="0" labelid="{7d8f5cec-9002-494a-b03f-24c11356400f}">
+                        <labels>
+                          <label description="Region(s)" languagecode="1033" />
+                          <label description="Région(s)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_regions" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_regions" disabled="false" uniqueid="{19918269-9896-53ad-7c60-c3e6a53ed5e0}" />
+                      </cell>
+                      <cell locklevel="0" id="{62f6cfec-5d7a-4bef-be1a-f5c1d1fd13c3}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
-                <section name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}_section_3" showlabel="true" showbar="true" locklevel="0" id="{268be4a5-3eba-c115-c4b9-52bbe4ab4593}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="sect_safety" showlabel="true" showbar="true" locklevel="0" id="{268be4a5-3eba-c115-c4b9-52bbe4ab4593}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Safety Awareness Plan" languagecode="1033" />
                   </labels>
@@ -107,7 +127,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}_section_5" showlabel="true" showbar="true" locklevel="0" id="{99111509-b38a-e7b1-8d58-d161eac3e3b0}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="sect_engagement" showlabel="true" showbar="true" locklevel="0" id="{99111509-b38a-e7b1-8d58-d161eac3e3b0}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="TDG Secretariat Engagement Strategy Tool" languagecode="1033" />
                   </labels>
@@ -304,7 +324,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}_section_6" showlabel="true" showbar="true" locklevel="0" id="{4444b551-d07c-9cdb-a947-cc1b8318ac87}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="sect_indigenous" showlabel="true" showbar="true" locklevel="0" id="{4444b551-d07c-9cdb-a947-cc1b8318ac87}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Indigenous Engagement Tracker" languagecode="1033" />
                   </labels>
@@ -452,7 +472,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_10" id="{33312300-e9b4-4aab-6b1e-8806ca1660eb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tabLocation" id="{33312300-e9b4-4aab-6b1e-8806ca1660eb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Location and dates" languagecode="1033" />
           </labels>
@@ -489,15 +509,6 @@
                           <label description="ADRESSE" languagecode="1036" />
                         </labels>
                         <control id="tc_eventaddresstxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventaddresstxt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{9e8c1dc9-8928-64eb-2476-842d8419e136}" showlabel="true" locklevel="0" labelid="{7d8f5cec-9002-494a-b03f-24c11356400f}">
-                        <labels>
-                          <label description="Region(s)" languagecode="1033" />
-                          <label description="Région(s)" languagecode="1036" />
-                        </labels>
-                        <control id="tc_regions" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_regions" disabled="false" uniqueid="{19918269-9896-53ad-7c60-c3e6a53ed5e0}" />
                       </cell>
                     </row>
                   </rows>
@@ -544,7 +555,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_12" id="{50452317-161b-b8c4-488e-07b19c9235a7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tabMarketing" id="{50452317-161b-b8c4-488e-07b19c9235a7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Marketing" languagecode="1033" />
           </labels>
@@ -608,7 +619,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_8" id="{5ba54830-cd3d-bc12-7e2e-226bc1341ce8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tabAdministration" id="{5ba54830-cd3d-bc12-7e2e-226bc1341ce8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Finance and Administration" languagecode="1033" />
           </labels>
@@ -683,7 +694,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_7" id="{5c423665-3e6d-c02b-64c2-74c316a53763}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tabApproval" id="{5c423665-3e6d-c02b-64c2-74c316a53763}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Logistic and approvals" languagecode="1033" />
           </labels>
@@ -887,7 +898,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_6" id="{91d0453a-5c41-95b4-e412-cc236611a57e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tabAssessment" id="{91d0453a-5c41-95b4-e412-cc236611a57e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Assessment" languagecode="1033" />
           </labels>
@@ -946,45 +957,6 @@
                     <row />
                     <row />
                     <row height="auto" />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_11" id="{cc510908-8843-a5e4-7550-d00291825c81}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
-          <labels>
-            <label description="HiddenTab" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_11_section_1" showlabel="false" showbar="false" locklevel="0" id="{11c146c0-ac7a-55da-c5e9-371e699415d0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{339eb3d0-a78b-8c66-9e11-52dc054ec4bd}" showlabel="true" locklevel="0" labelid="{0da18836-b88c-4053-b6ab-4b86ac845aca}">
-                        <labels>
-                          <label description="Participation Type" languagecode="1033" />
-                          <label description="Type de participation" languagecode="1036" />
-                        </labels>
-                        <control id="tc_isindigenousevent" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_isindigenousevent" disabled="false" uniqueid="{c0a7d58c-56a8-4444-d659-3aae07155dc8}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{6b16aa8b-cab3-bcd0-2958-a796d1100a50}" showlabel="true" locklevel="0" rowspan="4" auto="false" labelid="{a8b36587-6077-47a4-9424-f6fee47ab0b3}">
-                        <labels>
-                          <label description="Objective(s)" languagecode="1033" />
-                          <label description="Objectif(s) de l'événement" languagecode="1036" />
-                        </labels>
-                        <control id="tc_objective" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_objective" disabled="false" uniqueid="{e720bb66-77ad-5738-31a4-6ee26b28e716}" />
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
                   </rows>
                 </section>
               </sections>
@@ -1219,28 +1191,6 @@
             </parameters>
           </customControl>
         </controlDescription>
-        <controlDescription forControl="{e720bb66-77ad-5738-31a4-6ee26b28e716}">
-          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="0">
-            <parameters>
-              <datafieldname>tc_objective</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="1">
-            <parameters>
-              <datafieldname>tc_objective</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="2">
-            <parameters>
-              <datafieldname>tc_objective</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl name="MscrmControls.RichTextEditor.RichTextEditorControl" formFactor="-1">
-            <parameters>
-              <value>tc_objective</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
         <controlDescription forControl="{19bb8ad8-5784-682c-d83e-5d45ce0b7d52}">
           <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="0">
             <parameters>
@@ -1290,7 +1240,20 @@
         <Library name="tc_/Core/checkSubGridRowCount.js" libraryUniqueId="{18dbecd1-a92c-a320-455d-93d25b554ad6}" />
         <Library name="tc_/Core/showAlertDialog.js" libraryUniqueId="{29ce3ec6-2500-0736-3cb8-597820cc0dab}" />
         <Library name="tc_/Core/RequiredLevels.js" libraryUniqueId="{880c4c6e-e1d4-0662-c94b-3a084560ac1c}" />
+        <Library name="tc_scem/event.js" libraryUniqueId="{c7b39ee4-82ed-d68d-0bdc-18dcc479b1a0}" />
       </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="onformload" libraryName="tc_scem/event.js" handlerUniqueId="{77102a91-2649-a026-3431-ded7b24816e5}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_tdgcategory">
+          <Handlers>
+            <Handler functionName="eventcategory_onchange" libraryName="tc_scem/event.js" handlerUniqueId="{566289ab-38c1-a4ba-7688-02de2915611c}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
       <DisplayConditions FallbackForm="true" Order="4">
         <Role Id="{86E7D9F2-1D04-EC11-B6E7-0022486D73FD}" />
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
