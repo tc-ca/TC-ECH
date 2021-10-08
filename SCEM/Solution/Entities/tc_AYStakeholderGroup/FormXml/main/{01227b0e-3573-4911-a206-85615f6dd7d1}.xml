@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{c8a4b308-c385-440d-8f87-c5d446b1ea8c}" IsUserDefined="1" expanded="false">
+        <tab verticallayout="true" id="{c8a4b308-c385-440d-8f87-c5d446b1ea8c}" IsUserDefined="1" expanded="true" name="{c8a4b308-c385-440d-8f87-c5d446b1ea8c}" locklevel="0" showlabel="true">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Général" languagecode="1036" />
@@ -222,7 +222,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_5" id="{62b8bd2a-cce3-9200-a8a8-a28101798364}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tab_5" id="{62b8bd2a-cce3-9200-a8a8-a28101798364}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Documents" languagecode="1033" />
           </labels>
