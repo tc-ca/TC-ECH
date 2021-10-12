@@ -40,6 +40,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{a71a53a4-1667-3262-4793-8ecdeea577b7}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Action #" languagecode="1033" />
+                        </labels>
+                        <control id="tc_actionnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_actionnumber" disabled="false" uniqueid="{d5d24edd-866b-5777-27aa-bea36b352a25}" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{bdd9e623-aa09-c31d-9e41-839688d89b7b}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Country" languagecode="1033" />
@@ -63,6 +71,42 @@
                           <label description="Contacts" languagecode="1033" />
                         </labels>
                         <control id="tc_contacts" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_contacts" disabled="false" uniqueid="{cb04a662-2ca4-5ca0-3434-30059ad47ad5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de797418-182a-9abe-4d83-06a4a725d140}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Coordinator" languagecode="1033" />
+                          <label description="Coordinateur/trice" languagecode="1036" />
+                        </labels>
+                        <control id="tc_coordinator" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_coordinator" disabled="false" uniqueid="{8297c572-589a-c26e-a866-21c86130ad8e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0431dda-d5ca-7911-d713-55caab961c87}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="OPI" languagecode="1033" />
+                          <label description="BPR" languagecode="1036" />
+                        </labels>
+                        <control id="tc_opi" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_opi" disabled="false" uniqueid="{d5b97c1c-2989-e4c8-2b80-829578ea13ac}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row>
