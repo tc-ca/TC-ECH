@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="account_primary_contact" />
+  <EntityRelationship Name="adx_webrole_contact" />
   <EntityRelationship Name="adx_website_sponsor" />
   <EntityRelationship Name="bpf_tc_yyevent_tc_businessprocessflowevent" />
   <EntityRelationship Name="business_unit_tc_aystakeholdergroup" />
@@ -73,6 +74,7 @@
   <EntityRelationship Name="lk_tc_yyinitiative_createdby" />
   <EntityRelationship Name="lk_tc_yyinitiative_modifiedby" />
   <EntityRelationship Name="msa_account_managingpartner" />
+  <EntityRelationship Name="msa_contact_managingpartner" />
   <EntityRelationship Name="msdyn_msdyn_functionallocation_account" />
   <EntityRelationship Name="organization_tc_businessprocessflowevent" />
   <EntityRelationship Name="organization_tc_dyeventlog" />
@@ -116,6 +118,7 @@
   <EntityRelationship Name="tc_Contact_YYOrganizationAgreement_ContactId" />
   <EntityRelationship Name="tc_country_eventdetail" />
   <EntityRelationship Name="tc_Event_Region" />
+  <EntityRelationship Name="tc_EventDetail_Coordinator_Contact" />
   <EntityRelationship Name="tc_EventDetails_Contacts" />
   <EntityRelationship Name="tc_initiatives_parentInitiative" />
   <EntityRelationship Name="tc_MYProject_Account_Partner" />
@@ -144,6 +147,7 @@
   <EntityRelationship Name="tc_YYComment_TYTag" />
   <EntityRelationship Name="tc_YYComment_YYInitiative" />
   <EntityRelationship Name="tc_yycountry_account_CountryId" />
+  <EntityRelationship Name="tc_yycountry_contact_CountryId" />
   <EntityRelationship Name="tc_yycountry_event_CountryId" />
   <EntityRelationship Name="tc_YYEvent_Account_Account" />
   <EntityRelationship Name="tc_YYEvent_Contact_EventId" />
@@ -159,6 +163,7 @@
   <EntityRelationship Name="tc_YYEvent_YYInitiative" />
   <EntityRelationship Name="tc_YYEventDetail_OPI_Contact" />
   <EntityRelationship Name="tc_yyeventdetail_yyeventdetail_CommitmentId" />
+  <EntityRelationship Name="tc_yyprovincestate_contact_ProvinceId" />
   <EntityRelationship Name="tc_yyprovincestate_yyevent_ProvinceId" />
   <EntityRelationship Name="team_tc_aystakeholdergroup" />
   <EntityRelationship Name="team_tc_contact_yyevent" />

@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{be4b6e91-f937-4b50-999a-57f82715a817}</formid>
+    <IntroducedVersion>0.7</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{daa4c53e-6343-453c-9ee4-1be2bb00308b}" name="tab_1" showlabel="false" labelid="{6708797c-d27c-486e-bb1f-a031b1ab66c7}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+            <label description="Onglet" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{fddd24f2-c0ee-4dd5-9ae9-94c1dbfd3042}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{f230f1f7-0db9-4639-a7aa-9b5ec3518d6e}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{43a62de7-a369-33a1-05b5-7e1374c4cb37}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Business Card" languagecode="1033" />
+                          <label description="Carte de visite" languagecode="1036" />
+                        </labels>
+                        <control id="businesscard" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="businesscard" disabled="false" uniqueid="{160a2bac-d291-b4e0-57bc-75d0beac84ab}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{356bea44-0053-6a16-d927-ccd20adb74e4}" showlabel="true" locklevel="0" labelid="{170f2dac-1962-4128-a9ae-303a41245a4f}">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                          <label description="Prénom" languagecode="1036" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17dec9cb-8e47-ae51-4725-505e845b8488}" showlabel="true" locklevel="0" labelid="{7c6bd345-cca4-420a-99f6-95d8d7cbb8d9}">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                          <label description="Nom de famille" languagecode="1036" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{867c319c-2dbc-d989-deb2-34eba5989093}" showlabel="true" locklevel="0" labelid="{a980be94-7541-445e-873b-1ac8b21efa3e}">
+                        <labels>
+                          <label description="Job Title" languagecode="1033" />
+                          <label description="Fonction" languagecode="1036" />
+                        </labels>
+                        <control id="jobtitle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="jobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7eb77540-3519-aa88-7b9c-06a28e91b2ba}" showlabel="true" locklevel="0" labelid="{ffdfc691-eb5b-48d9-8bbe-a83d6ac3a439}">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
+                        </labels>
+                        <control id="parentcustomerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcustomerid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21aa7b8b-286b-ba1c-79bd-022953775de2}" showlabel="true" locklevel="0" labelid="{69b2d528-bf74-45b8-8aeb-a1b6e8bc3923}">
+                        <labels>
+                          <label description="Preferred Method of Contact" languagecode="1033" />
+                          <label description="Mode de communication privilégié" languagecode="1036" />
+                        </labels>
+                        <control id="preferredcontactmethodcode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="preferredcontactmethodcode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{c0466682-5c21-4aba-b093-05777a7d618a}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{012dd16e-41c9-4576-b19a-17776ea98155}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e15db959-b11e-cd46-6044-e33c75861dac}" showlabel="true" locklevel="0" labelid="{7aafbebe-d5d3-4ff6-989c-b21ded761d99}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                          <label description="Courrier électronique" languagecode="1036" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c4e0573-d036-62a7-59ce-9e9665854d35}" showlabel="true" locklevel="0" labelid="{3ca5fa2b-2a4a-4d7c-9a80-4857c3585cc0}">
+                        <labels>
+                          <label description="Business Phone" languagecode="1033" />
+                          <label description="Téléphone professionel" languagecode="1036" />
+                        </labels>
+                        <control id="telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c0482a1-51bd-6416-13a0-a32831e071b1}" showlabel="true" locklevel="0" labelid="{2ce20aca-8274-412a-b317-659db2e867fd}">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                          <label description="Téléphone mobile" languagecode="1036" />
+                        </labels>
+                        <control id="mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2735c81b-2ea9-a177-e632-76e8e27b2782}" showlabel="true" locklevel="0" rowspan="3" labelid="{09c8c2b3-4f53-46ce-8a4b-c997b10e7738}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                          <label description="Description" languagecode="1036" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" uniqueid="{b5390089-4e94-697e-06d8-4987823249b0}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{0174380a-67c0-4cf5-a6f9-2008665e24a3}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{6c87e4cd-6032-46f0-95ea-d0dab8ce322d}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{128ddc54-7687-02a7-7d3e-9aa960179a3e}" showlabel="true" locklevel="0" labelid="{fb5fba7e-f9e3-4a35-a0f2-af919ed19cf6}">
+                        <labels>
+                          <label description="Address 1: Street 1" languagecode="1033" />
+                          <label description="Adresse 1 : Rue 1" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{037dd8a6-2bd7-967e-bac0-cdb3dd92da78}" showlabel="true" locklevel="0" labelid="{2ffa4eee-7ba5-4d35-a25e-823f9ac78d8f}">
+                        <labels>
+                          <label description="Address 1: Street 2" languagecode="1033" />
+                          <label description="Adresse 1 : Rue 2" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37ab397b-4abd-23b9-b63c-258d83bb4c96}" showlabel="true" locklevel="0" labelid="{1147f1f1-d6b7-4108-a5a7-ee0004764733}">
+                        <labels>
+                          <label description="Address 1: City" languagecode="1033" />
+                          <label description="Adresse 1 : Ville" languagecode="1036" />
+                        </labels>
+                        <control id="address1_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1be26ed9-961a-72ab-5b79-5c56da28d84d}" showlabel="true" locklevel="0" labelid="{89467959-8ec4-4259-a7b9-bd409e052da9}">
+                        <labels>
+                          <label description="Address 1: ZIP/Postal Code" languagecode="1033" />
+                          <label description="Adresse 1 : Code postal" languagecode="1036" />
+                        </labels>
+                        <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76704bcb-b9c0-2eb2-d72e-18b2e2a86838}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                        </labels>
+                        <control id="tc_countryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_countryid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e74dd686-9342-ed81-4749-3eae6b14ad89}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Province/State" languagecode="1033" />
+                        </labels>
+                        <control id="tc_provincestateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_provincestateid" disabled="false" uniqueid="{4b8e5089-653c-cd68-0438-ca71d78ca18d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{7FB6E471-2694-41DB-8A9A-8CBE37FBFD51}</DefaultViewId>
+                            <FilterRelationshipName>tc_tc_yycountry_tc_yyprovincestate</FilterRelationshipName>
+                            <DependentAttributeName>contact.tc_countryid</DependentAttributeName>
+                            <DependentAttributeType>tc_yycountry</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{160a2bac-d291-b4e0-57bc-75d0beac84ab}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>businesscard</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="Intelligence.BusinessCardReaderControl.BusinessCardReader">
+            <parameters>
+              <value>businesscard</value>
+              <FullName>fullname</FullName>
+              <FirstName>firstname</FirstName>
+              <LastName>lastname</LastName>
+              <JobTitle>jobtitle</JobTitle>
+              <MobilePhone>mobilephone</MobilePhone>
+              <BusinessPhone>telephone1</BusinessPhone>
+              <Fax>fax</Fax>
+              <Email>emailaddress1</Email>
+              <Website>websiteurl</Website>
+              <Department>department</Department>
+              <FullAddress>address1_composite</FullAddress>
+              <AddressStreet>address1_line1</AddressStreet>
+              <AddressCity>address1_city</AddressCity>
+              <AddressPostalCode>address1_postalcode</AddressPostalCode>
+              <AddressCountry>address1_country</AddressCountry>
+              <AddressState>address1_stateorprovince</AddressState>
+              <AddressPostOfficeBox>address1_postofficebox</AddressPostOfficeBox>
+              <CleanedImage>businesscard</CleanedImage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="Intelligence.BusinessCardReaderControl.BusinessCardReader">
+            <parameters>
+              <value>businesscard</value>
+              <FullName>fullname</FullName>
+              <FirstName>firstname</FirstName>
+              <LastName>lastname</LastName>
+              <JobTitle>jobtitle</JobTitle>
+              <MobilePhone>mobilephone</MobilePhone>
+              <BusinessPhone>telephone1</BusinessPhone>
+              <Fax>fax</Fax>
+              <Email>emailaddress1</Email>
+              <Website>websiteurl</Website>
+              <Department>department</Department>
+              <FullAddress>address1_composite</FullAddress>
+              <AddressStreet>address1_line1</AddressStreet>
+              <AddressCity>address1_city</AddressCity>
+              <AddressPostalCode>address1_postalcode</AddressPostalCode>
+              <AddressCountry>address1_country</AddressCountry>
+              <AddressState>address1_stateorprovince</AddressState>
+              <AddressPostOfficeBox>address1_postofficebox</AddressPostOfficeBox>
+              <CleanedImage>businesscard</CleanedImage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="Intelligence.BusinessCardReaderControl.BusinessCardReader">
+            <parameters>
+              <value>businesscard</value>
+              <FullName>fullname</FullName>
+              <FirstName>firstname</FirstName>
+              <LastName>lastname</LastName>
+              <JobTitle>jobtitle</JobTitle>
+              <MobilePhone>mobilephone</MobilePhone>
+              <BusinessPhone>telephone1</BusinessPhone>
+              <Fax>fax</Fax>
+              <Email>emailaddress1</Email>
+              <Website>websiteurl</Website>
+              <Department>department</Department>
+              <FullAddress>address1_composite</FullAddress>
+              <AddressStreet>address1_line1</AddressStreet>
+              <AddressCity>address1_city</AddressCity>
+              <AddressPostalCode>address1_postalcode</AddressPostalCode>
+              <AddressCountry>address1_country</AddressCountry>
+              <AddressState>address1_stateorprovince</AddressState>
+              <AddressPostOfficeBox>address1_postofficebox</AddressPostOfficeBox>
+              <CleanedImage>businesscard</CleanedImage>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="ASIES Contact Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

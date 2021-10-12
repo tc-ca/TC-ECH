@@ -11,6 +11,7 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="tc_SCEM" />
+    <AppModuleComponent type="1" schemaName="tc_tybranch" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
     <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
@@ -43,7 +44,11 @@
     <AppModuleComponent type="26" id="{9f53c878-7df4-eb11-94ef-000d3a09e408}" />
     <AppModuleComponent type="26" id="{27a8f488-b1bf-44e5-93e3-2341d68a6091}" />
     <AppModuleComponent type="26" id="{e8e80387-d3fa-e711-8140-000c2958e3a5}" />
+    <AppModuleComponent type="1" schemaName="tc_yyeventdetail" />
     <AppModuleComponent type="1" schemaName="tc_feedbackform" />
+    <AppModuleComponent type="1" schemaName="tc_myproject" />
+    <AppModuleComponent type="1" schemaName="tc_yyinitiative" />
+    <AppModuleComponent type="1" schemaName="tc_tylookupreference" />
     <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="60" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
     <AppModuleComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
@@ -53,14 +58,20 @@
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666000}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001200}" />
     <AppModuleComponent type="26" id="{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
     <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
-    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
     <AppModuleComponent type="1" schemaName="tc_tyaccounttype" />
     <AppModuleComponent type="1" schemaName="tc_tyregion" />
     <AppModuleComponent type="1" schemaName="report" />
     <AppModuleComponent type="26" id="{69969211-241f-ec11-b6e6-0022486d8d6f}" />
     <AppModuleComponent type="1" schemaName="tc_aystakeholdergroup" />
+    <AppModuleComponent type="1" schemaName="team" />
+    <AppModuleComponent type="60" id="{4aabf594-b30a-490d-bf97-89c67c6777fe}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001027}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001205}" />
+    <AppModuleComponent type="26" id="{7e24e807-9f95-4546-94c9-c4f29ec812ba}" />
+    <AppModuleComponent type="26" id="{57e39843-404c-48e5-b1d9-1889098fb65c}" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
     <Role id="{ae0a3a4a-bf1c-ec11-b6e7-000d3a09e6b7}" />
@@ -69,8 +80,10 @@
   </AppModuleRoleMaps>
   <LocalizedNames>
     <LocalizedName description="SCEM" languagecode="1033" />
+    <LocalizedName description="GMCI" languagecode="1036" />
   </LocalizedNames>
   <Descriptions>
     <Description description="Stakeholder Consultation and Engagement Management" languagecode="1033" />
+    <Description description="Gestion de mobilisations et de consultation des intervenants" languagecode="1036" />
   </Descriptions>
 </AppModule>
