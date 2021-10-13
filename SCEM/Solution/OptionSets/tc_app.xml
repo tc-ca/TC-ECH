@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_app" localizedName="App" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.7.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="App" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="948010000">
+      <labels>
+        <label description="SCEM" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010001">
+      <labels>
+        <label description="OPP" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="948010002">
+      <labels>
+        <label description="IEC" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
