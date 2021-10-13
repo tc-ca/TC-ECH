@@ -7,28 +7,66 @@ function eventcategory_onchange(executionContext) {
     var formContext = executionContext.getFormContext();
     refreshsection(formContext);
 }
+function app_onchange(executionContext) {
+    var formContext = executionContext.getFormContext();
+    refreshsection(formContext);
+}
 function refreshsection(formContext) {
     var category = formContext.getAttribute("tc_tdgcategory").getValue();
+    var app = formContext.getAttribute("tc_app").getValue();
+
     var isEngagement = false;
     var isIndigenous = false;
-    var isSafety= false;
-    if (category == 948010000) {
-        isSafety = true;
+    var isSafety = false;
+    var isOPP = false;
+    var isSCEM= false;
+    var isNew = formContext.ui.getFormType() == 1;
+
+    if (app == 948010000) {
+        isSCEM = true;
+        if (category == 948010000) {
+            isSafety = true;
+        }
+        else if (category == 948010001) {
+            isEngagement = true;
+        }
+        else if (category == 948010002) {
+            isIndigenous = true;
+        }
     }
-    else if (category == 948010001) {
-        isEngagement = true;
+    else if (app == 948010001) {
+        isOPP = true;
     }
-    else if (category == 948010002) {
-        isIndigenous = true;
-    }
+
+    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_section_App").setVisible(isNew);
+
+    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionOPP").setVisible(isOPP);
+    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionOPP2").setVisible(isOPP);
+    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionPostEvent").setVisible(isOPP && !isNew);
+    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionTDG").setVisible(isSCEM);
+    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionContactPerson").setVisible(!isOPP && !isNew);
 
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_safety").setVisible(isSafety);
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_engagement").setVisible(isEngagement);
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_indigenous").setVisible(isIndigenous);
+
+    formContext.ui.tabs.get("tab_ActionItems").setVisible(!isOPP && !isNew);
+    formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
+    formContext.ui.tabs.get("tab_ContactEvents").setVisible(isOPP && !isNew);
 
     formContext.ui.tabs.get("tabLocation").setVisible(isSafety);
     formContext.ui.tabs.get("tabMarketing").setVisible(isSafety);
     formContext.ui.tabs.get("tabAdministration").setVisible(isSafety);
     formContext.ui.tabs.get("tabApproval").setVisible(isSafety);
     formContext.ui.tabs.get("tabAssessment").setVisible(isSafety);
+
+    if (!isOPP) {
+        //formContext.getAttribute("tc_citynm").setRequiredLevel("required")
+        //formContext.getAttribute("tc_startdte").setRequiredLevel("required")
+        //formContext.getAttribute("tc_enddte").setRequiredLevel("required")
+        formContext.getAttribute("tc_citynm").setRequiredLevel("none")
+        formContext.getAttribute("tc_startdte").setRequiredLevel("none")
+        formContext.getAttribute("tc_enddte").setRequiredLevel("none")
+    }
+    
 }
