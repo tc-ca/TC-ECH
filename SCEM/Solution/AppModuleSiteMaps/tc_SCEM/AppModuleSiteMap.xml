@@ -14,8 +14,8 @@
         <Titles>
           <Title LCID="1033" Title="Dashboard" />
         </Titles>
-        <SubArea Id="NewSubArea_f7f5ddb2" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="9f3f1222-2e80-eb11-a812-000d3a09dd03" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
-        <SubArea Id="SubArea_Report" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="report" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="NewSubArea_f7f5ddb2" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" VectorIcon="/WebResources/msdyn_/Icons/SVG/Property.svg" Icon="/WebResources/msdyn_/Icons/SVG/Property.svg" Url="/workplace/home_dashboards.aspx" DefaultDashboard="9f3f1222-2e80-eb11-a812-000d3a09dd03" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_Report" VectorIcon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Icon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Entity="report" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="report" Privilege="Read" />
         </SubArea>
       </Group>
@@ -23,22 +23,22 @@
         <Titles>
           <Title LCID="1033" Title="Main" />
         </Titles>
-        <SubArea Id="SubArea_Account" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_Account" VectorIcon="/WebResources/msdyn_/fps/Icons/Entity/OrganizationalUnit.svg" Icon="/WebResources/msdyn_/fps/Icons/Entity/OrganizationalUnit.svg" Entity="account" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="account" Privilege="Read" />
         </SubArea>
-        <SubArea Id="SubArea_Contact" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_Contact" VectorIcon="/WebResources/msdyn_/fps/Icons/Entity/ResourceTerritory.svg" Icon="/WebResources/msdyn_/fps/Icons/Entity/ResourceTerritory.svg" Entity="contact" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="contact" Privilege="Read" />
         </SubArea>
-        <SubArea Id="SubArea_Event" Entity="tc_yyevent" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_Event" VectorIcon="/WebResources/msdyn_/fps/Icons/Entity/SchedulerSetting.svg" Entity="tc_yyevent" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_yyevent" Privilege="Read" />
         </SubArea>
-        <SubArea Id="NewSubArea_572013e9" Entity="tc_myproject" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+        <SubArea Id="NewSubArea_572013e9" VectorIcon="/WebResources/msdyn_/IoT/Images/SVG/IoTSettings/IoTSettings.svg" Entity="tc_myproject" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Privilege Entity="tc_myproject" Privilege="Write" />
         </SubArea>
-        <SubArea Id="SubArea_Initiatives" Entity="tc_yyinitiative" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+        <SubArea Id="SubArea_Initiatives" VectorIcon="/WebResources/Sales/_imgs/partnerapps/PartnerApps.svg" Entity="tc_yyinitiative" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Privilege Entity="tc_yyinitiative" Privilege="Create" />
         </SubArea>
-        <SubArea Id="SubArea_Stakeholdergroup" Entity="tc_aystakeholdergroup" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_Stakeholdergroup" VectorIcon="/WebResources/msdyn_/fps/Icons/Entity/RequirementStatus.svg" Entity="tc_aystakeholdergroup" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_aystakeholdergroup" Privilege="Create" />
         </SubArea>
       </Group>
@@ -56,7 +56,7 @@
             <Title LCID="1033" Title="FR - User Guide" />
           </Titles>
         </SubArea>
-        <SubArea Id="SubArea_feedbackform" Entity="tc_feedbackform" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_feedbackform" VectorIcon="/WebResources/msdyn_/Icons/AnalysisComponent.svg" Entity="tc_feedbackform" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_feedbackform" Privilege="Read" />
         </SubArea>
       </Group>
@@ -69,19 +69,19 @@
         <Titles>
           <Title LCID="1033" Title="Data Management" />
         </Titles>
-        <SubArea Id="NewSubArea_4fc6c434" Entity="tc_tybranch" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+        <SubArea Id="NewSubArea_4fc6c434" VectorIcon="/WebResources/msdyn_/IoT/Images/SVG/IoTSendCommand/IoTSendCommand.svg" Entity="tc_tybranch" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Branches /Programs" />
           </Titles>
           <Privilege Entity="tc_tybranch" Privilege="Write" />
         </SubArea>
-        <SubArea Id="SubArea_LookupReference" Entity="tc_tylookupreference" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+        <SubArea Id="SubArea_LookupReference" VectorIcon="/WebResources/msdyn_/Icons/AnalysisJob.svg" Entity="tc_tylookupreference" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Privilege Entity="tc_tylookupreference" Privilege="Write" />
         </SubArea>
-        <SubArea Id="NewSubArea_771c0b17" Entity="tc_tyaccounttype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+        <SubArea Id="NewSubArea_771c0b17" VectorIcon="/WebResources/msdyn_/IoT/Images/SVG/IoTProvider/IoTProvider.svg" Entity="tc_tyaccounttype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Privilege Entity="tc_tyaccounttype" Privilege="Write" />
         </SubArea>
-        <SubArea Id="SubArea_Region" Entity="tc_tyregion" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="SubArea_Region" VectorIcon="/WebResources/tc_adx_webroles" Icon="/WebResources/tc_adx_webroles" Entity="tc_tyregion" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_tyregion" Privilege="Create" />
         </SubArea>
       </Group>
@@ -160,7 +160,7 @@
         <Titles>
           <Title LCID="1033" Title="General" />
         </Titles>
-        <SubArea Id="NewSubArea_3f38f86c" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Url="/workplace/home_dashboards.aspx" DefaultDashboard="2e68b5d3-1b01-ec11-94f0-0022486d6eca" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="Dashboards_ToolTip" />
+        <SubArea Id="NewSubArea_3f38f86c" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Url="/workplace/home_dashboards.aspx" DefaultDashboard="2e68b5d3-1b01-ec11-94f0-0022486d6eca" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_37287512" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_a7893d7f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_0327b249" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_yyinitiative" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />

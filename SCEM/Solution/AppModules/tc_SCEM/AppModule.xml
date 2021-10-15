@@ -11,6 +11,7 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="tc_SCEM" />
+    <AppModuleComponent type="1" schemaName="tc_yyagreement" />
     <AppModuleComponent type="1" schemaName="tc_tybranch" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
@@ -62,10 +63,12 @@
     <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
     <AppModuleComponent type="1" schemaName="tc_tyaccounttype" />
+    <AppModuleComponent type="1" schemaName="tc_tyothergovernment" />
     <AppModuleComponent type="1" schemaName="tc_tyregion" />
     <AppModuleComponent type="1" schemaName="report" />
     <AppModuleComponent type="26" id="{69969211-241f-ec11-b6e6-0022486d8d6f}" />
     <AppModuleComponent type="1" schemaName="tc_aystakeholdergroup" />
+    <AppModuleComponent type="1" schemaName="tc_tytag" />
     <AppModuleComponent type="1" schemaName="team" />
     <AppModuleComponent type="60" id="{4aabf594-b30a-490d-bf97-89c67c6777fe}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001027}" />
