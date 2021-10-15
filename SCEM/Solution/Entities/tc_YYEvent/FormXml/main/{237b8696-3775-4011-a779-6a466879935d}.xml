@@ -367,6 +367,7 @@
                       <cell id="{484e0834-5b15-aeaa-0e0d-7602be704cb7}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="To which criteria does this event respond?" languagecode="1033" />
+                          <label description="À quels critères cet évenement répond-il?" languagecode="1036" />
                         </labels>
                         <control id="tc_respondcriteria" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_respondcriteria" disabled="false" uniqueid="{eddca503-073d-3cba-9b4c-30ce3c29dc3d}" />
                       </cell>
@@ -375,6 +376,7 @@
                       <cell id="{ee945617-09b3-10de-d96e-c90984de25b7}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="TDG's recommendation  (See Relevance Guide – only " languagecode="1033" />
+                          <label description="Recommandation du TMD (Voir le guide de pertinance) " languagecode="1036" />
                         </labels>
                         <control id="tc_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_priority" disabled="false" />
                       </cell>
@@ -399,6 +401,7 @@
                       <cell id="{89c283d1-8094-6bab-b84e-0087a0a42cab}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Lead branch director approval has been received?" languagecode="1033" />
+                          <label description="L'approbation du directeur de direction principale a-t-elle été reçue?" languagecode="1036" />
                         </labels>
                         <control id="tc_approvalreceived" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_approvalreceived" disabled="false" />
                       </cell>
@@ -430,6 +433,7 @@
                       <cell id="{b7686e4b-ec13-c048-4978-58d91aedb403}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="TDG's recommendation  (See Relevance Guide – only " languagecode="1033" />
+                          <label description="Recommandation du TMD (Voir le guide de pertinance) " languagecode="1036" />
                         </labels>
                         <control id="tc_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_priority" disabled="false" />
                       </cell>
@@ -1148,18 +1152,21 @@
                       <cell id="{75dac320-4a50-1a6e-49b6-269d470a68c2}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="number of people engaged" languagecode="1033" />
+                          <label description="nombre de participants rencontrés" languagecode="1036" />
                         </labels>
                         <control id="tc_numberofpeopleengaged" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_numberofpeopleengaged" disabled="false" />
                       </cell>
                       <cell id="{e9cb7d13-d06c-661e-c7b7-089de32ce9a6}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Handout distributed" languagecode="1033" />
+                          <label description="Documents distribués" languagecode="1036" />
                         </labels>
                         <control id="tc_handoutdistributed" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_handoutdistributed" disabled="false" />
                       </cell>
                       <cell id="{ecee1e19-363c-d757-e262-e1190a882cdd}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Amount of handouts provided" languagecode="1033" />
+                          <label description="Quantité de documents fournis" languagecode="1036" />
                         </labels>
                         <control id="tc_amountofhandoutsprovided" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_amountofhandoutsprovided" disabled="false" />
                       </cell>
