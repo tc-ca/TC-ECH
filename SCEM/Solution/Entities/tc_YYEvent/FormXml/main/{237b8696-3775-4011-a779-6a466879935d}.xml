@@ -176,10 +176,35 @@
                         </labels>
                         <control id="tc_regions" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_regions" disabled="false" uniqueid="{19918269-9896-53ad-7c60-c3e6a53ed5e0}" />
                       </cell>
-                      <cell locklevel="0" id="{62f6cfec-5d7a-4bef-be1a-f5c1d1fd13c3}" showlabel="false">
+                      <cell id="{3b80aff0-5447-4908-86a5-ca3d15155b0b}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="City" languagecode="1033" />
+                          <label description="Ville" languagecode="1036" />
                         </labels>
+                        <control id="tc_citynm" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_citynm" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60b0d9de-58fb-4ac6-b836-aa7012d7fa29}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Start" languagecode="1033" />
+                          <label description="Début" languagecode="1036" />
+                        </labels>
+                        <control id="tc_startdte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
+                      </cell>
+                      <cell id="{b30d781a-272e-438d-bb0c-ab15704476d9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="End" languagecode="1033" />
+                          <label description="Fin" languagecode="1036" />
+                        </labels>
+                        <control id="tc_enddte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
+                      </cell>
+                      <cell id="{f127a302-eb86-4a46-84ab-a78478bc70a6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                          <label description="ADRESSE" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventaddresstxt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_eventaddresstxt" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -1635,7 +1660,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="SAFSEC Form" languagecode="1033" />
+      <LocalizedName description="SCEM Form" languagecode="1033" />
     </LocalizedNames>
   </systemform>
 </forms>
