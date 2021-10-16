@@ -5,7 +5,7 @@
     <IntroducedVersion>0.1.0.1</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{c8a4b308-c385-440d-8f87-c5d446b1ea8c}" IsUserDefined="1" expanded="true" name="{c8a4b308-c385-440d-8f87-c5d446b1ea8c}" locklevel="0" showlabel="true">
           <labels>
@@ -222,6 +222,42 @@
             </column>
           </columns>
         </tab>
+        <tab name="tab_6" id="922237a7-9433-4240-b401-f0561966c6bb" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Action Items" languagecode="1033" />
+            <label description="Mesures de suivi" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" id="2d024042-3da8-4b36-b43a-a83f78d13320" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{14280afb-e187-4239-95b3-2cc784346955}" rowspan="1" colspan="1" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1634333321571" languagecode="1033" />
+                          <label description="Détails de l'évènement" languagecode="1036" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
+                            <ViewId>{2A689A1D-7788-4B44-B6BE-F890EADB59C0}</ViewId>
+                            <ViewIds>{2A689A1D-7788-4B44-B6BE-F890EADB59C0}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>tc_stakeholdergroup_eventdetail</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
         <tab name="tab_5" id="{62b8bd2a-cce3-9200-a8a8-a28101798364}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Documents" languagecode="1033" />
@@ -361,7 +397,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -394,6 +430,9 @@
       <formLibraries>
         <Library name="tc_/Core/RequiredLevels.js" libraryUniqueId="{561bc1a1-2838-eac5-6a53-c67b4eb5a58b}" />
       </formLibraries>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
