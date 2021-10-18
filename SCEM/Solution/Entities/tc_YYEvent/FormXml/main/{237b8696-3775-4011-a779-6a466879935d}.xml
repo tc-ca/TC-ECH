@@ -719,6 +719,7 @@
         <tab name="tabLocation" id="{33312300-e9b4-4aab-6b1e-8806ca1660eb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Location and dates" languagecode="1033" />
+            <label description="Lieu et dates" languagecode="1036" />
           </labels>
           <columns>
             <column width="50%">
@@ -802,6 +803,7 @@
         <tab name="tabMarketing" id="{50452317-161b-b8c4-488e-07b19c9235a7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Marketing" languagecode="1033" />
+            <label description="Commercialisation" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -870,6 +872,7 @@
         <tab name="tabAdministration" id="{5ba54830-cd3d-bc12-7e2e-226bc1341ce8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Finance and Administration" languagecode="1033" />
+            <label description="Finances et administration" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -950,6 +953,7 @@
         <tab name="tabApproval" id="{5c423665-3e6d-c02b-64c2-74c316a53763}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Logistic and approvals" languagecode="1033" />
+            <label description="Logistique et approbations" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -1164,6 +1168,7 @@
         <tab name="tabAssessment" id="{91d0453a-5c41-95b4-e412-cc236611a57e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Assessment" languagecode="1033" />
+            <label description="Évaluation" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
