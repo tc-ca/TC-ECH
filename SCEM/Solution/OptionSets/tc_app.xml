@@ -4,19 +4,29 @@
   <IsGlobal>1</IsGlobal>
   <IntroducedVersion>1.7.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
   <displaynames>
     <displayname description="App" languagecode="1033" />
   </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
   <options>
-    <option value="948010000">
+    <option value="948010000" ExternalValue="" Color="">
       <labels>
         <label description="SCEM" languagecode="1033" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
-    <option value="948010001">
+    <option value="948010001" ExternalValue="" Color="">
       <labels>
         <label description="OPP" languagecode="1033" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
     <option value="948010002">
       <labels>

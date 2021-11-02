@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d2474d65-dd06-4051-8eb1-0ac8d6e63570}</formid>
+    <IntroducedVersion>0.156.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{266c77d4-1f2a-484c-bf5b-688ef899c954}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{0707111a-de98-4451-8736-c68bd920f170}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2bb20ac5-5036-5652-3236-43654c2b4a5e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Existing consultation protocols" languagecode="1033" />
+                          <label description="Y’a-t-il des protocoles de consultation existants?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_existingconsultationprotocols" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_existingconsultationprotocols" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab72d86c-a734-e094-929d-5a89147a6286}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="What the protocol is" languagecode="1033" />
+                          <label description="Protocoles existants" languagecode="1036" />
+                        </labels>
+                        <control id="tc_existingprotocolsid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_existingprotocolsid" disabled="false" uniqueid="{092b0684-7b7b-9058-5d78-4593496912bd}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b33154ac-7e90-78e3-cb68-600acc813131}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                          <label description="Description" languagecode="1036" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{506290da-eae0-1c89-2acb-7166150c660a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modern Treaty" languagecode="1033" />
+                        </labels>
+                        <control id="tc_moderntreatyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_moderntreatyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{483b161a-3a84-422c-a4d7-290e2be5a058}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Historical Treaty" languagecode="1033" />
+                        </labels>
+                        <control id="tc_historicaltreatyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_historicaltreatyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d4b5bab-2bdd-d55a-695c-1aab443dd0b9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Comprehensive Claims" languagecode="1033" />
+                          <label description="Réclamations globales" languagecode="1036" />
+                        </labels>
+                        <control id="tc_comprehensiveclaimtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comprehensiveclaimtxt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c33132a-3183-7c2e-6aec-6574aab05122}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Specific Claims" languagecode="1033" />
+                        </labels>
+                        <control id="tc_specificclaimtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_specificclaimtxt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6a5668a-5a39-56e8-b7a1-30be92887a99}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Litigation" languagecode="1033" />
+                          <label description="litige" languagecode="1036" />
+                        </labels>
+                        <control id="tc_litigationtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_litigationtxt" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Indigenous Quick View Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
