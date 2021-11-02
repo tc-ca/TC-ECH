@@ -1,7 +1,48 @@
 //SCEM-EVENT.JS
 function onformload(executionContext) {
     var formContext = executionContext.getFormContext();
-    refreshsection(formContext);
+
+    if(formContext.ui.getFormType() ===1){
+        SetApp(formContext);
+    }
+    else{
+        refreshsection(formContext);
+    }
+    
+}
+function SetApp(formContext) { 
+    var userSettings = Xrm.Utility.getGlobalContext().userSettings;
+    var myId = userSettings.userId;
+
+    var req = new XMLHttpRequest();
+    req.open("GET", Xrm.Utility.getGlobalContext().getClientUrl() + "/api/data/v9.1/systemusers(" + myId.substring(1, 37) + ")?$select=_businessunitid_value", false);
+    req.setRequestHeader("OData-MaxVersion", "4.0");
+    req.setRequestHeader("OData-Version", "4.0");
+    req.setRequestHeader("Accept", "application/json");
+    req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+    req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
+    req.onreadystatechange = function() {
+        if (this.readyState === 4) {
+            req.onreadystatechange = null;
+            if (this.status === 200) {
+                var result = JSON.parse(this.response);
+                var _businessunitid_value = result["_businessunitid_value"];
+                var _businessunitid_value_formatted = result["_businessunitid_value@OData.Community.Display.V1.FormattedValue"];
+                var _businessunitid_value_lookuplogicalname = result["_businessunitid_value@Microsoft.Dynamics.CRM.lookuplogicalname"];
+                if(_businessunitid_value_formatted.indexOf('OPP')>=0){
+                    formContext.getAttribute("tc_app").setValue(948010001);
+                }
+                else{
+                    formContext.getAttribute("tc_app").setValue(948010000);
+                }
+                refreshsection(formContext);
+            } else {
+                Xrm.Utility.alertDialog(this.statusText);
+            }
+        }
+    };
+    req.send();
+
 }
 function eventcategory_onchange(executionContext) {
     var formContext = executionContext.getFormContext();
@@ -61,12 +102,10 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tabAssessment").setVisible(isSafety);
 
     if (!isOPP) {
-        //formContext.getAttribute("tc_citynm").setRequiredLevel("required")
-        //formContext.getAttribute("tc_startdte").setRequiredLevel("required")
-        //formContext.getAttribute("tc_enddte").setRequiredLevel("required")
-        formContext.getAttribute("tc_citynm").setRequiredLevel("none")
         formContext.getAttribute("tc_startdte").setRequiredLevel("none")
         formContext.getAttribute("tc_enddte").setRequiredLevel("none")
     }
-    
+    if (!isSafety) {
+        formContext.getAttribute("tc_citynm").setRequiredLevel("none")
+    }
 }
