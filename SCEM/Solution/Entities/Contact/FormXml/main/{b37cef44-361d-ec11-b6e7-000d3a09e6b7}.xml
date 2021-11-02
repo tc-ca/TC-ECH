@@ -35,21 +35,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9bd283c7-b7c6-08ac-2d37-3326a8d81994}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Full Name" languagecode="1033" />
-                          <label description="Nom complet" languagecode="1036" />
-                        </labels>
-                        <control id="fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fullname" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{ba5cbb70-706d-48e8-9b66-551c529cabeb}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="First Name" languagecode="1033" />
                           <label description="Prénom" languagecode="1036" />
                         </labels>
-                        <control id="firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                        <control id="firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" uniqueid="{32b2a69c-255d-650a-0b78-ebd1204863c5}" />
                       </cell>
                     </row>
                     <row>
