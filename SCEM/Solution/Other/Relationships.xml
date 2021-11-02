@@ -139,6 +139,9 @@
   <EntityRelationship Name="tc_proponent_proponentsprojects" />
   <EntityRelationship Name="tc_stakeholdergroup_eventdetail" />
   <EntityRelationship Name="tc_tc_tyaerodrome_yyevent_AerodromeId" />
+  <EntityRelationship Name="tc_tc_tylookupreference_account_historical" />
+  <EntityRelationship Name="tc_tc_tylookupreference_account_modern" />
+  <EntityRelationship Name="tc_tc_tylookupreference_account_protocol" />
   <EntityRelationship Name="tc_TYAccountType_Account_OppAccountTypeId" />
   <EntityRelationship Name="tc_tyeventtype_dyeventlog_TypeId" />
   <EntityRelationship Name="tc_TYRegion_Contact" />
