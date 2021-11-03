@@ -107,7 +107,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="false" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
                         <labels>
                           <label description="Address 1" languagecode="1033" solutionaction="Added" />
                           <label description="Adresse 1" languagecode="1036" solutionaction="Added" />
