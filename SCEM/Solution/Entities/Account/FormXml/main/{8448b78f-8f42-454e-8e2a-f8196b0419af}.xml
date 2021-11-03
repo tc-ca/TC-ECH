@@ -107,12 +107,12 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="false" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="true" locklevel="0" ordinalvalue="10000">
                         <labels>
                           <label description="Address 1" languagecode="1033" solutionaction="Added" />
                           <label description="Adresse 1" languagecode="1036" solutionaction="Added" />
                         </labels>
-                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="true" uniqueid="{b8a72707-4050-1891-e6e6-30023880255e}" solutionaction="Modified" />
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" uniqueid="{b8a72707-4050-1891-e6e6-30023880255e}" solutionaction="Modified" />
                       </cell>
                     </row>
                     <row>
