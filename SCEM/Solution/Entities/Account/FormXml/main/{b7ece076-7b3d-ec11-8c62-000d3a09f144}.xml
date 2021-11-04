@@ -616,20 +616,10 @@
         </rows>
       </footer>
       <DisplayConditions FallbackForm="true" Order="10">
+        <Role Id="{C18DBFC5-121A-EC11-B6E7-000D3A09E19F}" />
+        <Role Id="{AE0A3A4A-BF1C-EC11-B6E7-000D3A09E6B7}" />
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
-        <Role Id="{8ec6249f-74b9-4ff5-ba2a-19d516a30983}" />
-        <Role Id="{b5aca535-7498-48b5-997a-1f8c675d1d10}" />
-        <Role Id="{72cc1ca1-94d6-4d7d-b5fa-611cb0dce650}" />
-        <Role Id="{e9fe9080-789f-468e-87d3-6544b5d4e891}" />
-        <Role Id="{fa4acc88-9688-4a82-8722-7bc6d2f6c184}" />
-        <Role Id="{3da0125a-90c4-425d-9962-9877835e7192}" />
-        <Role Id="{7e37e389-5b4e-4ef0-8e92-b0488b701d20}" />
-        <Role Id="{ff601540-59b3-4069-8df1-ba4fe6fc289a}" />
-        <Role Id="{a5fb16eb-df56-4526-ba56-c4b898e246dd}" />
-        <Role Id="{33978014-a29c-44bc-bf46-cec43f4937dd}" />
-        <Role Id="{6e735a05-00f2-4a92-8960-ef098c5588a4}" />
-        <Role Id="{670e141e-9be4-4178-be15-f07d499a444c}" />
       </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
