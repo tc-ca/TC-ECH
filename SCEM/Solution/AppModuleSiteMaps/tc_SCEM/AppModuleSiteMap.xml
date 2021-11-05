@@ -32,9 +32,6 @@
         <SubArea Id="SubArea_Event" VectorIcon="/WebResources/msdyn_/fps/Icons/Entity/SchedulerSetting.svg" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_yyevent" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_yyevent" Privilege="Read" />
         </SubArea>
-        <SubArea Id="NewSubArea_572013e9" VectorIcon="/WebResources/msdyn_/IoT/Images/SVG/IoTSettings/IoTSettings.svg" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_myproject" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
-          <Privilege Entity="tc_myproject" Privilege="Read" />
-        </SubArea>
         <SubArea Id="SubArea_Initiatives" VectorIcon="/WebResources/Sales/_imgs/partnerapps/PartnerApps.svg" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_yyinitiative" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Privilege Entity="tc_yyinitiative" Privilege="Read" />
         </SubArea>
