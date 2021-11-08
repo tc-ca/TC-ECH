@@ -12,7 +12,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{e6255aa6-cb2e-4b14-bd94-6329b0913067}">
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" labelid="{e6255aa6-cb2e-4b14-bd94-6329b0913067}">
           <labels>
             <label description="Summary" languagecode="1033" />
           </labels>
@@ -333,7 +333,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="documents_sharepoint" id="{5240e6be-ed06-8050-7115-ba225c7a4a13}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{b470a269-2bf7-4591-8b66-083cde1eaed2}">
+        <tab name="documents_sharepoint" id="{5240e6be-ed06-8050-7115-ba225c7a4a13}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{b470a269-2bf7-4591-8b66-083cde1eaed2}">
           <labels>
             <label description="Files" languagecode="1033" />
           </labels>
@@ -367,6 +367,57 @@
                             <IsUserChart>false</IsUserChart>
                             <EnableChartPicker>false</EnableChartPicker>
                             <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="eventsTab" id="{280a2ab1-2ecd-4c7c-99ce-24b3c43baa51}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Events" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_events" showlabel="false" showbar="false" locklevel="0" id="{8e0c61c4-9065-04dc-587a-465d1e627679}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Events" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9b6643d4-d9b0-53c5-3979-a9ee60347b94}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Events (Organization)" languagecode="1033" />
+                          <label description="Événements" languagecode="1036" />
+                        </labels>
+                        <control id="Events" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{08CAD00D-277A-449D-907D-3852906AC450}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_YYEvent_Account_Account</RelationshipName>
+                            <TargetEntityType>tc_yyevent</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds />
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{28D88C08-BBC1-E811-80E8-005056812059}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
                           </parameters>
                         </control>
                       </cell>
@@ -615,6 +666,9 @@
           </row>
         </rows>
       </footer>
+      <formLibraries>
+        <Library name="tc_/Core/RequiredLevels.js" libraryUniqueId="{01e63cdd-97cc-5b93-3505-40046dc7ca97}" />
+      </formLibraries>
       <DisplayConditions FallbackForm="true" Order="10">
         <Role Id="{C18DBFC5-121A-EC11-B6E7-000D3A09E19F}" />
         <Role Id="{AE0A3A4A-BF1C-EC11-B6E7-000D3A09E6B7}" />
