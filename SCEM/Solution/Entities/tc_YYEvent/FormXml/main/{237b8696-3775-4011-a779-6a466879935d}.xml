@@ -207,6 +207,27 @@
                         <control id="tc_eventaddresstxt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_eventaddresstxt" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{23b20c86-5540-377c-c95c-d721805ccd69}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="TC Lead" languagecode="1033" />
+                          <label description="Responsable de TC" languagecode="1036" />
+                        </labels>
+                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" />
+                      </cell>
+                      <cell id="{39328cd2-a9b0-75ee-17ae-720e0464d913}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact Person/Sender" languagecode="1033" />
+                          <label description="Contact/Envoyeur" languagecode="1036" />
+                        </labels>
+                        <control id="tc_nameofsender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_nameofsender" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{9dbf0461-4650-4591-b7c5-3aa354e4e808}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="sect_safety" showlabel="false" showbar="false" locklevel="0" id="{268be4a5-3eba-c115-c4b9-52bbe4ab4593}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
@@ -247,12 +268,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d513e841-6573-4130-9d2c-ece831468d33}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{44b8a647-87d6-4d4a-8d45-0868781aa699}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="OPI" languagecode="1033" />
-                          <label description="BPR" languagecode="1036" />
+                          <label description="Transportation Mode" languagecode="1033" />
+                          <label description="Mode de transport" languagecode="1036" />
                         </labels>
-                        <control id="tc_opi" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_opi" disabled="false" />
+                        <control id="tc_transportationmode" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_transportationmode" disabled="false" />
                       </cell>
                       <cell id="{197a0a82-a152-1984-0372-a45dab4c13db}" showlabel="true" locklevel="0">
                         <labels>
@@ -263,12 +284,10 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{44b8a647-87d6-4d4a-8d45-0868781aa699}" locklevel="0" colspan="1" rowspan="1">
+                      <cell locklevel="0" id="{4b29bdec-124a-439b-a399-7e41c1a6f6b5}">
                         <labels>
-                          <label description="Transportation Mode" languagecode="1033" />
-                          <label description="Mode de transport" languagecode="1036" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="tc_transportationmode" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_transportationmode" disabled="false" />
                       </cell>
                       <cell id="{0cbe6cc0-990b-2ea9-867a-8ad5bd97bb08}" showlabel="false">
                         <labels>
@@ -284,12 +303,12 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{23b20c86-5540-377c-c95c-d721805ccd69}" showlabel="true" locklevel="0">
+                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="TC Lead" languagecode="1033" />
-                          <label description="Responsable de TC" languagecode="1036" />
+                          <label description="Topics of interest " languagecode="1033" />
+                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
                         </labels>
-                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" />
+                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
                       </cell>
                       <cell id="{b8aa3413-2a75-c684-acde-ebb05b6104a6}" showlabel="true" locklevel="0">
                         <labels>
@@ -309,12 +328,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{39328cd2-a9b0-75ee-17ae-720e0464d913}" showlabel="true" locklevel="0">
+                      <cell id="{39d45ad8-7e97-74cb-8891-012cd21bec05}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Name of sender" languagecode="1033" />
-                          <label description="Nom de l'expéditeur" languagecode="1036" />
+                          <label description="When it was received" languagecode="1033" />
+                          <label description="Reçu le " languagecode="1036" />
                         </labels>
-                        <control id="tc_nameofsender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_nameofsender" disabled="false" />
+                        <control id="tc_receiveddte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_receiveddte" disabled="false" uniqueid="{72c937c0-3d64-8297-05d3-7146dcb4eb70}" />
                       </cell>
                       <cell id="{4c28e15a-78d8-8eca-7ce0-bed70bc6ea81}" showlabel="true" locklevel="0">
                         <labels>
@@ -325,12 +344,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
+                      <cell id="{645d8b1c-30d8-daa0-935c-1a2d5bb2ac0c}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Topics of interest " languagecode="1033" />
-                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
+                          <label description="Does the Branch have the budget?" languagecode="1033" />
+                          <label description="Est-ce que la direction a le budget?" languagecode="1036" />
                         </labels>
-                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
+                        <control id="tc_hasbudget" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_hasbudget" disabled="false" />
                       </cell>
                       <cell id="{190600aa-a7ac-b668-cb43-168e332b445a}" showlabel="true" locklevel="0">
                         <labels>
@@ -341,12 +360,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{39d45ad8-7e97-74cb-8891-012cd21bec05}" showlabel="true" locklevel="0">
+                      <cell id="{2eb3d428-2e72-a084-4108-17cced6a8c9b}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="When it was received" languagecode="1033" />
-                          <label description="Reçu le " languagecode="1036" />
+                          <label description="Is this event aligned with TDG's mandate/TASC?" languagecode="1033" />
+                          <label description="Cet évenement est-il aligné avec le mandat du TMD/TASC?" languagecode="1036" />
                         </labels>
-                        <control id="tc_receiveddte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_receiveddte" disabled="false" uniqueid="{72c937c0-3d64-8297-05d3-7146dcb4eb70}" />
+                        <control id="tc_aligned" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_aligned" disabled="false" />
                       </cell>
                       <cell id="{e09b446e-6e5c-0d44-6d1b-e1581679ccc5}" showlabel="true" locklevel="0">
                         <labels>
@@ -357,12 +376,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{645d8b1c-30d8-daa0-935c-1a2d5bb2ac0c}" showlabel="true" locklevel="0">
+                      <cell id="{484e0834-5b15-aeaa-0e0d-7602be704cb7}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Does the Branch have the budget?" languagecode="1033" />
-                          <label description="Est-ce que la direction a le budget?" languagecode="1036" />
+                          <label description="To which criteria does this event respond?" languagecode="1033" />
+                          <label description="À quels critères cet évenement répond-il?" languagecode="1036" />
                         </labels>
-                        <control id="tc_hasbudget" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_hasbudget" disabled="false" />
+                        <control id="tc_respondcriteria" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_respondcriteria" disabled="false" uniqueid="{eddca503-073d-3cba-9b4c-30ce3c29dc3d}" />
                       </cell>
                       <cell id="{9721903a-35b9-0a44-ac8b-e581a9b3d838}" showlabel="true" locklevel="0">
                         <labels>
@@ -373,31 +392,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2eb3d428-2e72-a084-4108-17cced6a8c9b}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Is this event aligned with TDG's mandate/TASC?" languagecode="1033" />
-                          <label description="Cet évenement est-il aligné avec le mandat du TMD/TASC?" languagecode="1036" />
-                        </labels>
-                        <control id="tc_aligned" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_aligned" disabled="false" />
-                      </cell>
-                      <cell id="{3caa0ba1-0b68-d888-d7de-0436cba0d889}" showlabel="true" locklevel="0" rowspan="2">
-                        <labels>
-                          <label description="Justification" languagecode="1033" />
-                          <label description="Justification" languagecode="1036" />
-                        </labels>
-                        <control id="tc_justification" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_justification" disabled="false" uniqueid="{1b2db644-e240-4242-8023-b88a51d0e05b}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{484e0834-5b15-aeaa-0e0d-7602be704cb7}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="To which criteria does this event respond?" languagecode="1033" />
-                          <label description="À quels critères cet évenement répond-il?" languagecode="1036" />
-                        </labels>
-                        <control id="tc_respondcriteria" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_respondcriteria" disabled="false" uniqueid="{eddca503-073d-3cba-9b4c-30ce3c29dc3d}" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{ee945617-09b3-10de-d96e-c90984de25b7}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="TDG's recommendation  (See Relevance Guide – only " languagecode="1033" />
@@ -405,12 +399,12 @@
                         </labels>
                         <control id="tc_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_priority" disabled="false" />
                       </cell>
-                      <cell id="{1208a63e-9907-2321-d9b6-989092c856a4}" showlabel="true" locklevel="0" rowspan="2">
+                      <cell id="{3caa0ba1-0b68-d888-d7de-0436cba0d889}" showlabel="true" locklevel="0" rowspan="2">
                         <labels>
-                          <label description="Recommendation" languagecode="1033" />
-                          <label description="Recommandation" languagecode="1036" />
+                          <label description="Justification" languagecode="1033" />
+                          <label description="Justification" languagecode="1036" />
                         </labels>
-                        <control id="tc_recommendation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_recommendation" disabled="false" uniqueid="{d4db5e28-9307-ad14-dc95-7ddded9cc7be}" />
+                        <control id="tc_justification" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_justification" disabled="false" uniqueid="{1b2db644-e240-4242-8023-b88a51d0e05b}" />
                       </cell>
                     </row>
                     <row>
@@ -430,28 +424,12 @@
                         </labels>
                         <control id="tc_approvalreceived" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_approvalreceived" disabled="false" />
                       </cell>
-                      <cell id="{3869a420-e2dc-e9cc-36c9-854d0e39ac3d}" showlabel="true" locklevel="0">
+                      <cell id="{1208a63e-9907-2321-d9b6-989092c856a4}" showlabel="true" locklevel="0" rowspan="2">
                         <labels>
-                          <label description="Response Sent" languagecode="1033" />
-                          <label description="Réponse envoyée" languagecode="1036" />
+                          <label description="Recommendation" languagecode="1033" />
+                          <label description="Recommandation" languagecode="1036" />
                         </labels>
-                        <control id="tc_responsesent" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_responsesent" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4dd75624-0c94-3a9e-b491-47b6d08ad7a8}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Name of TC Representative(s) " languagecode="1033" />
-                          <label description="Nom du/des représentant(s) de TC" languagecode="1036" />
-                        </labels>
-                        <control id="tc_nameoftcrepresentatives" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_nameoftcrepresentatives" disabled="false" />
-                      </cell>
-                      <cell id="{d793e419-6112-432b-d592-54c39c0b80b5}" showlabel="true" locklevel="0" rowspan="2">
-                        <labels>
-                          <label description="Comments" languagecode="1033" />
-                          <label description="Commentaires" languagecode="1036" />
-                        </labels>
-                        <control id="tc_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comments" disabled="false" uniqueid="{10866bc4-0b2e-4e9e-4126-52edd071b045}" />
+                        <control id="tc_recommendation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_recommendation" disabled="false" uniqueid="{d4db5e28-9307-ad14-dc95-7ddded9cc7be}" />
                       </cell>
                     </row>
                     <row>
@@ -470,6 +448,41 @@
                           <label description="Information web sur l'évenement" languagecode="1036" />
                         </labels>
                         <control id="tc_webinfoonevent" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_webinfoonevent" disabled="false" />
+                      </cell>
+                      <cell id="{3869a420-e2dc-e9cc-36c9-854d0e39ac3d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Response Sent" languagecode="1033" />
+                          <label description="Réponse envoyée" languagecode="1036" />
+                        </labels>
+                        <control id="tc_responsesent" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_responsesent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{9de4efc7-36fb-48c2-99a7-184c83811a32}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{d793e419-6112-432b-d592-54c39c0b80b5}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                          <label description="Commentaires" languagecode="1036" />
+                        </labels>
+                        <control id="tc_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comments" disabled="false" uniqueid="{10866bc4-0b2e-4e9e-4126-52edd071b045}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{1e79f568-8a06-43a6-b4c9-16a93f8b82c5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{5eff395a-5bd5-4e97-a2c3-0a784efdff08}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                       <cell id="{9b81d3ba-a2e5-4ac9-1ada-157100013199}" showlabel="false">
                         <labels>
@@ -501,12 +514,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{799912b6-0127-ce79-8325-0047e6bdc7a9}" showlabel="true" locklevel="0">
+                      <cell id="{6dc5b0dd-847d-b016-ebed-81a6d7299404}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="TC Point of Contact" languagecode="1033" />
-                          <label description="Point de contact de TC" languagecode="1036" />
+                          <label description="Meeting series" languagecode="1033" />
+                          <label description="Série de réunions" languagecode="1036" />
                         </labels>
-                        <control id="tc_tcpointofcontact" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_tcpointofcontact" disabled="false" />
+                        <control id="tc_meetingseries" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_meetingseries" disabled="false" />
                       </cell>
                       <cell id="{a27ec9ad-4be2-7b76-8269-4150c0e33e21}" showlabel="true" locklevel="0">
                         <labels>
@@ -517,12 +530,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{6dc5b0dd-847d-b016-ebed-81a6d7299404}" showlabel="true" locklevel="0">
+                      <cell id="{3c020a8c-7b8a-9550-7b01-b4830b47dc07}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Meeting series" languagecode="1033" />
-                          <label description="Série de réunions" languagecode="1036" />
+                          <label description="Task number" languagecode="1033" />
+                          <label description="Numéro de la tâche" languagecode="1036" />
                         </labels>
-                        <control id="tc_meetingseries" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_meetingseries" disabled="false" />
+                        <control id="tc_tasknumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_tasknumber" disabled="false" />
                       </cell>
                       <cell id="{aa061023-b180-e282-2a1e-4b727b111244}" showlabel="true" locklevel="0">
                         <labels>
@@ -533,31 +546,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c1a999e4-2208-2562-03a8-c73d0a2bca15}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Indigenous Point(s) of Contact" languagecode="1033" />
-                          <label description="Point(s) de contact autochtone(s)" languagecode="1036" />
-                        </labels>
-                        <control id="tc_indigenouspointsofcontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_indigenouspointsofcontact" disabled="false" />
-                      </cell>
-                      <cell id="{4933a195-e3d8-19d8-da43-384676a24c59}" showlabel="true" locklevel="0" rowspan="2">
-                        <labels>
-                          <label description="Details of Engagement" languagecode="1033" />
-                          <label description="Détails de l'engagement" languagecode="1036" />
-                        </labels>
-                        <control id="tc_detailsofengagement" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_detailsofengagement" disabled="false" uniqueid="{c937ab79-434d-1e00-0d59-c000c422c645}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{3c020a8c-7b8a-9550-7b01-b4830b47dc07}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Task number" languagecode="1033" />
-                          <label description="Numéro de la tâche" languagecode="1036" />
-                        </labels>
-                        <control id="tc_tasknumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_tasknumber" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{80d457b4-c31b-9710-9b08-75bb3a23dc13}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Next meeting" languagecode="1033" />
@@ -565,12 +553,12 @@
                         </labels>
                         <control id="tc_nextmeeting" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_nextmeeting" disabled="false" />
                       </cell>
-                      <cell id="{7c9daa80-6403-86b8-9dea-371d53cc0626}" showlabel="true" locklevel="0" rowspan="2">
+                      <cell id="{4933a195-e3d8-19d8-da43-384676a24c59}" showlabel="true" locklevel="0" rowspan="2">
                         <labels>
-                          <label description="Comments" languagecode="1033" />
-                          <label description="Commentaires" languagecode="1036" />
+                          <label description="Details of Engagement" languagecode="1033" />
+                          <label description="Détails de l'engagement" languagecode="1036" />
                         </labels>
-                        <control id="tc_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comments" disabled="false" uniqueid="{b5e96719-d532-2e5c-b1c5-b230922c0803}" />
+                        <control id="tc_detailsofengagement" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_detailsofengagement" disabled="false" uniqueid="{c937ab79-434d-1e00-0d59-c000c422c645}" />
                       </cell>
                     </row>
                     <row>
@@ -582,11 +570,33 @@
                         <control id="tc_dateofnextmeeting" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_dateofnextmeeting" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell locklevel="0" id="{3de194fc-da77-4982-b62e-c849af27b145}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{7c9daa80-6403-86b8-9dea-371d53cc0626}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                          <label description="Commentaires" languagecode="1036" />
+                        </labels>
+                        <control id="tc_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comments" disabled="false" uniqueid="{b5e96719-d532-2e5c-b1c5-b230922c0803}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{73932161-6cc3-41ab-83ca-3a413debbe53}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="tabGeneral_sectionContactPerson" showlabel="true" showbar="false" locklevel="0" id="{3c928c25-4244-d463-8237-05d24b432930}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="Contact Person" languagecode="1033" />
+                    <label description="TC Attendee(s)" languagecode="1033" />
+                    <label description="Participant(s) du TC" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>

@@ -5037,8 +5037,8 @@
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
-            <displayname description="Name of sender" languagecode="1033" />
-            <displayname description="Nom de l'expéditeur" languagecode="1036" />
+            <displayname description="Contact Person/Sender" languagecode="1033" />
+            <displayname description="Contact/Envoyeur" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
