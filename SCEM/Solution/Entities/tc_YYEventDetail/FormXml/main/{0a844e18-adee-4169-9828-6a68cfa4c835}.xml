@@ -65,7 +65,7 @@
                           <label description="Event Detail Type" languagecode="1033" />
                           <label description="Type de détail d'événement" languagecode="1036" />
                         </labels>
-                        <control id="tc_eventdetailtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventdetailtypecd" disabled="false" />
+                        <control id="tc_eventdetailtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventdetailtypecd" disabled="false" uniqueid="{5544d975-a870-a6a9-b644-831192a71966}" />
                       </cell>
                     </row>
                     <row>
@@ -104,12 +104,21 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2bae4549-1ead-d292-2c0b-b760996192bc}" showlabel="true" locklevel="0">
+                      <cell id="{2bae4549-1ead-d292-2c0b-b760996192bc}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Commitment" languagecode="1033" />
                           <label description="Engagement" languagecode="1036" />
                         </labels>
-                        <control id="tc_commitmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_commitmentid" disabled="false" uniqueid="{17ec7317-30ab-3265-8423-aace77116543}" />
+                        <control id="tc_commitmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_commitmentid" disabled="false" uniqueid="{17ec7317-30ab-3265-8423-aace77116543}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{3ABCE407-85C3-405E-BD54-505CB0841FC6}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row>
@@ -305,7 +314,12 @@
         <event name="onload" application="false" active="false">
           <Handlers>
             <Handler handlerUniqueId="{8c6d326b-c724-7090-423d-dad9107b205b}" functionName="showHideActionItemsTab" libraryName="tc_EventDetail" enabled="true" passExecutionContext="true" parameters="" />
-            <Handler functionName="setEventDetailType" libraryName="tc_/OPP/SetEventDetailsType.js" handlerUniqueId="{a8c2e914-e047-769a-4074-576ad0c12138}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="setEventDetailType" libraryName="tc_/OPP/SetEventDetailsType.js" handlerUniqueId="{e7b8dc2a-9a9b-708b-319e-dc1623892b3d}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_eventdetailtypecd">
+          <Handlers>
+            <Handler functionName="setEventDetailType" libraryName="tc_/OPP/SetEventDetailsType.js" handlerUniqueId="{98cad9ce-de41-91c1-2d09-e9d1cc01146a}" enabled="true" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
       </events>

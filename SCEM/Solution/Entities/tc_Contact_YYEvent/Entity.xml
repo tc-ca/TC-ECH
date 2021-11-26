@@ -1147,6 +1147,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Organization" languagecode="1033" />
+            <displayname description="Organisation" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="Unique identifier for Organization associated with Contact Event." languagecode="1033" />
@@ -1186,6 +1187,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Related Contact" languagecode="1033" />
+            <displayname description="Contact Associé" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />

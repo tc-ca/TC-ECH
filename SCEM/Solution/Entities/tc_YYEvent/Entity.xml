@@ -587,7 +587,7 @@
           </displaynames>
           <Descriptions>
             <Description description="Contains the id of the process associated with the entity." languagecode="1033" />
-            <Description description="Contient l’ID du processus associé à l’entité." languagecode="1036" />
+            <Description description="Contient l'ID du processus associé à l'entité." languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="stageid">
@@ -626,7 +626,7 @@
           </displaynames>
           <Descriptions>
             <Description description="Contains the id of the stage where the entity is located." languagecode="1033" />
-            <Description description="Contient l’ID de la phase dans laquelle se trouve l’entité." languagecode="1036" />
+            <Description description="Contient l'ID de la phase dans laquelle se trouve l'entité." languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="statecode">
