@@ -142,6 +142,7 @@
   <EntityRelationship Name="tc_tc_tylookupreference_account_historical" />
   <EntityRelationship Name="tc_tc_tylookupreference_account_modern" />
   <EntityRelationship Name="tc_tc_tylookupreference_account_protocol" />
+  <EntityRelationship Name="tc_tc_tylookupreference_account_selfgov" />
   <EntityRelationship Name="tc_TYAccountType_Account_OppAccountTypeId" />
   <EntityRelationship Name="tc_tyeventtype_dyeventlog_TypeId" />
   <EntityRelationship Name="tc_TYRegion_Contact" />

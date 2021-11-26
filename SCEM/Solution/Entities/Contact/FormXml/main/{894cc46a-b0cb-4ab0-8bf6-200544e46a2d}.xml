@@ -312,7 +312,7 @@
                           <label description="Suspension de crédit" languagecode="1036" solutionaction="Added" />
                         </labels>
                       </cell>
-                      <cell id="{d4627f5c-7838-4a2a-a74e-8d8108c85a19}" ordinalvalue="20005" solutionaction="Removed" />
+                      <cell id="{0e6c9ceb-1486-4a55-9411-76bcfe9730b0}" ordinalvalue="20005" solutionaction="Removed" />
                     </row>
                     <row>
                       <cell id="{bc9c8be1-08bc-47ad-8868-1e212574acbd}" ordinalvalue="20003" solutionaction="Added">
@@ -442,7 +442,7 @@
             </column>
           </columns>
         </tab>
-        <tab id="{04be9fb3-9a85-430b-b2c8-4466ebcd3fb6}" name="conflictstab" group="solutionconflictstab" ordinalvalue="4" solutionaction="Removed" />
+        <tab id="{dc058ad6-611f-4f8c-89b1-d276ef61c52c}" name="conflictstab" group="solutionconflictstab" ordinalvalue="4" solutionaction="Removed" />
         <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{13faacb9-15cf-4432-9447-2158d6813f9e}" ordinalvalue="0" solutionaction="Added">
           <labels>
             <label description="What's New" languagecode="1033" />

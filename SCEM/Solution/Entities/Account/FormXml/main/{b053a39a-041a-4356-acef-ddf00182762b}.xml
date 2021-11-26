@@ -184,7 +184,7 @@
                           <label description="Catégorie" languagecode="1036" solutionaction="Added" />
                         </labels>
                       </cell>
-                      <cell id="{662b8740-a1ac-4f36-8b0f-71ee81c2a142}" ordinalvalue="20003" solutionaction="Removed" />
+                      <cell id="{ac48b923-10b7-4642-94d7-0be0a6e41350}" ordinalvalue="20003" solutionaction="Removed" />
                     </row>
                     <row>
                       <cell id="{75231669-b6e4-42c1-98fa-ed1fd2d4091b}" ordinalvalue="10002" solutionaction="Modified">
@@ -193,7 +193,7 @@
                           <label description="Type de relation" languagecode="1036" solutionaction="Added" />
                         </labels>
                       </cell>
-                      <cell id="{6b6e24ba-4612-4991-a50d-bfbd597a83c5}" ordinalvalue="20005" solutionaction="Removed" />
+                      <cell id="{f6cbd8df-e90f-4119-9b7e-6f423521eb22}" ordinalvalue="20005" solutionaction="Removed" />
                     </row>
                   </rows>
                 </section>
@@ -229,7 +229,7 @@
                           <label description="Tarifs" languagecode="1036" solutionaction="Added" />
                         </labels>
                       </cell>
-                      <cell id="{50c51b55-1e9f-4e2e-96bb-e1196c65f557}" ordinalvalue="20005" solutionaction="Removed" />
+                      <cell id="{04d9cf6f-696e-4792-816a-9cad785809bb}" ordinalvalue="20005" solutionaction="Removed" />
                     </row>
                     <row>
                       <cell id="{88b1eb8d-6cb7-4172-a2e9-68d7f702a941}" ordinalvalue="10004" solutionaction="Modified">
@@ -238,7 +238,7 @@
                           <label description="Suspension de crédit" languagecode="1036" solutionaction="Added" />
                         </labels>
                       </cell>
-                      <cell id="{b01187d2-47c2-45de-a0dc-2dad36a10c98}" ordinalvalue="20007" solutionaction="Removed" />
+                      <cell id="{fd5ab417-5299-44a7-afa8-dffa618af70c}" ordinalvalue="20007" solutionaction="Removed" />
                     </row>
                   </rows>
                 </section>
@@ -313,11 +313,11 @@
                     </row>
                     <row>
                       <cell id="{0a5eeb02-68b5-4cec-93d5-fa27bd56e89b}" ordinalvalue="20001" solutionaction="Modified" />
-                      <cell id="{995616c1-021e-40ff-acdb-eba5f141d132}" ordinalvalue="30005" solutionaction="Removed" />
+                      <cell id="{c7ff94e9-b624-4519-9872-7cd7f7c5832c}" ordinalvalue="30005" solutionaction="Removed" />
                     </row>
                     <row>
                       <cell id="{4c7e3528-1a05-47d8-99c4-383e8ae36f62}" ordinalvalue="20004" solutionaction="Modified" />
-                      <cell id="{7b5f997d-bfd4-4f7f-aece-5673bf04ec32}" ordinalvalue="30008" solutionaction="Removed" />
+                      <cell id="{da625951-1294-4212-b83f-eb5110f6611d}" ordinalvalue="30008" solutionaction="Removed" />
                     </row>
                     <row>
                       <cell id="{4a9ae9d0-f4ca-45f0-886c-bcfc00f98003}" ordinalvalue="10009">
@@ -326,7 +326,7 @@
                         </labels>
                       </cell>
                       <cell id="{7efb5294-1d1c-4f78-9918-03dd80563cfb}" ordinalvalue="20007" solutionaction="Modified" />
-                      <cell id="{c7b01443-c89d-4665-9ea3-577b1a597df2}" ordinalvalue="30011" solutionaction="Removed" />
+                      <cell id="{e7397d3e-67eb-4418-b817-547bbcba73bd}" ordinalvalue="30011" solutionaction="Removed" />
                     </row>
                     <row>
                       <cell id="{70742cbc-863f-4d3d-a9a3-5919e990a12e}" ordinalvalue="30005" solutionaction="Added">

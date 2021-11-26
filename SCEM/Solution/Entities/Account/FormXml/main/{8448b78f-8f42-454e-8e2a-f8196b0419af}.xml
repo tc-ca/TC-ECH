@@ -809,14 +809,14 @@
               <Title LCID="1028" Text="發票" solutionaction="Removed" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="incident_customer_accounts" Sequence="10" Area="Service" Id="navService" Show="false" solutionaction="Added">
-            <Titles>
-              <Title LCID="1033" Text="Cases" />
-            </Titles>
-          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="opportunity_customer_accounts" Sequence="10" Area="Sales" Id="navOpps" Show="false" solutionaction="Added">
             <Titles>
               <Title LCID="1033" Text="Opportunities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="incident_customer_accounts" Sequence="10" Area="Service" Id="navService" Show="false" solutionaction="Added">
+            <Titles>
+              <Title LCID="1033" Text="Cases" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="listaccount_association" Sequence="10" Area="Marketing" Id="navListsInSFA" Show="false" solutionaction="Added">

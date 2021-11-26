@@ -71,9 +71,6 @@
                     <Sequence DisplayName="SetVisibilityStep4: New Action">
                       <mcwc:SetVisibility ControlId="tc_duedte" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_yyeventdetail" IsVisible="True" />
                     </Sequence>
-                    <Sequence DisplayName="SetVisibilityStep5: New Action">
-                      <mcwc:SetVisibility ControlId="tc_commitmentid" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_yyeventdetail" IsVisible="True" />
-                    </Sequence>
                     <Sequence DisplayName="SetVisibilityStep6: New Action">
                       <mcwc:SetVisibility ControlId="tc_actionitemstatuscd" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_yyeventdetail" IsVisible="True" />
                     </Sequence>
@@ -110,9 +107,6 @@
                     </Sequence>
                     <Sequence DisplayName="SetVisibilityStep8: New Action">
                       <mcwc:SetVisibility ControlId="tc_actionitemassignedtoid" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_yyeventdetail" IsVisible="False" />
-                    </Sequence>
-                    <Sequence DisplayName="SetVisibilityStep9: New Action">
-                      <mcwc:SetVisibility ControlId="tc_commitmentid" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_yyeventdetail" IsVisible="False" />
                     </Sequence>
                     <Sequence DisplayName="SetVisibilityStep10: New Action">
                       <mcwc:SetVisibility ControlId="tc_actionitemstatuscd" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_yyeventdetail" IsVisible="False" />

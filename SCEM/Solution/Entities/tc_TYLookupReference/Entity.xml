@@ -839,43 +839,48 @@
               <Description description="Lookup Type" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="948010007" Color="#0000ff">
+              <option value="948010008" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Self-Government Agreement" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="948010007" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Existing Protocols" languagecode="1033" />
                 </labels>
               </option>
-              <option value="948010001" Color="#0000ff">
+              <option value="948010001" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Region" languagecode="1033" />
                   <label description="Région" languagecode="1036" />
                 </labels>
               </option>
-              <option value="948010005" Color="#0000ff">
+              <option value="948010005" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Historical Treaties" languagecode="1033" />
                 </labels>
               </option>
-              <option value="948010006" Color="#0000ff">
+              <option value="948010006" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Modern Treaties" languagecode="1033" />
                 </labels>
               </option>
-              <option value="948010004" Color="#0000ff">
+              <option value="948010004" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Land Ownership" languagecode="1033" />
                 </labels>
               </option>
-              <option value="948010003" Color="#0000ff">
+              <option value="948010003" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Environmental Review" languagecode="1033" />
                 </labels>
               </option>
-              <option value="948010002" Color="#0000ff">
+              <option value="948010002" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Environmental Setting" languagecode="1033" />
                 </labels>
               </option>
-              <option value="948010000" Color="#0000ff">
+              <option value="948010000" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="NPA Section" languagecode="1033" />
                 </labels>

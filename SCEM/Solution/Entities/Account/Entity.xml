@@ -1145,6 +1145,45 @@
             <Description description="Choisissez le contact principal pour le compte pour fournir un accès rapide aux détails du contact." languagecode="1036" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_SelfGovernmentAgreementId">
+          <Type>lookup</Type>
+          <Name>tc_selfgovernmentagreementid</Name>
+          <LogicalName>tc_selfgovernmentagreementid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.170.1.1</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Self-Government Agreement" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Lookup Reference associated with Organization." languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="tc_specificclaimtxt">
           <Type>ntext</Type>
           <Name>tc_specificclaimtxt</Name>

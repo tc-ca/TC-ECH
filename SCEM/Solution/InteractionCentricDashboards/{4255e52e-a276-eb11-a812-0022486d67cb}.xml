@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InteractionCentricDashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="IC Contacts Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{4255e52e-a276-eb11-a812-0022486d67cb}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="interactioncentricdashboard">
+      <form>
+        <tabs filterby="createdon" timeframe="7" primaryentitylogicalname="contact" entityview="{B1068F06-3176-EB11-A812-0022486D67CB}" dashboardCategory="1_1" tilespresent="false">
+          <tab showlabel="true" verticallayout="true" collapsible="true" id="{4d4bb7a3-fcbc-4749-8133-aee292d47255}">
+            <labels>
+              <label description="Visual Filters" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section name="VisualFilters" showlabel="false" showbar="false" columns="11" id="{b3801717-bfaf-41b2-82ad-a4e58745f1a5}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{32fa82d8-ed61-41c7-b746-61aea584faf5}" auto="false">
+                          <labels>
+                            <label description="Contact" languagecode="1033" />
+                            <label description="Contacts" languagecode="1036" />
+                          </labels>
+                          <control id="Component93465ab" uniqueid="{2e4110b8-452c-8b35-9321-7d06359561e2}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>contact</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{B1068F06-3176-EB11-A812-0022486D67CB}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{4AC989B6-3676-EB11-A812-0022486D67CB}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{b24f0bb8-52a2-4cc5-8295-c5554d6d1a49}" auto="false">
+                          <labels>
+                            <label description="Contacts" languagecode="1033" />
+                            <label description="Contacts" languagecode="1036" />
+                          </labels>
+                          <control id="Component14eb8bf" uniqueid="{c2575737-5c6b-1864-57b9-8346dc53b669}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>contact</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{B1068F06-3176-EB11-A812-0022486D67CB}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{9231E3A8-3276-EB11-A812-0022486D67CB}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+          <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{bf06c86c-5263-40d2-8859-cc71c9e0ff2b}">
+            <labels>
+              <label description="Streams" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section name="Streams" showlabel="false" showbar="false" columns="11" id="{c8a60dde-f1cd-4ec7-87bb-20fc55e7819f}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" isstreamcell="true" id="{f8dc93ad-0fb7-48be-8dfa-5e28da628b1d}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{9775b154-3887-80e5-12b0-dbe80ca422a0}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>false</ShowAsTiles>
+                                <StreamObject id="{83267ecb-6365-854c-beeb-1aa48c672226}" type="1">
+                                  <LogicalEntityName>contact</LogicalEntityName>
+                                  <EntityViewId>{B1068F06-3176-EB11-A812-0022486D67CB}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.79.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</InteractionCentricDashboard>

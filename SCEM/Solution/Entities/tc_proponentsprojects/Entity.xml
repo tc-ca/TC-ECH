@@ -895,8 +895,8 @@
           <IntroducedVersion>0.36.1.0</IntroducedVersion>
           <IsCustomizable>0</IsCustomizable>
           <EntityKeyAttributes>
-            <AttributeName>tc_projectid</AttributeName>
             <AttributeName>tc_proponentid</AttributeName>
+            <AttributeName>tc_projectid</AttributeName>
           </EntityKeyAttributes>
           <displaynames>
             <displayname description="ProponentId_ProjectId" languagecode="1033" />

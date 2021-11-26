@@ -44,6 +44,7 @@
                       <cell id="{daa9bee7-81db-d2b0-7c31-c240ac8567ac}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Organization" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
                         </labels>
                         <control id="tc_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_organizationid" disabled="false" uniqueid="{9e967ad3-a2a9-8716-338c-a2dd7430ce09}">
                           <parameters>
@@ -64,6 +65,7 @@
                       <cell id="{73b5c058-b629-58a8-153b-423095394625}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Contact" languagecode="1033" />
+                          <label description="Contact Associé" languagecode="1036" />
                         </labels>
                         <control id="tc_relatedcontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_relatedcontactid" disabled="false" uniqueid="{491c7492-4125-d89e-365d-bb72d27d6d55}">
                           <parameters>
