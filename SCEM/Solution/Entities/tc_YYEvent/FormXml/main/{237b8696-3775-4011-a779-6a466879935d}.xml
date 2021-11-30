@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
+        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="false" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -222,7 +222,7 @@
                         </labels>
                         <control id="tc_nameofsender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_nameofsender" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{9dbf0461-4650-4591-b7c5-3aa354e4e808}">
+                      <cell locklevel="0" id="{9dbf0461-4650-4591-b7c5-3aa354e4e808}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -284,7 +284,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{4b29bdec-124a-439b-a399-7e41c1a6f6b5}">
+                      <cell locklevel="0" id="{4b29bdec-124a-439b-a399-7e41c1a6f6b5}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -458,7 +458,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{9de4efc7-36fb-48c2-99a7-184c83811a32}">
+                      <cell locklevel="0" id="{9de4efc7-36fb-48c2-99a7-184c83811a32}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -472,14 +472,14 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{1e79f568-8a06-43a6-b4c9-16a93f8b82c5}">
+                      <cell locklevel="0" id="{1e79f568-8a06-43a6-b4c9-16a93f8b82c5}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{5eff395a-5bd5-4e97-a2c3-0a784efdff08}">
+                      <cell locklevel="0" id="{5eff395a-5bd5-4e97-a2c3-0a784efdff08}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -571,7 +571,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{3de194fc-da77-4982-b62e-c849af27b145}">
+                      <cell locklevel="0" id="{3de194fc-da77-4982-b62e-c849af27b145}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -585,7 +585,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{73932161-6cc3-41ab-83ca-3a413debbe53}">
+                      <cell locklevel="0" id="{73932161-6cc3-41ab-83ca-3a413debbe53}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -1061,112 +1061,6 @@
                           <label description="Présentation a été confirmé avec l'hôte de l'événement" languagecode="1036" />
                         </labels>
                         <control id="tc_assessmentcompleteddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_assessmentcompleteddate" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_5_section_1" showlabel="true" showbar="true" locklevel="0" id="{2738bc33-e67d-1126-ab1c-6c86145e06a0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto" labelid="{2ed0a261-e180-4687-b716-a812ac4f14ee}">
-                  <labels>
-                    <label description="View Documents" languagecode="1033" />
-                    <label description="Voir Les Documents" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{2957d7ec-ac0c-752e-e4dc-ac6716c72ad3}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_5_section_2" showlabel="true" showbar="true" locklevel="0" id="{728cac37-c690-891d-c557-538a2b4a1064}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{72d886e9-d844-44ba-9e49-ae3dcdabe19d}">
-                  <labels>
-                    <label description="Associate an Existing RDIMS Document" languagecode="1033" />
-                    <label description="Associer un Document Existant du SGDDI" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{7e38a77d-c028-b7ad-7891-72635a4e2630}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_7_section_2" showlabel="false" showbar="false" locklevel="0" id="{762e9094-e74c-15de-94d6-353bd8b2ab06}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" height="auto">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row height="auto">
-                      <cell id="{0b1698ac-772b-7b07-267c-32cbc0c0976b}" showlabel="true" colspan="1" auto="true" rowspan="1" labelid="{3a25dbd9-7a6b-452f-90cc-41b646523dd5}">
-                        <labels>
-                          <label description="View Documents" languagecode="1033" />
-                          <label description="Voir Les Documents" languagecode="1036" />
-                        </labels>
-                        <control id="WebResource_List" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
-                          <parameters>
-                            <Url>tc_/Core/Documents/List.html</Url>
-                            <Data>{
-  "control": "WebResource_List",
-  "field": "tc_documentstxt"
-}</Data>
-                            <PassParameters>false</PassParameters>
-                            <ShowOnMobileClient>false</ShowOnMobileClient>
-                            <Security>false</Security>
-                            <Scrolling>no</Scrolling>
-                            <Border>true</Border>
-                            <WebResourceId>{9E41960E-6579-E811-8B89-00155DDC0400}</WebResourceId>
-                          </parameters>
-                        </control>
-                        <events>
-                          <event name="onload" application="false">
-                            <dependencies />
-                          </event>
-                        </events>
-                      </cell>
-                      <cell id="{25b88879-b5dd-1b83-3ba8-7910cd717d49}" showlabel="true" colspan="1" auto="false" rowspan="1" labelid="{cc07af1d-87e8-49dc-b25d-5ae476bd8fa1}">
-                        <labels>
-                          <label description="Associate an Existing RDIMS Document" languagecode="1033" />
-                          <label description="Associer un Document Existant du SGDDI" languagecode="1036" />
-                        </labels>
-                        <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
-                          <parameters>
-                            <Url>tc_/Core/Documents/Search.html</Url>
-                            <Data>{
-  "control": "WebResource_Search",
-  "field": "tc_documentstxt",
-  "view": "WebResource_List"
-}</Data>
-                            <PassParameters>false</PassParameters>
-                            <ShowOnMobileClient>false</ShowOnMobileClient>
-                            <Security>false</Security>
-                            <Scrolling>no</Scrolling>
-                            <Border>true</Border>
-                            <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
-                          </parameters>
-                        </control>
-                        <events>
-                          <event name="onload" application="false">
-                            <dependencies />
-                          </event>
-                        </events>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{1d962cee-7c4d-ad97-3d04-1e2d49218cac}" showlabel="true" locklevel="0" visible="false" labelid="{9c0b04a2-f73d-47a0-8ab6-be65956e548c}">
-                        <labels>
-                          <label description="Documents" languagecode="1033" />
-                          <label description="Documents" languagecode="1036" />
-                        </labels>
-                        <control id="tc_documentstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_documentstxt" disabled="false" uniqueid="{b6b5203d-c400-a03d-18db-c25890919741}" />
-                      </cell>
-                      <cell id="{d13d474d-3975-9992-4b95-ca08d1065666}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
                       </cell>
                     </row>
                   </rows>
