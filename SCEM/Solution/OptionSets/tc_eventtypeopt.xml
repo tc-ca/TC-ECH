@@ -58,6 +58,15 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
+    <option value="948010003" ExternalValue="" Color="">
+      <labels>
+        <label description="Informal Meeting" languagecode="1033" />
+        <label description="Réunion Informelle" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
     <option value="12" ExternalValue="" Color="#0000ff">
       <labels>
         <label description="Inspections" languagecode="1033" />
