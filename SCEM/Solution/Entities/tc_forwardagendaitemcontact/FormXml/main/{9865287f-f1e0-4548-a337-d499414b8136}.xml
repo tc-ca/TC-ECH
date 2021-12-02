@@ -38,11 +38,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8d52446a-d1de-4b3c-a0ab-0ab10e4c2ecb}">
+                      <cell id="{8d52446a-d1de-4b3c-a0ab-0ab10e4c2ecb}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="tc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_name" />
+                        <control id="tc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_name" uniqueid="{0355d468-b930-5087-60a4-7aa4541c478c}" disabled="false" />
                       </cell>
                     </row>
                     <row>

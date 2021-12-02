@@ -222,7 +222,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_6" id="922237a7-9433-4240-b401-f0561966c6bb" IsUserDefined="0" locklevel="0" showlabel="true">
+        <tab name="tab_6" id="922237a7-9433-4240-b401-f0561966c6bb" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Action Items" languagecode="1033" />
             <label description="Mesures de suivi" languagecode="1036" />
@@ -252,6 +252,53 @@
                         </control>
                       </cell>
                     </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_7" id="{06004142-519c-e88b-26e7-a6c81424c606}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Forward Agenda Items" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_1" showlabel="false" showbar="false" locklevel="0" id="{421ac293-3ce7-dc94-b711-92049316e6c6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9b988575-0e22-cc58-8e5a-358bba42b96e}" showlabel="false" colspan="1" auto="true" rowspan="4">
+                        <labels>
+                          <label description="Forward Agenda Items (Stakeholder Group)" languagecode="1033" />
+                        </labels>
+                        <control id="ForwardAgendaItems" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{5EFB50A0-7386-4D0B-9520-31229B1FA161}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_ForwardAgendaItem_tc_AYStakeholderGrou</RelationshipName>
+                            <TargetEntityType>tc_forwardagendaitem</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{5EFB50A0-7386-4D0B-9520-31229B1FA161}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
               </sections>
@@ -397,7 +444,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
