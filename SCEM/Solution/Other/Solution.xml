@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.37.0.0</Version>
+    <Version>1.38.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -145,6 +145,8 @@
       <RootComponent type="1" schemaName="tc_contact_yyevent" behavior="0" />
       <RootComponent type="1" schemaName="tc_dyeventlog" behavior="0" />
       <RootComponent type="1" schemaName="tc_feedbackform" behavior="0" />
+      <RootComponent type="1" schemaName="tc_forwardagendaitem" behavior="0" />
+      <RootComponent type="1" schemaName="tc_forwardagendaitemcontact" behavior="0" />
       <RootComponent type="1" schemaName="tc_myimpact" behavior="0" />
       <RootComponent type="1" schemaName="tc_myprojectactivity" behavior="0" />
       <RootComponent type="1" schemaName="tc_myprojecttask" behavior="0" />
@@ -174,6 +176,7 @@
       <RootComponent type="9" schemaName="tc_eventlevelopt" behavior="0" />
       <RootComponent type="9" schemaName="tc_eventstatusopt" behavior="0" />
       <RootComponent type="9" schemaName="tc_eventtypeopt" behavior="0" />
+      <RootComponent type="9" schemaName="tc_forwardagendaitemstatus" behavior="0" />
       <RootComponent type="9" schemaName="tc_groupregioncodeopt" behavior="0" />
       <RootComponent type="9" schemaName="tc_grouptypes" behavior="0" />
       <RootComponent type="9" schemaName="tc_meetingseries" behavior="0" />

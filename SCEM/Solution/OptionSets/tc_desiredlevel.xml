@@ -14,21 +14,25 @@
     <option value="948010000">
       <labels>
         <label description="Dir." languagecode="1033" />
+        <label description="Dir." languagecode="1036" />
       </labels>
     </option>
     <option value="948010001">
       <labels>
         <label description="DG" languagecode="1033" />
+        <label description="DG" languagecode="1036" />
       </labels>
     </option>
     <option value="948010002">
       <labels>
         <label description="ADM" languagecode="1033" />
+        <label description="SMA" languagecode="1036" />
       </labels>
     </option>
     <option value="948010003">
       <labels>
         <label description="Not Specified" languagecode="1033" />
+        <label description="Non Précisé" languagecode="1036" />
       </labels>
     </option>
   </options>
