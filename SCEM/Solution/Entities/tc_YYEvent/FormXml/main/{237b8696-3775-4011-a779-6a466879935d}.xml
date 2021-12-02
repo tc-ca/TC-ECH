@@ -328,7 +328,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{db3dc1ec-2dee-127e-de9d-c64c2a992c83}" showlabel="true" locklevel="0">
+                      <cell id="{db3dc1ec-2dee-127e-de9d-c64c2a992c83}" showlabel="true" locklevel="0" rowspan="4">
                         <labels>
                           <label description="Type of desired level - Comments" languagecode="1033" />
                           <label description="Commentaires" languagecode="1036" />
@@ -344,19 +344,23 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{1098c479-ca5a-843b-8078-c991e53bd252}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Participation - Comments" languagecode="1033" />
+                          <label description="Commentaires" languagecode="1036" />
+                        </labels>
+                        <control id="tc_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comments" disabled="false" uniqueid="{e3ec6e08-e645-8849-9438-663d7b1b0ae0}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row>
                       <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Topics of interest " languagecode="1033" />
                           <label description="Sujets d'intérêt (description)" languagecode="1036" />
                         </labels>
                         <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
-                      </cell>
-                      <cell id="{1098c479-ca5a-843b-8078-c991e53bd252}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Participation - Comments" languagecode="1033" />
-                          <label description="Commentaires" languagecode="1036" />
-                        </labels>
-                        <control id="tc_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comments" disabled="false" uniqueid="{e3ec6e08-e645-8849-9438-663d7b1b0ae0}" />
                       </cell>
                     </row>
                     <row>
@@ -490,23 +494,38 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{9de4efc7-36fb-48c2-99a7-184c83811a32}" showlabel="false">
+                      <cell id="{509818b8-93b7-ab1c-705b-b82e3a815224}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{acc97b2b-4877-a493-88eb-7a23eb676a39}" showlabel="false">
+                      <cell id="{cd798e19-9096-38c7-5e3b-c1e36b766695}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{2d992b5b-713c-1d2b-9dd0-25143b3ca7d1}" showlabel="true" locklevel="0">
+                      <cell id="{2d992b5b-713c-1d2b-9dd0-25143b3ca7d1}" showlabel="true" locklevel="0" rowspan="3">
                         <labels>
                           <label description="Feedback from participants" languagecode="1033" />
+                          <label description="Rétroaction des participants" languagecode="1036" />
                         </labels>
-                        <control id="tc_feedbackfromparticipants" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_feedbackfromparticipants" disabled="false" />
+                        <control id="tc_feedbackfromparticipants" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_feedbackfromparticipants" disabled="false" uniqueid="{c8e038d3-45a8-5827-21bc-66a34d7d6815}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8801a5cd-b062-b639-9ebc-3582587ada59}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4724601d-1a65-9b25-3c99-d143592617c7}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
