@@ -4,34 +4,85 @@
   <IsGlobal>1</IsGlobal>
   <IntroducedVersion>1.2.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
   <displaynames>
     <displayname description="Priority Types" languagecode="1033" />
   </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
   <options>
-    <option value="948010000">
+    <option value="948010000" ExternalValue="" Color="">
       <labels>
         <label description="Priority" languagecode="1033" />
+        <label description="Priorité" languagecode="1036" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
-    <option value="948010001">
+    <option value="948010001" ExternalValue="" Color="">
       <labels>
         <label description="High" languagecode="1033" />
+        <label description="Haute" languagecode="1036" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
-    <option value="948010002">
+    <option value="948010005" ExternalValue="" Color="">
+      <labels>
+        <label description="High/Medium" languagecode="1033" />
+        <label description="Haute/Moyenne" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010002" ExternalValue="" Color="">
       <labels>
         <label description="Medium" languagecode="1033" />
+        <label description="Moyenne" languagecode="1036" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
-    <option value="948010003">
+    <option value="948010006" ExternalValue="" Color="">
+      <labels>
+        <label description="Medium/Low" languagecode="1033" />
+        <label description="Moyenne/Faible" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010003" ExternalValue="" Color="">
       <labels>
         <label description="Low" languagecode="1033" />
+        <label description="Faible" languagecode="1036" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
-    <option value="948010004">
+    <option value="948010004" ExternalValue="" Color="">
       <labels>
         <label description="Not priority" languagecode="1033" />
+        <label description="Pas une priorité" languagecode="1036" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010007" ExternalValue="" Color="">
+      <labels>
+        <label description="No Assessment" languagecode="1033" />
+        <label description="Pas d'évaluation" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
   </options>
 </optionset>

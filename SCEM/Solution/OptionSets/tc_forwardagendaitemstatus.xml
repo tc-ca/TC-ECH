@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_forwardagendaitemstatus" localizedName="Forward Agenda Item Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.34.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Forward Agenda Item Status" languagecode="1033" />
+    <displayname description="Forward Agenda Item Status" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="948010000" ExternalValue="">
+      <labels>
+        <label description="Open" languagecode="1033" />
+        <label description="Ouvert" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="948010001" ExternalValue="">
+      <labels>
+        <label description="On Track" languagecode="1033" />
+        <label description="En bonne voie" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="948010002" ExternalValue="">
+      <labels>
+        <label description="Ongoing" languagecode="1033" />
+        <label description="En cours" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="948010003" ExternalValue="">
+      <labels>
+        <label description="Standing Item" languagecode="1033" />
+        <label description="Article permanent" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="948010004" ExternalValue="">
+      <labels>
+        <label description="Completed" languagecode="1033" />
+        <label description="Terminé" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="948010005" ExternalValue="">
+      <labels>
+        <label description="Closed" languagecode="1033" />
+        <label description="Fermé" languagecode="1036" />
+      </labels>
+    </option>
+  </options>
+</optionset>

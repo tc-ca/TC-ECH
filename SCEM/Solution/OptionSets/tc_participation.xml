@@ -14,21 +14,25 @@
     <option value="948010000">
       <labels>
         <label description="Speaker" languagecode="1033" />
+        <label description="Conférencier" languagecode="1036" />
       </labels>
     </option>
     <option value="948010001">
       <labels>
         <label description="Panelist" languagecode="1033" />
+        <label description="Panéliste" languagecode="1036" />
       </labels>
     </option>
     <option value="948010002">
       <labels>
         <label description="Participant" languagecode="1033" />
+        <label description="Participant" languagecode="1036" />
       </labels>
     </option>
     <option value="948010003">
       <labels>
         <label description="Not specified" languagecode="1033" />
+        <label description="Non précisé" languagecode="1036" />
       </labels>
     </option>
   </options>
