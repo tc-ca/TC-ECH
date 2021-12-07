@@ -40,16 +40,6 @@
         <Titles>
           <Title LCID="1033" Title="Resources" />
         </Titles>
-        <SubArea Id="SubArea_ENUserGuide" ResourceId="SitemapDesigner.NewSubArea" Url="http://mytc/rdims/16494322" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
-          <Titles>
-            <Title LCID="1033" Title="EN - User Guide" />
-          </Titles>
-        </SubArea>
-        <SubArea Id="SubArea_FRUserGuide" ResourceId="SitemapDesigner.NewSubArea" Url="http://mytc/rdims/16698942" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
-          <Titles>
-            <Title LCID="1033" Title="FR - User Guide" />
-          </Titles>
-        </SubArea>
         <SubArea Id="SubArea_feedbackform" VectorIcon="/WebResources/msdyn_/Icons/AnalysisComponent.svg" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="tc_feedbackform" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="tc_feedbackform" Privilege="Read" />
         </SubArea>
