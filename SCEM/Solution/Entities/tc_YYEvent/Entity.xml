@@ -6736,7 +6736,7 @@
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
-            <displayname description="Received by " languagecode="1033" />
+            <displayname description="Received by" languagecode="1033" />
             <displayname description="Reçu par" languagecode="1036" />
           </displaynames>
           <Descriptions>
