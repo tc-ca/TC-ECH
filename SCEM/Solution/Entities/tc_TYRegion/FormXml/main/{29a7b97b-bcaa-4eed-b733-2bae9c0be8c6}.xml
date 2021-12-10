@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{03990f09-bff2-4843-95b5-e5a70950d2d4}" IsUserDefined="1">
+        <tab verticallayout="true" id="{03990f09-bff2-4843-95b5-e5a70950d2d4}" IsUserDefined="1" expanded="true">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -75,6 +75,58 @@
                         <control id="tc_regiondescriptionfrench" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_regiondescriptionfrench" disabled="false" uniqueid="{3960c637-a06b-1044-69e8-3b43b9155130}" />
                       </cell>
                     </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{5a8b48a5-6e42-a019-836e-9be1298e23c0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Events" languagecode="1033" />
+            <label description="Événements" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{b24d7439-e8a4-eb03-0ed5-2b717ce79712}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Events" languagecode="1033" />
+                    <label description="Événements" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a95cdb3d-166b-4167-aa4b-2ee444c16b77}" showlabel="true" colspan="1" auto="true" rowspan="5">
+                        <labels>
+                          <label description="Events " languagecode="1033" />
+                          <label description="Événements" languagecode="1036" />
+                        </labels>
+                        <control id="Events" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{9c0d545e-649e-a45d-5a21-a78c3c0b02da}">
+                          <parameters>
+                            <ViewId>{08CAD00D-277A-449D-907D-3852906AC450}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_Event_Region</RelationshipName>
+                            <TargetEntityType>tc_yyevent</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds />
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{28D88C08-BBC1-E811-80E8-005056812059}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
               </sections>

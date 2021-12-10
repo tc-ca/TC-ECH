@@ -224,8 +224,8 @@
         </tab>
         <tab name="contactTab" id="{316d66e5-5857-ed5b-cd48-9a8c62ea4da2}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
-            <label description="Contacts" languagecode="1033" />
-            <label description="Personnes-ressources" languagecode="1036" />
+            <label description="Participants" languagecode="1033" />
+            <label description="Participants" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
