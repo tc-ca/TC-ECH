@@ -277,10 +277,10 @@
                       </cell>
                       <cell id="{197a0a82-a152-1984-0372-a45dab4c13db}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Virtual" languagecode="1033" />
+                          <label description="Virtual Address" languagecode="1033" />
                           <label description="Virtuel" languagecode="1036" />
                         </labels>
-                        <control id="tc_virtual" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_virtual" disabled="false" />
+                        <control id="tc_virtual" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_virtual" disabled="false" uniqueid="{4287e2bd-d2e2-0430-46ab-c39b5e9eb7bc}" />
                       </cell>
                     </row>
                     <row>
@@ -289,10 +289,12 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{0cbe6cc0-990b-2ea9-867a-8ad5bd97bb08}" showlabel="false">
+                      <cell id="{70003c2a-46a4-0a13-21dc-52771adacb0b}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Number of days at the event" languagecode="1033" />
+                          <label description="Nombre de jours à l'événement" languagecode="1036" />
                         </labels>
+                        <control id="tc_numberofdayattheevent" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_numberofdayattheevent" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -352,8 +354,8 @@
                         <control id="tc_comments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_comments" disabled="false" uniqueid="{e3ec6e08-e645-8849-9438-663d7b1b0ae0}" />
                       </cell>
                     </row>
-                    <row></row>
-                    <row></row>
+                    <row />
+                    <row />
                     <row>
                       <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
                         <labels>
@@ -764,90 +766,6 @@
             </column>
           </columns>
         </tab>
-        <tab name="tabLocation" id="{33312300-e9b4-4aab-6b1e-8806ca1660eb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
-          <labels>
-            <label description="Location and dates" languagecode="1033" />
-            <label description="Lieu et dates" languagecode="1036" />
-          </labels>
-          <columns>
-            <column width="50%">
-              <sections>
-                <section name="tab_10_section_1" showlabel="false" showbar="false" locklevel="0" id="{0a677a87-22b3-d2c5-84b1-07b7c7c8e879}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{28264082-303d-b324-6ae2-1771c62e7832}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="City" languagecode="1033" />
-                          <label description="Ville" languagecode="1036" />
-                        </labels>
-                        <control id="tc_citynm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_citynm" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{7bd71262-d475-824e-3d1d-7d39cb5b3442}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Virtual address" languagecode="1033" />
-                          <label description="Adresse virtuelle" languagecode="1036" />
-                        </labels>
-                        <control id="tc_virtualadress" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_virtualadress" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{a544d9b1-2971-c2a1-2191-3453aa0467b6}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Address" languagecode="1033" />
-                          <label description="ADRESSE" languagecode="1036" />
-                        </labels>
-                        <control id="tc_eventaddresstxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventaddresstxt" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
-                <section name="tab_10_section_2" showlabel="false" showbar="false" locklevel="0" id="{7353ba7d-6d88-0550-8b0a-227b7633696d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{1cb52d51-9470-a005-1d7c-9c2e73708292}" showlabel="true" locklevel="0" labelid="{ea0d3b23-a55e-4a28-a08b-4a4fea684b74}">
-                        <labels>
-                          <label description="Start" languagecode="1033" />
-                          <label description="Début" languagecode="1036" />
-                        </labels>
-                        <control id="tc_startdte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{912519d8-64d8-2730-3970-3930e9a35a1a}" showlabel="true" locklevel="0" labelid="{fdb34ed0-c693-4968-823c-db84eb654142}">
-                        <labels>
-                          <label description="End" languagecode="1033" />
-                          <label description="Fin" languagecode="1036" />
-                        </labels>
-                        <control id="tc_enddte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{0a95e4b1-9413-936a-6ee4-111bcdc8b7a5}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Number of days at the event" languagecode="1033" />
-                          <label description="Nombre de jours à l'événement" languagecode="1036" />
-                        </labels>
-                        <control id="tc_numberofdayattheevent" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_numberofdayattheevent" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
         <tab name="tabMarketing" id="{50452317-161b-b8c4-488e-07b19c9235a7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Marketing" languagecode="1033" />
@@ -933,15 +851,17 @@
                     <row>
                       <cell id="{010cbc35-1e4d-3a86-e61d-2e0e00765bc3}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="# of attendees" languagecode="1033" />
+                          <label description="Number of Participants" languagecode="1033" />
                           <label description="# de participants" languagecode="1036" />
                         </labels>
-                        <control id="tc_ofattendees" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_ofattendees" disabled="false" />
+                        <control id="tc_ofattendees" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_ofattendees" disabled="false" uniqueid="{66026c75-1965-ed74-06eb-b3edbd6de176}" />
                       </cell>
-                      <cell id="{b1a91251-2799-77cd-98ca-9523bbb810b2}" showlabel="false" userspacer="true">
+                      <cell id="{de5dd872-3574-c4c7-c75a-9d7db39cec4d}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Total Estimated Cost" languagecode="1033" />
+                          <label description="Coût total estimé" languagecode="1036" />
                         </labels>
+                        <control id="tc_totalestimatedcost" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_totalestimatedcost" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -976,6 +896,20 @@
                         <control id="tc_totaltravelcosttaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_totaltravelcosttaamt" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{ec0dee52-85ed-6d9b-63ee-776c3c384c76}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{cc88975b-9b33-c03c-334d-8b070a301967}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Actual Cost" languagecode="1033" />
+                          <label description="Coût total réel" languagecode="1036" />
+                        </labels>
+                        <control id="tc_totalactualcost" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_totalactualcost" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="tab_8_section_2" showlabel="false" showbar="false" locklevel="0" id="{ca669660-c3c0-d981-2589-1bdd974d6e31}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
@@ -998,7 +932,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tabApproval" id="{5c423665-3e6d-c02b-64c2-74c316a53763}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tabApproval" id="{5c423665-3e6d-c02b-64c2-74c316a53763}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Logistic and approvals" languagecode="1033" />
             <label description="Logistique et approbations" languagecode="1036" />
@@ -1023,7 +957,7 @@
                     <row>
                       <cell id="{8e5985e1-98bc-bb43-3c7e-36e67589cd6d}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Approval of Event Received by  Chief, ISSA (Date)" languagecode="1033" />
+                          <label description="Approval of Event Received by  Chief, SA" languagecode="1033" />
                           <label description="Approbation de l'événement reçue par Chef, NISS" languagecode="1036" />
                         </labels>
                         <control id="tc_approvalreceiveddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_approvalreceiveddate" disabled="false" uniqueid="{0610a02c-5004-444b-10ce-a48e95a49348}" />
@@ -1072,6 +1006,41 @@
                           <label description="Stand ou tractions envoyées" languagecode="1036" />
                         </labels>
                         <control id="tc_boothsentdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_boothsentdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e88bd0e-8cb9-9a27-91d1-3703767b9344}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Booth or Pull-ups Number" languagecode="1033" />
+                        </labels>
+                        <control id="tc_boothorpullupsnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_boothorpullupsnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b55d04ad-e408-7543-cd62-b4839c874720}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Booth Received" languagecode="1033" />
+                          <label description="Kiosque reçu" languagecode="1036" />
+                        </labels>
+                        <control id="tc_boothreceived" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_boothreceived" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{305c4e13-2e66-6447-7ea1-cd7cb50da9b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Presentation Completed" languagecode="1033" />
+                          <label description="Présentation terminée" languagecode="1036" />
+                        </labels>
+                        <control id="tc_presentationcompleted" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_presentationcompleted" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96042e11-b1e7-19b2-7110-1e7db9ba7de8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Presentation approved by Director, Compliance &amp; Response (Date)" languagecode="1033" />
+                          <label description="Présentation approuvée par le Directeur, Confirmité et intervention (Date) " languagecode="1036" />
+                        </labels>
+                        <control id="tc_presentationapprovedbydirector" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_presentationapprovedbydirector" disabled="false" />
                       </cell>
                     </row>
                     <row>

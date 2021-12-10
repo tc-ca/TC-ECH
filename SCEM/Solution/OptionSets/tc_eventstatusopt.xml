@@ -13,10 +13,44 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="948010000" ExternalValue="" Color="#0000ff">
+    <option value="1" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="No work started" languagecode="1033" />
-        <label description="Aucun travail commencé" languagecode="1036" />
+        <label description="Forecast" languagecode="1033" />
+        <label description="Prévisions" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Confirmed" languagecode="1033" />
+        <label description="Confirmé" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Closed" languagecode="1033" />
+        <label description="Fermé" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010003" ExternalValue="" Color="">
+      <labels>
+        <label description="Cancelled / Postponed event" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010005" ExternalValue="" Color="">
+      <labels>
+        <label description="Contact established" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -40,28 +74,18 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="1" ExternalValue="" Color="#0000ff">
+    <option value="948010004" ExternalValue="" Color="">
       <labels>
-        <label description="Forecast" languagecode="1033" />
-        <label description="Prévisions" languagecode="1036" />
+        <label description="Event in progress" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="" Color="#0000ff">
+    <option value="948010000" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="Confirmed" languagecode="1033" />
-        <label description="Confirmé" languagecode="1036" />
-      </labels>
-      <Descriptions>
-        <Description description="" languagecode="1033" />
-      </Descriptions>
-    </option>
-    <option value="6" ExternalValue="" Color="#0000ff">
-      <labels>
-        <label description="Closed" languagecode="1033" />
-        <label description="Fermé" languagecode="1036" />
+        <label description="No work started" languagecode="1033" />
+        <label description="Aucun travail commencé" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

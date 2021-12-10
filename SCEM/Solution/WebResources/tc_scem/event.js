@@ -95,7 +95,6 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
     formContext.ui.tabs.get("tab_ContactEvents").setVisible(isOPP && !isNew);
 
-    formContext.ui.tabs.get("tabLocation").setVisible(isSafety);
     formContext.ui.tabs.get("tabMarketing").setVisible(isSafety);
     formContext.ui.tabs.get("tabAdministration").setVisible(isSafety);
     formContext.ui.tabs.get("tabApproval").setVisible(isSafety);
