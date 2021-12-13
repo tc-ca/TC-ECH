@@ -6579,6 +6579,7 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="# of attendees" languagecode="1033" />
+            <displayname description="Nombre de participants" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10587,6 +10588,7 @@
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Virtual" languagecode="1033" />
+              <displayname description="Adresse Virtuelle" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -10606,6 +10608,7 @@
           </optionset>
           <displaynames>
             <displayname description="Virtual" languagecode="1033" />
+            <displayname description="Adresse Virtuelle" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
