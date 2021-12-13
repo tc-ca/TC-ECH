@@ -944,7 +944,7 @@
                       <cell id="{8e5985e1-98bc-bb43-3c7e-36e67589cd6d}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Approval of Event Received by  Chief, SA" languagecode="1033" />
-                          <label description="Approbation de l'événement reçue par Chef, NISS" languagecode="1036" />
+                          <label description="Approbation de l'événement reçue par Chef, SS" languagecode="1036" />
                         </labels>
                         <control id="tc_approvalreceiveddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_approvalreceiveddate" disabled="false" uniqueid="{0610a02c-5004-444b-10ce-a48e95a49348}" />
                       </cell>
@@ -953,7 +953,7 @@
                       <cell id="{d7282144-821c-8ca7-a6b9-2e7e38447c1b}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Booth Registration Request Sent (Date)" languagecode="1033" />
-                          <label description="Demande d'enregistrement de stand envoyée" languagecode="1036" />
+                          <label description="Demande d'enregistrement de kiosque envoyée" languagecode="1036" />
                         </labels>
                         <control id="tc_boothregistrationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_boothregistrationdate" disabled="false" uniqueid="{3a915408-dd7c-72e6-cd35-4464e87c5e6b}" />
                       </cell>
@@ -962,7 +962,7 @@
                       <cell id="{9b230a1d-2c84-498a-81d0-1d05a63a9c61}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Booth Registration Confirmation Received  (Date)" languagecode="1033" />
-                          <label description="Confirmation d'enregistrement de stand reçue" languagecode="1036" />
+                          <label description="Confirmation d'enregistrement de kiosque reçue" languagecode="1036" />
                         </labels>
                         <control id="tc_boothconfirmationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_boothconfirmationdate" disabled="false" uniqueid="{b5e7a549-840a-b58d-87aa-28beacc9826e}" />
                       </cell>
@@ -971,7 +971,7 @@
                       <cell id="{d0b954bb-c420-8847-ae5e-5b16e633d37a}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Receipt / Invoice for Booth Registration to be sent to admin (Date)" languagecode="1033" />
-                          <label description="Reçu / Facture pour l'enregistrement du stand à envoyer à l'administrateur" languagecode="1036" />
+                          <label description="Reçu / Facture pour l'enregistrement du kiosque à envoyer à l'administrateur" languagecode="1036" />
                         </labels>
                         <control id="tc_receiptsubmitdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_receiptsubmitdate" disabled="false" uniqueid="{b5c06a40-2778-1cd6-d959-d47cd376ecca}" />
                       </cell>
@@ -989,7 +989,7 @@
                       <cell id="{93446399-b289-217e-bb3a-01c4e3257b64}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Booth or Pull-ups Sent Date" languagecode="1033" />
-                          <label description="Stand ou tractions envoyées" languagecode="1036" />
+                          <label description="Kiosque ou présentoirs envoyés" languagecode="1036" />
                         </labels>
                         <control id="tc_boothsentdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_boothsentdate" disabled="false" />
                       </cell>
@@ -998,6 +998,7 @@
                       <cell id="{5e88bd0e-8cb9-9a27-91d1-3703767b9344}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Booth or Pull-ups Number" languagecode="1033" />
+                          <label description="Numéro de kiosques ou présentoirs" languagecode="1036" />
                         </labels>
                         <control id="tc_boothorpullupsnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_boothorpullupsnumber" disabled="false" />
                       </cell>
