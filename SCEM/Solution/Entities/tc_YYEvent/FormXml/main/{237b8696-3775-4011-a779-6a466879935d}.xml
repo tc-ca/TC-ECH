@@ -932,7 +932,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tabApproval" id="{5c423665-3e6d-c02b-64c2-74c316a53763}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tabApproval" id="{5c423665-3e6d-c02b-64c2-74c316a53763}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Logistic and approvals" languagecode="1033" />
             <label description="Logistique et approbations" languagecode="1036" />
@@ -1190,6 +1190,556 @@
                     <row />
                     <row />
                     <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Logisitics" id="{94c29a52-6a55-8ded-9bd3-eb7e28ab2d89}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
+          <labels>
+            <label description="Logisitics" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_9_section_5" showlabel="true" showbar="false" locklevel="0" id="{1d109b1a-5a17-70d6-a7b6-3d9b4e3c5db5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Invitations" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2a5d8d03-29a3-97a5-ebd4-0a98059541eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Invitations - Placeholder" languagecode="1033" />
+                        </labels>
+                        <control id="tc_externalinvitationsplaceholder" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_externalinvitationsplaceholder" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{152cc286-1b44-286c-7e1d-d506d0a1d252}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Invitations - Official Invitation" languagecode="1033" />
+                        </labels>
+                        <control id="tc_externalinvitationsofficialinvitation" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_externalinvitationsofficialinvitation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8646003a-2399-a828-85db-93826e51e72c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Internal Invitations - Placeholder" languagecode="1033" />
+                        </labels>
+                        <control id="tc_internalinvitationsplaceholder" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_internalinvitationsplaceholder" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a641a61-a6a9-c9de-2e17-0816e65e85ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Internal Invitations - Official Invitation" languagecode="1033" />
+                        </labels>
+                        <control id="tc_internalinvitationsofficialinvitation" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_internalinvitationsofficialinvitation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_9_section_6" showlabel="true" showbar="false" locklevel="0" id="{b945e3d0-02ac-27be-e81c-63e32d030581}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Pre/Post Meetings" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1cde34eb-0247-e15e-455a-63a61ec1e709}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Prep meeting" languagecode="1033" />
+                        </labels>
+                        <control id="tc_firstprepmeeting" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_firstprepmeeting" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bea91b8c-5a71-4e3b-9cc2-307eb1b45150}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TDG Directors / Chairpersons / TDG DG Prep meeting" languagecode="1033" />
+                        </labels>
+                        <control id="tc_tdgdgprepmeeting" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_tdgdgprepmeeting" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a78dab3a-967e-4bec-066e-a13b2613838a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TDG DG / TDG Directors / Chairpersons Dry Run meet" languagecode="1033" />
+                        </labels>
+                        <control id="tc_chairpersonsdryrunmeet" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_chairpersonsdryrunmeet" disabled="false" uniqueid="{7070640a-85d6-c9cc-66c4-63a21e759d93}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1dd32458-2303-ab59-6448-6d62d645839b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TDG DG / TDG Directors / Chairpersons / Presenters 2nd Dry Run" languagecode="1033" />
+                        </labels>
+                        <control id="tc_presenters2nddryrun" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_presenters2nddryrun" disabled="false" uniqueid="{e999b6b1-31d4-3921-92aa-0ba6786b6051}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0084d077-78ab-84e7-a884-923a307aded9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TDG DG /GPAC Chairpersons last meeting (if needed)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_gpacchairpersonslastmeeting" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_gpacchairpersonslastmeeting" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb6dee4a-6b86-cc0e-096b-26c228676711}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Minute Details Prep meeting" languagecode="1033" />
+                        </labels>
+                        <control id="tc_lastminutedetailsprepmeeting" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_lastminutedetailsprepmeeting" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{66d0e375-c1d3-bd25-b0e3-4e084d24354c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TDG DG / Directors Post meeting" languagecode="1033" />
+                        </labels>
+                        <control id="tc_directorspostmeeting" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_directorspostmeeting" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Materials" id="{a17ee305-a474-b26a-aec7-de79dced6679}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
+          <labels>
+            <label description="Materials" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_10_section_1" showlabel="true" showbar="false" locklevel="0" id="{7db5bad3-a67c-e9da-8583-c0219be67ecd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Agenda" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c9cdb361-737c-5ade-d5d8-bdee0a2e9ad7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Agenda - # RDIMS" languagecode="1033" />
+                        </labels>
+                        <control id="tc_agendardims" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_agendardims" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7469e6c-871c-93a4-8a2c-369a47281746}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-03 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_pras03approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_pras03approvaldateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5693d285-c51b-9019-a104-2462a3b40b62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_as05approvaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as05approvaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75a464e3-be35-0667-1bd7-010eb54917ab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_as05approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as05approvaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2ca8265-cd3e-09ab-bde3-cd3d319977a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_as07approvaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07approvaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62315dbe-a923-d76a-a2c8-bcb993610bb6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_as07approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07approvaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c664c3b-bbdc-360e-447e-416cc7227406}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Chairperson of the Committee approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_committeeapprovaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_committeeapprovaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24ab069c-8cb6-bc95-b64c-1c166716bc39}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Chairperson of the Committee approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_chairpersonofthecommitteeapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_chairpersonofthecommitteeapprovaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a367885d-b7e8-3d09-e7c8-307ad958e8ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Convert agenda to PDF" languagecode="1033" />
+                        </labels>
+                        <control id="tc_convertagendatopdf" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_convertagendatopdf" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65564d60-bd2c-c797-804d-e059581911a6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completion date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_completiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_completiondate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_Materials_section_3" showlabel="false" showbar="false" locklevel="0" id="{8eea3ab3-3010-7dd1-c74d-a615e7b35353}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Speaking Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{79955807-1815-90ba-dd03-7c602b28dc8c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_snas05approvaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_snas05approvaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a6815c9-ba29-92b4-b10c-d988a6ec14dc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_snas05approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_snas05approvaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7cd128a5-8112-e82e-3773-47d2cdd59e4c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_snas07approvaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_snas07approvaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60e58550-9e6b-59a4-1bed-0c6ad762d322}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_snas07approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_snas07approvaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a5cca05-85a6-439d-5734-9d834e333b05}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DG approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_sndgapprovaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sndgapprovaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6599cd92-1a81-ce3b-9037-60627ca25478}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DG approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_sndgapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sndgapprovaldate" disabled="false" uniqueid="{51214560-7118-6a2d-2251-95567a214858}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a4e3d20-5900-c3c4-0898-3b0e457de88e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completion date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_sncompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sncompletiondate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_10_section_2" showlabel="true" showbar="false" locklevel="0" id="{45a67363-2c73-d912-b053-c03a2e8d5a9a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Presentations" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e3a89570-274d-2a0c-e0c8-67c6e90887d5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Presentations - # RDIMS (English)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_presentationsrdimsenglish" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_presentationsrdimsenglish" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c4a22c55-2b1d-1eea-1d92-636bd361b70d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_pras05approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_pras05approvaldateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8bb9738-4c2e-39ca-d798-b23ca66baacb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_pras07approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_pras07approvaldateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{818b8573-d2dc-e612-99a4-0eebddd098e5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DG approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_prdgapprovaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_prdgapprovaldateen" disabled="false" uniqueid="{6615297c-d293-6cec-94e8-964353b0b678}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05e8558e-e0bb-ee94-3ee0-a756c33e3652}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="MRS approval date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_prmrsapprovaldatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_prmrsapprovaldatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc8566b0-2a15-c479-a6bc-0b31913c1572}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_pras05approvaldatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_pras05approvaldatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c83039c0-7dcc-4263-a05b-da63e4e2c415}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_pras07approvaldatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_pras07approvaldatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c0de664-33d2-a698-ce61-279ee2212235}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completion date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_prcompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_prcompletiondate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Survey" id="{6cd758dd-66c2-e3d9-649c-5d0a8d7a163b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
+          <labels>
+            <label description="Post Event Survey &amp; Records" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_11_section_1" showlabel="true" showbar="false" locklevel="0" id="{c6d068e3-942a-9c17-bb40-768696109415}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Post Event Feedback Survey" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8752eb14-ed67-0b29-80d5-91e49bb0a020}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Post Event Feedback Survey - # RDIMS" languagecode="1033" />
+                        </labels>
+                        <control id="tc_posteventfeedbacksurveyrdims" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_posteventfeedbacksurveyrdims" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{16baa01b-d29c-de03-638b-ed017279b405}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_fsas05approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_fsas05approvaldateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e80db564-3382-b200-3d76-2850d04d48b9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval target date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_fsas05approvaltargetdateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_fsas05approvaltargetdateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d75690dd-ca75-8170-3c08-3380e62d93c7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval target date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_fsas07approvaltargetdateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_fsas07approvaltargetdateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3616cac9-6612-bcb3-421a-874601e01a50}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_fsas07approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_fsas07approvaldateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b7c98e57-a455-321e-7d60-d2697d2a8036}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completion date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_fscompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_fscompletiondate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_11_section_2" showlabel="true" showbar="false" locklevel="0" id="{5d4938c3-ec35-179d-c851-ddeec6560ec2}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Record of Decisions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{645b95ce-58cc-e796-7e44-c4d7dcbb291d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval target date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas05approvaltargetdateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas05approvaltargetdateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b96e9e8a-1681-6b0a-beeb-457221309a52}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas05approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas05approvaldateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{283adb43-1552-b385-ba4c-9c40836dcec5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval target date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas07approvaltargetdateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas07approvaltargetdateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3217b502-2c6e-9226-da34-7746a1493490}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas07approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas07approvaldateen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa5783a4-d8e5-e4b4-124c-a8400ba32401}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DG/Directors approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_dgdirectorsapprovaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_dgdirectorsapprovaltargetdate" disabled="false" uniqueid="{8d752503-9e89-778e-db30-8d18579b6ed3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c74dd863-58a4-c79d-639a-be5360e2d6d9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DG/Direcors approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_dgdirecorsapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_dgdirecorsapprovaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93dc0050-8c92-2707-ea24-4e7d28c55b17}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Chairs approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_chairsapprovaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_chairsapprovaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26638200-6e29-d8ae-ad45-127c1982c8b7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Chairs approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_chairsapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_chairsapprovaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de6b3144-d516-d6b4-35cc-b92769d28e51}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="MRS approval target date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdmrsapprovaltargetdatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdmrsapprovaltargetdatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{474c7343-7817-cd26-182a-decaa94e0130}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="MRS approval date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdmrsapprovaldatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdmrsapprovaldatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cda3ab41-3c38-4a19-3042-d9e2c22a3d1d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval target date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas05approvaltargetdatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas05approvaltargetdatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c714763-c17d-eaa7-2671-52d167aeaee5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-05 approval date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas05approvaldatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas05approvaldatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1706480-b799-4363-b027-b6ba13e86724}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval target date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas07approvaltargetdatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas07approvaltargetdatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6890117b-cc2a-1da3-93d4-a928990099ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-07 approval date (FR)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdas07approvaldatefr" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdas07approvaldatefr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87302a2e-a416-983d-e59a-889b0c5ec354}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completion date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdcompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_rdcompletiondate" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
