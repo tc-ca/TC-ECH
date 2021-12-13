@@ -58,6 +58,7 @@ function refreshsection(formContext) {
 
     var isEngagement = false;
     var isIndigenous = false;
+    var isCommittees = false;
     var isSafety = false;
     var isOPP = false;
     var isSCEM= false;
@@ -73,6 +74,9 @@ function refreshsection(formContext) {
         }
         else if (category == 948010002) {
             isIndigenous = true;
+        }
+        else if (category == 948010003) {
+            isCommittees = true;
         }
     }
     else if (app == 948010001) {
@@ -91,14 +95,19 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_engagement").setVisible(isEngagement);
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_indigenous").setVisible(isIndigenous);
 
-    formContext.ui.tabs.get("tab_ActionItems").setVisible(!isOPP && !isNew);
-    formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
+    formContext.ui.tabs.get("tab_ActionItems").setVisible(!isOPP && !isNew && !isCommittees);
+    formContext.ui.tabs.get("tab_Documents").setVisible(!isNew && !isCommittees);
     formContext.ui.tabs.get("tab_ContactEvents").setVisible(isOPP && !isNew);
 
+    //formContext.ui.tabs.get("tabLocation").setVisible(isSafety);
     formContext.ui.tabs.get("tabMarketing").setVisible(isSafety);
     formContext.ui.tabs.get("tabAdministration").setVisible(isSafety);
     formContext.ui.tabs.get("tabApproval").setVisible(isSafety);
     formContext.ui.tabs.get("tabAssessment").setVisible(isSafety);
+
+    formContext.ui.tabs.get("tab_Logisitics").setVisible(isCommittees);
+    formContext.ui.tabs.get("tab_Materials").setVisible(isCommittees);
+    formContext.ui.tabs.get("tab_Survey").setVisible(isCommittees);
 
     if (!isOPP) {
         formContext.getAttribute("tc_startdte").setRequiredLevel("none")
