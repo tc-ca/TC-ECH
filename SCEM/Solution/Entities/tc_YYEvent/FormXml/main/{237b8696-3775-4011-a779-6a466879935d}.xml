@@ -275,16 +275,16 @@
                         </labels>
                         <control id="tc_transportationmode" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_transportationmode" disabled="false" />
                       </cell>
-                      <cell id="{197a0a82-a152-1984-0372-a45dab4c13db}" showlabel="true" locklevel="0">
+                      <cell id="{736cc2a9-81c3-eece-6457-60b57e550e05}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Virtual Address" languagecode="1033" />
-                          <label description="Virtuel" languagecode="1036" />
+                          <label description="Virtual address" languagecode="1033" />
+                          <label description="Adresse virtuelle" languagecode="1036" />
                         </labels>
-                        <control id="tc_virtual" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_virtual" disabled="false" uniqueid="{4287e2bd-d2e2-0430-46ab-c39b5e9eb7bc}" />
+                        <control id="tc_virtualadress" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_virtualadress" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{4b29bdec-124a-439b-a399-7e41c1a6f6b5}" showlabel="false">
+                      <cell id="{b8828c27-764a-e229-92dc-748895a55666}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -835,7 +835,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tabAdministration" id="{5ba54830-cd3d-bc12-7e2e-226bc1341ce8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tabAdministration" id="{5ba54830-cd3d-bc12-7e2e-226bc1341ce8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Finance and Administration" languagecode="1033" />
             <label description="Finances et administration" languagecode="1036" />
@@ -887,20 +887,6 @@
                           <label description="Événement - Coût du kiosque" languagecode="1036" />
                         </labels>
                         <control id="tc_eventkioskcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_eventkioskcost" disabled="false" />
-                      </cell>
-                      <cell id="{0ed62205-e2ed-4253-14b4-6c62b17cee69}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Total Travel Cost (TA)" languagecode="1033" />
-                          <label description="Total des frais de déplacement (AV)" languagecode="1036" />
-                        </labels>
-                        <control id="tc_totaltravelcosttaamt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="tc_totaltravelcosttaamt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{ec0dee52-85ed-6d9b-63ee-776c3c384c76}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
                       </cell>
                       <cell id="{cc88975b-9b33-c03c-334d-8b070a301967}" showlabel="true" locklevel="0">
                         <labels>
