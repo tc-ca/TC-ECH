@@ -835,7 +835,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tabAdministration" id="{5ba54830-cd3d-bc12-7e2e-226bc1341ce8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tabAdministration" id="{5ba54830-cd3d-bc12-7e2e-226bc1341ce8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Finance and Administration" languagecode="1033" />
             <label description="Finances et administration" languagecode="1036" />
@@ -1183,7 +1183,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Logisitics" id="{94c29a52-6a55-8ded-9bd3-eb7e28ab2d89}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
+        <tab name="tab_Logisitics" id="{94c29a52-6a55-8ded-9bd3-eb7e28ab2d89}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false">
           <labels>
             <label description="Logisitics" languagecode="1033" />
           </labels>
@@ -1321,6 +1321,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{a2d00d9e-ec5b-7e70-5005-b0a8c78c5247}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-03 approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_as03approvaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as03approvaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{a7469e6c-871c-93a4-8a2c-369a47281746}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-03 approval date (EN)" languagecode="1033" />
@@ -1349,7 +1357,7 @@
                         <labels>
                           <label description="AS-07 approval target date" languagecode="1033" />
                         </labels>
-                        <control id="tc_as07approvaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07approvaltargetdate" disabled="false" />
+                        <control id="tc_as07approvaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07approvaltargetdate" disabled="false" uniqueid="{c83ee0e5-071d-3ccb-b552-3ceec0ebc070}" />
                       </cell>
                     </row>
                     <row>
@@ -1358,6 +1366,22 @@
                           <label description="AS-07 approval date" languagecode="1033" />
                         </labels>
                         <control id="tc_as07approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07approvaldate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{23eda28e-0c06-5142-0a4b-90815a54e125}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DG approval target date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_sndgapprovaltargetdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sndgapprovaltargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b810cca-d16a-a314-3487-ba32874b632a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DG approval date" languagecode="1033" />
+                        </labels>
+                        <control id="tc_sndgapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sndgapprovaldate" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -1394,7 +1418,7 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_Materials_section_3" showlabel="false" showbar="false" locklevel="0" id="{8eea3ab3-3010-7dd1-c74d-a615e7b35353}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="tab_Materials_section_3" showlabel="true" showbar="false" locklevel="0" id="{8eea3ab3-3010-7dd1-c74d-a615e7b35353}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Speaking Notes" languagecode="1033" />
                   </labels>
@@ -1472,6 +1496,14 @@
                           <label description="Presentations - # RDIMS (English)" languagecode="1033" />
                         </labels>
                         <control id="tc_presentationsrdimsenglish" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_presentationsrdimsenglish" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{034c0534-808d-d8e7-a389-d39ea27a8d73}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="AS-03 approval date (EN)" languagecode="1033" />
+                        </labels>
+                        <control id="tc_pras03approvaldateen" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_pras03approvaldateen" disabled="false" />
                       </cell>
                     </row>
                     <row>
