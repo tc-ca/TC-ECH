@@ -8093,8 +8093,8 @@
             <displayname description="TDG's recommendation  (See Relevance Guide – only " languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="Priorité: Absolument nécessaire /Haute: Présence important ré: des messages/partenariats/réseaux /Moyenne: Présence n'est pas nécessaire /Faible: Marginal ré: les intérêts /Pas une priorité: Hors de la portée" languagecode="1036" />
+            <Description description="Priority: Presence absolutely necessary /High: Presence important re: messaging, partners, networks /Medium: Presence not necessary /Low: Marginal to interests /Not Priority: Completely out of scope" languagecode="1033" />
+            <Description description="Priorité:Absolument nécessaire/Haute:Présence important ré: des messages/partenariats/réseaux /Moyenne:Présence n'est pas nécessaire/Faible:Marginal ré: les intérêts/Pas une priorité:Hors de la portée" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_PRMRSapprovaldateFR">
