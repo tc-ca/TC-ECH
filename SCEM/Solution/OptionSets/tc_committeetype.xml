@@ -14,26 +14,31 @@
     <option value="948010000" ExternalValue="">
       <labels>
         <label description="Committee" languagecode="1033" />
+        <label description="Comité" languagecode="1036" />
       </labels>
     </option>
     <option value="948010001" ExternalValue="">
       <labels>
         <label description="Working Group" languagecode="1033" />
+        <label description="Groupe de travail" languagecode="1036" />
       </labels>
     </option>
     <option value="948010002" ExternalValue="">
       <labels>
         <label description="Sub-Committee" languagecode="1033" />
+        <label description="Sous-comité" languagecode="1036" />
       </labels>
     </option>
     <option value="948010003" ExternalValue="">
       <labels>
         <label description="Sub-Working Group" languagecode="1033" />
+        <label description="Sous groupe de travail" languagecode="1036" />
       </labels>
     </option>
     <option value="948010004" ExternalValue="">
       <labels>
         <label description="Ad hoc" languagecode="1033" />
+        <label description="autres" languagecode="1036" />
       </labels>
     </option>
   </options>
