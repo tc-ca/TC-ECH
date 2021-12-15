@@ -26,6 +26,8 @@
     <RolePrivilege name="prvAppendtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvAppendtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAppendtc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAppendtc_ForwardAgendaItem" level="Global" />
+    <RolePrivilege name="prvAppendtc_forwardagendaitemcontact" level="Global" />
     <RolePrivilege name="prvAppendtc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvAppendtc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvAppendtc_TYAerodrome" level="Global" />
@@ -75,6 +77,8 @@
     <RolePrivilege name="prvAppendTotc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvAppendTotc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAppendTotc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_ForwardAgendaItem" level="Global" />
+    <RolePrivilege name="prvAppendTotc_forwardagendaitemcontact" level="Global" />
     <RolePrivilege name="prvAppendTotc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvAppendTotc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvAppendTotc_TYAerodrome" level="Global" />
@@ -117,6 +121,8 @@
     <RolePrivilege name="prvAssigntc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvAssigntc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAssigntc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvAssigntc_ForwardAgendaItem" level="Deep" />
+    <RolePrivilege name="prvAssigntc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvAssigntc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvAssigntc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvAssigntc_YYComment" level="Deep" />
@@ -165,6 +171,8 @@
     <RolePrivilege name="prvCreatetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvCreatetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvCreatetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvCreatetc_ForwardAgendaItem" level="Deep" />
+    <RolePrivilege name="prvCreatetc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvCreatetc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvCreatetc_TYAccountType" level="Basic" />
     <RolePrivilege name="prvCreatetc_TYAerodrome" level="Global" />
@@ -202,6 +210,8 @@
     <RolePrivilege name="prvDeleteReport" level="Basic" />
     <RolePrivilege name="prvDeleteSharePointDocumentLocation" level="Global" />
     <RolePrivilege name="prvDeletetc_businessprocessflowevent" level="Global" />
+    <RolePrivilege name="prvDeletetc_ForwardAgendaItem" level="Deep" />
+    <RolePrivilege name="prvDeletetc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvDeleteTranslationProcess" level="Global" />
     <RolePrivilege name="prvDeleteUserForm" level="Basic" />
     <RolePrivilege name="prvDeleteUserQuery" level="Basic" />
@@ -249,6 +259,8 @@
     <RolePrivilege name="prvReadtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvReadtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvReadtc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvReadtc_ForwardAgendaItem" level="Deep" />
+    <RolePrivilege name="prvReadtc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvReadtc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvReadtc_pcrcovid19test" level="Deep" />
     <RolePrivilege name="prvReadtc_TYAccountType" level="Deep" />
@@ -294,6 +306,8 @@
     <RolePrivilege name="prvSharetc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvSharetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvSharetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvSharetc_ForwardAgendaItem" level="Deep" />
+    <RolePrivilege name="prvSharetc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvSharetc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvSharetc_TYAerodrome" level="Global" />
     <RolePrivilege name="prvSharetc_YYComment" level="Deep" />
@@ -342,6 +356,8 @@
     <RolePrivilege name="prvWritetc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvWritetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvWritetc_Covid19Measure" level="Deep" />
+    <RolePrivilege name="prvWritetc_ForwardAgendaItem" level="Deep" />
+    <RolePrivilege name="prvWritetc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvWritetc_organizationcontact" level="Deep" />
     <RolePrivilege name="prvWritetc_TYAccountType" level="Basic" />
     <RolePrivilege name="prvWritetc_TYAerodrome" level="Global" />

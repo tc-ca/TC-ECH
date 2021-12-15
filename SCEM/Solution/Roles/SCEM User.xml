@@ -71,6 +71,8 @@
     <RolePrivilege name="prvReadtc_businessprocessflowevent" level="Global" />
     <RolePrivilege name="prvReadtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvReadtc_feedbackform" level="Deep" />
+    <RolePrivilege name="prvReadtc_ForwardAgendaItem" level="Deep" />
+    <RolePrivilege name="prvReadtc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvReadtc_MYImpact" level="Deep" />
     <RolePrivilege name="prvReadtc_MYProject" level="Deep" />
     <RolePrivilege name="prvReadtc_MYProjectActivity" level="Deep" />
