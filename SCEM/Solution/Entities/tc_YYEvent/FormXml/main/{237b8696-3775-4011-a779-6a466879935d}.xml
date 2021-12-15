@@ -638,6 +638,14 @@
                   </labels>
                   <rows>
                     <row>
+                      <cell id="{83618aee-bc77-959d-ccc2-124e8ab113b1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Committee Type" languagecode="1033" />
+                        </labels>
+                        <control id="tc_committeetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_committeetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{9b9131a9-200c-da66-ed13-30ba4d812827}" showlabel="false" colspan="1" auto="false" rowspan="6">
                         <labels>
                           <label description="Contact Events (Event)" languagecode="1033" />
