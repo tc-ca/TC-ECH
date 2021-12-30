@@ -222,10 +222,12 @@
                         </labels>
                         <control id="tc_nameofsender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_nameofsender" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{9dbf0461-4650-4591-b7c5-3aa354e4e808}" showlabel="false">
+                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Topics of interest " languagecode="1033" />
+                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
                         </labels>
+                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -357,28 +359,12 @@
                     <row />
                     <row />
                     <row>
-                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Topics of interest " languagecode="1033" />
-                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
-                        </labels>
-                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{39d45ad8-7e97-74cb-8891-012cd21bec05}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="When it was received" languagecode="1033" />
                           <label description="Reçu le " languagecode="1036" />
                         </labels>
                         <control id="tc_receiveddte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_receiveddte" disabled="false" uniqueid="{72c937c0-3d64-8297-05d3-7146dcb4eb70}" />
-                      </cell>
-                      <cell id="{190600aa-a7ac-b668-cb43-168e332b445a}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Received by " languagecode="1033" />
-                          <label description="Reçu par" languagecode="1036" />
-                        </labels>
-                        <control id="tc_receivedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_receivedby" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -389,12 +375,12 @@
                         </labels>
                         <control id="tc_hasbudget" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_hasbudget" disabled="false" />
                       </cell>
-                      <cell id="{e09b446e-6e5c-0d44-6d1b-e1581679ccc5}" showlabel="true" locklevel="0">
+                      <cell id="{190600aa-a7ac-b668-cb43-168e332b445a}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Type of communication " languagecode="1033" />
-                          <label description="Renseignement sur l'expéditeur, type de communication" languagecode="1036" />
+                          <label description="Received by " languagecode="1033" />
+                          <label description="Reçu par" languagecode="1036" />
                         </labels>
-                        <control id="tc_typeofcommunication" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_typeofcommunication" disabled="false" />
+                        <control id="tc_receivedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_receivedby" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -405,12 +391,12 @@
                         </labels>
                         <control id="tc_aligned" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_aligned" disabled="false" />
                       </cell>
-                      <cell id="{9721903a-35b9-0a44-ac8b-e581a9b3d838}" showlabel="true" locklevel="0">
+                      <cell id="{e09b446e-6e5c-0d44-6d1b-e1581679ccc5}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Does this need to be added to the event plan?" languagecode="1033" />
-                          <label description="Cela nécessite-t-il d'être ajouté au plan des événements?" languagecode="1036" />
+                          <label description="Type of communication " languagecode="1033" />
+                          <label description="Renseignement sur l'expéditeur, type de communication" languagecode="1036" />
                         </labels>
-                        <control id="tc_ineventplan" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_ineventplan" disabled="false" />
+                        <control id="tc_typeofcommunication" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_typeofcommunication" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -421,12 +407,12 @@
                         </labels>
                         <control id="tc_respondcriteria" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_respondcriteria" disabled="false" uniqueid="{eddca503-073d-3cba-9b4c-30ce3c29dc3d}" />
                       </cell>
-                      <cell id="{3caa0ba1-0b68-d888-d7de-0436cba0d889}" showlabel="true" locklevel="0" rowspan="2">
+                      <cell id="{9721903a-35b9-0a44-ac8b-e581a9b3d838}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Justification" languagecode="1033" />
-                          <label description="Justification" languagecode="1036" />
+                          <label description="Does this need to be added to the event plan?" languagecode="1033" />
+                          <label description="Cela nécessite-t-il d'être ajouté au plan des événements?" languagecode="1036" />
                         </labels>
-                        <control id="tc_justification" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_justification" disabled="false" uniqueid="{1b2db644-e240-4242-8023-b88a51d0e05b}" />
+                        <control id="tc_ineventplan" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_ineventplan" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -437,6 +423,13 @@
                         </labels>
                         <control id="tc_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_priority" disabled="false" />
                       </cell>
+                      <cell id="{3caa0ba1-0b68-d888-d7de-0436cba0d889}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Justification" languagecode="1033" />
+                          <label description="Justification" languagecode="1036" />
+                        </labels>
+                        <control id="tc_justification" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_justification" disabled="false" uniqueid="{1b2db644-e240-4242-8023-b88a51d0e05b}" />
+                      </cell>
                     </row>
                     <row>
                       <cell id="{06b1c94b-99a8-ee54-1555-366664873423}" showlabel="true" locklevel="0">
@@ -445,13 +438,6 @@
                           <label description="Décision" languagecode="1036" />
                         </labels>
                         <control id="tc_decision" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_decision" disabled="false" />
-                      </cell>
-                      <cell id="{1208a63e-9907-2321-d9b6-989092c856a4}" showlabel="true" locklevel="0" rowspan="2">
-                        <labels>
-                          <label description="Recommendation" languagecode="1033" />
-                          <label description="Recommandation" languagecode="1036" />
-                        </labels>
-                        <control id="tc_recommendation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_recommendation" disabled="false" uniqueid="{d4db5e28-9307-ad14-dc95-7ddded9cc7be}" />
                       </cell>
                     </row>
                     <row>
@@ -462,6 +448,13 @@
                         </labels>
                         <control id="tc_approvalreceived" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_approvalreceived" disabled="false" />
                       </cell>
+                      <cell id="{1208a63e-9907-2321-d9b6-989092c856a4}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Recommendation" languagecode="1033" />
+                          <label description="Recommandation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_recommendation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_recommendation" disabled="false" uniqueid="{d4db5e28-9307-ad14-dc95-7ddded9cc7be}" />
+                      </cell>
                     </row>
                     <row>
                       <cell id="{4a117993-99ce-4eb0-a508-ece2c797428c}" showlabel="true" locklevel="0">
@@ -470,6 +463,13 @@
                           <label description="Information web sur l'évenement" languagecode="1036" />
                         </labels>
                         <control id="tc_webinfoonevent" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_webinfoonevent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{509818b8-93b7-ab1c-705b-b82e3a815224}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                       <cell id="{3869a420-e2dc-e9cc-36c9-854d0e39ac3d}" showlabel="true" locklevel="0">
                         <labels>
@@ -480,7 +480,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{509818b8-93b7-ab1c-705b-b82e3a815224}" showlabel="false">
+                      <cell id="{cd798e19-9096-38c7-5e3b-c1e36b766695}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -494,14 +494,14 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{cd798e19-9096-38c7-5e3b-c1e36b766695}" showlabel="false">
+                      <cell id="{8801a5cd-b062-b639-9ebc-3582587ada59}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8801a5cd-b062-b639-9ebc-3582587ada59}" showlabel="false">
+                      <cell id="{4724601d-1a65-9b25-3c99-d143592617c7}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -515,14 +515,14 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4724601d-1a65-9b25-3c99-d143592617c7}" showlabel="false">
+                      <cell id="{46234856-471e-a1b2-b03b-4c8414b72a19}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{46234856-471e-a1b2-b03b-4c8414b72a19}" showlabel="false">
+                      <cell id="{bcae1a16-4331-5e89-abeb-c1424d256a87}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
