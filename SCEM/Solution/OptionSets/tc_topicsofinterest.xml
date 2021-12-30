@@ -14,131 +14,157 @@
     <option value="948010000">
       <labels>
         <label description="Client Identification Database" languagecode="1033" />
+        <label description="Base de données d'identification des clients" languagecode="1036" />
       </labels>
     </option>
     <option value="948010001">
       <labels>
         <label description="Commercial Aviation in Canada" languagecode="1033" />
+        <label description="Aviation commerciale au Canada" languagecode="1036" />
       </labels>
     </option>
     <option value="948010002">
       <labels>
         <label description="Competency Based Standards" languagecode="1033" />
+        <label description="Normes axées sur les compétences" languagecode="1036" />
       </labels>
     </option>
     <option value="948010003">
       <labels>
         <label description="Current TDG Issues" languagecode="1033" />
+        <label description="Enjeux actuels du TMD" languagecode="1036" />
       </labels>
     </option>
     <option value="948010004">
       <labels>
         <label description="Emergency and Risk Management" languagecode="1033" />
+        <label description="Gestion des urgences et du risque" languagecode="1036" />
       </labels>
     </option>
     <option value="948010005">
       <labels>
         <label description="Enforcement and Compliance Update" languagecode="1033" />
+        <label description="Mise à jour sur la mise en application de la loi et la conformité" languagecode="1036" />
       </labels>
     </option>
     <option value="948010006">
       <labels>
         <label description="E-Shipping Documents" languagecode="1033" />
+        <label description="Documents d'expédition électroniques" languagecode="1036" />
       </labels>
     </option>
     <option value="948010007">
       <labels>
         <label description="Flammable Liquids ERAP Requirements" languagecode="1033" />
+        <label description="Exigences en matière de plan d'intervention d'urgence pour les liquides inflammables" languagecode="1036" />
       </labels>
     </option>
     <option value="948010008">
       <labels>
         <label description="Flight Training &amp; Dangerous Goods" languagecode="1033" />
+        <label description="Formation de pilotage et marchandises dangereuses" languagecode="1036" />
       </labels>
     </option>
     <option value="948010009">
       <labels>
         <label description="Industry Updates" languagecode="1033" />
+        <label description="Mises à jour de l'industrie" languagecode="1036" />
       </labels>
     </option>
     <option value="948010010">
       <labels>
         <label description="Inspection Planning" languagecode="1033" />
+        <label description="Planification d'inspections" languagecode="1036" />
       </labels>
     </option>
     <option value="948010011">
       <labels>
         <label description="Inspection Training Requirements" languagecode="1033" />
+        <label description="Exigences en matière de formation pour inspection" languagecode="1036" />
       </labels>
     </option>
     <option value="948010012">
       <labels>
         <label description="New Awareness Materials" languagecode="1033" />
+        <label description="Nouveaux documents de sensibilisation" languagecode="1036" />
       </labels>
     </option>
     <option value="948010013">
       <labels>
         <label description="Outreach And Awareness Initiatives" languagecode="1033" />
+        <label description="Initiatives de sensibilisation" languagecode="1036" />
       </labels>
     </option>
     <option value="948010014">
       <labels>
         <label description="Part 6 of the TDG Regulations (Training) " languagecode="1033" />
+        <label description="Partie 6 du Règlement sur le TMD (Formation)" languagecode="1036" />
       </labels>
     </option>
     <option value="948010015">
       <labels>
         <label description="Part 7 of the TDG Regulations (ERAP)" languagecode="1033" />
+        <label description="Partie 7 du Règlement sur le TMD (PIU)" languagecode="1036" />
       </labels>
     </option>
     <option value="948010016">
       <labels>
         <label description="Part 8 of the TDG Regulations (Reporting)" languagecode="1033" />
+        <label description="Partie 8 du Règlement sur le TMD (Rapport)" languagecode="1036" />
       </labels>
     </option>
     <option value="948010017">
       <labels>
         <label description="RCC Work Plan Update" languagecode="1033" />
+        <label description="Mise à jour sur le plan de travail du Conseil de coopération en matière de réglementation" languagecode="1036" />
       </labels>
     </option>
     <option value="948010018">
       <labels>
         <label description="Regional and National Priorities" languagecode="1033" />
+        <label description="Priorités régionales et nationales" languagecode="1036" />
       </labels>
     </option>
     <option value="948010019">
       <labels>
         <label description="Regulatory and Standards Updates" languagecode="1033" />
+        <label description="Mises à jour réglementaires et des normes" languagecode="1036" />
       </labels>
     </option>
     <option value="948010020">
       <labels>
         <label description="Remote Inspection" languagecode="1033" />
+        <label description="Inspection à distance" languagecode="1036" />
       </labels>
     </option>
     <option value="948010021">
       <labels>
         <label description="Risk Prioritization Framework" languagecode="1033" />
+        <label description="Cadre de priorisation du risque" languagecode="1036" />
       </labels>
     </option>
     <option value="948010022">
       <labels>
         <label description="Road Safety" languagecode="1033" />
+        <label description="Sécurité routière" languagecode="1036" />
       </labels>
     </option>
     <option value="948010023">
       <labels>
         <label description="Roles and Responsibilities of TDG" languagecode="1033" />
+        <label description="Rôles et responsabilités du TMD" languagecode="1036" />
       </labels>
     </option>
     <option value="948010024">
       <labels>
         <label description="Supply Chain Safety Management" languagecode="1033" />
+        <label description="Gestion de la sécurité de la chaîne d'approvisionnement" languagecode="1036" />
       </labels>
     </option>
     <option value="948010025">
       <labels>
         <label description="Transporting across the U.S./Canada Border" languagecode="1033" />
+        <label description="Le transport transfrontalier entre les États-Unis et le Canada" languagecode="1036" />
       </labels>
     </option>
   </options>
