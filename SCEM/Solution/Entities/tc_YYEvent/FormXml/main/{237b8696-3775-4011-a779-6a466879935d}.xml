@@ -192,6 +192,22 @@
                         </labels>
                         <control id="tc_startdte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
                       </cell>
+                      <cell id="{39328cd2-a9b0-75ee-17ae-720e0464d913}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact Person/Sender" languagecode="1033" />
+                          <label description="Contact/Envoyeur" languagecode="1036" />
+                        </labels>
+                        <control id="tc_nameofsender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_nameofsender" disabled="false" />
+                      </cell>
+                      <cell id="{f127a302-eb86-4a46-84ab-a78478bc70a6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                          <label description="ADRESSE" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eventaddresstxt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_eventaddresstxt" disabled="false" uniqueid="{51ced06d-3c58-ade8-014d-6a85913c604c}" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{b30d781a-272e-438d-bb0c-ab15704476d9}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="End" languagecode="1033" />
@@ -199,28 +215,12 @@
                         </labels>
                         <control id="tc_enddte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
                       </cell>
-                      <cell id="{f127a302-eb86-4a46-84ab-a78478bc70a6}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Address" languagecode="1033" />
-                          <label description="ADRESSE" languagecode="1036" />
-                        </labels>
-                        <control id="tc_eventaddresstxt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="tc_eventaddresstxt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{23b20c86-5540-377c-c95c-d721805ccd69}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="TC Lead" languagecode="1033" />
                           <label description="Responsable de TC" languagecode="1036" />
                         </labels>
                         <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" />
-                      </cell>
-                      <cell id="{39328cd2-a9b0-75ee-17ae-720e0464d913}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Contact Person/Sender" languagecode="1033" />
-                          <label description="Contact/Envoyeur" languagecode="1036" />
-                        </labels>
-                        <control id="tc_nameofsender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_nameofsender" disabled="false" />
                       </cell>
                       <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
                         <labels>
