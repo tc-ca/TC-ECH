@@ -27,6 +27,7 @@
     <AppModuleComponent type="26" id="{abda1585-7df4-eb11-94ef-000d3a09e408}" />
     <AppModuleComponent type="60" id="{b37cef44-361d-ec11-b6e7-000d3a09e6b7}" />
     <AppModuleComponent type="60" id="{b7ece076-7b3d-ec11-8c62-000d3a09f144}" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
     <AppModuleComponent type="26" id="{69969211-241f-ec11-b6e6-0022486d8d6f}" />
     <AppModuleComponent type="62" schemaName="tc_SCEM" />
     <AppModuleComponent type="26" id="{4d83a1d1-2322-e911-80ee-005056815fa7}" />
@@ -55,11 +56,14 @@
     <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
     <AppModuleComponent type="60" id="{4aabf594-b30a-490d-bf97-89c67c6777fe}" />
+    <AppModuleComponent type="1" schemaName="translationprocess" />
     <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
     <AppModuleComponent type="1" schemaName="tc_yyagreement" />
     <AppModuleComponent type="26" id="{78156ed1-3d72-43b5-a919-93bcf31ad2cb}" />
     <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="29" id="{bd57803e-0408-44d6-b21d-ae7158ec6555}" />
     <AppModuleComponent type="60" id="{35d2d301-af6d-47be-a491-aec044bf5320}" />
+    <AppModuleComponent type="1" schemaName="tc_businessprocessflowevent" />
     <AppModuleComponent type="26" id="{057d9d8f-ad72-4902-a76f-b54b2e8dc9e2}" />
     <AppModuleComponent type="60" id="{796bb226-f352-424d-a990-bc3301205337}" />
     <AppModuleComponent type="1" schemaName="tc_tytag" />
