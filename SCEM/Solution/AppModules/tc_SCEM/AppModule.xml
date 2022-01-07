@@ -22,12 +22,20 @@
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001205}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001210}" />
     <AppModuleComponent type="26" id="{e8e80387-d3fa-e711-8140-000c2958e3a5}" />
+    <AppModuleComponent type="26" id="{4680ad85-d8fa-e711-8140-000c2958e3a5}" />
     <AppModuleComponent type="60" id="{9f3f1222-2e80-eb11-a812-000d3a09dd03}" />
     <AppModuleComponent type="26" id="{9f53c878-7df4-eb11-94ef-000d3a09e408}" />
     <AppModuleComponent type="26" id="{abda1585-7df4-eb11-94ef-000d3a09e408}" />
     <AppModuleComponent type="60" id="{b37cef44-361d-ec11-b6e7-000d3a09e6b7}" />
     <AppModuleComponent type="60" id="{b7ece076-7b3d-ec11-8c62-000d3a09f144}" />
+    <AppModuleComponent type="26" id="{4e967389-e66f-ec11-8f8e-000d3af4c618}" />
+    <AppModuleComponent type="26" id="{1f7e2fd9-e66f-ec11-8f8e-000d3af4c618}" />
+    <AppModuleComponent type="26" id="{5eb05af9-e66f-ec11-8f8e-000d3af4c618}" />
+    <AppModuleComponent type="26" id="{6e408f21-e76f-ec11-8f8e-000d3af4c618}" />
+    <AppModuleComponent type="26" id="{39bcc047-e76f-ec11-8f8e-000d3af4c618}" />
+    <AppModuleComponent type="26" id="{6505ce6b-e76f-ec11-8f8e-000d3af4c618}" />
     <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="26" id="{8bf29375-2604-ec11-b6e7-0022486d73fd}" />
     <AppModuleComponent type="26" id="{69969211-241f-ec11-b6e6-0022486d8d6f}" />
     <AppModuleComponent type="62" schemaName="tc_SCEM" />
     <AppModuleComponent type="26" id="{4d83a1d1-2322-e911-80ee-005056815fa7}" />
@@ -55,6 +63,7 @@
     <AppModuleComponent type="60" id="{237b8696-3775-4011-a779-6a466879935d}" />
     <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{b18e750a-857b-49c5-8c4e-851ebc857e24}" />
     <AppModuleComponent type="60" id="{4aabf594-b30a-490d-bf97-89c67c6777fe}" />
     <AppModuleComponent type="1" schemaName="translationprocess" />
     <AppModuleComponent type="60" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
