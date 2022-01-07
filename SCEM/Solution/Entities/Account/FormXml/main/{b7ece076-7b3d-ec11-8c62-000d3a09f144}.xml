@@ -34,6 +34,39 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{4861480a-290b-51b1-d42a-e88e7ed3c912}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization Type" languagecode="1033" />
+                          <label description="Type d’organisation du PPO" languagecode="1036" />
+                        </labels>
+                        <control id="tc_oppaccounttypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_oppaccounttypeid" disabled="false" uniqueid="{1490467c-93c8-db09-5e37-c3d621539dd1}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{119B727B-6C3A-428B-A17C-991D0837B21C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32ab951e-1ee1-e240-2b81-243e8b83823d}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                          <label description="Type d’organisation du PPO" languagecode="1036" />
+                        </labels>
+                        <control id="category" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="tc_oppaccounttypeid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="tc_tyaccounttype"&gt;0a7f14d7-b0e6-4783-919c-12a9a1552e95&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{3441a91e-47c5-672c-7a20-902d6baa9036}" showlabel="true" labelid="{60134cff-71f0-444e-9077-83f6171ecb23}">
                         <labels>
                           <label description="Phone" languagecode="1033" />

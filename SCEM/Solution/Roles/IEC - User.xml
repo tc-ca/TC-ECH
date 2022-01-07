@@ -18,6 +18,7 @@
     <RolePrivilege name="prvAppendtc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvAppendtc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvAppendtc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvAppendtc_TYAccountType" level="Global" />
     <RolePrivilege name="prvAppendtc_TYTag" level="Local" />
     <RolePrivilege name="prvAppendToAccount" level="Deep" />
     <RolePrivilege name="prvAppendToActivity" level="Deep" />
@@ -35,6 +36,7 @@
     <RolePrivilege name="prvAppendTotc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvAppendTotc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvAppendTotc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_TYAccountType" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYTag" level="Local" />
     <RolePrivilege name="prvAssignAccount" level="Deep" />
     <RolePrivilege name="prvAssignActivity" level="Deep" />
@@ -49,6 +51,7 @@
     <RolePrivilege name="prvAssigntc_MYProjectActivity" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProjectRight" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProjectTask" level="Deep" />
+    <RolePrivilege name="prvAssigntc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvAssigntc_TYTag" level="Local" />
     <RolePrivilege name="prvCreateAccount" level="Deep" />
     <RolePrivilege name="prvCreateActivity" level="Deep" />
@@ -68,6 +71,7 @@
     <RolePrivilege name="prvCreatetc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvCreatetc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvCreatetc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvCreatetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvCreatetc_TYTag" level="Local" />
     <RolePrivilege name="prvDeleteAccount" level="Deep" />
     <RolePrivilege name="prvDeleteActivity" level="Global" />
@@ -107,6 +111,7 @@
     <RolePrivilege name="prvReadtc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvReadtc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvReadtc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvReadtc_TYAccountType" level="Global" />
     <RolePrivilege name="prvReadtc_TYBranch" level="Deep" />
     <RolePrivilege name="prvReadtc_TYIndigenousGroup" level="Deep" />
     <RolePrivilege name="prvReadtc_TYLookupReference" level="Deep" />
@@ -143,6 +148,7 @@
     <RolePrivilege name="prvWritetc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvWritetc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvWritetc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvWritetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvWritetc_TYTag" level="Local" />
   </RolePrivileges>
 </Role>

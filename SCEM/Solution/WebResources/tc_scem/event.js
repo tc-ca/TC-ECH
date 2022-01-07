@@ -83,7 +83,7 @@ function refreshsection(formContext) {
         isOPP = true;
     }
 
-    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_section_App").setVisible(isNew);
+    //formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_section_App").setVisible(isNew);
 
     formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionOPP").setVisible(isOPP);
     formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionOPP2").setVisible(isOPP);
