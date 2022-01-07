@@ -11,10 +11,13 @@
       <grid name="resultset" jump="name" select="1" preview="1" icon="1">
         <row name="result" id="accountid">
           <cell name="name" width="200" />
+          <cell name="tc_regions" width="100" />
+          <cell name="address1_city" width="100" />
           <cell name="tc_oppaccounttypeid" width="150" />
           <cell name="a_b5197a5e5337e8118141000c2958e3a5.tc_categorycd" width="150" disableSorting="1" />
-          <cell name="primarycontactid" width="150" />
-          <cell name="a_410707b195544cd984376608b1802904.emailaddress1" width="200" disableSorting="1" />
+          <cell name="ownerid" width="100" />
+          <cell name="tc_lastengagement" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_lastengagementdate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -23,15 +26,11 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="account">
           <attribute name="name" />
-          <attribute name="primarycontactid" />
           <attribute name="tc_oppaccounttypeid" />
           <order attribute="name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <link-entity name="contact" from="contactid" to="primarycontactid" visible="false" link-type="outer" alias="a_410707b195544cd984376608b1802904">
-            <attribute name="emailaddress1" />
-          </link-entity>
           <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" visible="false" link-type="outer" alias="a_b5197a5e5337e8118141000c2958e3a5">
             <attribute name="tc_categorycd" />
           </link-entity>
@@ -40,6 +39,11 @@
               <condition attribute="name" operator="eq" value="OPP" />
             </filter>
           </link-entity>
+          <attribute name="ownerid" />
+          <attribute name="address1_city" />
+          <attribute name="tc_regions" />
+          <attribute name="tc_lastengagementdate" />
+          <attribute name="tc_lastengagement" />
           <attribute name="accountid" />
         </entity>
       </fetch>

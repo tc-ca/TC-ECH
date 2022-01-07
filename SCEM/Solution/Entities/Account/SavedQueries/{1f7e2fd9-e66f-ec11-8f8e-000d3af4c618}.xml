@@ -6,14 +6,13 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>0</isdefault>
-    <savedqueryid>{8bf29375-2604-ec11-b6e7-0022486d73fd}</savedqueryid>
+    <savedqueryid>{1f7e2fd9-e66f-ec11-8f8e-000d3af4c618}</savedqueryid>
     <layoutxml>
-      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
         <row name="result" id="accountid">
-          <cell name="name" width="150" />
-          <cell name="tc_regions" width="100" />
+          <cell name="name" width="300" />
           <cell name="address1_city" width="100" />
-          <cell name="tc_oppaccounttypeid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_oppaccounttypeid" width="100" />
           <cell name="a_3bef9b6c5debe911a812000d3af42c56.tc_categorycd" width="100" disableSorting="1" />
           <cell name="ownerid" width="100" />
           <cell name="tc_lastengagement" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
@@ -23,26 +22,27 @@
     </layoutxml>
     <querytype>0</querytype>
     <fetchxml>
-      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="account">
           <attribute name="name" />
-          <order attribute="name" descending="false" />
-          <link-entity alias="a_3bef9b6c5debe911a812000d3af42c56" name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" link-type="outer" visible="false">
-            <attribute name="tc_categorycd" />
-          </link-entity>
-          <attribute name="tc_regions" />
-          <attribute name="ownerid" />
-          <attribute name="tc_oppaccounttypeid" />
           <attribute name="address1_city" />
+          <attribute name="tc_oppaccounttypeid" />
+          <attribute name="ownerid" />
+          <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" alias="a_3bef9b6c5debe911a812000d3af42c56">
+            <attribute name="tc_categorycd" />
+            <filter type="and">
+              <condition attribute="tc_categorycd" operator="eq" value="948010002" />
+            </filter>
+          </link-entity>
           <attribute name="tc_lastengagementdate" />
           <attribute name="tc_lastengagement" />
           <attribute name="accountid" />
         </entity>
       </fetch>
     </fetchxml>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.64.1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="SafSec Organizations" languagecode="1033" />
+      <LocalizedName description="Government Federal" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

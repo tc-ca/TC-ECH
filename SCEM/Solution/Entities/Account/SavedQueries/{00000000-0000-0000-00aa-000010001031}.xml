@@ -1,16 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <savedquery>
-    <IsCustomizable>1</IsCustomizable>
-    <CanBeDeleted>1</CanBeDeleted>
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>0</isdefault>
-    <savedqueryid>{8bf29375-2604-ec11-b6e7-0022486d73fd}</savedqueryid>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001031}</savedqueryid>
+    <queryapi></queryapi>
     <layoutxml>
-      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
         <row name="result" id="accountid">
-          <cell name="name" width="150" />
+          <cell name="name" width="300" />
           <cell name="tc_regions" width="100" />
           <cell name="address1_city" width="100" />
           <cell name="tc_oppaccounttypeid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
@@ -26,23 +25,27 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical">
         <entity name="account">
           <attribute name="name" />
+          <attribute name="address1_city" />
           <order attribute="name" descending="false" />
-          <link-entity alias="a_3bef9b6c5debe911a812000d3af42c56" name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" link-type="outer" visible="false">
-            <attribute name="tc_categorycd" />
-          </link-entity>
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
           <attribute name="tc_regions" />
           <attribute name="ownerid" />
           <attribute name="tc_oppaccounttypeid" />
-          <attribute name="address1_city" />
+          <link-entity alias="a_3bef9b6c5debe911a812000d3af42c56" name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" link-type="outer" visible="false">
+            <attribute name="tc_categorycd" />
+          </link-entity>
           <attribute name="tc_lastengagementdate" />
           <attribute name="tc_lastengagement" />
           <attribute name="accountid" />
         </entity>
       </fetch>
     </fetchxml>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="SafSec Organizations" languagecode="1033" />
+      <LocalizedName description="Inactive Organizations" languagecode="1033" />
+      <LocalizedName description="Comptes inactifs" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
