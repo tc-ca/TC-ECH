@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{1bd63502-f86f-ec11-8f8e-000d3af4c618}</WebResourceId>
+  <Name>tc_scem/organization.js</Name>
+  <DisplayName>tc_scem/organization.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.65.1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_scemorganizationjs1BD63502-F86F-EC11-8F8E-000D3AF4C618</FileName>
+</WebResource>
