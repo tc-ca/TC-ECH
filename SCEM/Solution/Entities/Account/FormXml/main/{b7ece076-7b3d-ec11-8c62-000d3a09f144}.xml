@@ -25,12 +25,12 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{b0e82a7e-5683-d90c-308a-0d779377ea8a}" showlabel="true" labelid="{d9f2ff6e-2964-4f28-9faf-a2f33b8fdaca}">
+                      <cell id="{b0e82a7e-5683-d90c-308a-0d779377ea8a}" showlabel="true" labelid="{d9f2ff6e-2964-4f28-9faf-a2f33b8fdaca}" locklevel="0">
                         <labels>
                           <label description="Organization Name" languagecode="1033" />
                           <label description="Nom du compte" languagecode="1036" />
                         </labels>
-                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                        <control id="name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="name" disabled="false" uniqueid="{27ba8660-3c7c-dbe8-02e1-2753c323d60b}" />
                       </cell>
                     </row>
                     <row>
@@ -720,6 +720,49 @@
               <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
               <relationshipName static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipName>
               <relationshipEntity static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipEntity>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{27ba8660-3c7c-dbe8-02e1-2753c323d60b}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>name</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.AutoComplete.AutoCompleteControl">
+            <parameters>
+              <value>name</value>
+              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
+              <data-set name="dynamicSource">
+                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>account</TargetEntityType>
+                <displayValue>name</displayValue>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.AutoComplete.AutoCompleteControl">
+            <parameters>
+              <value>name</value>
+              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
+              <data-set name="dynamicSource">
+                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>account</TargetEntityType>
+                <displayValue>name</displayValue>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.AutoComplete.AutoCompleteControl">
+            <parameters>
+              <value>name</value>
+              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
+              <data-set name="dynamicSource">
+                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>account</TargetEntityType>
+                <displayValue>name</displayValue>
+              </data-set>
             </parameters>
           </customControl>
         </controlDescription>
