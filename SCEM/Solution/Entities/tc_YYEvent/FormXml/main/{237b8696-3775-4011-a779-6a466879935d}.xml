@@ -15,7 +15,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tabGeneral_section_App" showlabel="false" showbar="false" locklevel="0" id="{46b97224-4ee4-b6ec-6799-912c1205de4a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="tabGeneral_section_App" showlabel="false" showbar="false" locklevel="0" id="{46b97224-4ee4-b6ec-6799-912c1205de4a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
@@ -1991,7 +1991,7 @@
               <labels>
                 <label description="App" languagecode="1033" />
               </labels>
-              <control id="header_tc_app" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_app" disabled="true" uniqueid="{9cb51da1-6eba-52e6-4395-aa00c5e19070}" />
+              <control id="header_tc_app" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_app" disabled="false" uniqueid="{9cb51da1-6eba-52e6-4395-aa00c5e19070}" />
             </cell>
             <cell id="{d9560ad0-f043-4e32-8004-9c122f6bf6e9}" showlabel="false" labelid="{546e18cc-e319-49db-8dac-20aac8bb054b}">
               <labels>

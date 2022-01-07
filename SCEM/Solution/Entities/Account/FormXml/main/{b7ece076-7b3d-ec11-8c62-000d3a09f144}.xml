@@ -25,12 +25,45 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{b0e82a7e-5683-d90c-308a-0d779377ea8a}" showlabel="true" labelid="{d9f2ff6e-2964-4f28-9faf-a2f33b8fdaca}">
+                      <cell id="{b0e82a7e-5683-d90c-308a-0d779377ea8a}" showlabel="true" labelid="{d9f2ff6e-2964-4f28-9faf-a2f33b8fdaca}" locklevel="0">
                         <labels>
                           <label description="Organization Name" languagecode="1033" />
                           <label description="Nom du compte" languagecode="1036" />
                         </labels>
-                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                        <control id="name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="name" disabled="false" uniqueid="{27ba8660-3c7c-dbe8-02e1-2753c323d60b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4861480a-290b-51b1-d42a-e88e7ed3c912}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization Type" languagecode="1033" />
+                          <label description="Type d’organisation du PPO" languagecode="1036" />
+                        </labels>
+                        <control id="tc_oppaccounttypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_oppaccounttypeid" disabled="false" uniqueid="{1490467c-93c8-db09-5e37-c3d621539dd1}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{119B727B-6C3A-428B-A17C-991D0837B21C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32ab951e-1ee1-e240-2b81-243e8b83823d}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                          <label description="Type d’organisation du PPO" languagecode="1036" />
+                        </labels>
+                        <control id="category" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="tc_oppaccounttypeid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="tc_tyaccounttype"&gt;0a7f14d7-b0e6-4783-919c-12a9a1552e95&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row>
@@ -720,6 +753,49 @@
               <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
               <relationshipName static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipName>
               <relationshipEntity static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipEntity>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{27ba8660-3c7c-dbe8-02e1-2753c323d60b}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>name</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.AutoComplete.AutoCompleteControl">
+            <parameters>
+              <value>name</value>
+              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
+              <data-set name="dynamicSource">
+                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>account</TargetEntityType>
+                <displayValue>name</displayValue>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.AutoComplete.AutoCompleteControl">
+            <parameters>
+              <value>name</value>
+              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
+              <data-set name="dynamicSource">
+                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>account</TargetEntityType>
+                <displayValue>name</displayValue>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.AutoComplete.AutoCompleteControl">
+            <parameters>
+              <value>name</value>
+              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
+              <data-set name="dynamicSource">
+                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>account</TargetEntityType>
+                <displayValue>name</displayValue>
+              </data-set>
             </parameters>
           </customControl>
         </controlDescription>
