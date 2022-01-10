@@ -169,12 +169,11 @@
                         </labels>
                         <control id="tc_eventtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventtypecd" disabled="false" />
                       </cell>
-                      <cell id="{9e8c1dc9-8928-64eb-2476-842d8419e136}" showlabel="true" locklevel="0" labelid="{7d8f5cec-9002-494a-b03f-24c11356400f}">
+                      <cell id="{bde51c51-7117-998b-58ce-b0ce9d94a679}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Region(s)" languagecode="1033" />
-                          <label description="Région(s)" languagecode="1036" />
                         </labels>
-                        <control id="tc_regions" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_regions" disabled="false" uniqueid="{19918269-9896-53ad-7c60-c3e6a53ed5e0}" />
+                        <control id="tc_multiregions" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_multiregions" disabled="false" />
                       </cell>
                       <cell id="{3b80aff0-5447-4908-86a5-ca3d15155b0b}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -228,6 +227,24 @@
                           <label description="Sujets d'intérêt (description)" languagecode="1036" />
                         </labels>
                         <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1eb1207a-358b-a10e-6eca-7d6cad6e7960}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Regions" languagecode="1033" />
+                        </labels>
+                        <control id="tc_multiregions" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_multiregions" disabled="false" />
+                      </cell>
+                      <cell id="{b472b0b4-bb7d-2a27-3abe-488e2bd02636}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{0254cc00-20e8-a509-a230-7836b75e1bae}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -2072,43 +2089,6 @@
         </NavBarAreas>
       </Navigation>
       <controlDescriptions>
-        <controlDescription forControl="{19918269-9896-53ad-7c60-c3e6a53ed5e0}">
-          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
-            <parameters>
-              <datafieldname>tc_regions</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
-            <parameters>
-              <value>tc_regions</value>
-              <linkedEntityName static="true" type="SingleLine.Text">tc_tyregion</linkedEntityName>
-              <nameAttribute static="true" type="SingleLine.Text">tc_regionnm</nameAttribute>
-              <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
-              <relationshipName static="true" type="SingleLine.Text">tc_Event_Region</relationshipName>
-              <relationshipEntity static="true" type="SingleLine.Text">tc_event_region</relationshipEntity>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
-            <parameters>
-              <value>tc_regions</value>
-              <linkedEntityName static="true" type="SingleLine.Text">tc_tyregion</linkedEntityName>
-              <nameAttribute static="true" type="SingleLine.Text">tc_regionnm</nameAttribute>
-              <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
-              <relationshipName static="true" type="SingleLine.Text">tc_Event_Region</relationshipName>
-              <relationshipEntity static="true" type="SingleLine.Text">tc_event_region</relationshipEntity>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
-            <parameters>
-              <value>tc_regions</value>
-              <linkedEntityName static="true" type="SingleLine.Text">tc_tyregion</linkedEntityName>
-              <nameAttribute static="true" type="SingleLine.Text">tc_regionnm</nameAttribute>
-              <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
-              <relationshipName static="true" type="SingleLine.Text">tc_Event_Region</relationshipName>
-              <relationshipEntity static="true" type="SingleLine.Text">tc_event_region</relationshipEntity>
-            </parameters>
-          </customControl>
-        </controlDescription>
         <controlDescription forControl="{19bb8ad8-5784-682c-d83e-5d45ce0b7d52}">
           <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="0">
             <parameters>
