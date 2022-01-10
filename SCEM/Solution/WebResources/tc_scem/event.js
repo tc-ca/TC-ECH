@@ -15,7 +15,7 @@ function SetApp(formContext) {
     var myId = userSettings.userId;
 
     var req = new XMLHttpRequest();
-    req.open("GET", Xrm.Utility.getGlobalContext().getClientUrl() + "/api/data/v9.1/systemusers(" + myId.substring(1, 37) + ")?$select=_businessunitid_value", false);
+    req.open("GET", Xrm.Utility.getGlobalContext().getClientUrl() + "/api/data/v9.1/systemusers(" + myId.substring(1, 37) + ")?$select=_businessunitid_value", true);
     req.setRequestHeader("OData-MaxVersion", "4.0");
     req.setRequestHeader("OData-Version", "4.0");
     req.setRequestHeader("Accept", "application/json");

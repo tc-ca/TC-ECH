@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.65.0.0</Version>
+    <Version>1.67.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -214,6 +214,7 @@
       <RootComponent type="61" schemaName="tc_/OPP/SetEventDetailsType.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_adx_webroles" behavior="0" />
       <RootComponent type="61" schemaName="tc_scem/event.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_scem/organization.js" behavior="0" />
       <RootComponent type="62" schemaName="tc_SCEM" behavior="0" />
       <RootComponent type="80" schemaName="tc_SCEM" behavior="0" />
     </RootComponents>
