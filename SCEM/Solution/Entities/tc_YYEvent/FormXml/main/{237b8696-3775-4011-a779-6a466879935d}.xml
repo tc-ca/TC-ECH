@@ -229,24 +229,6 @@
                         <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{1eb1207a-358b-a10e-6eca-7d6cad6e7960}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Regions" languagecode="1033" />
-                        </labels>
-                        <control id="tc_multiregions" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_multiregions" disabled="false" />
-                      </cell>
-                      <cell id="{b472b0b4-bb7d-2a27-3abe-488e2bd02636}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell id="{0254cc00-20e8-a509-a230-7836b75e1bae}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
                   </rows>
                 </section>
                 <section name="sect_safety" showlabel="false" showbar="false" locklevel="0" id="{268be4a5-3eba-c115-c4b9-52bbe4ab4593}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
