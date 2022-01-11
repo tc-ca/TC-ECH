@@ -698,7 +698,7 @@
                 </section>
                 <section name="sect_committees" showlabel="true" showbar="false" locklevel="0" id="{8d7ca4c2-0112-eed0-a0cd-6145d37ea70b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="Stakeholders Attendess" languagecode="1033" />
+                    <label description="Stakeholders Attendee(s)" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
