@@ -109,6 +109,8 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tab_Logisitics").setVisible(isCommittees);
     formContext.ui.tabs.get("tab_Materials").setVisible(isCommittees);
     formContext.ui.tabs.get("tab_Survey").setVisible(isCommittees);
+    formContext.ui.tabs.get("tab_Travel").setVisible(isCommittees);
+    formContext.ui.tabs.get("tab_Equipment").setVisible(isCommittees);
 
     if (!isOPP) {
         formContext.getAttribute("tc_startdte").setRequiredLevel("none")
