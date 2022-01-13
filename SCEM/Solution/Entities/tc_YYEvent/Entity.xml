@@ -1392,6 +1392,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AFRG (CCM) approval date" languagecode="1033" />
+            <displayname description="Date d'approbation du AFRG (CCM)" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2055,6 +2056,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-03 send email to receive Travel Claim" languagecode="1033" />
+            <displayname description="AS-03 date d'envoi un courriel afin de recevoir les réclamations de voyage" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2095,6 +2097,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-03 send request for quotes" languagecode="1033" />
+            <displayname description="AS-03 envoi des demandes de soumission" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2135,6 +2138,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-03 to send equipment request to venue" languagecode="1033" />
+            <displayname description="AS-03 envoi des exigences d'équipment au lieu" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2215,6 +2219,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-05 Approval of the email" languagecode="1033" />
+            <displayname description="Approbation du formulaire de l'AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2255,6 +2260,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-05 Approval of the form" languagecode="1033" />
+            <displayname description="Approbation du formulaire de l'AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2375,6 +2381,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-07 Approval of the email" languagecode="1033" />
+            <displayname description="Approbation du formulaire de l'AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2415,6 +2422,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-07 Approval of the form" languagecode="1033" />
+            <displayname description="Approbation du formulaire de l'AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2495,6 +2503,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-07 to sign the catering contract" languagecode="1033" />
+            <displayname description="Signature du service de traiteur par le AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3042,6 +3051,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-05 approval date" languagecode="1033" />
+            <displayname description="Date d'approbation du AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3082,6 +3092,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-07 approval date" languagecode="1033" />
+            <displayname description="Date d'approbation du AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3122,6 +3133,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3162,6 +3174,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="DG approval date" languagecode="1033" />
+            <displayname description="Date d'approbation du DG" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3202,6 +3215,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="MRS approval date" languagecode="1033" />
+            <displayname description="Date d'approbation du MRS" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3402,6 +3416,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Choose the compagny AV" languagecode="1033" />
+            <displayname description="Choisir la compagnie d'audio-visuel " languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3442,6 +3457,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Choose the venue" languagecode="1033" />
+            <displayname description="Choisir le lieu désiré" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4283,7 +4299,8 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Draft a Briefing Note for approval of cost" languagecode="1033" />
+            <displayname description="Rédiger une note de breffage pour approbation des coûts" languagecode="1033" />
+            <displayname description="Draft a Briefing Note for approval of cost" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4324,6 +4341,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Draft an expense sheet with all expenses" languagecode="1033" />
+            <displayname description="Rédiger une feuille des dépenses pour " languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4406,6 +4424,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-05 Approval" languagecode="1033" />
+            <displayname description="Date d'approbation du AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4446,6 +4465,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-07 Approval" languagecode="1033" />
+            <displayname description="Date d'approbation du AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4486,6 +4506,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4526,6 +4547,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Send contract to MRS and contracting officer" languagecode="1033" />
+            <displayname description="Envoyer le contrat à MRS et à l'agent des finances" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -8834,6 +8856,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Prepare bilingual email to send to external" languagecode="1033" />
+            <displayname description="Préparer un courriel bilingue à envoyer aux internvenants externes" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -8874,6 +8897,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Prepare Travel Authority form" languagecode="1033" />
+            <displayname description="Préparer formulaire d'autorisation de voyager" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -9923,6 +9947,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Receipt of forms with amounts" languagecode="1033" />
+            <displayname description="Réception des formulaires avec montants" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10085,6 +10110,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Reception of Travel Claim" languagecode="1033" />
+            <displayname description="Date de réception des réclamations de voyage" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10427,6 +10453,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Send contract to MRS and contracting officer" languagecode="1033" />
+            <displayname description="Envoyer le contrat à MRS et à l'agent des finances" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10467,6 +10494,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Send form to MRS for payment" languagecode="1033" />
+            <displayname description="Date d'envoi du formulaire à MRS pour paiement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10507,6 +10535,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Send the email to stakeholders" languagecode="1033" />
+            <displayname description="Envoyer le courriel aux intervenants" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -11846,6 +11875,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-05 Approval of the form" languagecode="1033" />
+            <displayname description="Approbation du formulaire de l'AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -11886,6 +11916,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-07 Approval of the form" languagecode="1033" />
+            <displayname description="Approbation du formulaire de l'AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -11926,6 +11957,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Completion Date" languagecode="1033" />
+            <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -11966,6 +11998,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -12131,6 +12164,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Update Travel Log" languagecode="1033" />
+            <displayname description="Mettre à jour le suivi des voyagements" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -12171,6 +12205,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-05 Approval" languagecode="1033" />
+            <displayname description="Date d'approbation du AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -12211,6 +12246,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="AS-07 Approval" languagecode="1033" />
+            <displayname description="Date d'approbation du AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -12251,6 +12287,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />

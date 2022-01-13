@@ -763,6 +763,7 @@
         <tab name="tab_Travel" id="{ac47cb62-5530-e6ac-a9a8-43b4ba6bb817}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Travel" languagecode="1033" />
+            <label description="Voyage" languagecode="1036" />
           </labels>
           <columns>
             <column width="50%">
@@ -770,12 +771,14 @@
                 <section name="tab_12_section_1" showlabel="false" showbar="false" locklevel="0" id="{41c30a13-7da2-a7d2-1912-475a6d577747}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Travel Authorization" languagecode="1033" />
+                    <label description="Autorisation de voyager" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{cb2ceeb4-303d-aaed-89e8-215b60853a5a}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Prepare Travel Authority form" languagecode="1033" />
+                          <label description="Préparer formulaire d'autorisation de voyager" languagecode="1036" />
                         </labels>
                         <control id="tc_preparetravelauthorityform" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_preparetravelauthorityform" disabled="false" />
                       </cell>
@@ -784,6 +787,7 @@
                       <cell id="{976acd56-7604-9148-486a-251a11e3d07c}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Update Travel Log" languagecode="1033" />
+                          <label description="Mettre à jour le suivi des voyagements" languagecode="1036" />
                         </labels>
                         <control id="tc_updatetravellog" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_updatetravellog" disabled="false" />
                       </cell>
@@ -792,6 +796,7 @@
                       <cell id="{0d83a564-ac60-6d80-b757-839d5c452bd5}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-05 Approval of the form" languagecode="1033" />
+                          <label description="Approbation du formulaire de l'AS-05" languagecode="1036" />
                         </labels>
                         <control id="tc_as05approvaloftheform" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as05approvaloftheform" disabled="false" uniqueid="{50244c74-7a29-2570-7aba-e224d807e238}" />
                       </cell>
@@ -800,6 +805,7 @@
                       <cell id="{c2202eb4-9db3-3232-d4d4-e50eda12ba73}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-07 Approval of the form" languagecode="1033" />
+                          <label description="Approbation du formulaire de l'AS-07" languagecode="1036" />
                         </labels>
                         <control id="tc_as07approvaloftheform" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07approvaloftheform" disabled="false" />
                       </cell>
@@ -808,6 +814,7 @@
                       <cell id="{536eb880-5424-03c1-8ba2-8eb787d577b5}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Prepare bilingual email to send to external" languagecode="1033" />
+                          <label description="Préparer un courriel bilingue à envoyer aux internvenants externes" languagecode="1036" />
                         </labels>
                         <control id="tc_preparebilingualemailtosendtoexternalstak" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_preparebilingualemailtosendtoexternalstak" disabled="false" />
                       </cell>
@@ -816,6 +823,7 @@
                       <cell id="{97e8dc97-d0c2-0a49-6cdc-e3dee786b53e}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-05 Approval of the email" languagecode="1033" />
+                          <label description="Approbation du formulaire de l'AS-05" languagecode="1036" />
                         </labels>
                         <control id="tc_as05approvaloftheemail" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as05approvaloftheemail" disabled="false" />
                       </cell>
@@ -824,6 +832,7 @@
                       <cell id="{ac4412ca-c255-640a-551e-81a7aa64b03d}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-07 Approval of the email" languagecode="1033" />
+                          <label description="Approbation du formulaire de l'AS-07" languagecode="1036" />
                         </labels>
                         <control id="tc_as07approvaloftheemail" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07approvaloftheemail" disabled="false" />
                       </cell>
@@ -832,6 +841,7 @@
                       <cell id="{2c915d5d-67e0-28d9-aa9e-69db09974e00}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Send the email to stakeholders" languagecode="1033" />
+                          <label description="Envoyer le courriel aux intervenants" languagecode="1036" />
                         </labels>
                         <control id="tc_sendtheemailtostakeholders" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sendtheemailtostakeholders" disabled="false" />
                       </cell>
@@ -840,6 +850,7 @@
                       <cell id="{e77912b7-5888-73d9-0de9-13696b7ba3c3}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Receipt of forms with amounts" languagecode="1033" />
+                          <label description="Réception des formulaires avec montants" languagecode="1036" />
                         </labels>
                         <control id="tc_receiptofformswithamounts" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_receiptofformswithamounts" disabled="false" />
                       </cell>
@@ -864,6 +875,7 @@
                       <cell id="{4db0b27e-e2ca-733b-b659-a6dcb4e30ce5}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Completion date" languagecode="1033" />
+                          <label description="Date d'achèvement" languagecode="1036" />
                         </labels>
                         <control id="tc_travelcompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_travelcompletiondate" disabled="false" />
                       </cell>
@@ -877,12 +889,14 @@
                 <section name="tab_12_section_2" showlabel="false" showbar="false" locklevel="0" id="{c9be5d16-be5c-402d-1b75-731dcaba18a3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Travel Claims" languagecode="1033" />
+                    <label description="Réclamation de voyage" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{413151aa-981c-e682-8d71-b535177883d7}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-03 send email to receive Travel Claim" languagecode="1033" />
+                          <label description="AS-03 date d'envoi un courriel afin de recevoir les réclamations de voyage" languagecode="1036" />
                         </labels>
                         <control id="tc_as03sendemailtoreceivetravelclaim" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as03sendemailtoreceivetravelclaim" disabled="false" />
                       </cell>
@@ -891,6 +905,7 @@
                       <cell id="{9a1c6b4c-4763-c901-7072-300551688a5d}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Reception of Travel Claim" languagecode="1033" />
+                          <label description="Date de réception des réclamations de voyage" languagecode="1036" />
                         </labels>
                         <control id="tc_receptionoftravelclaim" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_receptionoftravelclaim" disabled="false" />
                       </cell>
@@ -899,6 +914,7 @@
                       <cell id="{67d83e6d-7759-6952-c7a0-0237b29975b1}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-05 Approval of the form" languagecode="1033" />
+                          <label description="Approbation du formulaire de l'AS-05" languagecode="1036" />
                         </labels>
                         <control id="tc_travelclaimsas05approvaloftheform" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_travelclaimsas05approvaloftheform" disabled="false" />
                       </cell>
@@ -907,6 +923,7 @@
                       <cell id="{ccadec29-ba6a-065a-0a29-5aea6906eb92}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-07 Approval of the form" languagecode="1033" />
+                          <label description="Approbation du formulaire de l'AS-07" languagecode="1036" />
                         </labels>
                         <control id="tc_travelclaimsas07approvaloftheform" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_travelclaimsas07approvaloftheform" disabled="false" />
                       </cell>
@@ -915,6 +932,7 @@
                       <cell id="{604ea3e3-9cea-1272-22d7-1791b7dd1974}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Send form to MRS for payment" languagecode="1033" />
+                          <label description="Date d'envoi du formulaire à MRS pour paiement" languagecode="1036" />
                         </labels>
                         <control id="tc_sendformtomrsforpayment" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sendformtomrsforpayment" disabled="false" />
                       </cell>
@@ -923,6 +941,7 @@
                       <cell id="{6826dc1b-3d24-a3d6-7a94-684481558ecb}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Completion Date" languagecode="1033" />
+                          <label description="Date d'achèvement" languagecode="1036" />
                         </labels>
                         <control id="tc_travelclaimscompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_travelclaimscompletiondate" disabled="false" />
                       </cell>
@@ -936,6 +955,7 @@
         <tab name="tab_Equipment" id="{97c7a177-b4e5-2123-8c7e-5e553e80dcea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Venue and Equipment" languagecode="1033" />
+            <label description="Lieu et équipement" languagecode="1036" />
           </labels>
           <columns>
             <column width="50%">
@@ -943,12 +963,14 @@
                 <section name="tab_13_section_1" showlabel="true" showbar="false" locklevel="0" id="{28aa39bd-00c0-77b2-e2e8-59e87c056917}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Venue" languagecode="1033" />
+                    <label description="Lieu" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{52813061-5cb2-ec38-9183-3a64337ba34e}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-03 send request for quotes" languagecode="1033" />
+                          <label description="AS-03 envoi des demandes de soumission" languagecode="1036" />
                         </labels>
                         <control id="tc_as03sendrequestforquotes" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as03sendrequestforquotes" disabled="false" />
                       </cell>
@@ -957,6 +979,7 @@
                       <cell id="{0c86d857-0d2c-35d4-423e-c3150a909ce5}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Choose the venue" languagecode="1033" />
+                          <label description="Choisir le lieu désiré" languagecode="1036" />
                         </labels>
                         <control id="tc_choosethevenue" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_choosethevenue" disabled="false" />
                       </cell>
@@ -965,6 +988,7 @@
                       <cell id="{11c3570d-10da-84ea-a75d-6947eb906161}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Send contract to MRS and contracting officer" languagecode="1033" />
+                          <label description="Envoyer le contrat à MRS et à l'agent des finances" languagecode="1036" />
                         </labels>
                         <control id="tc_sendcontracttomrsandcontractingofficer" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_sendcontracttomrsandcontractingofficer" disabled="false" />
                       </cell>
@@ -973,6 +997,7 @@
                       <cell id="{4b2e93d5-931b-e79b-5eb1-d71cc18c4d11}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-05 Approval" languagecode="1033" />
+                          <label description="Date d'approbation du AS-05" languagecode="1036" />
                         </labels>
                         <control id="tc_venueas05approval" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_venueas05approval" disabled="false" />
                       </cell>
@@ -981,6 +1006,7 @@
                       <cell id="{2470ab23-03d7-7c62-e0bc-6cb55603e293}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-07 Approval" languagecode="1033" />
+                          <label description="Date d'approbation du AS-07" languagecode="1036" />
                         </labels>
                         <control id="tc_venueas07approval" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_venueas07approval" disabled="false" />
                       </cell>
@@ -989,6 +1015,7 @@
                       <cell id="{430c4383-0d5b-0000-a1e9-e7141c171e55}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Completion date" languagecode="1033" />
+                          <label description="Date d'achèvement" languagecode="1036" />
                         </labels>
                         <control id="tc_venuecompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_venuecompletiondate" disabled="false" />
                       </cell>
@@ -998,12 +1025,14 @@
                 <section name="tab_Equipment_section_3" showlabel="true" showbar="false" locklevel="0" id="{b3091d24-6ddb-97cb-7d8c-6dcd1d757c32}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Catering" languagecode="1033" />
+                    <label description="Service traiteur" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{0d6cce09-071a-91a2-ca78-0bd70e94aa19}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Draft a Briefing Note for approval of cost" languagecode="1033" />
+                          <label description="Draft a Briefing Note for approval of cost" languagecode="1036" />
                         </labels>
                         <control id="tc_draftabriefingnoteforapprovalofcost" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_draftabriefingnoteforapprovalofcost" disabled="false" />
                       </cell>
@@ -1012,6 +1041,7 @@
                       <cell id="{051a9e70-4b3b-b932-7ace-c7d01e06b371}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Draft an expense sheet with all expenses" languagecode="1033" />
+                          <label description="Rédiger une feuille des dépenses pour " languagecode="1036" />
                         </labels>
                         <control id="tc_draftanexpensesheetwithallexpenses" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_draftanexpensesheetwithallexpenses" disabled="false" />
                       </cell>
@@ -1020,6 +1050,7 @@
                       <cell id="{74ec2a56-0c8c-249e-abd7-1bd07b289022}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-05 approval date" languagecode="1033" />
+                          <label description="Date d'approbation du AS-05" languagecode="1036" />
                         </labels>
                         <control id="tc_cateringas05approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_cateringas05approvaldate" disabled="false" />
                       </cell>
@@ -1028,6 +1059,7 @@
                       <cell id="{c905a4c1-aa24-1192-8304-24d4e7d83740}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-07 approval date" languagecode="1033" />
+                          <label description="Date d'approbation du AS-07" languagecode="1036" />
                         </labels>
                         <control id="tc_cateringas07approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_cateringas07approvaldate" disabled="false" />
                       </cell>
@@ -1036,6 +1068,7 @@
                       <cell id="{2d049362-0670-c727-39ad-aeed91322686}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="MRS approval date" languagecode="1033" />
+                          <label description="Date d'approbation du MRS" languagecode="1036" />
                         </labels>
                         <control id="tc_cateringmrsapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_cateringmrsapprovaldate" disabled="false" />
                       </cell>
@@ -1044,6 +1077,7 @@
                       <cell id="{562905ee-06c4-0e57-2237-781738bae1a5}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="DG approval date" languagecode="1033" />
+                          <label description="Date d'approbation du DG" languagecode="1036" />
                         </labels>
                         <control id="tc_cateringdgapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_cateringdgapprovaldate" disabled="false" />
                       </cell>
@@ -1052,6 +1086,7 @@
                       <cell id="{1178a614-a669-364c-72dd-4b940b765eec}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AFRG (CCM) approval date" languagecode="1033" />
+                          <label description="Date d'approbation du AFRG (CCM)" languagecode="1036" />
                         </labels>
                         <control id="tc_afrgccmapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_afrgccmapprovaldate" disabled="false" />
                       </cell>
@@ -1060,6 +1095,7 @@
                       <cell id="{ee282953-b597-abee-19b9-13b864c96a59}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-07 to sign the catering contract" languagecode="1033" />
+                          <label description="Signature du service de traiteur par le AS-07" languagecode="1036" />
                         </labels>
                         <control id="tc_as07tosignthecateringcontract" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as07tosignthecateringcontract" disabled="false" />
                       </cell>
@@ -1068,6 +1104,7 @@
                       <cell id="{6ec59747-dd5a-5796-6d7c-cb7085c03ec4}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Completion date" languagecode="1033" />
+                          <label description="Date d'achèvement" languagecode="1036" />
                         </labels>
                         <control id="tc_cateringcompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_cateringcompletiondate" disabled="false" />
                       </cell>
@@ -1081,12 +1118,14 @@
                 <section name="tab_13_section_2" showlabel="true" showbar="false" locklevel="0" id="{2b400e17-0be6-1dba-2153-9373a8467e99}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Equipment" languagecode="1033" />
+                    <label description="Équipement" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{ac29cb96-a18e-6318-06d3-ce3e31c7a2d9}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-03 to send equipment request to venue" languagecode="1033" />
+                          <label description="AS-03 envoi des exigences d'équipment au lieu" languagecode="1036" />
                         </labels>
                         <control id="tc_as03tosendequipmentrequesttovenue" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_as03tosendequipmentrequesttovenue" disabled="false" />
                       </cell>
@@ -1095,6 +1134,7 @@
                       <cell id="{b56db595-d834-638a-e014-a9a94c8ed7c3}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Choose the compagny AV" languagecode="1033" />
+                          <label description="Choisir la compagnie d'audio-visuel " languagecode="1036" />
                         </labels>
                         <control id="tc_choosethecompagnyav" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_choosethecompagnyav" disabled="false" />
                       </cell>
@@ -1103,6 +1143,7 @@
                       <cell id="{8cace744-56cb-5609-89e6-6ab2d2909b38}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Send contract to MRS and contracting officer" languagecode="1033" />
+                          <label description="Envoyer le contrat à MRS et à l'agent des finances" languagecode="1036" />
                         </labels>
                         <control id="tc_equsendcontracttomrsandcontractingofficer" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_equsendcontracttomrsandcontractingofficer" disabled="false" />
                       </cell>
@@ -1111,6 +1152,7 @@
                       <cell id="{6948b587-d209-1754-d9c0-2ae160ad261d}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-05 Approval" languagecode="1033" />
+                          <label description="Date d'approbation du AS-05" languagecode="1036" />
                         </labels>
                         <control id="tc_equipmentas05approval" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_equipmentas05approval" disabled="false" />
                       </cell>
@@ -1119,6 +1161,7 @@
                       <cell id="{9dcd735c-1e45-2e6e-e67b-b2d92d6587b6}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="AS-07 Approval" languagecode="1033" />
+                          <label description="Date d'approbation du AS-07" languagecode="1036" />
                         </labels>
                         <control id="tc_equipmentas07approval" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_equipmentas07approval" disabled="false" />
                       </cell>
@@ -1127,6 +1170,7 @@
                       <cell id="{cec125bd-254d-3ea3-831e-71128428adbb}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Completion date" languagecode="1033" />
+                          <label description="Date d'achèvement" languagecode="1036" />
                         </labels>
                         <control id="tc_equipmentcompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_equipmentcompletiondate" disabled="false" />
                       </cell>
