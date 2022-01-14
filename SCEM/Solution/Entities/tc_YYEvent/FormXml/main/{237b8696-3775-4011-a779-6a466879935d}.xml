@@ -630,7 +630,57 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tabGeneral_sectionContactPerson" showlabel="true" showbar="false" locklevel="0" id="{3c928c25-4244-d463-8237-05d24b432930}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="tabGeneral_sectionPostEvent" showlabel="true" showbar="false" locklevel="0" id="{4e7702c9-bcb8-9795-617d-d406e0da6444}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Post-Event Action Item" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bc82ab64-8c1e-6eb2-58ee-90d3eca20932}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Details (Event)" languagecode="1033" />
+                          <label description="Contacts Événements" languagecode="1036" />
+                        </labels>
+                        <control id="posteventactionitems" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{98c0038b-6655-aec3-d558-592e085a5193}">
+                          <parameters>
+                            <ViewId>{2A689A1D-7788-4B44-B6BE-F890EADB59C0}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_yyevent_yyeventdetail_EventId</RelationshipName>
+                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2A689A1D-7788-4B44-B6BE-F890EADB59C0}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Participants" id="{ba41d301-eac9-79d4-5298-9157c63774ea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Participants" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tabParticipants_TCAttendee" showlabel="true" showbar="false" locklevel="0" id="{3c928c25-4244-d463-8237-05d24b432930}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="TC Attendee(s)" languagecode="1033" />
                     <label description="Participant(s) du TC" languagecode="1036" />
@@ -641,7 +691,7 @@
                         <labels>
                           <label description="Committee Type" languagecode="1033" />
                         </labels>
-                        <control id="tc_committeetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_committeetype" disabled="false" />
+                        <control id="tc_committeetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_committeetype" disabled="false" uniqueid="{b409c973-7029-ae9a-7cd5-c1b3206709dc}" />
                       </cell>
                     </row>
                     <row>
@@ -678,7 +728,7 @@
                     <row />
                   </rows>
                 </section>
-                <section name="sect_committees" showlabel="true" showbar="false" locklevel="0" id="{8d7ca4c2-0112-eed0-a0cd-6145d37ea70b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="TabParticipants_StakeholdersAttendee" showlabel="true" showbar="false" locklevel="0" id="{8d7ca4c2-0112-eed0-a0cd-6145d37ea70b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Stakeholders Attendee(s)" languagecode="1033" />
                   </labels>
@@ -702,45 +752,6 @@
                             <EnableJumpBar>false</EnableJumpBar>
                             <ChartGridMode>All</ChartGridMode>
                             <VisualizationId>{FDCEA99A-754A-E911-80F1-005056814435}</VisualizationId>
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-                <section name="tabGeneral_sectionPostEvent" showlabel="true" showbar="false" locklevel="0" id="{4e7702c9-bcb8-9795-617d-d406e0da6444}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Post-Event Action Item" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{bc82ab64-8c1e-6eb2-58ee-90d3eca20932}" showlabel="false" colspan="1" auto="false" rowspan="6">
-                        <labels>
-                          <label description="Event Details (Event)" languagecode="1033" />
-                          <label description="Contacts Événements" languagecode="1036" />
-                        </labels>
-                        <control id="posteventactionitems" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{98c0038b-6655-aec3-d558-592e085a5193}">
-                          <parameters>
-                            <ViewId>{2A689A1D-7788-4B44-B6BE-F890EADB59C0}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>tc_yyevent_yyeventdetail_EventId</RelationshipName>
-                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{2A689A1D-7788-4B44-B6BE-F890EADB59C0}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
                             <IsUserChart>false</IsUserChart>
                             <EnableChartPicker>true</EnableChartPicker>
                             <RecordsPerPage>4</RecordsPerPage>
@@ -952,7 +963,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Equipment" id="{97c7a177-b4e5-2123-8c7e-5e553e80dcea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tab_Equipment" id="{97c7a177-b4e5-2123-8c7e-5e553e80dcea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Venue and Equipment" languagecode="1033" />
             <label description="Lieu et équipement" languagecode="1036" />
