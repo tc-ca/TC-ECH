@@ -6,7 +6,7 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>0</isdefault>
-    <savedqueryid>{8bf29375-2604-ec11-b6e7-0022486d73fd}</savedqueryid>
+    <savedqueryid>{d8519fc4-bc74-ec11-8942-000d3a09c0d4}</savedqueryid>
     <layoutxml>
       <grid name="resultset" jump="name" select="1" preview="1" icon="1">
         <row name="result" id="accountid">
@@ -38,16 +38,16 @@
           </link-entity>
           <link-entity name="businessunit" from="businessunitid" to="owningbusinessunit" alias="aa">
             <filter type="and">
-              <condition attribute="name" operator="eq" value="SafSec" />
+              <condition attribute="name" operator="eq" value="IEC" />
             </filter>
           </link-entity>
           <attribute name="accountid" />
         </entity>
       </fetch>
     </fetchxml>
-    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IntroducedVersion>1.77.1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="S&amp;S Organizations" languagecode="1033" />
+      <LocalizedName description="IEC Organizations" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

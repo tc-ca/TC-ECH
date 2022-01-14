@@ -2,6 +2,19 @@
 function onformload(executionContext) {
     var formContext = executionContext.getFormContext();
     refreshorgtype(formContext);
+
+    var isNew = formContext.ui.getFormType() == 1;
+
+    formContext.ui.tabs.get("tab_General").setVisible(!isNew);
+    formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
+    formContext.ui.tabs.get("tab_Connections").setVisible(!isNew);
+    formContext.ui.tabs.get("tab_Files").setVisible(!isNew);
+    formContext.ui.tabs.get("tab_Events").setVisible(!isNew);
+    if(isNew){
+        formContext.ui.tabs.get("tab_Details").sections.get("tab_Details_section_Indigenous").setVisible(false);
+    }
+    
+
 }
 function orgtype_onchange(executionContext) {
     var formContext = executionContext.getFormContext();
@@ -25,10 +38,10 @@ function refreshorgtype(formContext) {
                     var result = JSON.parse(this.response);
                     var tc_categorycd = result["tc_categorycd"];
                     if (tc_categorycd== 948010000) {
-                        formContext.ui.tabs.get("tab_General").sections.get("tab_General_section_Indigenous").setVisible(true);
+                        formContext.ui.tabs.get("tab_Details").sections.get("tab_Details_section_Indigenous").setVisible(true);
                     }
                     else {
-                        formContext.ui.tabs.get("tab_General").sections.get("tab_General_section_Indigenous").setVisible(false);
+                        formContext.ui.tabs.get("tab_Details").sections.get("tab_Details_section_Indigenous").setVisible(false);
                     }
                 } else {
                     //Xrm.Utility.alertDialog(this.statusText);

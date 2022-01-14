@@ -19,6 +19,77 @@
           <columns>
             <column width="50%">
               <sections>
+                <section name="tab_General_section_2" showlabel="false" showbar="false" locklevel="0" id="{eb377a24-5138-c14d-1006-65d836373946}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c9a87d0e-03ee-4485-ae33-c03d5394438b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{d8337930-2a8e-11b9-4879-302d9b3768a3}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{4b41017f-5c63-4413-a8ca-16d76eb05783}">
+                  <labels>
+                    <label description="SOCIAL PANE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7e87ab43-7321-21c7-5704-24c5c38000c6}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0" labelid="{60d44f68-5efb-4738-b0fa-ae440e45dfd5}">
+                        <labels>
+                          <label description="Notes Properties" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" uniqueid="{e3a2d9ea-e33c-9abd-b33e-0970c41c1cd5}">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Details" id="{c7ddad2c-0159-c078-0388-ae7aecd16441}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
                 <section name="tab_General_section_Details" showlabel="true" showbar="false" id="{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{8fe8192f-ded1-4b6b-9675-8ecbdf22badf}" locklevel="0" celllabelalignment="Left">
                   <labels>
                     <label description="ACCOUNT INFORMATION" languagecode="1033" />
@@ -87,7 +158,11 @@
                     <row />
                   </rows>
                 </section>
-                <section name="tab_General_section_Indigenous" showlabel="true" showbar="false" locklevel="0" id="{6ae86960-38a2-bb0b-1518-3272c1add83b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_Details_section_Indigenous" showlabel="true" showbar="false" locklevel="0" id="{6ae86960-38a2-bb0b-1518-3272c1add83b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Indigenous Group" languagecode="1033" />
                   </labels>
@@ -114,6 +189,14 @@
                           <label description="Self-Government Agreement" languagecode="1033" />
                         </labels>
                         <control id="tc_selfgovernmentagreementid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_selfgovernmentagreementid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30886410-4bd0-eb7b-ae2d-26664b113e58}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other partner agreements" languagecode="1033" />
+                        </labels>
+                        <control id="tc_otherpartneragreements" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_otherpartneragreements" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -153,20 +236,136 @@
                     </row>
                   </rows>
                 </section>
-                <section name="ADDRESS" showlabel="true" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" height="auto" labelid="{6d01ba4f-dc2e-4365-b17e-082ada2b8553}">
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Address" id="{a8bde86a-20ae-aac8-0e3d-6a65ece0adcb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Address" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="SUMMARY_TAB_section_4" showlabel="false" showbar="false" locklevel="0" id="{73c5dcb9-2d6a-c90e-48ab-6ebe94e23285}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{18331de8-30f2-469d-bd29-8b9675c09358}">
+                  <labels>
+                    <label description="Address Parts" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{216215a8-b88d-95bc-93c2-81a2a5ed665d}" showlabel="true" locklevel="0" labelid="{08f395ca-613d-4a63-bff4-015d0f84af9b}">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                          <label description="Adresse 1 : Pays/région" languagecode="1036" />
+                        </labels>
+                        <control id="address1_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_country" disabled="false" uniqueid="{5344b6ec-d646-93b5-5e4d-88d4d4dc13ed}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0de8d430-de19-cbcb-ba20-dd3a60ce0942}" showlabel="true" locklevel="0" labelid="{94a2cf91-c90e-4ec3-b793-be11c3eaccdc}">
+                        <labels>
+                          <label description="State/Province" languagecode="1033" />
+                          <label description="Adresse 1 : Département/province" languagecode="1036" />
+                        </labels>
+                        <control id="address1_stateorprovince" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_stateorprovince" disabled="false" uniqueid="{89829903-cd54-6504-c262-6b6ed33b1e08}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a15e87a-d567-1b75-4d21-4e3634a4ea28}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Regions" languagecode="1033" />
+                        </labels>
+                        <control id="tc_region" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_region" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{531733bd-03e1-d493-49b7-6066acade890}" showlabel="true" locklevel="0" labelid="{c08073ce-a2f2-435d-9a08-bbe395e1baf7}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                          <label description="Adresse 1 : Rue 1" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" uniqueid="{ce045658-3075-e81e-9eea-5710a040132a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b3a0925-8239-96aa-84dd-58231e12e59c}" showlabel="true" locklevel="0" labelid="{620507a6-4c3e-4464-a3e6-6cb28f10c8c6}">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                          <label description="Adresse 1 : Ville" languagecode="1036" />
+                        </labels>
+                        <control id="address1_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" uniqueid="{cd44331c-5bb0-db68-6382-892371da43b5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4996b6a4-6943-7088-3c40-d17a2d253206}" showlabel="true" locklevel="0" labelid="{017a6fe7-e951-4de3-9126-61e51b63c120}" visible="false">
+                        <labels>
+                          <label description="Address 1: Street 2" languagecode="1033" />
+                          <label description="Adresse 1 : Rue 2" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line2" disabled="false" uniqueid="{ee532b5c-d774-d543-152d-086d6d991122}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18aa8bd4-7e72-dc6d-6c8c-9c5963cce46a}" showlabel="true" locklevel="0" labelid="{c831892d-e80f-464c-8a90-74e02fe956af}">
+                        <labels>
+                          <label description="ZIP/Postal Code" languagecode="1033" />
+                          <label description="Adresse 1 : Code postal" languagecode="1036" />
+                        </labels>
+                        <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" uniqueid="{01191d0d-812c-443d-8938-9d7dc45a47e8}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="ADDRESS" showlabel="false" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" height="auto" labelid="{6d01ba4f-dc2e-4365-b17e-082ada2b8553}">
                   <labels>
                     <label description="Address" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{b56c915d-4c47-c7c8-bd6e-bce315ccdd53}" showlabel="true" locklevel="0" labelid="{2735aef1-8f55-4eb5-b0a9-7e370ca38aef}">
+                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="true" locklevel="0" labelid="{91bf08b5-fda0-4f19-8eba-c93d30de264b}" visible="false">
                         <labels>
-                          <label description="Regions" languagecode="1033" />
-                          <label description="Régions" languagecode="1036" />
+                          <label description="Address 1" languagecode="1033" />
+                          <label description="Adresse 1" languagecode="1036" />
                         </labels>
-                        <control id="tc_regions" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_regions" disabled="false" uniqueid="{7d58c43a-d331-31b3-3ce6-603414aca46a}" />
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" uniqueid="{b8a72707-4050-1891-e6e6-30023880255e}" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{4c4307be-b0d4-24db-308a-5e9197a9934c}" showlabel="false" colspan="1" auto="true" rowspan="2" labelid="{371db291-c3c7-4b2b-ab20-6c2e121ce1f3}">
+                        <labels>
+                          <label description="AddressValidation" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_AddressValidation" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/AddressValidation/main.html</Url>
+                            <Data>{    "prefix": "address1_"}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{2B30A2A2-42D9-E811-8B96-00155DDC0400}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_5_section_2" showlabel="false" showbar="false" locklevel="0" id="{ebad6538-b8ca-8713-89d1-2bb7220200e7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
                     <row>
                       <cell id="{8b0b0ece-08d0-0584-60bb-0d7440133cb1}" showlabel="true" locklevel="0" labelid="{4a62f0ca-c2bc-4d06-bcf9-3419fce66a53}">
                         <labels>
@@ -194,30 +393,42 @@
                         <control id="websiteurl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="websiteurl" disabled="false" />
                       </cell>
                     </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Documents" id="{7cb36c27-0666-0bd1-d663-504bb7070291}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_7_section_1" showlabel="true" showbar="true" locklevel="0" id="{ed3c0203-5c84-66ad-d571-78cee34cc9ee}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="View Documents" languagecode="1033" />
+                  </labels>
+                  <rows>
                     <row>
-                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="true" locklevel="0" labelid="{91bf08b5-fda0-4f19-8eba-c93d30de264b}">
+                      <cell id="{a5336467-804c-ce8a-1231-2cd70797e6b8}" showlabel="false" colspan="1" auto="false" rowspan="7">
                         <labels>
-                          <label description="Address 1" languagecode="1033" />
-                          <label description="Adresse 1" languagecode="1036" />
+                          <label description="DocumDocumentListentList" languagecode="1033" />
                         </labels>
-                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" uniqueid="{b8a72707-4050-1891-e6e6-30023880255e}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4c4307be-b0d4-24db-308a-5e9197a9934c}" showlabel="false" colspan="1" auto="true" rowspan="12" labelid="{371db291-c3c7-4b2b-ab20-6c2e121ce1f3}">
-                        <labels>
-                          <label description="AddressValidation" languagecode="1033" />
-                        </labels>
-                        <control id="WebResource_AddressValidation" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control id="WebResource_DocumentList" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
                           <parameters>
-                            <Url>tc_/Core/AddressValidation/main.html</Url>
-                            <Data>{    "prefix": "address1_"}</Data>
+                            <Url>tc_/Core/Documents/List.html</Url>
+                            <Data>{
+  "control": "WebResource_Lists",
+  "field": "tc_documentstxt"
+}</Data>
                             <PassParameters>false</PassParameters>
                             <ShowOnMobileClient>false</ShowOnMobileClient>
                             <Security>false</Security>
-                            <Scrolling>no</Scrolling>
-                            <Border>false</Border>
-                            <WebResourceId>{2B30A2A2-42D9-E811-8B96-00155DDC0400}</WebResourceId>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{9E41960E-6579-E811-8B89-00155DDC0400}</WebResourceId>
                           </parameters>
                         </control>
                         <events>
@@ -233,70 +444,13 @@
                     <row />
                     <row />
                     <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row height="auto" />
-                  </rows>
-                </section>
-                <section name="SUMMARY_TAB_section_4" showlabel="false" showbar="false" locklevel="0" id="{73c5dcb9-2d6a-c90e-48ab-6ebe94e23285}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false" labelid="{18331de8-30f2-469d-bd29-8b9675c09358}">
-                  <labels>
-                    <label description="Address Parts" languagecode="1033" />
-                  </labels>
-                  <rows>
                     <row>
-                      <cell id="{3b3a0925-8239-96aa-84dd-58231e12e59c}" showlabel="true" locklevel="0" labelid="{620507a6-4c3e-4464-a3e6-6cb28f10c8c6}">
+                      <cell id="{74a00031-1d24-c77c-3de1-1cc25a66dcb9}" showlabel="true" locklevel="0" visible="false">
                         <labels>
-                          <label description="Address 1: City" languagecode="1033" />
-                          <label description="Adresse 1 : Ville" languagecode="1036" />
+                          <label description="Documents" languagecode="1033" />
+                          <label description="Documents" languagecode="1036" />
                         </labels>
-                        <control id="address1_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" uniqueid="{cd44331c-5bb0-db68-6382-892371da43b5}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{216215a8-b88d-95bc-93c2-81a2a5ed665d}" showlabel="true" locklevel="0" labelid="{08f395ca-613d-4a63-bff4-015d0f84af9b}">
-                        <labels>
-                          <label description="Address 1: Country/Region" languagecode="1033" />
-                          <label description="Adresse 1 : Pays/région" languagecode="1036" />
-                        </labels>
-                        <control id="address1_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_country" disabled="false" uniqueid="{5344b6ec-d646-93b5-5e4d-88d4d4dc13ed}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{0de8d430-de19-cbcb-ba20-dd3a60ce0942}" showlabel="true" locklevel="0" labelid="{94a2cf91-c90e-4ec3-b793-be11c3eaccdc}">
-                        <labels>
-                          <label description="Address 1: State/Province" languagecode="1033" />
-                          <label description="Adresse 1 : Département/province" languagecode="1036" />
-                        </labels>
-                        <control id="address1_stateorprovince" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_stateorprovince" disabled="false" uniqueid="{89829903-cd54-6504-c262-6b6ed33b1e08}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{531733bd-03e1-d493-49b7-6066acade890}" showlabel="true" locklevel="0" labelid="{c08073ce-a2f2-435d-9a08-bbe395e1baf7}">
-                        <labels>
-                          <label description="Address 1: Street 1" languagecode="1033" />
-                          <label description="Adresse 1 : Rue 1" languagecode="1036" />
-                        </labels>
-                        <control id="address1_line1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" uniqueid="{ce045658-3075-e81e-9eea-5710a040132a}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4996b6a4-6943-7088-3c40-d17a2d253206}" showlabel="true" locklevel="0" labelid="{017a6fe7-e951-4de3-9126-61e51b63c120}">
-                        <labels>
-                          <label description="Address 1: Street 2" languagecode="1033" />
-                          <label description="Adresse 1 : Rue 2" languagecode="1036" />
-                        </labels>
-                        <control id="address1_line2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line2" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{18aa8bd4-7e72-dc6d-6c8c-9c5963cce46a}" showlabel="true" locklevel="0" labelid="{c831892d-e80f-464c-8a90-74e02fe956af}">
-                        <labels>
-                          <label description="Address 1: ZIP/Postal Code" languagecode="1033" />
-                          <label description="Adresse 1 : Code postal" languagecode="1036" />
-                        </labels>
-                        <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" uniqueid="{01191d0d-812c-443d-8938-9d7dc45a47e8}" />
+                        <control id="tc_documentstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_documentstxt" disabled="false" uniqueid="{cd2515cc-d29e-a466-6bc4-5e35ed389c0e}" />
                       </cell>
                     </row>
                   </rows>
@@ -305,35 +459,39 @@
             </column>
             <column width="50%">
               <sections>
-                <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{4b41017f-5c63-4413-a8ca-16d76eb05783}">
+                <section name="tab_7_section_2" showlabel="true" showbar="true" locklevel="0" id="{c5e0566b-dd09-5790-2bce-bed083696d22}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="SOCIAL PANE" languagecode="1033" />
+                    <label description="Associate an Existing RDIMS Document" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{7e87ab43-7321-21c7-5704-24c5c38000c6}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0" labelid="{60d44f68-5efb-4738-b0fa-ae440e45dfd5}">
+                      <cell id="{430d9d25-094a-00c1-2e0e-e2d7c31bb131}" showlabel="false" colspan="1" auto="false" rowspan="7">
                         <labels>
-                          <label description="Notes Properties" languagecode="1033" />
+                          <label description="Search" languagecode="1033" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" uniqueid="{e3a2d9ea-e33c-9abd-b33e-0970c41c1cd5}">
+                        <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
                           <parameters>
-                            <DefaultTabId>ActivitiesTab</DefaultTabId>
-                            <OrderByActivityWall>descending</OrderByActivityWall>
-                            <SortActivityWall>modifiedon</SortActivityWall>
-                            <ShowArticleTab>false</ShowArticleTab>
-                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                            <Url>tc_/Core/Documents/Search.html</Url>
+                            <Data>{
+  "control": "WebResource_Searches",
+  "field": "tc_documentstxt",
+  "view": "WebResource_Lists"
+}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
                           </parameters>
                         </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
                       </cell>
                     </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
                     <row />
                     <row />
                     <row />
@@ -346,7 +504,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="connectionTab" id="{cecdb114-4654-ad1b-6750-7295e01d9200}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{0a133dcf-9c5f-4730-aa0d-1db6aeec54b7}">
+        <tab name="tab_Connections" id="{cecdb114-4654-ad1b-6750-7295e01d9200}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{0a133dcf-9c5f-4730-aa0d-1db6aeec54b7}">
           <labels>
             <label description="Connected Contacts" languagecode="1033" />
           </labels>
@@ -395,7 +553,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="documents_sharepoint" id="{5240e6be-ed06-8050-7115-ba225c7a4a13}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{b470a269-2bf7-4591-8b66-083cde1eaed2}">
+        <tab name="tab_Files" id="{5240e6be-ed06-8050-7115-ba225c7a4a13}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{b470a269-2bf7-4591-8b66-083cde1eaed2}">
           <labels>
             <label description="Files" languagecode="1033" />
           </labels>
@@ -445,7 +603,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="eventsTab" id="{280a2ab1-2ecd-4c7c-99ce-24b3c43baa51}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tab_Events" id="{280a2ab1-2ecd-4c7c-99ce-24b3c43baa51}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Events" languagecode="1033" />
           </labels>
@@ -748,74 +906,23 @@
         </NavBarAreas>
       </Navigation>
       <controlDescriptions>
-        <controlDescription forControl="{7d58c43a-d331-31b3-3ce6-603414aca46a}">
-          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
-            <parameters>
-              <datafieldname>tc_regions</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
-            <parameters>
-              <value>tc_regions</value>
-              <linkedEntityName static="true" type="SingleLine.Text">tc_tyregion</linkedEntityName>
-              <nameAttribute static="true" type="SingleLine.Text">tc_regionnm</nameAttribute>
-              <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
-              <relationshipName static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipName>
-              <relationshipEntity static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipEntity>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
-            <parameters>
-              <value>tc_regions</value>
-              <linkedEntityName static="true" type="SingleLine.Text">tc_tyregion</linkedEntityName>
-              <nameAttribute static="true" type="SingleLine.Text">tc_regionnm</nameAttribute>
-              <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
-              <relationshipName static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipName>
-              <relationshipEntity static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipEntity>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="ita_ItAintBoring.PCFControls.NToNMultiSelect">
-            <parameters>
-              <value>tc_regions</value>
-              <linkedEntityName static="true" type="SingleLine.Text">tc_tyregion</linkedEntityName>
-              <nameAttribute static="true" type="SingleLine.Text">tc_regionnm</nameAttribute>
-              <idAttribute static="true" type="SingleLine.Text">tc_tyregionid</idAttribute>
-              <relationshipName static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipName>
-              <relationshipEntity static="true" type="SingleLine.Text">tc_account_tc_tyregion</relationshipEntity>
-            </parameters>
-          </customControl>
-        </controlDescription>
         <controlDescription forControl="{27ba8660-3c7c-dbe8-02e1-2753c323d60b}">
-          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="0">
             <parameters>
               <datafieldname>name</datafieldname>
             </parameters>
           </customControl>
-          <customControl formFactor="0" name="MscrmControls.AutoComplete.AutoCompleteControl">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="1">
             <parameters>
-              <value>name</value>
-              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
-              <data-set name="dynamicSource">
-                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
-                <IsUserView>false</IsUserView>
-                <TargetEntityType>account</TargetEntityType>
-                <displayValue>name</displayValue>
-              </data-set>
+              <datafieldname>name</datafieldname>
             </parameters>
           </customControl>
-          <customControl formFactor="1" name="MscrmControls.AutoComplete.AutoCompleteControl">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="2">
             <parameters>
-              <value>name</value>
-              <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
-              <data-set name="dynamicSource">
-                <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
-                <IsUserView>false</IsUserView>
-                <TargetEntityType>account</TargetEntityType>
-                <displayValue>name</displayValue>
-              </data-set>
+              <datafieldname>name</datafieldname>
             </parameters>
           </customControl>
-          <customControl formFactor="2" name="MscrmControls.AutoComplete.AutoCompleteControl">
+          <customControl name="MscrmControls.AutoComplete.AutoCompleteControl" formFactor="-1">
             <parameters>
               <value>name</value>
               <dataSourceSwitch isGroup="true" static="true">DataSetGroup</dataSourceSwitch>
