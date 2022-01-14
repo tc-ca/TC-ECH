@@ -7,9 +7,8 @@ function onformload(executionContext) {
 
     formContext.ui.tabs.get("tab_General").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
-    formContext.ui.tabs.get("tab_Connections").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Files").setVisible(!isNew);
-    formContext.ui.tabs.get("tab_Events").setVisible(!isNew);
+
     if(isNew){
         formContext.ui.tabs.get("tab_Details").sections.get("tab_Details_section_Indigenous").setVisible(false);
     }

@@ -47,7 +47,7 @@
     </fetchxml>
     <IntroducedVersion>1.77.1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="IEC Organizations" languagecode="1033" />
+      <LocalizedName description="*IEC Organizations" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
