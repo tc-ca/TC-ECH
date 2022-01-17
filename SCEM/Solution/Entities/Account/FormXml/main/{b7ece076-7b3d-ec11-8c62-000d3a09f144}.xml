@@ -5,14 +5,14 @@
     <IntroducedVersion>1.26.1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form showImage="true" shownavigationbar="true" maxWidth="1900" headerdensity="HighWithControls">
+    <form showImage="true" shownavigationbar="false" maxWidth="1900" headerdensity="HighWithControls">
       <ancestor id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       <hiddencontrols>
         <data id="address1_addressid" datafieldname="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="tab_General" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{e6255aa6-cb2e-4b14-bd94-6329b0913067}">
+        <tab name="tab_General" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" labelid="{e6255aa6-cb2e-4b14-bd94-6329b0913067}">
           <labels>
             <label description="Summary" languagecode="1033" />
           </labels>
@@ -86,6 +86,7 @@
         <tab name="tab_Details" id="{c7ddad2c-0159-c078-0388-ae7aecd16441}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Details" languagecode="1033" />
+            <label description="détails" languagecode="1036" />
           </labels>
           <columns>
             <column width="50%">
@@ -243,6 +244,7 @@
         <tab name="tab_Address" id="{a8bde86a-20ae-aac8-0e3d-6a65ece0adcb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Address" languagecode="1033" />
+            <label description="Adresse" languagecode="1036" />
           </labels>
           <columns>
             <column width="50%">
@@ -504,55 +506,6 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Connections" id="{cecdb114-4654-ad1b-6750-7295e01d9200}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{0a133dcf-9c5f-4730-aa0d-1db6aeec54b7}">
-          <labels>
-            <label description="Connected Contacts" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{eb4361d1-0d64-da74-9171-5dc1a2107240}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{9f605dd9-dc06-48ad-9e39-b8a8324944a7}">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{298497a1-0d98-b08b-91cd-6b0464d643de}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{65aec71e-bd41-4d94-a5ea-156fabd86958}">
-                        <labels>
-                          <label description="Connections (Connected From)" languagecode="1033" />
-                          <label description="Connexions" languagecode="1036" />
-                        </labels>
-                        <control id="connectionGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{346ae63e-4aad-a172-a03d-943c886503b3}">
-                          <parameters>
-                            <ViewId>{D0526B31-D7C8-E811-8B96-00155DDC0400}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>account_connections1</RelationshipName>
-                            <TargetEntityType>connection</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F},{D0526B31-D7C8-E811-8B96-00155DDC0400}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
         <tab name="tab_Files" id="{5240e6be-ed06-8050-7115-ba225c7a4a13}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{b470a269-2bf7-4591-8b66-083cde1eaed2}">
           <labels>
             <label description="Files" languagecode="1033" />
@@ -587,57 +540,6 @@
                             <IsUserChart>false</IsUserChart>
                             <EnableChartPicker>false</EnableChartPicker>
                             <RecordsPerPage>10</RecordsPerPage>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_Events" id="{280a2ab1-2ecd-4c7c-99ce-24b3c43baa51}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
-          <labels>
-            <label description="Events" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_4_events" showlabel="false" showbar="false" locklevel="0" id="{8e0c61c4-9065-04dc-587a-465d1e627679}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Events" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{9b6643d4-d9b0-53c5-3979-a9ee60347b94}" showlabel="true" colspan="1" auto="false" rowspan="7">
-                        <labels>
-                          <label description="Events (Organization)" languagecode="1033" />
-                          <label description="Événements" languagecode="1036" />
-                        </labels>
-                        <control id="Events" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <ViewId>{08CAD00D-277A-449D-907D-3852906AC450}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>tc_YYEvent_Account_Account</RelationshipName>
-                            <TargetEntityType>tc_yyevent</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>true</EnableViewPicker>
-                            <ViewIds />
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId>{28D88C08-BBC1-E811-80E8-005056812059}</VisualizationId>
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
                           </parameters>
                         </control>
                       </cell>

@@ -47,7 +47,7 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="S&amp;S Organizations" languagecode="1033" />
+      <LocalizedName description="*S&amp;S Organizations" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
