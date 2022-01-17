@@ -93,9 +93,9 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_safety").setVisible(isSafety);
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_engagement").setVisible(isEngagement);
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_indigenous").setVisible(isIndigenous);
-    formContext.ui.tabs.get("tab_Participants").sections.get("TabParticipants_StakeholdersAttendee").setVisible(isCommittees && isNew);
-    formContext.ui.tabs.get("tab_Participants").sections.get("tabParticipants_TCAttendee").setVisible(isCommittees && isNew);
-    formContext.ui.tabs.get("tabGeneral").sections.get("Contact_Person_Sender").setVisible(isCommittees && isNew);
+    formContext.ui.tabs.get("tab_Participants").sections.get("TabParticipants_StakeholdersAttendee").setVisible(isCommittees && !isNew);
+    formContext.ui.tabs.get("tab_Participants").sections.get("tabParticipants_TCAttendee").setVisible(isCommittees && !isNew);
+    formContext.ui.tabs.get("tabGeneral").sections.get("Contact_Person_Sender").setVisible(isCommittees && !isNew);
 
 
     
