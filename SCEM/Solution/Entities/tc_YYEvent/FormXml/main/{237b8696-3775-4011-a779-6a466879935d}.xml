@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
+        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="false" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -712,7 +712,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Participants" id="{ba41d301-eac9-79d4-5298-9157c63774ea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tab_Participants" id="{ba41d301-eac9-79d4-5298-9157c63774ea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Participants" languagecode="1033" />
           </labels>
@@ -1227,6 +1227,23 @@
                     </row>
                   </rows>
                 </section>
+                <section name="tab_Equipment_section_Comments" showlabel="true" showbar="false" locklevel="0" id="{02708a86-dd59-5047-2106-082990945258}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Comments" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5bea0373-363d-c090-9e5c-13c74813b9d2}" showlabel="false" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                        </labels>
+                        <control id="tc_equipmentcomments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_equipmentcomments" disabled="false" uniqueid="{cca0d53e-a141-e0c2-2950-8123ce3ebacd}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -1700,7 +1717,7 @@
         </tab>
         <tab name="tab_Logisitics" id="{94c29a52-6a55-8ded-9bd3-eb7e28ab2d89}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
           <labels>
-            <label description="Logisitics" languagecode="1033" />
+            <label description="Logistics" languagecode="1033" />
             <label description="Planification" languagecode="1036" />
           </labels>
           <columns>

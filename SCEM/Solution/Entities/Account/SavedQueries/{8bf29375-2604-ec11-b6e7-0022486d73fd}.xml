@@ -11,13 +11,17 @@
       <grid name="resultset" jump="name" select="1" preview="1" icon="1">
         <row name="result" id="accountid">
           <cell name="name" width="150" />
-          <cell name="tc_region" width="100" disableSorting="1" />
           <cell name="address1_city" width="100" />
+          <cell name="tc_region" width="100" disableSorting="1" />
           <cell name="tc_oppaccounttypeid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="a_3bef9b6c5debe911a812000d3af42c56.tc_categorycd" width="100" disableSorting="1" />
           <cell name="ownerid" width="100" />
+          <cell name="owningbusinessunit" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="modifiedby" width="100" />
           <cell name="tc_lastengagement" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="tc_lastengagementdate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_lastengagementregion" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -41,6 +45,10 @@
               <condition attribute="name" operator="eq" value="SafSec" />
             </filter>
           </link-entity>
+          <attribute name="tc_lastengagementregion" />
+          <attribute name="owningbusinessunit" />
+          <attribute name="modifiedby" />
+          <attribute name="createdby" />
           <attribute name="accountid" />
         </entity>
       </fetch>
