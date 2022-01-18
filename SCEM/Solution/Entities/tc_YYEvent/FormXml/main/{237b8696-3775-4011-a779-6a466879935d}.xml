@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="false" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
+        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -191,12 +191,12 @@
                         </labels>
                         <control id="tc_startdte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
                       </cell>
-                      <cell id="{39328cd2-a9b0-75ee-17ae-720e0464d913}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{23b20c86-5540-377c-c95c-d721805ccd69}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Contact Person/Sender" languagecode="1033" />
-                          <label description="Contact/Envoyeur" languagecode="1036" />
+                          <label description="TC Lead" languagecode="1033" />
+                          <label description="Responsable de TC" languagecode="1036" />
                         </labels>
-                        <control id="tc_nameofsender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_nameofsender" disabled="false" uniqueid="{7be6e657-ade2-46ca-4404-ad0d9db3ab05}" />
+                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" />
                       </cell>
                       <cell id="{f127a302-eb86-4a46-84ab-a78478bc70a6}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -214,19 +214,17 @@
                         </labels>
                         <control id="tc_enddte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
                       </cell>
-                      <cell id="{23b20c86-5540-377c-c95c-d721805ccd69}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="TC Lead" languagecode="1033" />
-                          <label description="Responsable de TC" languagecode="1036" />
-                        </labels>
-                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" />
-                      </cell>
                       <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Topics of interest " languagecode="1033" />
                           <label description="Sujets d'intérêt (description)" languagecode="1036" />
                         </labels>
-                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" />
+                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" uniqueid="{b0d02612-289c-8959-42d6-2884dde2937a}" />
+                      </cell>
+                      <cell id="{7739a838-cadd-eb83-d1b9-85c216c5a164}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -712,7 +710,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Participants" id="{ba41d301-eac9-79d4-5298-9157c63774ea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tab_Participants" id="{ba41d301-eac9-79d4-5298-9157c63774ea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Participants" languagecode="1033" />
           </labels>
