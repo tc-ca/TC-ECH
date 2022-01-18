@@ -685,6 +685,11 @@
               <Description description="Confiance" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Medium" languagecode="1033" />
@@ -758,6 +763,11 @@
               <Description description="Contexte" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Low" languagecode="1033" />
@@ -837,6 +847,11 @@
               <Description description="Durée" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Short Term" languagecode="1033" />
@@ -922,6 +937,11 @@
               <Description description="Étendue" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Local" languagecode="1033" />
@@ -1013,6 +1033,11 @@
               <Description description="Fréquence" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Intermittent" languagecode="1033" />
@@ -1339,6 +1364,16 @@
               <Description description="Type d’incidence de droit" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="Cultural/Spiritual" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="100000001">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010004" Color="#0000ff">
                 <labels>
                   <label description="Access to Potential Rights" languagecode="1033" />
@@ -1442,6 +1477,11 @@
               <Description description="Magnitude de l’incidence" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Low" languagecode="1033" />
@@ -1560,6 +1600,11 @@
               <Description description="Probabilité" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Medium" languagecode="1033" />
@@ -1680,6 +1725,11 @@
               <Description description="Réversibilité" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Irreversible" languagecode="1033" />
@@ -1747,6 +1797,11 @@
               <Description description="Gravité" languagecode="1036" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="No Data" languagecode="1033" />
+                </labels>
+              </option>
               <option value="948010000" Color="#0000ff">
                 <labels>
                   <label description="Low" languagecode="1033" />
