@@ -93,9 +93,9 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_safety").setVisible(isSafety);
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_engagement").setVisible(isEngagement);
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_indigenous").setVisible(isIndigenous);
-    formContext.ui.tabs.get("tab_Participants").sections.get("TabParticipants_StakeholdersAttendee").setVisible(isCommittees && !isNew);
-    formContext.ui.tabs.get("tab_Participants").sections.get("tabParticipants_TCAttendee").setVisible(isCommittees && !isNew);
-    formContext.ui.tabs.get("tabGeneral").sections.get("Contact_Person_Sender").setVisible(isCommittees && !isNew);
+    formContext.ui.tabs.get("tab_Participants").sections.get("TabParticipants_StakeholdersAttendee").setVisible(isCommittees);
+    //formContext.ui.tabs.get("tab_Participants").sections.get("tabParticipants_TCAttendee").setVisible(isCommittees && !isNew);
+    formContext.ui.tabs.get("tabGeneral").sections.get("Contact_Person_Sender").setVisible(!isNew);
 
 
     
@@ -108,13 +108,14 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tabAdministration").setVisible(isSafety);
     formContext.ui.tabs.get("tabApproval").setVisible(isSafety);
     formContext.ui.tabs.get("tabAssessment").setVisible(isSafety);
+    formContext.ui.tabs.get("tab_Participants").setVisible(!isNew);
 
     formContext.ui.tabs.get("tab_Logisitics").setVisible(isCommittees);
     formContext.ui.tabs.get("tab_Materials").setVisible(isCommittees);
     formContext.ui.tabs.get("tab_Survey").setVisible(isCommittees);
     formContext.ui.tabs.get("tab_Travel").setVisible(isCommittees);
     formContext.ui.tabs.get("tab_Equipment").setVisible(isCommittees);
-    formContext.ui.tabs.get("tab_Participants").setVisible(isCommittees);
+    //formContext.ui.tabs.get("tab_Participants").setVisible(isCommittees);
 
     if (!isOPP) {
         formContext.getAttribute("tc_startdte").setRequiredLevel("none")
