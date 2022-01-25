@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions />
+  <CustomActions>
+    <HideCustomAction HideActionId="tc.Mscrm.Form.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.account.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.account.DocumentTemplate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.account.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.account.Flows.RefreshCommandBar" />
+  </CustomActions>
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>
