@@ -513,7 +513,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="ref_pan_tab_Agreements_section_2" showlabel="false" showbar="false" locklevel="0" id="{d470ceca-d665-de1a-e9a5-96388b5d230b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="25" autoexpand="false">
+                <section name="ref_pan_tab_Agreements_section_2" showlabel="false" showbar="false" locklevel="0" id="{d470ceca-d665-de1a-e9a5-96388b5d230b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" rowheight="25" autoexpand="false" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
@@ -524,7 +524,7 @@
                           <label description="Organization Agreements (Organization)" languagecode="1033" />
                           <label description="Ententes d’organisation" languagecode="1036" />
                         </labels>
-                        <control id="tab_Agreements" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}">
+                        <control id="subgrid_Agreements" classid="{02D4264B-47E2-4B4C-AA95-F439F3F4D458}" uniqueid="{d52612c6-536e-c3ea-e1c8-4605b3c9adca}">
                           <parameters>
                             <ViewId>{ECE93FEA-0726-4B1D-86FA-21DC5FA6D943}</ViewId>
                             <IsUserView>false</IsUserView>

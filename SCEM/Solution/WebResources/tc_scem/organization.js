@@ -12,7 +12,20 @@ function onformload(executionContext) {
     if(isNew){
         formContext.ui.tabs.get("tab_Details").sections.get("tab_Details_section_Indigenous").setVisible(false);
     }
-    
+    //var AgreementsCount = Xrm.Page.getControl("subgrid_Agreements").getGrid().getTotalRecordCount();
+    //formContext.ui.tabs.get("tab_Agreements").setLabel("Agreements(" + AgreementsCount + ")");
+    var orgid=formContext.data.entity.getId();
+    Xrm.WebApi.retrieveMultipleRecords("tc_yyorganizationagreement", "?$select=tc_agreementnm&$filter=_tc_organizationid_value%20eq%20%27" + orgid + "%27").then(
+        function success(result) {   
+            if(result.entities.length>0){     
+                formContext.ui.tabs.get("tab_Agreements").setLabel("Agreements(" + result.entities.length + ")");
+            }
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
+    );
 
 }
 function orgtype_onchange(executionContext) {
