@@ -803,6 +803,70 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
+              <option value="100000000">
+                <labels>
+                  <label description="Community    Information Toronto/Findhelp Information Services" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Community    Information Toronto/Findhelp Information Services" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="100000001">
+                <labels>
+                  <label description="Community Microskills Development Centre" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Community Microskills Development Centre" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="100000002">
+                <labels>
+                  <label description="Conestoga College Institute of Technology and Advanced Learning" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Conestoga College Institute of Technology and Advanced Learning" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="100000003">
+                <labels>
+                  <label description="Community    Information Toronto/Findhelp Information Services" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Community    Information Toronto/Findhelp Information Services" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="100000004">
+                <labels>
+                  <label description="Community Microskills Development Centre" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Community Microskills Development Centre" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="100000005">
+                <labels>
+                  <label description="Conestoga College Institute of Technology and Advanced Learning" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Conestoga College Institute of Technology and Advanced Learning" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="100000006">
+                <labels>
+                  <label description="Confederation Court Community House" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Confederation Court Community House" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="100000007">
+                <labels>
+                  <label description="COSTI Immigrant Services" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="COSTI Immigrant Services" languagecode="1033" />
+                </Descriptions>
+              </option>
               <option value="948010000" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="G" languagecode="1033" />
@@ -948,6 +1012,46 @@
             <Description description="JSON representation of documents associated with this case" languagecode="1033" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_owner_org">
+          <Type>nvarchar</Type>
+          <Name>tc_owner_org</Name>
+          <LogicalName>tc_owner_org</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.174.1.2</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Owner Organization" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="tc_owner_org_title">
           <Type>nvarchar</Type>
           <Name>tc_owner_org_title</Name>
@@ -980,7 +1084,7 @@
           <IsLocalizable>0</IsLocalizable>
           <Format>text</Format>
           <MaxLength>100</MaxLength>
-          <Length>200</Length>
+          <Length>400</Length>
           <displaynames>
             <displayname description="Department" languagecode="1033" />
           </displaynames>
