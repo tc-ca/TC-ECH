@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
+        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="false" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -710,7 +710,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Participants" id="{ba41d301-eac9-79d4-5298-9157c63774ea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tab_Participants" id="{ba41d301-eac9-79d4-5298-9157c63774ea}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Participants" languagecode="1033" />
           </labels>
@@ -1609,10 +1609,10 @@
                     <row>
                       <cell id="{75dac320-4a50-1a6e-49b6-269d470a68c2}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="number of people engaged" languagecode="1033" />
+                          <label description="Number of people engaged" languagecode="1033" />
                           <label description="nombre de participants rencontrés" languagecode="1036" />
                         </labels>
-                        <control id="tc_numberofpeopleengaged" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_numberofpeopleengaged" disabled="false" />
+                        <control id="tc_numberofpeopleengaged" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_numberofpeopleengaged" disabled="false" uniqueid="{ed583ebb-ba11-5acb-c5c7-dc276a6ecd5d}" />
                       </cell>
                       <cell id="{e9cb7d13-d06c-661e-c7b7-089de32ce9a6}" showlabel="true" locklevel="0">
                         <labels>
