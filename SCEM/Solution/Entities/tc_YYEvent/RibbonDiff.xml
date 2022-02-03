@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CustomActions>
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.Activate.Hide" Location="Mscrm.Form.tc_yyevent.Activate" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.Assign.Hide" Location="Mscrm.Form.tc_yyevent.Assign" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.Deactivate.Hide" Location="Mscrm.Form.tc_yyevent.Deactivate" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.tc_yyevent.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.Permissions.Sharing.Hide" Location="Mscrm.Form.tc_yyevent.Permissions.Sharing" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.Reports.Hide" Location="Mscrm.Form.tc_yyevent.Reports" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.WordTemplate.Hide" Location="Mscrm.Form.tc_yyevent.WordTemplate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Activate.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Activate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Assign.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Assign" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Deactivate.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Deactivate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.DocumentTemplate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.ExportSelectedToExcel.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.ExportSelectedToExcel" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.ExportToExcel.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.ExportToExcel" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Import.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Import" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.RunReport.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.RunReport" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Sharing.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Sharing" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.WordTemplate.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.WordTemplate" />
     <CustomAction Id="tc.tc_yyevent.Button2.Button.CustomAction" Location="Mscrm.Form.tc_yyevent.MainTab.Save.Controls._children" Sequence="38">
       <CommandUIDefinition>
         <Button Command="tc.tc_yyevent.Command1.CloneRecord" Id="tc.tc_yyevent.Button2.Button" LabelText="$LocLabels:tc.tc_yyevent.Button2.Button.LabelText" Sequence="38" TemplateAlias="o1" ModernImage="$webresource:tc_/Core/CloneIcon.svg" />

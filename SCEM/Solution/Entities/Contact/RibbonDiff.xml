@@ -28,6 +28,8 @@
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Import.Hide" Location="Mscrm.HomepageGrid.contact.Import" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.contact.ImportDataFromExcel" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.contact.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.MergeRecords.Hide" Location="Mscrm.HomepageGrid.contact.MergeRecords" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.QuickCampaign.Hide" Location="Mscrm.HomepageGrid.contact.QuickCampaign" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.RunReport.Hide" Location="Mscrm.HomepageGrid.contact.RunReport" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Sharing.Hide" Location="Mscrm.HomepageGrid.contact.Sharing" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.contact.UnfollowButton" />
