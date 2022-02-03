@@ -1,6 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions />
+  <CustomActions>
+    <HideCustomAction HideActionId="tc.adx.contact.Form.ChangePassword.Button.Hide" Location="adx.contact.Form.ChangePassword.Button" />
+    <HideCustomAction HideActionId="tc.adx.contact.Form.ChangePasswordFlow.Button.Hide" Location="adx.contact.Form.ChangePasswordFlow.Button" />
+    <HideCustomAction HideActionId="tc.adx.contact.Homepage.ChangePassword.Button.Hide" Location="adx.contact.Homepage.ChangePassword.Button" />
+    <HideCustomAction HideActionId="tc.adx.contact.Homepage.ChangePasswordFlow.Button.Hide" Location="adx.contact.Homepage.ChangePasswordFlow.Button" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.Activate.Hide" Location="Mscrm.Form.contact.Activate" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.AddConnection.Hide" Location="Mscrm.Form.contact.AddConnection" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.AddToList.Hide" Location="Mscrm.Form.contact.AddToList" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.Assign.Hide" Location="Mscrm.Form.contact.Assign" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.Deactivate.Hide" Location="Mscrm.Form.contact.Deactivate" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.FollowButton.Hide" Location="Mscrm.Form.contact.FollowButton" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.Permissions.Sharing.Hide" Location="Mscrm.Form.contact.Permissions.Sharing" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.RefreshModernButton.Hide" Location="Mscrm.Form.contact.RefreshModernButton" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.Reports.Hide" Location="Mscrm.Form.contact.Reports" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.UnfollowButton.Hide" Location="Mscrm.Form.contact.UnfollowButton" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.contact.WordTemplate.Hide" Location="Mscrm.Form.contact.WordTemplate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Activate.Hide" Location="Mscrm.HomepageGrid.contact.Activate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Assign.Hide" Location="Mscrm.HomepageGrid.contact.Assign" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Deactivate.Hide" Location="Mscrm.HomepageGrid.contact.Deactivate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.contact.DocumentTemplate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.ExportSelectedToExcel.Hide" Location="Mscrm.HomepageGrid.contact.ExportSelectedToExcel" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.ExportToExcel.Hide" Location="Mscrm.HomepageGrid.contact.ExportToExcel" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.FollowButton.Hide" Location="Mscrm.HomepageGrid.contact.FollowButton" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Import.Hide" Location="Mscrm.HomepageGrid.contact.Import" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.contact.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.contact.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.RunReport.Hide" Location="Mscrm.HomepageGrid.contact.RunReport" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Sharing.Hide" Location="Mscrm.HomepageGrid.contact.Sharing" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.contact.UnfollowButton" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.WordTemplate.Hide" Location="Mscrm.HomepageGrid.contact.WordTemplate" />
+  </CustomActions>
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>

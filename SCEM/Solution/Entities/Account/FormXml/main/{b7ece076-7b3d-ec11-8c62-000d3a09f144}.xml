@@ -83,7 +83,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Details" id="{c7ddad2c-0159-c078-0388-ae7aecd16441}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tab_Details" id="{c7ddad2c-0159-c078-0388-ae7aecd16441}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Details" languagecode="1033" />
             <label description="détails" languagecode="1036" />
@@ -144,6 +144,14 @@
                           <label description="Transportation Mode" languagecode="1033" />
                         </labels>
                         <control id="tc_transportationmode" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_transportationmode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9c69a5a-38a7-1129-8485-acbce125257d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Program Area" languagecode="1033" />
+                        </labels>
+                        <control id="tc_programarea" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_programarea" disabled="false" />
                       </cell>
                     </row>
                     <row>
