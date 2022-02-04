@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.94.0.0</Version>
+    <Version>1.95.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -205,6 +205,7 @@
       <RootComponent type="20" id="{c5f2bed0-1d04-ec11-b6e7-0022486d73fd}" behavior="0" />
       <RootComponent type="20" id="{ed3e1428-a915-e811-8140-000c2958e3a5}" behavior="0" />
       <RootComponent type="29" id="{391669b2-5b42-ec11-8c62-000d3a09f086}" behavior="0" />
+      <RootComponent type="29" id="{5857ea90-ab60-43a0-8c77-d612581f294e}" behavior="0" />
       <RootComponent type="29" id="{5d7949b5-3bf3-4032-a313-eaf2985b1921}" behavior="0" />
       <RootComponent type="29" id="{858ef987-3f22-e911-80ee-005056810268}" behavior="0" />
       <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />

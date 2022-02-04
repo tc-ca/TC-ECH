@@ -12,13 +12,10 @@
         <row name="result" id="accountid">
           <cell name="name" width="300" />
           <cell name="tc_region" width="100" disableSorting="1" />
-          <cell name="address1_city" width="100" />
           <cell name="tc_oppaccounttypeid" width="100" />
           <cell name="a_3bef9b6c5debe911a812000d3af42c56.tc_categorycd" width="100" disableSorting="1" />
           <cell name="ownerid" width="100" />
-          <cell name="owningbusinessunit" width="100" />
-          <cell name="createdby" width="100" />
-          <cell name="modifiedby" width="100" />
+          <cell name="tc_programarea" width="100" disableSorting="1" />
           <cell name="tc_lastengagement" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="tc_lastengagementdate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
@@ -29,7 +26,6 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="account">
           <attribute name="name" />
-          <attribute name="address1_city" />
           <attribute name="tc_oppaccounttypeid" />
           <attribute name="ownerid" />
           <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" alias="a_3bef9b6c5debe911a812000d3af42c56">
@@ -41,9 +37,7 @@
           <attribute name="tc_lastengagementdate" />
           <attribute name="tc_lastengagement" />
           <attribute name="tc_region" />
-          <attribute name="owningbusinessunit" />
-          <attribute name="modifiedby" />
-          <attribute name="createdby" />
+          <attribute name="tc_programarea" />
           <attribute name="accountid" />
         </entity>
       </fetch>
