@@ -155,6 +155,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{4b46c3b8-23e3-66a6-65d8-3bb03295963a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Proponent" languagecode="1033" />
+                        </labels>
+                        <control id="tc_proponent" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_proponent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{0d68e7d4-3210-11b0-0e64-c02cac946abb}" showlabel="true" locklevel="0" rowspan="3" labelid="{9953d297-be30-4183-b6c1-2c0ee6d4dc4b}">
                         <labels>
                           <label description="Description" languagecode="1033" />
