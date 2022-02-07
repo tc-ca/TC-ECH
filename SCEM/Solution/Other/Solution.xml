@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22013.132" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22014.127" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>SCEM</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.95.0.0</Version>
+    <Version>1.96.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -140,6 +140,7 @@
       <RootComponent type="1" schemaName="contact" behavior="0" />
       <RootComponent type="1" schemaName="report" behavior="1" />
       <RootComponent type="1" schemaName="systemuser" behavior="2" />
+      <RootComponent type="1" schemaName="tc_address" behavior="0" />
       <RootComponent type="1" schemaName="tc_aystakeholdergroup" behavior="0" />
       <RootComponent type="1" schemaName="tc_businessprocessflowevent" behavior="0" />
       <RootComponent type="1" schemaName="tc_contact_yyevent" behavior="0" />

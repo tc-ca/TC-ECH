@@ -20,6 +20,7 @@
     <RolePrivilege name="prvAppendPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendReport" level="Basic" />
     <RolePrivilege name="prvAppendSharePointDocumentLocation" level="Global" />
+    <RolePrivilege name="prvAppendtc_address" level="Deep" />
     <RolePrivilege name="prvAppendtc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvAppendtc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvAppendtc_AYStakeholderGroup" level="Deep" />
@@ -71,6 +72,7 @@
     <RolePrivilege name="prvAppendToPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendToReport" level="Basic" />
     <RolePrivilege name="prvAppendToSharePointDocumentLocation" level="Global" />
+    <RolePrivilege name="prvAppendTotc_address" level="Deep" />
     <RolePrivilege name="prvAppendTotc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvAppendTotc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvAppendTotc_AYStakeholderGroup" level="Deep" />
@@ -116,6 +118,7 @@
     <RolePrivilege name="prvAssignPersonalDocumentTemplate" level="Global" />
     <RolePrivilege name="prvAssignReport" level="Basic" />
     <RolePrivilege name="prvAssignSharePointDocumentLocation" level="Global" />
+    <RolePrivilege name="prvAssigntc_address" level="Deep" />
     <RolePrivilege name="prvAssigntc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvAssigntc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvAssigntc_AYStakeholderGroup" level="Deep" />
@@ -165,6 +168,7 @@
     <RolePrivilege name="prvCreateReport" level="Basic" />
     <RolePrivilege name="prvCreateSharePointData" level="Global" />
     <RolePrivilege name="prvCreateSharePointDocumentLocation" level="Global" />
+    <RolePrivilege name="prvCreatetc_address" level="Deep" />
     <RolePrivilege name="prvCreatetc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvCreatetc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvCreatetc_AYStakeholderGroup" level="Deep" />
@@ -253,6 +257,7 @@
     <RolePrivilege name="prvReadSharePointData" level="Global" />
     <RolePrivilege name="prvReadSharePointDocument" level="Global" />
     <RolePrivilege name="prvReadSharePointDocumentLocation" level="Global" />
+    <RolePrivilege name="prvReadtc_address" level="Deep" />
     <RolePrivilege name="prvReadtc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvReadtc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvReadtc_AYStakeholderGroup" level="Deep" />
@@ -350,6 +355,7 @@
     <RolePrivilege name="prvWriteReport" level="Basic" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
     <RolePrivilege name="prvWriteSharePointDocumentLocation" level="Global" />
+    <RolePrivilege name="prvWritetc_address" level="Deep" />
     <RolePrivilege name="prvWritetc_AYContactGroupMember" level="Deep" />
     <RolePrivilege name="prvWritetc_AYOrganizationGroupMember" level="Deep" />
     <RolePrivilege name="prvWritetc_AYStakeholderGroup" level="Deep" />

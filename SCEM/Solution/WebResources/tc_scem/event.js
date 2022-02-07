@@ -109,6 +109,7 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tabApproval").setVisible(isSafety);
     formContext.ui.tabs.get("tabAssessment").setVisible(isSafety);
     formContext.ui.tabs.get("tab_Participants").setVisible(!isNew);
+	formContext.ui.tabs.get("tab_Address").setVisible(!isNew);
 
     formContext.ui.tabs.get("tab_Logisitics").setVisible(isCommittees);
     formContext.ui.tabs.get("tab_Materials").setVisible(isCommittees);
@@ -121,7 +122,7 @@ function refreshsection(formContext) {
         formContext.getAttribute("tc_startdte").setRequiredLevel("none")
         formContext.getAttribute("tc_enddte").setRequiredLevel("none")
     }
-    if (!isSafety) {
-        formContext.getAttribute("tc_citynm").setRequiredLevel("none")
-    }
+    //if (!isSafety) {
+        //formContext.getAttribute("tc_citynm").setRequiredLevel("none")
+    //}
 }
