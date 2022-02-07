@@ -257,13 +257,13 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Address" id="{a8bde86a-20ae-aac8-0e3d-6a65ece0adcb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tab_Address" id="{a8bde86a-20ae-aac8-0e3d-6a65ece0adcb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
             <label description="Address" languagecode="1033" />
             <label description="Adresse" languagecode="1036" />
           </labels>
           <columns>
-            <column width="50%">
+            <column width="67%">
               <sections>
                 <section name="SUMMARY_TAB_section_4" showlabel="false" showbar="false" locklevel="0" id="{73c5dcb9-2d6a-c90e-48ab-6ebe94e23285}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{18331de8-30f2-469d-bd29-8b9675c09358}">
                   <labels>
@@ -271,113 +271,48 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{216215a8-b88d-95bc-93c2-81a2a5ed665d}" showlabel="true" locklevel="0" labelid="{08f395ca-613d-4a63-bff4-015d0f84af9b}">
+                      <cell id="{eeca8135-1959-9a89-b02c-760b2b594d44}" showlabel="false" colspan="1" auto="false" rowspan="12">
                         <labels>
-                          <label description="Country" languagecode="1033" />
-                          <label description="Adresse 1 : Pays/région" languagecode="1036" />
+                          <label description="Addresses (Organization)" languagecode="1033" />
+                          <label description="Adresses" languagecode="1036" />
                         </labels>
-                        <control id="address1_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_country" disabled="false" uniqueid="{5344b6ec-d646-93b5-5e4d-88d4d4dc13ed}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{0de8d430-de19-cbcb-ba20-dd3a60ce0942}" showlabel="true" locklevel="0" labelid="{94a2cf91-c90e-4ec3-b793-be11c3eaccdc}">
-                        <labels>
-                          <label description="State/Province" languagecode="1033" />
-                          <label description="Adresse 1 : Département/province" languagecode="1036" />
-                        </labels>
-                        <control id="address1_stateorprovince" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_stateorprovince" disabled="false" uniqueid="{89829903-cd54-6504-c262-6b6ed33b1e08}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{9a15e87a-d567-1b75-4d21-4e3634a4ea28}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Regions" languagecode="1033" />
-                        </labels>
-                        <control id="tc_region" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_region" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{531733bd-03e1-d493-49b7-6066acade890}" showlabel="true" locklevel="0" labelid="{c08073ce-a2f2-435d-9a08-bbe395e1baf7}">
-                        <labels>
-                          <label description="Address" languagecode="1033" />
-                          <label description="Adresse 1 : Rue 1" languagecode="1036" />
-                        </labels>
-                        <control id="address1_line1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" uniqueid="{ce045658-3075-e81e-9eea-5710a040132a}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{3b3a0925-8239-96aa-84dd-58231e12e59c}" showlabel="true" locklevel="0" labelid="{620507a6-4c3e-4464-a3e6-6cb28f10c8c6}">
-                        <labels>
-                          <label description="City" languagecode="1033" />
-                          <label description="Adresse 1 : Ville" languagecode="1036" />
-                        </labels>
-                        <control id="address1_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" uniqueid="{cd44331c-5bb0-db68-6382-892371da43b5}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4996b6a4-6943-7088-3c40-d17a2d253206}" showlabel="true" locklevel="0" labelid="{017a6fe7-e951-4de3-9126-61e51b63c120}" visible="false">
-                        <labels>
-                          <label description="Address 1: Street 2" languagecode="1033" />
-                          <label description="Adresse 1 : Rue 2" languagecode="1036" />
-                        </labels>
-                        <control id="address1_line2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line2" disabled="false" uniqueid="{ee532b5c-d774-d543-152d-086d6d991122}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{18aa8bd4-7e72-dc6d-6c8c-9c5963cce46a}" showlabel="true" locklevel="0" labelid="{c831892d-e80f-464c-8a90-74e02fe956af}">
-                        <labels>
-                          <label description="ZIP/Postal Code" languagecode="1033" />
-                          <label description="Adresse 1 : Code postal" languagecode="1036" />
-                        </labels>
-                        <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" uniqueid="{01191d0d-812c-443d-8938-9d7dc45a47e8}" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="ADDRESS" showlabel="false" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" celllabelalignment="Left" height="auto" labelid="{6d01ba4f-dc2e-4365-b17e-082ada2b8553}">
-                  <labels>
-                    <label description="Address" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="true" locklevel="0" labelid="{91bf08b5-fda0-4f19-8eba-c93d30de264b}" visible="false">
-                        <labels>
-                          <label description="Address 1" languagecode="1033" />
-                          <label description="Adresse 1" languagecode="1036" />
-                        </labels>
-                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" uniqueid="{b8a72707-4050-1891-e6e6-30023880255e}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4c4307be-b0d4-24db-308a-5e9197a9934c}" showlabel="false" colspan="1" auto="true" rowspan="2" labelid="{371db291-c3c7-4b2b-ab20-6c2e121ce1f3}">
-                        <labels>
-                          <label description="AddressValidation" languagecode="1033" />
-                        </labels>
-                        <control id="WebResource_AddressValidation" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control id="AddressSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a17e2ed1-0ba7-d5bc-b64e-5e2da4d09a05}">
                           <parameters>
-                            <Url>tc_/Core/AddressValidation/main.html</Url>
-                            <Data>{    "prefix": "address1_"}</Data>
-                            <PassParameters>false</PassParameters>
-                            <ShowOnMobileClient>false</ShowOnMobileClient>
-                            <Security>false</Security>
-                            <Scrolling>no</Scrolling>
-                            <Border>false</Border>
-                            <WebResourceId>{2B30A2A2-42D9-E811-8B96-00155DDC0400}</WebResourceId>
+                            <ViewId>{7B36AD0B-46B1-4733-BD08-A5145CCCAF3B}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_account_address</RelationshipName>
+                            <TargetEntityType>tc_address</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{7B36AD0B-46B1-4733-BD08-A5145CCCAF3B}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
                           </parameters>
                         </control>
-                        <events>
-                          <event name="onload" application="false">
-                            <dependencies />
-                          </event>
-                        </events>
                       </cell>
                     </row>
-                    <row height="auto" />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                   </rows>
                 </section>
               </sections>
             </column>
-            <column width="50%">
+            <column width="33%">
               <sections>
                 <section name="tab_5_section_2" showlabel="false" showbar="false" locklevel="0" id="{ebad6538-b8ca-8713-89d1-2bb7220200e7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
                   <labels>

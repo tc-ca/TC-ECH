@@ -4,6 +4,7 @@
   <EntityRelationship Name="adx_webrole_contact" />
   <EntityRelationship Name="adx_website_sponsor" />
   <EntityRelationship Name="bpf_tc_yyevent_tc_businessprocessflowevent" />
+  <EntityRelationship Name="business_unit_tc_address" />
   <EntityRelationship Name="business_unit_tc_aystakeholdergroup" />
   <EntityRelationship Name="business_unit_tc_contact_yyevent" />
   <EntityRelationship Name="business_unit_tc_feedbackform" />
@@ -29,6 +30,8 @@
   <EntityRelationship Name="contact_customer_contacts" />
   <EntityRelationship Name="contact_master_contact" />
   <EntityRelationship Name="contact_parent_contact" />
+  <EntityRelationship Name="lk_tc_address_createdby" />
+  <EntityRelationship Name="lk_tc_address_modifiedby" />
   <EntityRelationship Name="lk_tc_aystakeholdergroup_createdby" />
   <EntityRelationship Name="lk_tc_aystakeholdergroup_modifiedby" />
   <EntityRelationship Name="lk_tc_businessprocessflowevent_activestageid" />
@@ -84,6 +87,7 @@
   <EntityRelationship Name="msdyn_msdyn_functionallocation_account" />
   <EntityRelationship Name="organization_tc_businessprocessflowevent" />
   <EntityRelationship Name="organization_tc_dyeventlog" />
+  <EntityRelationship Name="owner_tc_address" />
   <EntityRelationship Name="owner_tc_aystakeholdergroup" />
   <EntityRelationship Name="owner_tc_contact_yyevent" />
   <EntityRelationship Name="owner_tc_feedbackform" />
@@ -106,6 +110,7 @@
   <EntityRelationship Name="owner_tc_yyevent" />
   <EntityRelationship Name="owner_tc_yyeventdetail" />
   <EntityRelationship Name="owner_tc_yyinitiative" />
+  <EntityRelationship Name="tc_account_address" />
   <EntityRelationship Name="tc_account_secondary_contact" />
   <EntityRelationship Name="tc_account_tc_tyregion" />
   <EntityRelationship Name="tc_Account_TYTag" />
@@ -126,6 +131,7 @@
   <EntityRelationship Name="tc_contact_yyeventdetail_ContactId" />
   <EntityRelationship Name="tc_Contact_YYOrganizationAgreement_ContactId" />
   <EntityRelationship Name="tc_country_eventdetail" />
+  <EntityRelationship Name="tc_event_address" />
   <EntityRelationship Name="tc_Event_Region" />
   <EntityRelationship Name="tc_EventDetail_Coordinator_Contact" />
   <EntityRelationship Name="tc_EventDetails_Contacts" />
@@ -181,6 +187,7 @@
   <EntityRelationship Name="tc_yyeventdetail_yyeventdetail_CommitmentId" />
   <EntityRelationship Name="tc_yyprovincestate_contact_ProvinceId" />
   <EntityRelationship Name="tc_yyprovincestate_yyevent_ProvinceId" />
+  <EntityRelationship Name="team_tc_address" />
   <EntityRelationship Name="team_tc_aystakeholdergroup" />
   <EntityRelationship Name="team_tc_contact_yyevent" />
   <EntityRelationship Name="team_tc_feedbackform" />
@@ -204,6 +211,7 @@
   <EntityRelationship Name="team_tc_yyeventdetail" />
   <EntityRelationship Name="team_tc_yyinitiative" />
   <EntityRelationship Name="TransactionCurrency_tc_YYEvent" />
+  <EntityRelationship Name="user_tc_address" />
   <EntityRelationship Name="user_tc_aystakeholdergroup" />
   <EntityRelationship Name="user_tc_contact_yyevent" />
   <EntityRelationship Name="user_tc_feedbackform" />

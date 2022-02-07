@@ -13,6 +13,7 @@
     <RolePrivilege name="prvAppendOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvAppendPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendReport" level="Basic" />
+    <RolePrivilege name="prvAppendtc_address" level="Deep" />
     <RolePrivilege name="prvAppendtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAppendtc_eventregion" level="Deep" />
     <RolePrivilege name="prvAppendtc_feedbackform" level="Deep" />
@@ -40,6 +41,7 @@
     <RolePrivilege name="prvAppendToOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvAppendToPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendToReport" level="Basic" />
+    <RolePrivilege name="prvAppendTotc_address" level="Deep" />
     <RolePrivilege name="prvAppendTotc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAppendTotc_eventregion" level="Deep" />
     <RolePrivilege name="prvAppendTotc_feedbackform" level="Deep" />
@@ -63,6 +65,7 @@
     <RolePrivilege name="prvAssignImportMap" level="Deep" />
     <RolePrivilege name="prvAssignPersonalDocumentTemplate" level="Global" />
     <RolePrivilege name="prvAssignReport" level="Basic" />
+    <RolePrivilege name="prvAssigntc_address" level="Deep" />
     <RolePrivilege name="prvAssigntc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvAssigntc_eventregion" level="Deep" />
     <RolePrivilege name="prvAssigntc_feedbackform" level="Deep" />
@@ -95,6 +98,7 @@
     <RolePrivilege name="prvCreatePhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvCreateReport" level="Basic" />
     <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvCreatetc_address" level="Deep" />
     <RolePrivilege name="prvCreatetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvCreatetc_eventregion" level="Deep" />
     <RolePrivilege name="prvCreatetc_feedbackform" level="Deep" />
@@ -122,6 +126,7 @@
     <RolePrivilege name="prvDeletePersonalDocumentTemplate" level="Basic" />
     <RolePrivilege name="prvDeletePhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvDeleteReport" level="Basic" />
+    <RolePrivilege name="prvDeletetc_address" level="Deep" />
     <RolePrivilege name="prvDeletetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvDeletetc_feedbackform" level="Basic" />
     <RolePrivilege name="prvDeletetc_YYEventDetail" level="Deep" />
@@ -147,6 +152,7 @@
     <RolePrivilege name="prvReadReport" level="Basic" />
     <RolePrivilege name="prvReadSharePointData" level="Global" />
     <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadtc_address" level="Deep" />
     <RolePrivilege name="prvReadtc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvReadtc_eventregion" level="Deep" />
     <RolePrivilege name="prvReadtc_feedbackform" level="Deep" />
@@ -188,6 +194,7 @@
     <RolePrivilege name="prvWritePhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvWriteReport" level="Basic" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
+    <RolePrivilege name="prvWritetc_address" level="Deep" />
     <RolePrivilege name="prvWritetc_Contact_YYEvent" level="Deep" />
     <RolePrivilege name="prvWritetc_eventregion" level="Deep" />
     <RolePrivilege name="prvWritetc_feedbackform" level="Basic" />
