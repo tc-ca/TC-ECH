@@ -676,6 +676,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Agreement End Date" languagecode="1033" />
+            <displayname description="Date de fin" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -716,6 +717,7 @@
           <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Agreement Start Date" languagecode="1033" />
+            <displayname description="Date de Début" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -926,6 +928,7 @@
           <Accuracy>2</Accuracy>
           <displaynames>
             <displayname description="Agreement Value" languagecode="1033" />
+            <displayname description="Valeur" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />

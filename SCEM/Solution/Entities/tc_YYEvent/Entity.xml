@@ -3050,7 +3050,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 approval date" languagecode="1033" />
+            <displayname description="Catering AS-05 approval date" languagecode="1033" />
             <displayname description="Date d'approbation du AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -3091,11 +3091,11 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 approval date" languagecode="1033" />
+            <displayname description="Catering AS-07 approval date" languagecode="1033" />
             <displayname description="Date d'approbation du AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Catering" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_CateringCompletiondate">
@@ -3132,11 +3132,11 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Catering Completion date" languagecode="1033" />
             <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Catering" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_CateringDGapprovaldate">
@@ -3214,11 +3214,11 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="MRS approval date" languagecode="1033" />
+            <displayname description="Catering MRS approval date" languagecode="1033" />
             <displayname description="Date d'approbation du MRS" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Catering" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_ChairpersonoftheCommitteeapprovaldate">
@@ -4423,11 +4423,11 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 Approval" languagecode="1033" />
+            <displayname description="Equipment AS-05 Approval" languagecode="1033" />
             <displayname description="Date d'approbation du AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Equipment" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_EquipmentAS07Approval">
@@ -4464,7 +4464,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 Approval" languagecode="1033" />
+            <displayname description="Equipment AS-07 Approval" languagecode="1033" />
             <displayname description="Date d'approbation du AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -4504,7 +4504,7 @@
           <Format>text</Format>
           <MaxLength>2000</MaxLength>
           <displaynames>
-            <displayname description="Comments" languagecode="1033" />
+            <displayname description="Equipment Comments" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -4544,7 +4544,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Equipment Completion date" languagecode="1033" />
             <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -4585,7 +4585,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Send contract to MRS and contracting officer" languagecode="1033" />
+            <displayname description="EQ Send contract to MRS and contracting officer" languagecode="1033" />
             <displayname description="Envoyer le contrat à MRS et à l'agent des finances" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -5516,10 +5516,10 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 approval date (EN)" languagecode="1033" />
+            <displayname description="Feedback AS-05 approval date (EN)" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Feedback" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_FSAS05approvaltargetdateEN">
@@ -5556,7 +5556,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 approval target date (EN)" languagecode="1033" />
+            <displayname description="Feedback AS-05 approval target date (EN)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -5596,7 +5596,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 approval date (EN)" languagecode="1033" />
+            <displayname description="Feedback AS-07 approval date (EN)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -5636,10 +5636,10 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 approval target date (EN)" languagecode="1033" />
+            <displayname description="Feedback AS-07 approval target date (EN)" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Feedback" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_FSCompletiondate">
@@ -5676,7 +5676,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Feedback Completion date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -7422,7 +7422,7 @@
             </options>
           </optionset>
           <displaynames>
-            <displayname description="Regions" languagecode="1033" />
+            <displayname description="Region(s)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -8588,7 +8588,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 approval date (EN)" languagecode="1033" />
+            <displayname description="Presentations AS-05 approval date (EN)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -8628,7 +8628,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 approval date (FR)" languagecode="1033" />
+            <displayname description="Presentations AS-05 approval date (FR)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -8668,7 +8668,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 approval date (EN)" languagecode="1033" />
+            <displayname description="Presentations AS-07 approval date (EN)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -8708,7 +8708,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 approval date (FR)" languagecode="1033" />
+            <displayname description="Presentations AS-07 approval date (FR)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -8748,7 +8748,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Presentations Completion date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -9299,7 +9299,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="MRS approval date (FR)" languagecode="1033" />
+            <displayname description="Presentations MRS approval date (FR)" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10681,10 +10681,10 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 approval date" languagecode="1033" />
+            <displayname description="Speaking Notes AS-05 approval date" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Speaking Notes" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_SNAS05approvaltargetdate">
@@ -10721,7 +10721,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 approval target date" languagecode="1033" />
+            <displayname description="Speaking Notes AS-05 approval target date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10761,7 +10761,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 approval date" languagecode="1033" />
+            <displayname description="Speaking Notes AS-07 approval date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10801,7 +10801,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 approval target date" languagecode="1033" />
+            <displayname description="Speaking Notes AS-07 approval target date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10841,7 +10841,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Speaking Notes Completion date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -10881,7 +10881,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="DG approval date" languagecode="1033" />
+            <displayname description="Speaking Notes DG approval date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -11913,7 +11913,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-05 Approval of the form" languagecode="1033" />
+            <displayname description="Travel AS-05 Approval of the form" languagecode="1033" />
             <displayname description="Approbation du formulaire de l'AS-05" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -11954,7 +11954,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="AS-07 Approval of the form" languagecode="1033" />
+            <displayname description="Travel AS-07 Approval of the form" languagecode="1033" />
             <displayname description="Approbation du formulaire de l'AS-07" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -11995,7 +11995,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion Date" languagecode="1033" />
+            <displayname description="Travel Claims Completion Date" languagecode="1033" />
             <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -12036,7 +12036,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Travel Completion date" languagecode="1033" />
             <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -12325,7 +12325,7 @@
           <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Completion date" languagecode="1033" />
+            <displayname description="Venue Completion date" languagecode="1033" />
             <displayname description="Date d'achèvement" languagecode="1036" />
           </displaynames>
           <Descriptions>
