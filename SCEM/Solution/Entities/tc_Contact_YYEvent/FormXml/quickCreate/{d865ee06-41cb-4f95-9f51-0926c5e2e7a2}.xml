@@ -102,6 +102,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{584a7ce6-628d-3303-4a8a-7282de582326}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="tc_role" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_role" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{e336c05a-b818-97ba-4449-6c674216b266}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Invited" languagecode="1033" />
