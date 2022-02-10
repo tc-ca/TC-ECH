@@ -18,6 +18,7 @@
     <HideCustomAction HideActionId="tc.Mscrm.Form.contact.UnfollowButton.Hide" Location="Mscrm.Form.contact.UnfollowButton" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.contact.WordTemplate.Hide" Location="Mscrm.Form.contact.WordTemplate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Activate.Hide" Location="Mscrm.HomepageGrid.contact.Activate" />
+    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.AddToList.Hide" Location="Mscrm.HomepageGrid.contact.AddToList" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Assign.Hide" Location="Mscrm.HomepageGrid.contact.Assign" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Deactivate.Hide" Location="Mscrm.HomepageGrid.contact.Deactivate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.contact.DocumentTemplate" />
