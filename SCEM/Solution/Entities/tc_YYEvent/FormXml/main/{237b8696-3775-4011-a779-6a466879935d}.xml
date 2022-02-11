@@ -146,7 +146,7 @@
                         </labels>
                         <control id="tc_eventnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventnm" uniqueid="{64e51e4b-2871-8d41-978c-38c65716239d}" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{8ad624c4-3b6f-424e-bcad-0362ec0de620}">
+                      <cell locklevel="0" id="{8ad624c4-3b6f-424e-bcad-0362ec0de620}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -184,7 +184,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{679821fb-af33-4a1f-a75e-60ed08e5b5ba}">
+                      <cell locklevel="0" id="{679821fb-af33-4a1f-a75e-60ed08e5b5ba}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -221,7 +221,7 @@
                         </labels>
                         <control id="tc_enddte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{ceb85afe-00c1-4905-8b67-e859d49ad9c2}">
+                      <cell locklevel="0" id="{ceb85afe-00c1-4905-8b67-e859d49ad9c2}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -680,19 +680,19 @@
                         </labels>
                         <control id="Contact_Person" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{8dcd74c8-02e4-bb19-483e-01340c6e8c88}">
                           <parameters>
-                            <ViewId>{00000000-0000-0000-00AA-000010001004}</ViewId>
+                            <ViewId>{E90A53CC-A18A-EC11-8D20-0022486DCDB9}</ViewId>
                             <IsUserView>false</IsUserView>
                             <RelationshipName />
-                            <TargetEntityType>contact</TargetEntityType>
+                            <TargetEntityType>tc_contact_yyevent</TargetEntityType>
                             <AutoExpand>Fixed</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
                             <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{00000000-0000-0000-00AA-000010001004},{4314ACC5-C239-E811-8141-000C2958E3A5}</ViewIds>
+                            <ViewIds>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1},{E90A53CC-A18A-EC11-8D20-0022486DCDB9}</ViewIds>
                             <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{FDCEA99A-754A-E911-80F1-005056814435}</VisualizationId>
                             <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
+                            <EnableChartPicker>false</EnableChartPicker>
                             <RecordsPerPage>4</RecordsPerPage>
                             <HeaderColorCode>#F3F3F3</HeaderColorCode>
                           </parameters>
@@ -739,19 +739,19 @@
                         </labels>
                         <control id="Contact" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{d9774ae3-6263-ed17-1d1d-671ddb81aba3}">
                           <parameters>
-                            <ViewId>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1}</ViewId>
+                            <ViewId>{EC10C435-A18A-EC11-8D20-0022486DCDB9}</ViewId>
                             <IsUserView>false</IsUserView>
                             <RelationshipName>tc_YYEvent_Contact_EventId</RelationshipName>
                             <TargetEntityType>tc_contact_yyevent</TargetEntityType>
                             <AutoExpand>Fixed</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
                             <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1}</ViewIds>
+                            <ViewIds>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1},{EC10C435-A18A-EC11-8D20-0022486DCDB9}</ViewIds>
                             <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
+                            <ChartGridMode>Grid</ChartGridMode>
                             <VisualizationId>{FDCEA99A-754A-E911-80F1-005056814435}</VisualizationId>
                             <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
+                            <EnableChartPicker>false</EnableChartPicker>
                             <RecordsPerPage>4</RecordsPerPage>
                             <HeaderColorCode>#FEF7F5</HeaderColorCode>
                           </parameters>
@@ -778,19 +778,19 @@
                         </labels>
                         <control id="StakeholdersAttendees" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{dcd914e4-a98d-2218-7152-32b630900d08}">
                           <parameters>
-                            <ViewId>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1}</ViewId>
+                            <ViewId>{583C7021-A18A-EC11-8D20-0022486DCDB9}</ViewId>
                             <IsUserView>false</IsUserView>
                             <RelationshipName>tc_YYEvent_Contact_EventId</RelationshipName>
                             <TargetEntityType>tc_contact_yyevent</TargetEntityType>
                             <AutoExpand>Fixed</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
                             <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1}</ViewIds>
+                            <ViewIds>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1},{583C7021-A18A-EC11-8D20-0022486DCDB9}</ViewIds>
                             <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
+                            <ChartGridMode>Grid</ChartGridMode>
                             <VisualizationId>{FDCEA99A-754A-E911-80F1-005056814435}</VisualizationId>
                             <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
+                            <EnableChartPicker>false</EnableChartPicker>
                             <RecordsPerPage>4</RecordsPerPage>
                             <HeaderColorCode>#F3F3F3</HeaderColorCode>
                           </parameters>
