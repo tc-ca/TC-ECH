@@ -24,15 +24,15 @@ function onformload(executionContext) {
                 var _businessunitid_value_formatted = result["_businessunitid_value@OData.Community.Display.V1.FormattedValue"];
                 var _businessunitid_value_lookuplogicalname = result["_businessunitid_value@Microsoft.Dynamics.CRM.lookuplogicalname"];
                 if (_businessunitid_value_formatted.indexOf('OPP') >= 0) {
-                    var newValues = [948010002];
-                    formContext.getAttribute("tc_programarea").setValue(newValues);
-                }
-                else if (_businessunitid_value_formatted.indexOf('IEC') >= 0) {
                     var newValues = [948010001];
                     formContext.getAttribute("tc_programarea").setValue(newValues);
                 }
-                else if (_businessunitid_value_formatted.indexOf('TDG') >= 0) {
+                else if (_businessunitid_value_formatted.indexOf('IEC') >= 0) {
                     var newValues = [948010000];
+                    formContext.getAttribute("tc_programarea").setValue(newValues);
+                }
+                else if (_businessunitid_value_formatted.indexOf('TDG') >= 0) {
+                    var newValues = [948010002];
                     formContext.getAttribute("tc_programarea").setValue(newValues);
                 }
                 else if (_businessunitid_value_formatted.indexOf('Rail') >= 0) {

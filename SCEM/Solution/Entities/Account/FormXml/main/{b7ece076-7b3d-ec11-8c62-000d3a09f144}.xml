@@ -139,6 +139,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{50037bb3-9a94-99aa-15aa-33d80ac46916}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Regions" languagecode="1033" />
+                        </labels>
+                        <control id="tc_region" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_region" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{bbbf74c4-c208-4761-a604-ea846c84227a}" locklevel="0" colspan="1" rowspan="1" labelid="{590d9de0-3c45-432c-9356-73d04d609b66}">
                         <labels>
                           <label description="Transportation Mode" languagecode="1033" />

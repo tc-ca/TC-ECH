@@ -85,6 +85,8 @@
   <EntityRelationship Name="msa_account_managingpartner" />
   <EntityRelationship Name="msa_contact_managingpartner" />
   <EntityRelationship Name="msdyn_msdyn_functionallocation_account" />
+  <EntityRelationship Name="msdyn_msdyn_segment_account" />
+  <EntityRelationship Name="msdyn_msdyn_segment_contact" />
   <EntityRelationship Name="organization_tc_businessprocessflowevent" />
   <EntityRelationship Name="organization_tc_dyeventlog" />
   <EntityRelationship Name="owner_tc_address" />
