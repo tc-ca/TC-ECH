@@ -1,59 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions>
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.Activate.Hide" Location="Mscrm.Form.account.Activate" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.AddConnection.Hide" Location="Mscrm.Form.account.AddConnection" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.AddToList.Hide" Location="Mscrm.Form.account.AddToList" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.Assign.Hide" Location="Mscrm.Form.account.Assign" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.Deactivate.Hide" Location="Mscrm.Form.account.Deactivate" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.account.Flows.RefreshCommandBar" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.FollowButton.Hide" Location="Mscrm.Form.account.FollowButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.Permissions.Sharing.Hide" Location="Mscrm.Form.account.Permissions.Sharing" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.Reports.Hide" Location="Mscrm.Form.account.Reports" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.UnfollowButton.Hide" Location="Mscrm.Form.account.UnfollowButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.ViewOrgChart.Hide" Location="Mscrm.Form.account.ViewOrgChart" />
-    <HideCustomAction HideActionId="tc.Mscrm.Form.account.WordTemplate.Hide" Location="Mscrm.Form.account.WordTemplate" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Activate.Hide" Location="Mscrm.HomepageGrid.account.Activate" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.AddToList.Hide" Location="Mscrm.HomepageGrid.account.AddToList" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Assign.Hide" Location="Mscrm.HomepageGrid.account.Assign" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Charts.Hide" Location="Mscrm.HomepageGrid.account.Charts" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Deactivate.Hide" Location="Mscrm.HomepageGrid.account.Deactivate" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.DesignView.Hide" Location="Mscrm.HomepageGrid.account.DesignView" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.account.DocumentTemplate" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.ExportSelectedToExcel.Hide" Location="Mscrm.HomepageGrid.account.ExportSelectedToExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.ExportToExcel.Hide" Location="Mscrm.HomepageGrid.account.ExportToExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.account.Flows.RefreshCommandBar" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.FollowButton.Hide" Location="Mscrm.HomepageGrid.account.FollowButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Import.Hide" Location="Mscrm.HomepageGrid.account.Import" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.account.ImportDataFromExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.account.MBPF.ConvertTo" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.MergeRecords.Hide" Location="Mscrm.HomepageGrid.account.MergeRecords" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.NewView.Hide" Location="Mscrm.HomepageGrid.account.NewView" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.QuickCampaign.Hide" Location="Mscrm.HomepageGrid.account.QuickCampaign" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.RefreshModernButton.Hide" Location="Mscrm.HomepageGrid.account.RefreshModernButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.RunReport.Hide" Location="Mscrm.HomepageGrid.account.RunReport" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.account.RunWorkflow" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.Sharing.Hide" Location="Mscrm.HomepageGrid.account.Sharing" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.account.UnfollowButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.ViewOrgChart.Hide" Location="Mscrm.HomepageGrid.account.ViewOrgChart" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.account.WordTemplate.Hide" Location="Mscrm.HomepageGrid.account.WordTemplate" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.Activate.Hide" Location="Mscrm.SubGrid.account.Activate" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.AddConnection.Hide" Location="Mscrm.SubGrid.account.AddConnection" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.AddToList.Hide" Location="Mscrm.SubGrid.account.AddToList" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.account.AdvMergeRecords" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.Assign.Hide" Location="Mscrm.SubGrid.account.Assign" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.Deactivate.Hide" Location="Mscrm.SubGrid.account.Deactivate" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.DocumentTemplate.Hide" Location="Mscrm.SubGrid.account.DocumentTemplate" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.ExportSelectedToExcel.Hide" Location="Mscrm.SubGrid.account.ExportSelectedToExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.ExportToExcel.Hide" Location="Mscrm.SubGrid.account.ExportToExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.account.Flows.RefreshCommandBar" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.FollowButton.Hide" Location="Mscrm.SubGrid.account.FollowButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.MergeRecords.Hide" Location="Mscrm.SubGrid.account.MergeRecords" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.RefreshButton.Hide" Location="Mscrm.SubGrid.account.RefreshButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.RunReport.Hide" Location="Mscrm.SubGrid.account.RunReport" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.Sharing.Hide" Location="Mscrm.SubGrid.account.Sharing" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.account.UnfollowButton.Hide" Location="Mscrm.SubGrid.account.UnfollowButton" />
-  </CustomActions>
+  <CustomActions />
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>

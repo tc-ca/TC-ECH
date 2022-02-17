@@ -13,7 +13,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="SUMMARY_TAB" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" labelid="{b19e5745-e705-4b36-ad8f-c6a920a6c746}" locklevel="0" expanded="true">
+        <tab name="SUMMARY_TAB" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" labelid="{b19e5745-e705-4b36-ad8f-c6a920a6c746}" locklevel="0" expanded="false">
           <labels>
             <label description="Summary" languagecode="1033" />
             <label description="Sommaire" languagecode="1036" />
@@ -155,6 +155,85 @@
                         </control>
                       </cell>
                     </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="{314434bc-21d9-60ce-182e-ac9e1a7903ec}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Key Issues" languagecode="1033" />
+            <label description="Les enjeux historique" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="true" showbar="false" locklevel="0" id="{3769eb33-6cad-1307-309e-11e6e9633a8a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Post-Event Details" languagecode="1033" />
+                    <label description="Détail de l'événement" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5cb06146-d61b-65cb-a7c7-9a6a205505c2}" showlabel="false" colspan="1" auto="false" rowspan="32">
+                        <labels>
+                          <label description="Event Details (Contact)" languagecode="1033" />
+                          <label description="Détails de l'évènement" languagecode="1036" />
+                        </labels>
+                        <control id="EventDetailsSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{edace979-7d26-6297-6567-441d5405e4aa}">
+                          <parameters>
+                            <ViewId>{3B0C9D48-DB30-EC11-B6E6-000D3A09D895}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_EventDetails_Contacts</RelationshipName>
+                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2A689A1D-7788-4B44-B6BE-F890EADB59C0},{3B0C9D48-DB30-EC11-B6E6-000D3A09D895}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>30</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                     <row />
                     <row />
                     <row />

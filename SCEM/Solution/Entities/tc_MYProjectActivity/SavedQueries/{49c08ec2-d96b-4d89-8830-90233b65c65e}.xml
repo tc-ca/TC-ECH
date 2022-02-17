@@ -10,9 +10,10 @@
     <layoutxml>
       <grid name="resultset" jump="tc_projectactivitynm" select="1" icon="1" preview="1">
         <row name="result" id="tc_myprojectactivityid">
-          <cell name="tc_interactioncd" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_projectactivitynm" width="103" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_dateinteractiondte" width="135" />
+          <cell name="tc_interactioncd" width="114" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="tc_interactiontypecd" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="tc_projectactivitynm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="tc_rdimsfilenum" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
@@ -21,7 +22,6 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="tc_myprojectactivity">
-          <order attribute="tc_interactioncd" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -30,6 +30,8 @@
           <attribute name="tc_interactioncd" />
           <attribute name="tc_projectactivitynm" />
           <attribute name="tc_myprojectactivityid" />
+          <attribute name="tc_dateinteractiondte" />
+          <order attribute="tc_dateinteractiondte" descending="true" />
         </entity>
       </fetch>
     </fetchxml>

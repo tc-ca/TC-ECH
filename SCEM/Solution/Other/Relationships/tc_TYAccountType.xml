@@ -17,8 +17,8 @@
     <ReferencingAttributeName>tc_OppAccountTypeId</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
-        <Description description="The account type as it relates to the OPP (Oceans Protection Plan)" languagecode="1033" />
-        <Description description="Type de compte en ce qui concerne le PPO" languagecode="1036" />
+        <Description description="The account type" languagecode="1033" />
+        <Description description="Type de compte" languagecode="1036" />
       </Descriptions>
     </RelationshipDescription>
     <EntityRelationshipRoles>

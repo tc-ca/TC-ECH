@@ -12,7 +12,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" locklevel="0" labelid="{1319f741-ea04-4e76-a5cf-6d40020b4e0c}" expanded="false">
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" locklevel="0" labelid="{1319f741-ea04-4e76-a5cf-6d40020b4e0c}" expanded="true">
           <labels>
             <label description="Summary" languagecode="1033" />
             <label description="Sommaire" languagecode="1036" />
@@ -263,13 +263,109 @@
                           <label description="Notes Properties" languagecode="1033" />
                           <label description="Remarques sur les propriétés" languagecode="1036" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false">
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" uniqueid="{a88dcb6d-660e-0d95-c082-8eb779590762}">
                           <parameters>
                             <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes,Posts</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientEnableWhatsNewFilter>false</UClientEnableWhatsNewFilter>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>cardform</UClientDisplayActivityUsing>
+                            <UClientActivityCardMap>appointment:4201:,campaignactivity:4402:,campaignresponse:4401:,incidentresolution:4206:,email:4202:,fax:4204:,letter:4207:,opportunityclose:4208:,phonecall:4210:,task:4212:,msdyn_bookingalert:10060:,msfp_alert:10391:,msfp_surveyinvite:10051:,msfp_surveyresponse:10052:</UClientActivityCardMap>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
                           </parameters>
                         </control>
                       </cell>
                     </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_7" id="{4c332ae7-6891-a936-3467-4d04a253c991}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Key Issues" languagecode="1033" />
+            <label description="Les enjeux historique" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_1" showlabel="true" showbar="false" locklevel="0" id="{8ad83c77-6b79-85b5-c7aa-0b6037b29325}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Post-Event Details" languagecode="1033" />
+                    <label description="Détail de l'événement" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{840dd228-5a4b-0c97-47db-4895675324ab}" showlabel="false" colspan="1" auto="false" rowspan="32">
+                        <labels>
+                          <label description="Event Details (Organization)" languagecode="1033" />
+                          <label description="Détails de l'évènement" languagecode="1036" />
+                        </labels>
+                        <control id="EventDetailsSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e48c2312-0c88-2de5-3ee5-478b2bea7dd5}">
+                          <parameters>
+                            <ViewId>{3B0C9D48-DB30-EC11-B6E6-000D3A09D895}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_account_yyeventdetail_OrganizationId</RelationshipName>
+                            <TargetEntityType>tc_yyeventdetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{2A689A1D-7788-4B44-B6BE-F890EADB59C0},{3B0C9D48-DB30-EC11-B6E6-000D3A09D895}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>30</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                     <row />
                     <row />
                     <row />
@@ -425,7 +521,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="agreementTab" id="{29264031-c93a-2a1b-73d4-173d04333e79}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tab_Agreements" id="{29264031-c93a-2a1b-73d4-173d04333e79}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Agreements" languagecode="1033" />
             <label description="Ententes" languagecode="1036" />
@@ -449,7 +545,7 @@
                           <parameters>
                             <ViewId>{ECE93FEA-0726-4B1D-86FA-21DC5FA6D943}</ViewId>
                             <IsUserView>false</IsUserView>
-                            <RelationshipName>tc_Account_YYOrganizationAgreement_OrganizationId</RelationshipName>
+                            <RelationshipName />
                             <TargetEntityType>tc_yyorganizationagreement</TargetEntityType>
                             <AutoExpand>Fixed</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
@@ -543,7 +639,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_6" id="{2827a39e-2a0a-38c0-8425-11b8e89b97d0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tab_6" id="{2827a39e-2a0a-38c0-8425-11b8e89b97d0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Documents" languagecode="1033" />
           </labels>
@@ -613,16 +709,16 @@
                         <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
                           <parameters>
                             <Url>tc_/Core/Documents/Search.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>true</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
                             <Data>{
   "control": "WebResource_Search",
   "field": "tc_documentstxt",
   "view": "WebResource_List"
 }</Data>
-                            <PassParameters>false</PassParameters>
-                            <ShowOnMobileClient>false</ShowOnMobileClient>
-                            <Security>false</Security>
-                            <Scrolling>no</Scrolling>
-                            <Border>true</Border>
                             <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
                           </parameters>
                         </control>
@@ -706,6 +802,30 @@
       </clientresources>
       <Navigation>
         <NavBar>
+          <NavBarByRelationshipItem RelationshipName="account_customer_relationship_customer" Id="navRelationships" TitleResourceId="Left_Nav_Area_Relationships" Sequence="10" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="CustomerRelationship" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Account_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Addresses" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="account_parent_account" Id="navSubAccts" TitleResourceId="Label_SubAccounts" Sequence="10" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Accounts" />
+            </Titles>
+          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="contract_customer_accounts" Id="navContracts" TitleResourceId="Tab_Label_MoreContracts" Sequence="10" Area="Info" Show="false">
             <Privileges>
               <Privilege Entity="" Privilege="ReadActivity" />
@@ -736,30 +856,6 @@
             </Privileges>
             <Titles>
               <Title LCID="1033" Text="Quote" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="account_customer_relationship_customer" Id="navRelationships" TitleResourceId="Left_Nav_Area_Relationships" Sequence="10" Area="Info" Show="false">
-            <Privileges>
-              <Privilege Entity="" Privilege="ReadActivity" />
-            </Privileges>
-            <Titles>
-              <Title LCID="1033" Text="CustomerRelationship" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="Account_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
-            <Privileges>
-              <Privilege Entity="" Privilege="ReadActivity" />
-            </Privileges>
-            <Titles>
-              <Title LCID="1033" Text="Addresses" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="account_parent_account" Id="navSubAccts" TitleResourceId="Label_SubAccounts" Sequence="10" Area="Info" Show="false">
-            <Privileges>
-              <Privilege Entity="" Privilege="ReadActivity" />
-            </Privileges>
-            <Titles>
-              <Title LCID="1033" Text="Accounts" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navCampaignsInSFA" Sequence="20" Area="Marketing" Id="navCampaignsInSFA" Show="false">
@@ -852,11 +948,13 @@
       </controlDescriptions>
       <formLibraries>
         <Library name="tc_/Core/RequiredLevels.js" libraryUniqueId="{c59e6e12-53eb-58cc-c8c3-dea52dc1c988}" />
+        <Library name="tc_scem/organization.js" libraryUniqueId="{b59420b3-8d48-de35-3031-8c9ac28edcba}" />
       </formLibraries>
       <events>
         <event name="onload" application="false" active="false">
           <Handlers>
             <Handler functionName="onload" libraryName="tc_/Core/RequiredLevels.js" handlerUniqueId="{d3023136-474c-861b-d0be-9bd1e5a6c154}" enabled="true" parameters="[     { &quot;attr&quot;:&quot;tc_oppaccounttypeid&quot;, &quot;level&quot;:&quot;required&quot; } ]" passExecutionContext="false" />
+            <Handler functionName="onformload1" libraryName="tc_scem/organization.js" handlerUniqueId="{e399d2b4-11ee-0ab3-4547-e13cae5070a8}" enabled="true" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
       </events>

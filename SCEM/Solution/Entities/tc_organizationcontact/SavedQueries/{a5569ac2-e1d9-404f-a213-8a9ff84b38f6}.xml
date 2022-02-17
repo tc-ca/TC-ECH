@@ -10,10 +10,11 @@
     <layoutxml>
       <grid name="resultset" jump="tc_name" select="1" icon="1" preview="1">
         <row name="result" id="tc_organizationcontactid">
-          <cell name="tc_contactid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_04ecdefd8409eb11a814000d3af43755.fullname" width="100" disableSorting="1" />
+          <cell name="tc_organizationid" width="100" />
           <cell name="tc_email1" width="100" />
           <cell name="tc_mobilephone" width="100" />
-          <cell name="tc_isprimarycontact" width="100" />
+          <cell name="tc_position" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -21,14 +22,17 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="tc_organizationcontact">
-          <order attribute="tc_contactid" descending="false" />
+          <order attribute="tc_organizationid" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <attribute name="tc_isprimarycontact" />
           <attribute name="tc_mobilephone" />
           <attribute name="tc_email1" />
-          <attribute name="tc_contactid" />
+          <attribute name="tc_position" />
+          <attribute name="tc_organizationid" />
+          <link-entity alias="a_04ecdefd8409eb11a814000d3af43755" name="contact" from="contactid" to="tc_contactid" link-type="outer" visible="false">
+            <attribute name="fullname" />
+          </link-entity>
           <attribute name="tc_organizationcontactid" />
         </entity>
       </fetch>
