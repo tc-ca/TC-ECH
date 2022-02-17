@@ -36,6 +36,30 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{a10d4835-b32c-286c-eb37-69d6b4482219}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization Type" languagecode="1033" />
+                          <label description="Type d’organisation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_oppaccounttypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_oppaccounttypeid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10459c95-52c5-96b5-0acc-32d65384a7d2}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Organization Type" languagecode="1033" />
+                          <label description="Type d’organisation" languagecode="1036" />
+                        </labels>
+                        <control id="typeView" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="tc_oppaccounttypeid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="tc_tyaccounttype"&gt;0a7f14d7-b0e6-4783-919c-12a9a1552e95&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{9a2dc957-2393-097e-c17b-61e23acb8bd9}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Tags" languagecode="1033" />

@@ -54,6 +54,18 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{666ad3ad-1d40-2659-9a40-48065c004504}" showlabel="true" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="tc_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_description" disabled="false" uniqueid="{9a7ccca0-e650-a0d3-ee42-7e452a9e9cd0}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
                       <cell id="{9c45a4b4-6221-4127-8b74-022495b1116c}" showlabel="true" locklevel="1" visible="false">
                         <labels>
                           <label description="Owner" languagecode="1033" />

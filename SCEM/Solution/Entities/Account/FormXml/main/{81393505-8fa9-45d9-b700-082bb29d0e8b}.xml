@@ -34,12 +34,50 @@
                         </labels>
                         <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" uniqueid="{5434614e-286d-6bd3-d08e-e75a75b57794}" />
                       </cell>
-                      <cell id="{952d9273-a2e7-2164-0d1e-de70b1ae90d2}" showlabel="true" locklevel="0" rowspan="3">
+                      <cell id="{0806cc8a-6959-d171-0eb8-ba6b280d251c}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Modern Treaty" languagecode="1033" />
-                          <label description="Traité moderne" languagecode="1036" />
+                          <label description="Are there existing consultation protocols" languagecode="1033" />
+                          <label description="Y’a-t-il des protocoles de consultation existants?" languagecode="1036" />
                         </labels>
-                        <control id="tc_moderntreatytxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_moderntreatytxt" disabled="false" uniqueid="{c6248bbe-39a4-de97-2541-274174438a89}" />
+                        <control id="tc_existingconsultationprotocols" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_existingconsultationprotocols" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50b46733-77ec-6794-8425-c5c884dc9c87}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization Type" languagecode="1033" />
+                          <label description="Type d’organisation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_oppaccounttypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_oppaccounttypeid" disabled="false" />
+                      </cell>
+                      <cell id="{e9dddc57-1520-2985-c1cd-baee195179dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Existing Protocols" languagecode="1033" />
+                          <label description="Protocoles existants" languagecode="1036" />
+                        </labels>
+                        <control id="tc_existingprotocolsid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_existingprotocolsid" disabled="false" uniqueid="{4e61968a-09eb-8a96-8e81-282594a15981}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a99e55ee-82b3-1a73-c816-7e948ecd4600}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Organization Type" languagecode="1033" />
+                          <label description="Type d’organisation" languagecode="1036" />
+                        </labels>
+                        <control id="typeView" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="tc_oppaccounttypeid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="tc_tyaccounttype"&gt;0a7f14d7-b0e6-4783-919c-12a9a1552e95&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{70ccacaa-d5a5-2040-2ddd-689c4a36ac03}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                          <label description="Description" languagecode="1036" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="true" uniqueid="{dea776d3-da9e-eba9-5166-30737483427c}" />
                       </cell>
                     </row>
                     <row>
@@ -77,16 +115,48 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d374e783-45c0-b1d3-e3e6-8ce071b8ec06}" showlabel="true" locklevel="0" rowspan="3">
+                      <cell id="{05725c13-c6dc-eac7-5c1b-8b6572cc3ec6}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Historical Treaty" languagecode="1033" />
-                          <label description="Traité historique" languagecode="1036" />
                         </labels>
-                        <control id="tc_historicaltreatytxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_historicaltreatytxt" disabled="false" uniqueid="{14880c23-60bb-d6bc-d040-d7b5e5790965}" />
+                        <control id="tc_historicaltreatyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_historicaltreatyid" disabled="false" uniqueid="{d77c1eed-dce6-e2d7-cb80-8b59206eb7e2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</DefaultViewId>
+                            <AvailableViewIds>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
-                    <row />
                     <row>
+                      <cell id="{4a3133d7-b282-3e87-30c0-b6e10ae5329c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modern Treaty" languagecode="1033" />
+                        </labels>
+                        <control id="tc_moderntreatyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_moderntreatyid" disabled="false" uniqueid="{09971e4a-be1a-b1e7-2cac-b69ac5bde041}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</DefaultViewId>
+                            <AvailableViewIds>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{444b15b5-ba16-c6c6-b950-41cb75920c42}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Self-Government Agreement" languagecode="1033" />
+                        </labels>
+                        <control id="tc_selfgovernmentagreementid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_selfgovernmentagreementid" disabled="false" />
+                      </cell>
                       <cell id="{81e55a4a-49e7-5307-0098-3706aae1a5c3}" showlabel="true" locklevel="0" rowspan="3">
                         <labels>
                           <label description="Specific Claims" languagecode="1033" />
@@ -96,21 +166,21 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c86c18e2-de10-790e-8ac5-c1b36a443a6c}" showlabel="false">
+                      <cell id="{6909dde1-3a7e-a418-ee52-d24503490131}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c437e738-86b9-6d47-e5da-77bcccd65202}" showlabel="false">
+                      <cell id="{79cad963-5653-0a7a-a68a-e0a46893c626}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c9c0eae3-8b29-839e-e6da-9aa45a31b6e9}" showlabel="false">
+                      <cell id="{a98c7885-3a66-9825-4aa1-5951cae7eb4a}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -124,14 +194,14 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{15d4753e-64b9-3000-6eab-a4dd057d296d}" showlabel="false">
+                      <cell id="{26c2ce4d-4c7c-3584-1013-929213b8683d}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{39186257-846a-785d-47ed-6e3c835c7547}" showlabel="false">
+                      <cell id="{02ab1656-4647-6ca6-c520-4c1b5847dee7}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -766,6 +836,7 @@
       <events>
         <event name="onload" application="false" active="false">
           <Handlers>
+            <Handler functionName="onFormLoad" libraryName="tc_switchforms" handlerUniqueId="{50c21a06-0cc9-4246-83c4-1641aa273378}" enabled="true" parameters="" passExecutionContext="true" />
             <Handler functionName="switchForms" libraryName="tc_switchforms" handlerUniqueId="{eddd879d-ebd2-d3c6-0d26-876a2be42502}" enabled="true" parameters="&quot;sitemap-entity-ProponentsSubArea&quot;,&quot;IEC - Proponents&quot;" passExecutionContext="true" />
             <Handler functionName="switchForms" libraryName="tc_switchforms" handlerUniqueId="{d4c48a29-7e5c-8c1e-3152-2221191ed287}" enabled="true" parameters="&quot;sitemap-entity-IndigenousGroupSubArea&quot;,&quot;IEC - Indigenous Group&quot;" passExecutionContext="true" />
             <Handler functionName="switchForms" libraryName="tc_switchforms" handlerUniqueId="{37abb147-2e20-4e6d-7703-8e0be16a8a1e}" enabled="true" parameters="&quot;sitemap-entity-FederalDeptSubArea&quot;,&quot;IEC - Federal Department&quot;" passExecutionContext="true" />

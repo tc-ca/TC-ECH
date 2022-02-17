@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions>
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_yyorganizationagreement.DocumentTemplate.Hide" Location="Mscrm.SubGrid.tc_yyorganizationagreement.DocumentTemplate" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_yyorganizationagreement.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.tc_yyorganizationagreement.Flows.RefreshCommandBar" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_yyorganizationagreement.RefreshButton.Hide" Location="Mscrm.SubGrid.tc_yyorganizationagreement.RefreshButton" />
-    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_yyorganizationagreement.RunReport.Hide" Location="Mscrm.SubGrid.tc_yyorganizationagreement.RunReport" />
-  </CustomActions>
+  <CustomActions />
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>

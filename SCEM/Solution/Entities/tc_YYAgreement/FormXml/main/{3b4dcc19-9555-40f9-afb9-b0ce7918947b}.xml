@@ -50,6 +50,78 @@
                     </row>
                     <row />
                     <row height="auto" />
+                    <row>
+                      <cell id="{830ecbca-8e9a-1abd-1d06-76433244c926}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Agreement Title" languagecode="1033" />
+                          <label description="Titre de l'entente" languagecode="1036" />
+                        </labels>
+                        <control id="tc_agreement_title_en" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_agreement_title_en" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30409034-b7d9-71c7-e3c2-d69955d8c9c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Agreement Type" languagecode="1033" />
+                          <label description="Type d'entente  " languagecode="1036" />
+                        </labels>
+                        <control id="tc_agreement_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_agreement_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b367c47-4b1a-8d87-9d69-811b91e2159b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_owner_org_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_owner_org_title" disabled="false" uniqueid="{10da7d83-c1da-3c38-3486-103899012ee5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a1bba92-0ba8-7825-7952-b4ba0c6d7251}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Agreement Start Date" languagecode="1033" />
+                          <label description="Date de commence d'entente" languagecode="1036" />
+                        </labels>
+                        <control id="tc_agreement_start_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_agreement_start_date" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7246a067-27a8-dd08-205b-7896c6cb1ea4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Agreement End Date" languagecode="1033" />
+                          <label description="Date de fin d'entente" languagecode="1036" />
+                        </labels>
+                        <control id="tc_agreement_end_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_agreement_end_date" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1da25ba-c10c-3a99-5915-6e54de484536}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Agreement Value" languagecode="1033" />
+                          <label description="Valeur d'entente" languagecode="1036" />
+                        </labels>
+                        <control id="tc_agreement_value" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_agreement_value" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52e645b3-a9c2-3a04-2d93-7ecce489b8ad}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner Organization" languagecode="1033" />
+                          <label description="Ministère Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_owner_org" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_owner_org" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a61b7333-2562-cb87-5b0a-841591d8e7b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reference Number" languagecode="1033" />
+                          <label description="Numéro de référence" languagecode="1036" />
+                        </labels>
+                        <control id="tc_ref_number" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_ref_number" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

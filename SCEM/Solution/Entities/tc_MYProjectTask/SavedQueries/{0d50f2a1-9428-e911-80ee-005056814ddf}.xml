@@ -12,6 +12,7 @@
         <row name="result" id="tc_myprojecttaskid">
           <cell name="a_4743693db324e91180ee005056815fa7.tc_projectnm" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="tc_actioncd" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_e2dfb70b7c114e828f5b11adf749f83c.tc_datebringforwarddte" width="100" />
           <cell name="tc_dateduedte" width="100" />
         </row>
       </grid>
@@ -36,6 +37,9 @@
           </link-entity>
           <attribute name="tc_dateduedte" />
           <attribute name="tc_myprojecttaskid" />
+          <link-entity alias="a_e2dfb70b7c114e828f5b11adf749f83c" name="tc_myproject" to="tc_projecttasksid" from="tc_myprojectid" link-type="outer" visible="false">
+            <attribute name="tc_datebringforwarddte" />
+          </link-entity>
         </entity>
       </fetch>
     </fetchxml>

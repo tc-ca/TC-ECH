@@ -747,7 +747,7 @@
           <Format></Format>
           <MaxLength>2000</MaxLength>
           <displaynames>
-            <displayname description="Historical Treaty" languagecode="1033" />
+            <displayname description="Historical Treaty Text" languagecode="1033" />
             <displayname description="Traité historique" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -1070,7 +1070,7 @@
           <Format></Format>
           <MaxLength>2000</MaxLength>
           <displaynames>
-            <displayname description="Modern Treaty" languagecode="1033" />
+            <displayname description="Modern Treaty Text" languagecode="1033" />
             <displayname description="Traité moderne" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -1176,11 +1176,11 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Organization Type" languagecode="1033" />
-            <displayname description="Type d’organisation du PPO" languagecode="1036" />
+            <displayname description="Type d’organisation" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="The account type as it relates to the OPP (Oceans Protection Plan)" languagecode="1033" />
-            <Description description="Type de compte en ce qui concerne le PPO" languagecode="1036" />
+            <Description description="The account type" languagecode="1033" />
+            <Description description="Type de compte" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_Otherpartneragreements">
@@ -1434,7 +1434,7 @@
           <Type>nvarchar</Type>
           <Name>tc_regions</Name>
           <LogicalName>tc_regions</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>

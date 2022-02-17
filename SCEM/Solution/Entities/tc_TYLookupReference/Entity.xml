@@ -839,11 +839,6 @@
               <Description description="Lookup Type" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="948010008" ExternalValue="" Color="#0000ff">
-                <labels>
-                  <label description="Self-Government Agreement" languagecode="1033" />
-                </labels>
-              </option>
               <option value="948010007" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="Existing Protocols" languagecode="1033" />
@@ -883,6 +878,11 @@
               <option value="948010000" ExternalValue="" Color="#0000ff">
                 <labels>
                   <label description="NPA Section" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="948010008" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Self-Government Agreement" languagecode="1033" />
                 </labels>
               </option>
             </options>
@@ -1122,6 +1122,13 @@
                   <columnsDefaultView />
                 </data-set>
                 <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <EnableEditing static="true" type="Enum">yes</EnableEditing>
+                <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+                <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+                <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+                <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
               </parameters>
             </customControl>
           </controlDescription>

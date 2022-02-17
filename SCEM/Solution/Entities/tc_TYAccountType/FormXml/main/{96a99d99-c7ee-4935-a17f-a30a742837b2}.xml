@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="true" showImage="false" maxWidth="1900">
       <tabs>
-        <tab verticallayout="true" id="{dcd41453-d445-48af-a36d-bec9871a9a82}" IsUserDefined="1">
+        <tab verticallayout="true" id="{dcd41453-d445-48af-a36d-bec9871a9a82}" IsUserDefined="1" name="{dcd41453-d445-48af-a36d-bec9871a9a82}" expanded="true" locklevel="0" showlabel="true">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -78,6 +78,57 @@
                         <control id="tc_descriptionfrench" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_descriptionfrench" disabled="false" uniqueid="{388a9d80-dd19-cb67-1394-be67a2ad7bc3}" />
                       </cell>
                     </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{946ceca3-0202-ea16-1455-b60d37462d52}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Organizations" languagecode="1033" />
+            <label description="Organisations" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{a7dd171b-2e8d-42d9-5261-55890b65b5d3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3c1006b7-4c73-ca8b-74cd-ac3e5c4bb9c1}" showlabel="true" colspan="1" auto="true" rowspan="6">
+                        <labels>
+                          <label description="Organizations (OPP Organization Type)" languagecode="1033" />
+                          <label description="Organisations" languagecode="1036" />
+                        </labels>
+                        <control id="Organization" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e4344b20-7c1e-6e96-128c-bb26d9148e79}">
+                          <parameters>
+                            <ViewId>{4680AD85-D8FA-E711-8140-000C2958E3A5}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_TYAccountType_Account_OppAccountTypeId</RelationshipName>
+                            <TargetEntityType>account</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001031},{4680AD85-D8FA-E711-8140-000C2958E3A5}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{74A622C0-5193-DE11-97D4-00155DA3B01E}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>50</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
                     <row />
                     <row />
                     <row height="auto" />

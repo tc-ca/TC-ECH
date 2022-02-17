@@ -72,6 +72,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{66c79516-a81b-4986-eb4d-deabb1a14c24}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Self-Government Agreement" languagecode="1033" />
+                        </labels>
+                        <control id="tc_selfgovernmentagreementid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_selfgovernmentagreementid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{1d4b5bab-2bdd-d55a-695c-1aab443dd0b9}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Comprehensive Claims" languagecode="1033" />

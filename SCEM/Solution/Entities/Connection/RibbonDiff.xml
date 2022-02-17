@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions>
-    <HideCustomAction HideActionId="tc.Mscrm.Form.connection.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.connection.Flows.RefreshCommandBar" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.connection.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.connection.Flows.RefreshCommandBar" />
-  </CustomActions>
+  <CustomActions />
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>

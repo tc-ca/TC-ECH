@@ -1,14 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions />
+  <CustomActions>
+    <CustomAction Id="tc.tc_yyagreement.Button.OpenData.CustomAction" Location="Mscrm.Form.tc_yyagreement.MainTab.Save.Controls._children" Sequence="43">
+      <CommandUIDefinition>
+        <FlyoutAnchor Command="Mscrm.Enabled" Id="tc.tc_yyagreement.Button.OpenData" LabelText="$LocLabels:tc.tc_yyagreement.Button.OpenData.LabelText" Sequence="43" TemplateAlias="o2">
+          <Menu Id="tc.tc_yyagreement.Button.OpenData.Menu">
+            <MenuSection Id="tc.tc_yyagreement.Section3.Section" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="tc.tc_yyagreement.Section3.Section.Controls">
+                <Button Command="tc.tc_yyagreement.Command.OpenEn" Id="tc.tc_yyagreement.Button.OpenEn" LabelText="$LocLabels:tc.tc_yyagreement.Button.OpenEn.LabelText" Sequence="10" />
+                <Button Command="tc.tc_yyagreement.Command.OpenFr" Id="tc.tc_yyagreement.Button.OpenFr" LabelText="$LocLabels:tc.tc_yyagreement.Button.OpenFr.LabelText" Sequence="15" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </FlyoutAnchor>
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>
-  <CommandDefinitions />
+  <CommandDefinitions>
+    <CommandDefinition Id="tc.tc_yyagreement.Command.OpenEn">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="OpenData" Library="$webresource:tc_scem/agreement.js">
+          <CrmParameter Value="PrimaryControl" />
+          <StringParameter Value="en" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="tc.tc_yyagreement.Command.OpenFr">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="OpenData" Library="$webresource:tc_scem/agreement.js">
+          <CrmParameter Value="PrimaryControl" />
+          <StringParameter Value="fr" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
   <RuleDefinitions>
     <TabDisplayRules />
     <DisplayRules />
     <EnableRules />
   </RuleDefinitions>
-  <LocLabels />
+  <LocLabels>
+    <LocLabel Id="tc.tc_yyagreement.Button.OpenData.LabelText">
+      <Titles>
+        <Title description="Open Data" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="tc.tc_yyagreement.Button.OpenEn.LabelText">
+      <Titles>
+        <Title description="English" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="tc.tc_yyagreement.Button.OpenFr.LabelText">
+      <Titles>
+        <Title description="French" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
 </RibbonDiffXml>
