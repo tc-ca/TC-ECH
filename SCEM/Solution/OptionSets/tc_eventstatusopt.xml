@@ -31,6 +31,24 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
+    <option value="948010004" ExternalValue="" Color="">
+      <labels>
+        <label description="Event in progress" languagecode="1033" />
+        <label description="Evénement en cours" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="No work started" languagecode="1033" />
+        <label description="Aucun travail commencé" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
     <option value="948010001" ExternalValue="" Color="#0000ff">
       <labels>
         <label description="Declined" languagecode="1033" />
@@ -49,19 +67,28 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="948010004" ExternalValue="" Color="">
+    <option value="1" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="Event in progress" languagecode="1033" />
-        <label description="Evénement en cours" languagecode="1036" />
+        <label description="Forecast" languagecode="1033" />
+        <label description="Prévisions" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="948010000" ExternalValue="" Color="#0000ff">
+    <option value="2" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="No work started" languagecode="1033" />
-        <label description="Aucun travail commencé" languagecode="1036" />
+        <label description="Confirmed" languagecode="1033" />
+        <label description="Confirmé" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Closed" languagecode="1033" />
+        <label description="Fermé" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
