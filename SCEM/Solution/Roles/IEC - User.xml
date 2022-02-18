@@ -11,6 +11,7 @@
     <RolePrivilege name="prvAppendMailMergeTemplate" level="Deep" />
     <RolePrivilege name="prvAppendNote" level="Deep" />
     <RolePrivilege name="prvAppendReport" level="Basic" />
+    <RolePrivilege name="prvAppendtc_address" level="Deep" />
     <RolePrivilege name="prvAppendtc_MYImpact" level="Deep" />
     <RolePrivilege name="prvAppendtc_MYProject" level="Deep" />
     <RolePrivilege name="prvAppendtc_MYProjectActivity" level="Deep" />
@@ -18,8 +19,7 @@
     <RolePrivilege name="prvAppendtc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvAppendtc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvAppendtc_proponentsprojects" level="Deep" />
-    <RolePrivilege name="prvAppendtc_submission" level="Deep" />
-    <RolePrivilege name="prvAppendtc_TYAccountType" level="Deep" />
+    <RolePrivilege name="prvAppendtc_TYAccountType" level="Global" />
     <RolePrivilege name="prvAppendtc_TYTag" level="Local" />
     <RolePrivilege name="prvAppendToAccount" level="Deep" />
     <RolePrivilege name="prvAppendToActivity" level="Deep" />
@@ -30,6 +30,7 @@
     <RolePrivilege name="prvAppendToMailMergeTemplate" level="Deep" />
     <RolePrivilege name="prvAppendToNote" level="Deep" />
     <RolePrivilege name="prvAppendToReport" level="Basic" />
+    <RolePrivilege name="prvAppendTotc_address" level="Deep" />
     <RolePrivilege name="prvAppendTotc_MYImpact" level="Deep" />
     <RolePrivilege name="prvAppendTotc_MYProject" level="Deep" />
     <RolePrivilege name="prvAppendTotc_MYProjectActivity" level="Deep" />
@@ -37,8 +38,7 @@
     <RolePrivilege name="prvAppendTotc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvAppendTotc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvAppendTotc_proponentsprojects" level="Deep" />
-    <RolePrivilege name="prvAppendTotc_submission" level="Deep" />
-    <RolePrivilege name="prvAppendTotc_TYAccountType" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_TYAccountType" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYTag" level="Local" />
     <RolePrivilege name="prvAssignAccount" level="Deep" />
     <RolePrivilege name="prvAssignActivity" level="Deep" />
@@ -48,12 +48,12 @@
     <RolePrivilege name="prvAssignMailMergeTemplate" level="Deep" />
     <RolePrivilege name="prvAssignNote" level="Deep" />
     <RolePrivilege name="prvAssignReport" level="Basic" />
+    <RolePrivilege name="prvAssigntc_address" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYImpact" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProject" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProjectActivity" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProjectRight" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProjectTask" level="Deep" />
-    <RolePrivilege name="prvAssigntc_submission" level="Deep" />
     <RolePrivilege name="prvAssigntc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvAssigntc_TYTag" level="Local" />
     <RolePrivilege name="prvCreateAccount" level="Deep" />
@@ -67,6 +67,7 @@
     <RolePrivilege name="prvCreateOrgEmailTemplates" level="Global" />
     <RolePrivilege name="prvCreateReport" level="Local" />
     <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvCreatetc_address" level="Deep" />
     <RolePrivilege name="prvCreatetc_MYImpact" level="Deep" />
     <RolePrivilege name="prvCreatetc_MYProject" level="Global" />
     <RolePrivilege name="prvCreatetc_MYProjectActivity" level="Deep" />
@@ -74,10 +75,11 @@
     <RolePrivilege name="prvCreatetc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvCreatetc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvCreatetc_proponentsprojects" level="Deep" />
-    <RolePrivilege name="prvCreatetc_submission" level="Deep" />
     <RolePrivilege name="prvCreatetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvCreatetc_TYTag" level="Local" />
+    <RolePrivilege name="prvDeleteAccount" level="Deep" />
     <RolePrivilege name="prvDeleteActivity" level="Global" />
+    <RolePrivilege name="prvDeleteContact" level="Deep" />
     <RolePrivilege name="prvDeleteNote" level="Deep" />
     <RolePrivilege name="prvDeleteReport" level="Basic" />
     <RolePrivilege name="prvDeletetc_MYProjectRight" level="Deep" />
@@ -91,7 +93,6 @@
     <RolePrivilege name="prvPublishRSReport" level="Global" />
     <RolePrivilege name="prvReadAccount" level="Deep" />
     <RolePrivilege name="prvReadActivity" level="Global" />
-    <RolePrivilege name="prvReadAuditSummary" level="Global" />
     <RolePrivilege name="prvReadConnection" level="Deep" />
     <RolePrivilege name="prvReadConnectionRole" level="Global" />
     <RolePrivilege name="prvReadContact" level="Deep" />
@@ -101,13 +102,13 @@
     <RolePrivilege name="prvReadNote" level="Global" />
     <RolePrivilege name="prvReadPluginAssembly" level="Global" />
     <RolePrivilege name="prvReadPluginType" level="Global" />
-    <RolePrivilege name="prvReadRecordAuditHistory" level="Global" />
     <RolePrivilege name="prvReadReport" level="Basic" />
     <RolePrivilege name="prvReadSdkMessage" level="Global" />
     <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
     <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
     <RolePrivilege name="prvReadSharePointData" level="Global" />
     <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadtc_address" level="Deep" />
     <RolePrivilege name="prvReadtc_MYImpact" level="Deep" />
     <RolePrivilege name="prvReadtc_MYProject" level="Global" />
     <RolePrivilege name="prvReadtc_MYProjectActivity" level="Deep" />
@@ -115,8 +116,7 @@
     <RolePrivilege name="prvReadtc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvReadtc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvReadtc_proponentsprojects" level="Deep" />
-    <RolePrivilege name="prvReadtc_submission" level="Deep" />
-    <RolePrivilege name="prvReadtc_TYAccountType" level="Deep" />
+    <RolePrivilege name="prvReadtc_TYAccountType" level="Global" />
     <RolePrivilege name="prvReadtc_TYBranch" level="Deep" />
     <RolePrivilege name="prvReadtc_TYIndigenousGroup" level="Deep" />
     <RolePrivilege name="prvReadtc_TYLookupReference" level="Deep" />
@@ -146,6 +146,7 @@
     <RolePrivilege name="prvWriteNote" level="Deep" />
     <RolePrivilege name="prvWriteReport" level="Basic" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
+    <RolePrivilege name="prvWritetc_address" level="Deep" />
     <RolePrivilege name="prvWritetc_MYImpact" level="Deep" />
     <RolePrivilege name="prvWritetc_MYProject" level="Global" />
     <RolePrivilege name="prvWritetc_MYProjectActivity" level="Deep" />
@@ -153,7 +154,6 @@
     <RolePrivilege name="prvWritetc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvWritetc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvWritetc_proponentsprojects" level="Deep" />
-    <RolePrivilege name="prvWritetc_submission" level="Deep" />
     <RolePrivilege name="prvWritetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvWritetc_TYTag" level="Local" />
   </RolePrivileges>
