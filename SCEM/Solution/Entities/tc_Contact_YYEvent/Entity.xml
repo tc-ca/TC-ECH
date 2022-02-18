@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Participant" OriginalName="Contact Event">tc_Contact_YYEvent</Name>
+  <Name LocalizedName="Contact Event" OriginalName="Contact Event">tc_Contact_YYEvent</Name>
   <EntityInfo>
     <entity Name="tc_Contact_YYEvent">
       <LocalizedNames>
-        <LocalizedName description="Participant" languagecode="1033" />
-        <LocalizedName description="Participant" languagecode="1036" />
+        <LocalizedName description="Contact Event" languagecode="1033" />
+        <LocalizedName description="Événement de contact" languagecode="1036" />
       </LocalizedNames>
       <LocalizedCollectionNames>
-        <LocalizedCollectionName description="Participants" languagecode="1033" />
+        <LocalizedCollectionName description="Contact Events" languagecode="1033" />
         <LocalizedCollectionName description="Contacts Événements" languagecode="1036" />
       </LocalizedCollectionNames>
       <Descriptions>

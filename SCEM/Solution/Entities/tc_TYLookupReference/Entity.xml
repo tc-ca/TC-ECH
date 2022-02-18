@@ -1122,13 +1122,6 @@
                   <columnsDefaultView />
                 </data-set>
                 <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
-                <EnableEditing static="true" type="Enum">yes</EnableEditing>
-                <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
-                <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
-                <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
-                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
-                <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
-                <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
               </parameters>
             </customControl>
           </controlDescription>
