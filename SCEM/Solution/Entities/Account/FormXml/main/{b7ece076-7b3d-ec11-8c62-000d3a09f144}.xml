@@ -12,7 +12,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="tab_General" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" labelid="{e6255aa6-cb2e-4b14-bd94-6329b0913067}">
+        <tab name="tab_General" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" labelid="{e6255aa6-cb2e-4b14-bd94-6329b0913067}" visible="false">
           <labels>
             <label description="Summary" languagecode="1033" />
           </labels>
@@ -83,7 +83,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Details" id="{c7ddad2c-0159-c078-0388-ae7aecd16441}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tab_Details" id="{c7ddad2c-0159-c078-0388-ae7aecd16441}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Details" languagecode="1033" />
             <label description="détails" languagecode="1036" />
@@ -265,7 +265,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Address" id="{a8bde86a-20ae-aac8-0e3d-6a65ece0adcb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab name="tab_Address" id="{a8bde86a-20ae-aac8-0e3d-6a65ece0adcb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Address" languagecode="1033" />
             <label description="Adresse" languagecode="1036" />
