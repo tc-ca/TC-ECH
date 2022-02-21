@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
+    <form shownavigationbar="false" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="false" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
@@ -23,7 +23,7 @@
                     <row>
                       <cell id="{e846147d-7c0e-87d6-2ce9-4756d00d9508}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="App" languagecode="1033" />
+                          <label description="Program Area" languagecode="1033" />
                         </labels>
                         <control id="tc_app" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_app" disabled="false" uniqueid="{63981488-e23a-02a8-3db4-43a8a6763aba}" />
                       </cell>
@@ -184,10 +184,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{679821fb-af33-4a1f-a75e-60ed08e5b5ba}" showlabel="false">
+                      <cell id="{60b0d9de-58fb-4ac6-b836-aa7012d7fa29}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Start" languagecode="1033" />
+                          <label description="Début" languagecode="1036" />
                         </labels>
+                        <control id="tc_startdte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
                       </cell>
                       <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
                         <labels>
@@ -198,22 +200,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{60b0d9de-58fb-4ac6-b836-aa7012d7fa29}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Start" languagecode="1033" />
-                          <label description="Début" languagecode="1036" />
-                        </labels>
-                        <control id="tc_startdte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
-                      </cell>
-                      <cell id="{325c3e5c-364c-aac5-2c3b-28ce1412a680}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Event Status" languagecode="1033" />
-                          <label description="État de l’événement" languagecode="1036" />
-                        </labels>
-                        <control id="tc_eventstatuscd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventstatuscd" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{b30d781a-272e-438d-bb0c-ab15704476d9}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="End" languagecode="1033" />
@@ -221,10 +207,11 @@
                         </labels>
                         <control id="tc_enddte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{ceb85afe-00c1-4905-8b67-e859d49ad9c2}" showlabel="false">
+                      <cell id="{9428675d-d1a5-331a-13b9-ed6192a67e95}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Event Status" languagecode="1033" />
                         </labels>
+                        <control id="tc_eventstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_eventstatus" disabled="false" />
                       </cell>
                     </row>
                   </rows>

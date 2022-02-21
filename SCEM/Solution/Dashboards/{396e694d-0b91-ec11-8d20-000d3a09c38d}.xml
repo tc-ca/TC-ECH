@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Upcoming Events" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{396e694d-0b91-ec11-8d20-000d3a09c38d}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{8fdafea6-5d06-4489-be27-fc8f5f89a037}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{78dc8b26-b6c5-4aac-915d-c7304c2d0c24}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{ba09c311-84ea-448a-86e2-c9bdb447ec22}" auto="false">
+                          <labels>
+                            <label description="Events" languagecode="1033" />
+                            <label description="Événements" languagecode="1036" />
+                          </labels>
+                          <control id="Component36016cb" uniqueid="{3c8e00d1-d9b9-b38d-1027-85c806047d4a}" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>tc_yyevent</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                              <ViewId>{E8E80387-D3FA-E711-8140-000C2958E3A5}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{E8E80387-D3FA-E711-8140-000C2958E3A5}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{28D88C08-BBC1-E811-80E8-005056812059}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="2" rowspan="12" showlabel="false" ispreviewcell="true" id="{b39c818c-e4da-4b00-b4f4-0753f4dece31}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" ispreviewcell="true" id="{c97b299c-dea4-431d-b76c-dc1fb30c33c8}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell colspan="2" rowspan="12" showlabel="false" ispreviewcell="true" id="{5f7df85c-a8d9-4c78-ad26-c97a1c8c9729}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions>
+          <controlDescription forControl="{3c8e00d1-d9b9-b38d-1027-85c806047d4a}">
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+              <parameters>
+                <TargetEntityType>tc_yyevent</TargetEntityType>
+                <ChartGridMode>Grid</ChartGridMode>
+                <EnableQuickFind>true</EnableQuickFind>
+                <EnableViewPicker>true</EnableViewPicker>
+                <EnableJumpBar>true</EnableJumpBar>
+                <RecordsPerPage>8</RecordsPerPage>
+                <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                <ViewId>{E8E80387-D3FA-E711-8140-000C2958E3A5}</ViewId>
+                <IsUserView>false</IsUserView>
+                <ViewIds>{E8E80387-D3FA-E711-8140-000C2958E3A5}</ViewIds>
+                <AutoExpand>Fixed</AutoExpand>
+                <VisualizationId>{28D88C08-BBC1-E811-80E8-005056812059}</VisualizationId>
+                <IsUserChart>false</IsUserChart>
+                <EnableChartPicker>false</EnableChartPicker>
+                <RelationshipName />
+              </parameters>
+            </customControl>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+              <parameters>
+                <TargetEntityType>tc_yyevent</TargetEntityType>
+                <ChartGridMode>Grid</ChartGridMode>
+                <EnableQuickFind>true</EnableQuickFind>
+                <EnableViewPicker>true</EnableViewPicker>
+                <EnableJumpBar>true</EnableJumpBar>
+                <RecordsPerPage>8</RecordsPerPage>
+                <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                <ViewId>{E8E80387-D3FA-E711-8140-000C2958E3A5}</ViewId>
+                <IsUserView>false</IsUserView>
+                <ViewIds>{E8E80387-D3FA-E711-8140-000C2958E3A5}</ViewIds>
+                <AutoExpand>Fixed</AutoExpand>
+                <VisualizationId>{28D88C08-BBC1-E811-80E8-005056812059}</VisualizationId>
+                <IsUserChart>false</IsUserChart>
+                <EnableChartPicker>false</EnableChartPicker>
+                <RelationshipName />
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>{E8E80387-D3FA-E711-8140-000C2958E3A5}</ViewId>
+                  <StartDate>tc_startdte</StartDate>
+                  <Description>tc_eventnm</Description>
+                  <EndDate>tc_enddte</EndDate>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>tc_yyevent</TargetEntityType>
+                  <EnableViewPicker>true</EnableViewPicker>
+                  <FilteredViewIds>{E8E80387-D3FA-E711-8140-000C2958E3A5}</FilteredViewIds>
+                </data-set>
+                <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.104.1.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

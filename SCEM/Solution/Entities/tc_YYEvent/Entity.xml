@@ -1834,7 +1834,7 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <OptionSetName>tc_app</OptionSetName>
           <displaynames>
-            <displayname description="App" languagecode="1033" />
+            <displayname description="Program Area" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
