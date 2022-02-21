@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CustomActions>
+    <HideCustomAction HideActionId="tc.AccessChecker.OpenDialog.account.Button.Hide" Location="AccessChecker.OpenDialog.account.Button" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.account.Activate.Hide" Location="Mscrm.Form.account.Activate" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.account.AddConnection.Hide" Location="Mscrm.Form.account.AddConnection" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.account.AddToList.Hide" Location="Mscrm.Form.account.AddToList" />

@@ -5,7 +5,7 @@ function onformload(executionContext) {
 
     var isNew = formContext.ui.getFormType() == 1;
 
-    formContext.ui.tabs.get("tab_General").setVisible(!isNew);
+    //formContext.ui.tabs.get("tab_General").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Agreements").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Address").setVisible(!isNew);
@@ -53,7 +53,18 @@ function onformload(executionContext) {
     Xrm.WebApi.retrieveMultipleRecords("tc_yyorganizationagreement", "?$select=tc_agreementnm&$filter=_tc_organizationid_value%20eq%20%27" + orgid + "%27").then(
         function success(result) {
             if (result.entities.length > 0) {
-                formContext.ui.tabs.get("tab_Agreements").setLabel("Agreements(" + result.entities.length + ")");
+                formContext.ui.tabs.get("tab_Agreements").setLabel("Agreements (" + result.entities.length + ")");
+            }
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
+    );
+    Xrm.WebApi.retrieveMultipleRecords("tc_contact_yyevent", "?$select=tc_eventid&$filter=_tc_organizationid_value%20eq%20%27" + orgid + "%27").then(
+        function success(result) {
+            if (result.entities.length > 0) {
+                formContext.ui.tabs.get("tab_Events").setLabel("Events (" + result.entities.length + ")");
             }
         },
         function (error) {

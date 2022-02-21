@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{bbd32a87-4993-ec11-b3fe-0022486dc99e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_eventnm" select="1" preview="1" icon="1">
+        <row name="result" id="tc_contact_yyeventid">
+          <cell name="tc_eventnm" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_83ef9b6c5debe911a812000d3af42c56.tc_startdte" width="100" disableSorting="1" />
+          <cell name="a_83ef9b6c5debe911a812000d3af42c56.tc_enddte" width="100" disableSorting="1" />
+          <cell name="tc_contactid" width="100" />
+          <cell name="a_83ef9b6c5debe911a812000d3af42c56.tc_app" width="100" disableSorting="1" />
+          <cell name="a_83ef9b6c5debe911a812000d3af42c56.tc_multiregions" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="tc_contact_yyevent">
+          <attribute name="tc_eventnm" />
+          <order attribute="tc_eventnm" descending="false" />
+          <attribute name="tc_contactid" />
+          <link-entity alias="a_83ef9b6c5debe911a812000d3af42c56" name="tc_yyevent" from="tc_yyeventid" to="tc_eventid" link-type="outer" visible="false">
+            <attribute name="tc_startdte" />
+            <attribute name="tc_enddte" />
+            <attribute name="tc_multiregions" />
+            <attribute name="tc_app" />
+          </link-entity>
+          <attribute name="tc_contact_yyeventid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.105.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Organization Events" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

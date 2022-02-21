@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CustomActions>
+    <HideCustomAction HideActionId="tc.AccessChecker.OpenDialog.contact.Button.Hide" Location="AccessChecker.OpenDialog.contact.Button" />
     <HideCustomAction HideActionId="tc.adx.contact.Form.ChangePassword.Button.Hide" Location="adx.contact.Form.ChangePassword.Button" />
     <HideCustomAction HideActionId="tc.adx.contact.Form.ChangePasswordFlow.Button.Hide" Location="adx.contact.Form.ChangePasswordFlow.Button" />
     <HideCustomAction HideActionId="tc.adx.contact.Homepage.ChangePassword.Button.Hide" Location="adx.contact.Homepage.ChangePassword.Button" />
