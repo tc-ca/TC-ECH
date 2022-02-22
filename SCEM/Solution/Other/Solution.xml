@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22015.127" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22021.126" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>SCEM</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.105.0.0</Version>
+    <Version>1.106.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -217,6 +217,7 @@
       <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
       <RootComponent type="61" schemaName="tc_/OPP/SetEventDetailsType.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_adx_webroles" behavior="0" />
+      <RootComponent type="61" schemaName="tc_scem/contact.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_scem/event.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_scem/organization.js" behavior="0" />
       <RootComponent type="62" schemaName="tc_SCEM" behavior="0" />

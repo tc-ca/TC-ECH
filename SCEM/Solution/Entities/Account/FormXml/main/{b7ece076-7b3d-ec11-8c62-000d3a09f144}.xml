@@ -12,77 +12,6 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="tab_General" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" labelid="{e6255aa6-cb2e-4b14-bd94-6329b0913067}" visible="false">
-          <labels>
-            <label description="Summary" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="50%">
-              <sections>
-                <section name="tab_General_section_2" showlabel="false" showbar="false" locklevel="0" id="{eb377a24-5138-c14d-1006-65d836373946}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{c9a87d0e-03ee-4485-ae33-c03d5394438b}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell id="{d8337930-2a8e-11b9-4879-302d9b3768a3}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
-                <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{4b41017f-5c63-4413-a8ca-16d76eb05783}">
-                  <labels>
-                    <label description="SOCIAL PANE" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{7e87ab43-7321-21c7-5704-24c5c38000c6}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0" labelid="{60d44f68-5efb-4738-b0fa-ae440e45dfd5}">
-                        <labels>
-                          <label description="Notes Properties" languagecode="1033" />
-                        </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" uniqueid="{e3a2d9ea-e33c-9abd-b33e-0970c41c1cd5}">
-                          <parameters>
-                            <DefaultTabId>ActivitiesTab</DefaultTabId>
-                            <OrderByActivityWall>descending</OrderByActivityWall>
-                            <SortActivityWall>modifiedon</SortActivityWall>
-                            <ShowArticleTab>false</ShowArticleTab>
-                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
         <tab name="tab_Details" id="{c7ddad2c-0159-c078-0388-ae7aecd16441}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Details" languagecode="1033" />
@@ -354,6 +283,55 @@
                         <control id="websiteurl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="websiteurl" disabled="false" />
                       </cell>
                     </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Events" id="{03d63c09-c895-b26c-a90d-add19e1b87d1}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Events" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{8de3a46c-31c0-608d-d044-07497577bedd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1ebbaac4-e61d-0ea8-7a1a-3540bbd9060c}" showlabel="true" colspan="1" auto="true" rowspan="5" availableforphone="false">
+                        <labels>
+                          <label description="Contact Events (Organization)" languagecode="1033" />
+                          <label description="Adresses" languagecode="1036" />
+                        </labels>
+                        <control id="events" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{49cae6e4-7e01-a83e-6827-94074159e411}">
+                          <parameters>
+                            <ViewId>{BBD32A87-4993-EC11-B3FE-0022486DC99E}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_organization_contactevents</RelationshipName>
+                            <TargetEntityType>tc_contact_yyevent</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1},{BBD32A87-4993-EC11-B3FE-0022486DC99E}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{FDCEA99A-754A-E911-80F1-005056814435}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
               </sections>
@@ -683,7 +661,7 @@
               <Title LCID="1033" Text="Section 35" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="tc_organization_contactevents" Sequence="10008" Area="Info" Id="nav_tc_organization_contactevents">
+          <NavBarByRelationshipItem RelationshipName="tc_organization_contactevents" Sequence="10008" Area="Info" Id="nav_tc_organization_contactevents" Show="false">
             <Titles>
               <Title LCID="1033" Text="Contact Events" />
             </Titles>
