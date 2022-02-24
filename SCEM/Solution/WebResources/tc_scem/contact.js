@@ -6,7 +6,6 @@ function onformload(executionContext) {
 
     formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Events").setVisible(!isNew);
-    formContext.ui.tabs.get("tab_Tags").setVisible(!isNew);
-    formContext.ui.tabs.get("tab_Regions").setVisible(!isNew);
+
 
 }

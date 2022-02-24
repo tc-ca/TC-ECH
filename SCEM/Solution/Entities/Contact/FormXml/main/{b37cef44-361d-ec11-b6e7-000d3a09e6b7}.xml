@@ -13,7 +13,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="tab_General" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" labelid="{377a18a8-f57c-4fd2-b6fa-5378fd339b71}" locklevel="0" expanded="true">
+        <tab name="tab_General" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" labelid="{377a18a8-f57c-4fd2-b6fa-5378fd339b71}" locklevel="0" expanded="false">
           <labels>
             <label description="Details" languagecode="1033" />
           </labels>
@@ -64,7 +64,7 @@
                     <row>
                       <cell id="{e32b8129-93c8-9ac7-a120-599276b4b742}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Mobil Phone" languagecode="1033" />
+                          <label description="Mobile Phone" languagecode="1033" />
                           <label description="Téléphone mobile" languagecode="1036" />
                         </labels>
                         <control id="mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" uniqueid="{4d0b197d-021b-d21c-1a73-bda644527a51}" />
@@ -102,63 +102,6 @@
                         </labels>
                       </cell>
                     </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_Regions" id="{69b8765e-ccd3-4cda-3a23-5eec7c341236}" IsUserDefined="0" locklevel="0" showlabel="false" expanded="false" visible="false" availableforphone="false" labelid="{6d02d652-70c6-41f7-9e1b-c0c59592e9a6}">
-          <labels>
-            <label description="Regions" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_5_section_1" showlabel="false" showbar="false" locklevel="0" id="{075dd8d8-cea4-06b3-2db5-6654b99762b8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{ff3e5eeb-eef0-4874-9aaa-2b8815ccc666}">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{3034ed69-8e87-ac28-459a-959baee81821}" showlabel="false" colspan="1" auto="false" rowspan="12" labelid="{f35e02bd-a4b2-4119-a568-714f373e822c}">
-                        <labels>
-                          <label description="Regions" languagecode="1033" />
-                          <label description="Régions" languagecode="1036" />
-                        </labels>
-                        <control id="regionGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{0ddbbbc5-e451-de03-43d3-44e61e4b6ece}" indicationOfSubgrid="true">
-                          <parameters>
-                            <ViewId>{2AA9F519-D61D-44A7-B289-5D75EAF6BA4C}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>tc_TYRegion_Contact</RelationshipName>
-                            <TargetEntityType>tc_tyregion</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{2AA9F519-D61D-44A7-B289-5D75EAF6BA4C}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
-                            <RecordsPerPage>10</RecordsPerPage>
-                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
                   </rows>
                 </section>
               </sections>
@@ -214,63 +157,6 @@
                     <row />
                     <row />
                     <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_Tags" id="{2d2c50a2-08b8-d8d5-997d-5d8ad2910b2d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{1987569e-7aef-4790-94f6-66e6d76e4d65}">
-          <labels>
-            <label description="Tags" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_9_section_2" showlabel="false" showbar="false" locklevel="0" id="{8776a91c-dbc7-0ac3-c554-7e5ad920b795}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{3794b852-99be-4cfe-b718-6a425043482a}">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{4193e81d-9029-e8da-321b-505161d33d17}" showlabel="false" colspan="1" auto="false" rowspan="12" labelid="{4fdbf215-9457-46fa-ad9f-2867313bb201}">
-                        <labels>
-                          <label description="Tags" languagecode="1033" />
-                          <label description="Balises" languagecode="1036" />
-                        </labels>
-                        <control id="tagGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{5e657508-d936-49d4-9627-408732a087e8}" indicationOfSubgrid="true">
-                          <parameters>
-                            <ViewId>{4797E3E0-84DA-4B8F-A05C-F4760560FAB5}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>tc_Contact_TYTag</RelationshipName>
-                            <TargetEntityType>tc_tytag</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{4797E3E0-84DA-4B8F-A05C-F4760560FAB5}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
-                            <RecordsPerPage>10</RecordsPerPage>
-                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
                     <row />
                     <row />
                     <row />

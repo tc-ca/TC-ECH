@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_reg" localizedName="Region" description="Regions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>0.2.1.4</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Region" languagecode="1033" />
+    <displayname description="Région" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Regions" languagecode="1033" />
+    <Description description="Région" languagecode="1036" />
+  </Descriptions>
+  <options>
+    <option value="3" ExternalValue="" Color="#CCCC00">
+      <labels>
+        <label description="Ontario Region" languagecode="1033" />
+        <label description="Région de l'Ontario" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" ExternalValue="" Color="#B6AA7C">
+      <labels>
+        <label description="Pacific Region" languagecode="1033" />
+        <label description="Région Pacifique" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="5" ExternalValue="" Color="#800080">
+      <labels>
+        <label description="Prairie and Northern Region" languagecode="1033" />
+        <label description="Région des Prairies et du Nord" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" ExternalValue="" Color="#EAADEA">
+      <labels>
+        <label description="Quebec Region" languagecode="1033" />
+        <label description="Région du Québec" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" ExternalValue="" Color="#808080">
+      <labels>
+        <label description="National Capital Region" languagecode="1033" />
+        <label description="Région de la capitale nationale" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1" ExternalValue="" Color="#C0C0C0">
+      <labels>
+        <label description="Atlantic Region" languagecode="1033" />
+        <label description="Région de l'Atlantique" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

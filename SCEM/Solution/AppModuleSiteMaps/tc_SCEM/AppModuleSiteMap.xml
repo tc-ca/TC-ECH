@@ -18,7 +18,7 @@
         <SubArea Id="SubArea_Report" VectorIcon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Icon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Entity="report" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="report" Privilege="Read" />
         </SubArea>
-        <SubArea Id="NewSubArea_3b8c037f" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="396e694d-0b91-ec11-8d20-000d3a09c38d" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="Dashboards_ToolTip">
+        <SubArea Id="NewSubArea_3b8c037f" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="396e694d-0b91-ec11-8d20-000d3a09c38d" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Upcoming Events" />
           </Titles>
@@ -111,6 +111,9 @@
             <Title LCID="1033" Title="License Management" />
           </Titles>
           <Privilege Entity="team" Privilege="Append" />
+        </SubArea>
+        <SubArea Id="NewSubArea_0d83cac" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="systemuser" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Privilege Entity="systemuser" Privilege="Write" />
         </SubArea>
       </Group>
     </Area>
