@@ -145,11 +145,11 @@
       <RootComponent type="1" schemaName="tc_aystakeholdergroup" behavior="0" />
       <RootComponent type="1" schemaName="tc_businessprocessflowevent" behavior="0" />
       <RootComponent type="1" schemaName="tc_contact_yyevent" behavior="0" />
-      <RootComponent type="1" schemaName="tc_dyeventlog" behavior="0" />
       <RootComponent type="1" schemaName="tc_feedbackform" behavior="0" />
       <RootComponent type="1" schemaName="tc_forwardagendaitem" behavior="0" />
       <RootComponent type="1" schemaName="tc_forwardagendaitemcontact" behavior="0" />
       <RootComponent type="1" schemaName="tc_myimpact" behavior="0" />
+      <RootComponent type="1" schemaName="tc_myproject" behavior="2" />
       <RootComponent type="1" schemaName="tc_myprojectactivity" behavior="0" />
       <RootComponent type="1" schemaName="tc_myprojecttask" behavior="0" />
       <RootComponent type="1" schemaName="tc_organizationcontact" behavior="0" />
@@ -159,7 +159,6 @@
       <RootComponent type="1" schemaName="tc_tyindigenousgroup" behavior="0" />
       <RootComponent type="1" schemaName="tc_tylookupreference" behavior="0" />
       <RootComponent type="1" schemaName="tc_tyothergovernment" behavior="0" />
-      <RootComponent type="1" schemaName="tc_tyregion" behavior="0" />
       <RootComponent type="1" schemaName="tc_tytag" behavior="0" />
       <RootComponent type="1" schemaName="tc_tytagcategory" behavior="0" />
       <RootComponent type="1" schemaName="tc_yyagreement" behavior="0" />
@@ -219,6 +218,7 @@
       <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
       <RootComponent type="61" schemaName="tc_/OPP/SetEventDetailsType.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_adx_webroles" behavior="0" />
+      <RootComponent type="61" schemaName="tc_NavinfoConnection" behavior="0" />
       <RootComponent type="61" schemaName="tc_scem/contact.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_scem/event.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_scem/organization.js" behavior="0" />

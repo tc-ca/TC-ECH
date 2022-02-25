@@ -4,19 +4,45 @@
   <IsGlobal>1</IsGlobal>
   <IntroducedVersion>1.2.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
   <displaynames>
     <displayname description="Decision Types" languagecode="1033" />
   </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
   <options>
-    <option value="948010000">
+    <option value="948010002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Propose to Decline" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Propose to Accepted" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010000" ExternalValue="" Color="">
       <labels>
         <label description="Accepted" languagecode="1033" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
-    <option value="948010001">
+    <option value="948010001" ExternalValue="" Color="">
       <labels>
         <label description="Declined" languagecode="1033" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
   </options>
 </optionset>

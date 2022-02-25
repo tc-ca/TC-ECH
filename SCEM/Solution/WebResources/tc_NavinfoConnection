@@ -1,0 +1,155 @@
+"use strict";
+
+function SetValue(formContext,field,value){
+	if (value != null){
+		formContext.getAttribute(field).setValue(value);
+	}		
+}
+
+function RefreshNavinfoFields(formContext) {
+
+    try {
+
+		if (formContext.getAttribute("tc_submission").getValue() != null){
+			var submissionid = formContext.getAttribute("tc_submission").getValue()[0].id.slice(1, -1);
+			var url = "https://tcd365.crm3.dynamics.com/api/data/v9.2/tc_yynavigablewaterwaysubmissions("+submissionid+")";
+			var flowUrl = "https://prod-00.canadacentral.logic.azure.com:443/workflows/9f409d9e59f043228fc86e15db77d9af/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=NR0wTxH_ZW2hi2wGEn53Et8ArhBzhz3mTZCn2b-QZlo";
+			var input = JSON.stringify({
+				"SubmissionId": submissionid
+			});
+			var req = new XMLHttpRequest();
+			req.open("POST", flowUrl, true);
+			req.setRequestHeader('Content-Type', 'application/json');
+			req.onreadystatechange = function() {
+				if (this.readyState === 4) {
+					req.onreadystatechange = null;
+					if (this.status === 200) {
+						var result = JSON.parse(this.response);
+						var title = result["tc_submissionnm"];
+						var filenumberid = result["tc_filenumber"];
+						var region = result["tc_region"];
+						var province = result["tc_province"];
+						var contact = result["tc_contact"];
+						var legallanddesc = result["tc_legallanddescription"];
+						var latitudedegreegis = result["tc_latitudedegreegis"];
+						var latitudeminutegis = result["tc_latitudeminutegis"];
+						var latitudesecondgis = result["tc_latitudesecondgis"];
+						var longtitudedegreegis = result["tc_longtitudedegreegis"];
+						var longtitudeminutegis = result["tc_longtitudeminutegis"];
+						var longtitudesecondgis = result["tc_longtitudesecondgis"];
+						var latitudegis = result["tc_latitudegis"];
+						var longtitudegis = result["tc_longtitudegis"];
+						var latitudeminutedecimal = result["tc_latitudeminutedecimal"];
+						var longitudeminutedecimal = result["tc_longitudeminutedecimal"];
+						var latlonginputtype = result["tc_latlonginputtypecd"];
+						
+						formContext.getAttribute("tc_projectnm").setValue(title);
+						formContext.getAttribute("tc_nppfilenum").setValue(filenumberid);
+						
+						SetValue(formContext,"tc_contactinfo",contact);
+						SetValue(formContext,"tc_legallanddescription",legallanddesc);
+						SetValue(formContext,"tc_latitudedegreegis",latitudedegreegis);
+						SetValue(formContext,"tc_latitudeminutegis",latitudeminutegis);
+						SetValue(formContext,"tc_latitudesecondgis",latitudesecondgis);
+						SetValue(formContext,"tc_longtitudedegreegis",longtitudedegreegis);
+						SetValue(formContext,"tc_longtitudeminutegis",longtitudeminutegis);
+						SetValue(formContext,"tc_longtitudesecondgis",longtitudesecondgis);
+						SetValue(formContext,"tc_latitudegis",latitudegis);
+						SetValue(formContext,"tc_longtitudegis",longtitudegis);
+						SetValue(formContext,"tc_latitudeminutedecimal",latitudeminutedecimal);
+						SetValue(formContext,"tc_longitudeminutedecimal",longitudeminutedecimal);
+						SetValue(formContext,"tc_latlonginputtype",latlonginputtype);
+			
+						var regionValue=null;
+						switch(region) {
+						  case "ad08cbb5-233f-e911-80fd-005056813f84": regionValue=1; //Atlantic Region
+							break;
+						  case "774a8f80-1ca2-eb11-b1ac-000d3ae8b82c": regionValue=2; //National Capital Region
+							break;
+						  case "b108cbb5-233f-e911-80fd-005056813f84": regionValue=3; //Ontario Region
+							break;
+						  case "b308cbb5-233f-e911-80fd-005056813f84": regionValue=4; //Pacific Region
+							break;
+						  case "b508cbb5-233f-e911-80fd-005056813f84": regionValue=5; //Prairie and Northern Region
+							break;
+						  case "b708cbb5-233f-e911-80fd-005056813f84": regionValue=6; //Quebec Region
+							break;							
+						  default:
+						}
+
+						SetValue(formContext,"tc_region",regionValue);
+						
+						var provinceValue=null;
+						switch(province) {
+						  case "1bde6e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010000; //Alberta
+							break;
+						  case "73de6e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010001; //British Columbia 
+							break;
+						  case "b0df6e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010002; //Manitoba
+							break;
+						  case "f0df6e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010003; //New Brunswick
+							break;
+						  case "0ae06e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010004; //Newfoundland and Labrador
+							break;
+						  case "20e06e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010005; //Northwest Territories
+							break;							
+						  case "18e06e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010006; //Nova Scotia
+							break;
+						  case "22e06e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010007; //Nunavut
+							break;
+						  case "d396d976-ca51-e911-80e8-005056834826": provinceValue=948010008; //Ontario
+							break;
+						  case "4ce06e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010009; //Prince Edward Island
+							break;
+						  case "67e06e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010010; //Quebec
+							break;
+						  case "abe06e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010011; //Saskatchewan
+							break;
+						  case "29e16e3e-8a51-e911-80e9-0050568332f8": provinceValue=948010012; //Yukon
+							break;						
+						  default:
+						}	
+
+						SetValue(formContext,"tc_provincecd",provinceValue);						
+						
+						formContext.getAttribute("statuscode").setValue(948010001); //Under Review
+						
+						refreshsection(formContext);
+						
+					} else {
+						Xrm.Utility.alertDialog(this.statusText);
+					}
+				}
+			};		
+			req.send(input);		
+
+		}else{
+			DisplayAlert("Please input a NAVINFO submission","Veuillez entrer une soumission NAVINFO");
+		}   
+
+    } catch (e) {
+        Xrm.Utility.alertDialog("Error: " + e.message || e.description);
+    }
+
+
+}
+
+function OpenNavinfoRecord(formContext) {
+	
+	if (formContext.getAttribute("tc_submission").getValue() != null){
+		var submissionid = formContext.getAttribute("tc_submission").getValue()[0].id.slice(1, -1);
+		var url = "https://tcd365.crm3.dynamics.com/main.aspx?appid=e5d4bd7f-0faf-4d1f-86c0-b172823c7e22&pagetype=entityrecord&etn=tc_yynavigablewaterwaysubmission&id=" + submissionid;
+		window.open(url, '_blank').focus();
+	}else{
+		DisplayAlert("Please input a NAVINFO submission","Veuillez entrer une soumission NAVINFO");
+	}   
+}
+
+function DisplayAlert(msgEN, msgFR){
+	if (Xrm.Utility.getGlobalContext().userSettings.languageId == 1036){
+		alert(msgFR);
+	}else{
+		alert(msgEN);
+	}
+	
+}

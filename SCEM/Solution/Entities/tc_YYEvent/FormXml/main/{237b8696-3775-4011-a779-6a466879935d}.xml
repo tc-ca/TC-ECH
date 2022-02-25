@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="false" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="false" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
+        <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Généralités" languagecode="1036" />
@@ -291,12 +291,11 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{e3c672e2-2a91-84c1-2762-10e5ca172929}" showlabel="true" locklevel="0">
+                      <cell id="{28b263e9-bb3c-bc5b-0760-e100c4c7a109}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Type of desired level " languagecode="1033" />
-                          <label description="Type de niveau souhaité" languagecode="1036" />
+                          <label description="Type of desired level" languagecode="1033" />
                         </labels>
-                        <control id="tc_desiredlevel" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_desiredlevel" disabled="false" />
+                        <control id="tc_typeofdesiredlevel" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_typeofdesiredlevel" disabled="false" />
                       </cell>
                       <cell id="{b8aa3413-2a75-c684-acde-ebb05b6104a6}" showlabel="true" locklevel="0">
                         <labels>
@@ -384,13 +383,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{484e0834-5b15-aeaa-0e0d-7602be704cb7}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="To which criteria does this event respond?" languagecode="1033" />
-                          <label description="À quels critères cet évenement répond-il?" languagecode="1036" />
-                        </labels>
-                        <control id="tc_respondcriteria" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_respondcriteria" disabled="false" uniqueid="{eddca503-073d-3cba-9b4c-30ce3c29dc3d}" />
-                      </cell>
                       <cell id="{9721903a-35b9-0a44-ac8b-e581a9b3d838}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Does this need to be added to the event plan?" languagecode="1033" />
@@ -398,21 +390,21 @@
                         </labels>
                         <control id="tc_ineventplan" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_ineventplan" disabled="false" />
                       </cell>
-                    </row>
-                    <row>
-                      <cell id="{ee945617-09b3-10de-d96e-c90984de25b7}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="TDG's recommendation-Relevance Guide in Tooltip " languagecode="1033" />
-                          <label description="Recommandation du TMD-Guide en info-bulle " languagecode="1036" />
-                        </labels>
-                        <control id="tc_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_priority" disabled="false" />
-                      </cell>
-                      <cell id="{3caa0ba1-0b68-d888-d7de-0436cba0d889}" showlabel="true" locklevel="0" rowspan="2">
+                      <cell id="{3caa0ba1-0b68-d888-d7de-0436cba0d889}" showlabel="true" locklevel="0" rowspan="4">
                         <labels>
                           <label description="Justification" languagecode="1033" />
                           <label description="Justification" languagecode="1036" />
                         </labels>
                         <control id="tc_justification" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_justification" disabled="false" uniqueid="{1b2db644-e240-4242-8023-b88a51d0e05b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{484e0834-5b15-aeaa-0e0d-7602be704cb7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="To which criteria does this event respond?" languagecode="1033" />
+                          <label description="À quels critères cet évenement répond-il?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_respondcriteria" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_respondcriteria" disabled="false" uniqueid="{eddca503-073d-3cba-9b4c-30ce3c29dc3d}" />
                       </cell>
                     </row>
                     <row>
@@ -432,7 +424,30 @@
                         </labels>
                         <control id="tc_approvalreceived" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_approvalreceived" disabled="false" />
                       </cell>
-                      <cell id="{1208a63e-9907-2321-d9b6-989092c856a4}" showlabel="true" locklevel="0" rowspan="2">
+                    </row>
+                    <row>
+                      <cell id="{3a56a222-703b-2c48-edaa-56dd9118aabe}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lead for material" languagecode="1033" />
+                        </labels>
+                        <control id="tc_leadformaterial" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_leadformaterial" disabled="false" />
+                      </cell>
+                      <cell id="{ee945617-09b3-10de-d96e-c90984de25b7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="TDG's recommendation-Relevance Guide in Tooltip " languagecode="1033" />
+                          <label description="Recommandation du TMD-Guide en info-bulle " languagecode="1036" />
+                        </labels>
+                        <control id="tc_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_priority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4642da09-ed3c-9670-eeea-3646c6d92568}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Due Date for material" languagecode="1033" />
+                        </labels>
+                        <control id="tc_duedateformaterial" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_duedateformaterial" disabled="false" />
+                      </cell>
+                      <cell id="{1208a63e-9907-2321-d9b6-989092c856a4}" showlabel="true" locklevel="0" rowspan="4">
                         <labels>
                           <label description="Recommendation" languagecode="1033" />
                           <label description="Recommandation" languagecode="1036" />
@@ -455,6 +470,20 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd798e19-9096-38c7-5e3b-c1e36b766695}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee8d8187-b1b7-ce4b-8179-70467b07c91d}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
                       <cell id="{3869a420-e2dc-e9cc-36c9-854d0e39ac3d}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Response Sent" languagecode="1033" />
@@ -464,12 +493,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{cd798e19-9096-38c7-5e3b-c1e36b766695}" showlabel="false">
+                      <cell id="{475bea5c-1c96-1809-b94a-e3c17260e69d}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{d793e419-6112-432b-d592-54c39c0b80b5}" showlabel="true" locklevel="0" rowspan="2">
+                      <cell id="{d793e419-6112-432b-d592-54c39c0b80b5}" showlabel="true" locklevel="0" rowspan="4">
                         <labels>
                           <label description="Comments" languagecode="1033" />
                           <label description="Commentaires" languagecode="1036" />
@@ -478,19 +507,33 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8801a5cd-b062-b639-9ebc-3582587ada59}" showlabel="false">
+                      <cell id="{18e06113-c6c8-b6ed-ca4c-1bee5d5e8e0d}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4724601d-1a65-9b25-3c99-d143592617c7}" showlabel="false">
+                      <cell id="{d55ede6a-0280-8c43-1810-385bb02210c6}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{2d992b5b-713c-1d2b-9dd0-25143b3ca7d1}" showlabel="true" locklevel="0" rowspan="3">
+                    </row>
+                    <row>
+                      <cell id="{9a18ab34-ae9c-d4d5-84a3-d6668b7dd293}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e67106c-9264-7d36-eced-a4700404ca01}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{2d992b5b-713c-1d2b-9dd0-25143b3ca7d1}" showlabel="true" locklevel="0" rowspan="4">
                         <labels>
                           <label description="Feedback from participants" languagecode="1033" />
                           <label description="Rétroaction des participants" languagecode="1036" />
@@ -499,14 +542,21 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{46234856-471e-a1b2-b03b-4c8414b72a19}" showlabel="false">
+                      <cell id="{acb24a07-a404-b8d8-aab9-2c99331957c0}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{bcae1a16-4331-5e89-abeb-c1424d256a87}" showlabel="false">
+                      <cell id="{3ee37a52-a90c-5332-b041-31b6cce5da77}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{924ba284-7dcc-9165-91ba-e7d6ad59784a}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
