@@ -68,5 +68,93 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
+    <option value="948010000" ExternalValue="" Color="#C0C0C0">
+      <labels>
+        <label description="Arctic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Arctic Region" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Atlantic South Coast NL" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010003" ExternalValue="" Color="#808080">
+      <labels>
+        <label description="Atlantic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010004" ExternalValue="" Color="#CCCC00">
+      <labels>
+        <label description="National Capital Region" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010005" ExternalValue="" Color="#B6AA7C">
+      <labels>
+        <label description="Ontario" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010006" ExternalValue="" Color="#800080">
+      <labels>
+        <label description="Pacific North Coast" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010007" ExternalValue="" Color="#EAADEA">
+      <labels>
+        <label description="Pacific South Coast" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pacific Vancouver Island" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="PNR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010010" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Quebec" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
   </options>
 </optionset>
