@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <EntityRelationship Name="tc_ayemployee_dyeventlog_EmployeeId">
+  <EntityRelationship Name="tc_AYEmployee_MYProject_ProjectOwnerId">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>0.3.1.9</IntroducedVersion>
+    <IntroducedVersion>0.1.0.11</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>tc_DYEventLog</ReferencingEntityName>
+    <ReferencingEntityName>tc_MYProject</ReferencingEntityName>
     <ReferencedEntityName>tc_AYEmployee</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -14,10 +14,11 @@
     <CascadeUnshare>NoCascade</CascadeUnshare>
     <CascadeRollupView>NoCascade</CascadeRollupView>
     <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
-    <ReferencingAttributeName>tc_EmployeeId</ReferencingAttributeName>
+    <ReferencingAttributeName>tc_ProjectOwnerId</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
-        <Description description="Used for recording when a user authenticating using windows integrated authentication within the TC intranet modifies data through a CRM service account" languagecode="1033" />
+        <Description description="Owner to be connected to this project" languagecode="1033" />
+        <Description description="Propriétaire qui sera lié au présent projet" languagecode="1036" />
       </Descriptions>
     </RelationshipDescription>
     <EntityRelationshipRoles>
@@ -25,14 +26,14 @@
         <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
         <NavPaneArea>Details</NavPaneArea>
         <NavPaneOrder>10000</NavPaneOrder>
-        <NavigationPropertyName>tc_EmployeeId</NavigationPropertyName>
+        <NavigationPropertyName>tc_ProjectOwnerId</NavigationPropertyName>
         <CustomLabels>
           <CustomLabel description="" languagecode="1033" />
         </CustomLabels>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
       <EntityRelationshipRole>
-        <NavigationPropertyName>tc_ayemployee_dyeventlog_EmployeeId</NavigationPropertyName>
+        <NavigationPropertyName>tc_AYEmployee_MYProject_ProjectOwnerId</NavigationPropertyName>
         <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>

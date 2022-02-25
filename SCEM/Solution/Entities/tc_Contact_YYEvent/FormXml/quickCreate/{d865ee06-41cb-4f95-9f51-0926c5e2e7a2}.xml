@@ -110,6 +110,14 @@
                         <control id="tc_invitedind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_invitedind" disabled="false" uniqueid="{39d97860-b306-5534-5bc9-a6929079d444}" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{c3cdbba5-63c8-6e2e-80be-cbe39b6ee058}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="tc_role" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_role" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

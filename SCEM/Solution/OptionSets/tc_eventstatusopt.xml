@@ -13,6 +13,33 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
+    <option value="948010003" ExternalValue="" Color="">
+      <labels>
+        <label description="Cancelled / Postponed event" languagecode="1033" />
+        <label description="Événement annulé / reporté" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010005" ExternalValue="" Color="">
+      <labels>
+        <label description="Contact established" languagecode="1033" />
+        <label description="Contact établi" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010004" ExternalValue="" Color="">
+      <labels>
+        <label description="Event in progress" languagecode="1033" />
+        <label description="Evénement en cours" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
     <option value="948010000" ExternalValue="" Color="#0000ff">
       <labels>
         <label description="No work started" languagecode="1033" />

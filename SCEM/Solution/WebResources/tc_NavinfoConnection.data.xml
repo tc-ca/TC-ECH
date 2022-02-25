@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{7720f8b4-c67c-ec11-8d20-0022486dc1c7}</WebResourceId>
+  <Name>tc_NavinfoConnection</Name>
+  <DisplayName>IEC - Navinfo Connection</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.184.1.1</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_NavinfoConnection7720F8B4-C67C-EC11-8D20-0022486DC1C7</FileName>
+</WebResource>
