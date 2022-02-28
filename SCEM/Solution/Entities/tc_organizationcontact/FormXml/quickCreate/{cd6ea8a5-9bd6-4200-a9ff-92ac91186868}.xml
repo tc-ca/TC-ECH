@@ -87,22 +87,13 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2d9c7c0b-ab97-c5c5-ac2d-cd0849871d41}" showlabel="true" locklevel="0">
+                      <cell id="{836cd812-d5de-7e8b-28d4-1d99aa8d16c0}" showlabel="false">
                         <labels>
-                          <label description="Position" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="tc_position" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_position" disabled="false" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{cc5d92f0-b9d2-4d3c-943c-f6f3118b9f4e}" locklevel="0" colspan="1" rowspan="3">
-                        <labels>
-                          <label description="Roles and Responsibilities" languagecode="1033" />
-                          <label description="Rôles et Responsabilités" languagecode="1036" />
-                        </labels>
-                        <control id="tc_rolesandresponsibilities" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="tc_rolesandresponsibilities" disabled="false" />
-                      </cell>
-                    </row>
+                    <row></row>
                   </rows>
                 </section>
               </sections>
