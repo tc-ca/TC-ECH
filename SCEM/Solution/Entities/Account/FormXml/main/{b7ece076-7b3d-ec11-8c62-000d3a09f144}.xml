@@ -194,6 +194,72 @@
             </column>
           </columns>
         </tab>
+        <tab name="tab_6" id="{1a259d12-b60e-d02e-0078-7b375e7340d4}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Contacts" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_2" showlabel="false" showbar="false" locklevel="0" id="{987374e0-5d6b-1e79-2e56-19642c440e62}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{25b7ec32-445c-1a25-3999-63220092b324}" showlabel="false" colspan="1" auto="false" rowspan="22">
+                        <labels>
+                          <label description="Contacts" languagecode="1033" />
+                          <label description="Organisations Contacts" languagecode="1036" />
+                        </labels>
+                        <control id="contactGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{24166b69-9591-de60-ad06-3370b491954b}">
+                          <parameters>
+                            <ViewId>{A5569AC2-E1D9-404F-A213-8A9FF84B38F6}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_organization_organizationscontacts</RelationshipName>
+                            <TargetEntityType>tc_organizationcontact</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A5569AC2-E1D9-404F-A213-8A9FF84B38F6}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
         <tab name="tab_Address" id="{a8bde86a-20ae-aac8-0e3d-6a65ece0adcb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Address" languagecode="1033" />

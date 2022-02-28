@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form showImage="true" shownavigationbar="true" maxWidth="1900" headerdensity="HighWithControls" solutionaction="Modified">
       <tabs>
-        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" ordinalvalue="0">
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="false" locklevel="0" ordinalvalue="0" solutionaction="Modified">
           <columns>
             <column width="50%" id="0" solutionaction="Modified">
               <sections>
