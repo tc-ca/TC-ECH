@@ -194,7 +194,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_6" id="{1a259d12-b60e-d02e-0078-7b375e7340d4}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tab_Contacts" id="{1a259d12-b60e-d02e-0078-7b375e7340d4}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Contacts" languagecode="1033" />
           </labels>
