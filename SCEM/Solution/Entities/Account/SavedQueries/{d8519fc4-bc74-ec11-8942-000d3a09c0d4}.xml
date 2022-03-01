@@ -31,18 +31,16 @@
           <attribute name="tc_oppaccounttypeid" />
           <attribute name="tc_lastengagementdate" />
           <attribute name="tc_region" />
-          <order attribute="name" descending="false" />
-          <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" visible="false" link-type="outer" alias="a_3bef9b6c5debe911a812000d3af42c56">
-            <attribute name="tc_categorycd" />
-          </link-entity>
-          <link-entity name="businessunit" from="businessunitid" to="owningbusinessunit" alias="aa">
-            <filter type="and">
-              <condition attribute="name" operator="eq" value="IEC" />
-            </filter>
-          </link-entity>
           <attribute name="tc_programarea" />
           <attribute name="tc_lastregion" />
           <attribute name="tc_engagementid" />
+          <order attribute="name" descending="false" />
+          <filter type="and">
+            <condition attribute="tc_programarea" operator="eq" value="948010000" />
+          </filter>
+          <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" visible="false" link-type="outer" alias="a_3bef9b6c5debe911a812000d3af42c56">
+            <attribute name="tc_categorycd" />
+          </link-entity>
           <attribute name="accountid" />
         </entity>
       </fetch>

@@ -28,17 +28,13 @@
           <order attribute="name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="tc_programarea" operator="eq" value="948010001" />
           </filter>
           <link-entity name="contact" from="contactid" to="primarycontactid" visible="false" link-type="outer" alias="a_410707b195544cd984376608b1802904">
             <attribute name="emailaddress1" />
           </link-entity>
           <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" visible="false" link-type="outer" alias="a_b5197a5e5337e8118141000c2958e3a5">
             <attribute name="tc_categorycd" />
-          </link-entity>
-          <link-entity name="businessunit" from="businessunitid" to="owningbusinessunit" alias="aa">
-            <filter type="and">
-              <condition attribute="name" operator="eq" value="OPP" />
-            </filter>
           </link-entity>
           <attribute name="accountid" />
         </entity>

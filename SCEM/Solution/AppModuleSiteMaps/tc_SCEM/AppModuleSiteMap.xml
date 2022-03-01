@@ -18,7 +18,7 @@
         <SubArea Id="SubArea_Report" VectorIcon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Icon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Entity="report" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="report" Privilege="Read" />
         </SubArea>
-        <SubArea Id="NewSubArea_3b8c037f" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="396e694d-0b91-ec11-8d20-000d3a09c38d" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="Dashboards_ToolTip">
+        <SubArea Id="NewSubArea_3b8c037f" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="396e694d-0b91-ec11-8d20-000d3a09c38d" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Upcoming Events" />
           </Titles>
@@ -96,9 +96,6 @@
         <SubArea Id="NewSubArea_771c0b17" VectorIcon="/WebResources/msdyn_/IoT/Images/SVG/IoTProvider/IoTProvider.svg" Entity="tc_tyaccounttype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Privilege Entity="tc_tyaccounttype" Privilege="Assign" />
         </SubArea>
-        <SubArea Id="SubArea_Region" VectorIcon="/WebResources/tc_adx_webroles" Entity="tc_tyregion" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
-          <Privilege Entity="tc_tyregion" Privilege="Create" />
-        </SubArea>
         <SubArea Id="NewSubArea_1037d1bb" Entity="tc_tytag" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_12b5050f" Entity="tc_yyagreement" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
@@ -112,6 +109,7 @@
           </Titles>
           <Privilege Entity="team" Privilege="Append" />
         </SubArea>
+        <SubArea Id="NewSubArea_10a1c9af" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="systemuser" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>
