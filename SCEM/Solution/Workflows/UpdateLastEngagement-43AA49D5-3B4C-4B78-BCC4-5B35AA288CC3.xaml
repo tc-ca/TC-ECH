@@ -22,7 +22,6 @@
           <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep2_2" />
           <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep2_3" />
           <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep2_4" />
-          <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep2_5" />
         </sco:Collection>
         <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
           <mxswa:GetEntityProperty Attribute="tc_organizationid" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_contact_yyevent" Value="[ConditionBranchStep2_2]">
@@ -42,16 +41,7 @@
               <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep2_1]</OutArgument>
             </mxswa:ActivityReference.Arguments>
           </mxswa:ActivityReference>
-          <mxswa:GetEntityProperty Attribute="tc_startdte" Entity="[InputEntities(&quot;related_tc_eventid#tc_yyevent&quot;)]" EntityName="tc_yyevent" Value="[ConditionBranchStep2_4]">
-            <mxswa:GetEntityProperty.TargetType>
-              <InArgument x:TypeArguments="s:Type">
-                <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
-                  <x:Null />
-                </mxswa:ReferenceLiteral>
-              </InArgument>
-            </mxswa:GetEntityProperty.TargetType>
-          </mxswa:GetEntityProperty>
-          <mxswa:GetEntityProperty Attribute="tc_lastengagementdate" Entity="[InputEntities(&quot;related_tc_organizationid#account&quot;)]" EntityName="account" Value="[ConditionBranchStep2_5]">
+          <mxswa:GetEntityProperty Attribute="tc_eventid" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_contact_yyevent" Value="[ConditionBranchStep2_4]">
             <mxswa:GetEntityProperty.TargetType>
               <InArgument x:TypeArguments="s:Type">
                 <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
@@ -62,8 +52,8 @@
           </mxswa:GetEntityProperty>
           <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
             <mxswa:ActivityReference.Arguments>
-              <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">GreaterThan</InArgument>
-              <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep2_5 }]</InArgument>
+              <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">NotNull</InArgument>
+              <x:Null x:Key="Parameters" />
               <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep2_4]</InArgument>
               <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep2_3]</OutArgument>
             </mxswa:ActivityReference.Arguments>
@@ -86,8 +76,62 @@
                   <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
                   <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
                     <Sequence DisplayName="UpdateStep3">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Object" Name="UpdateStep3_1" />
+                        <Variable x:TypeArguments="x:Object" Name="UpdateStep3_2" />
+                        <Variable x:TypeArguments="x:Object" Name="UpdateStep3_3" />
+                        <Variable x:TypeArguments="x:Object" Name="UpdateStep3_4" />
+                      </Sequence.Variables>
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;related_tc_organizationid#account#Temp&quot;)]" Value="[New Entity(&quot;account&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;related_tc_organizationid#account#Temp&quot;).Id]" Value="[InputEntities(&quot;related_tc_organizationid#account&quot;).Id]" />
+                      <mxswa:GetEntityProperty Attribute="tc_eventid" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="tc_contact_yyevent" Value="[UpdateStep3_2]">
+                        <mxswa:GetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:GetEntityProperty.TargetType>
+                      </mxswa:GetEntityProperty>
+                      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                        <mxswa:ActivityReference.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { UpdateStep3_2 }]</InArgument>
+                          <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[UpdateStep3_1]</OutArgument>
+                        </mxswa:ActivityReference.Arguments>
+                      </mxswa:ActivityReference>
+                      <mxswa:SetEntityProperty Attribute="tc_engagementid" Entity="[CreatedEntities(&quot;related_tc_organizationid#account#Temp&quot;)]" EntityName="account" Value="[UpdateStep3_1]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
+                      <mxswa:GetEntityProperty Attribute="tc_startdte" Entity="[InputEntities(&quot;related_tc_eventid#tc_yyevent&quot;)]" EntityName="tc_yyevent" Value="[UpdateStep3_4]">
+                        <mxswa:GetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="s:DateTime" />
+                          </InArgument>
+                        </mxswa:GetEntityProperty.TargetType>
+                      </mxswa:GetEntityProperty>
+                      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                        <mxswa:ActivityReference.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { UpdateStep3_4 }]</InArgument>
+                          <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="s:DateTime" />
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[UpdateStep3_3]</OutArgument>
+                        </mxswa:ActivityReference.Arguments>
+                      </mxswa:ActivityReference>
+                      <mxswa:SetEntityProperty Attribute="tc_lastengagementdate" Entity="[CreatedEntities(&quot;related_tc_organizationid#account#Temp&quot;)]" EntityName="account" Value="[UpdateStep3_3]">
+                        <mxswa:SetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="s:DateTime" />
+                          </InArgument>
+                        </mxswa:SetEntityProperty.TargetType>
+                      </mxswa:SetEntityProperty>
                       <mxswa:UpdateEntity DisplayName="UpdateStep3" Entity="[CreatedEntities(&quot;related_tc_organizationid#account#Temp&quot;)]" EntityName="account" />
                       <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;related_tc_organizationid#account&quot;)]" Value="[CreatedEntities(&quot;related_tc_organizationid#account#Temp&quot;)]" />
                     </Sequence>

@@ -18,16 +18,17 @@
     </layoutxml>
     <querytype>0</querytype>
     <fetchxml>
-      <fetch version="1.0" mapping="logical">
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="tc_yyevent">
           <attribute name="tc_eventnm" />
+          <attribute name="tc_startdte" />
+          <attribute name="tc_enddte" />
           <order attribute="tc_startdte" descending="true" />
           <order attribute="tc_eventnm" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="owningbusinessunit" operator="eq-businessid" />
           </filter>
-          <attribute name="tc_startdte" />
-          <attribute name="tc_enddte" />
           <attribute name="tc_yyeventid" />
         </entity>
       </fetch>
