@@ -16,9 +16,9 @@
           <cell name="a_3bef9b6c5debe911a812000d3af42c56.tc_categorycd" width="100" disableSorting="1" />
           <cell name="ownerid" width="100" />
           <cell name="tc_programarea" width="100" disableSorting="1" />
-          <cell name="tc_lastengagement" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_engagementid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="tc_lastengagementdate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="tc_lastengagementregion" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_lastregion" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -30,7 +30,6 @@
           <attribute name="ownerid" />
           <attribute name="tc_oppaccounttypeid" />
           <attribute name="tc_lastengagementdate" />
-          <attribute name="tc_lastengagement" />
           <attribute name="tc_region" />
           <order attribute="name" descending="false" />
           <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" visible="false" link-type="outer" alias="a_3bef9b6c5debe911a812000d3af42c56">
@@ -41,8 +40,9 @@
               <condition attribute="name" operator="eq" value="SafSec" />
             </filter>
           </link-entity>
-          <attribute name="tc_lastengagementregion" />
           <attribute name="tc_programarea" />
+          <attribute name="tc_lastregion" />
+          <attribute name="tc_engagementid" />
           <attribute name="accountid" />
         </entity>
       </fetch>
