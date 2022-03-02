@@ -1,16 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CustomActions>
+    <HideCustomAction HideActionId="tc.AccessChecker.OpenDialog.tc_contact_yyevent.Button.Hide" Location="AccessChecker.OpenDialog.tc_contact_yyevent.Button" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.tc_contact_yyevent.Activate.Hide" Location="Mscrm.Form.tc_contact_yyevent.Activate" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.tc_contact_yyevent.Assign.Hide" Location="Mscrm.Form.tc_contact_yyevent.Assign" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.tc_contact_yyevent.Deactivate.Hide" Location="Mscrm.Form.tc_contact_yyevent.Deactivate" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_contact_yyevent.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.tc_contact_yyevent.Flows.RefreshCommandBar" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.tc_contact_yyevent.Permissions.Sharing.Hide" Location="Mscrm.Form.tc_contact_yyevent.Permissions.Sharing" />
+    <HideCustomAction HideActionId="tc.Mscrm.Form.tc_contact_yyevent.Reports.Hide" Location="Mscrm.Form.tc_contact_yyevent.Reports" />
     <HideCustomAction HideActionId="tc.Mscrm.Form.tc_contact_yyevent.WordTemplate.Hide" Location="Mscrm.Form.tc_contact_yyevent.WordTemplate" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.Activate.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.Activate" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.Assign.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.Assign" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.Deactivate.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.Deactivate" />
     <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.DocumentTemplate.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.DocumentTemplate" />
     <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.ExportSelectedToExcel.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.ExportSelectedToExcel" />
     <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.ExportToExcel.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.ExportToExcel" />
     <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.Flows.RefreshCommandBar" />
     <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.RunReport.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.RunReport" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.SendSelected.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.SendSelected" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.Sharing.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.Sharing" />
+    <HideCustomAction HideActionId="tc.Mscrm.SubGrid.tc_contact_yyevent.WordTemplate.Hide" Location="Mscrm.SubGrid.tc_contact_yyevent.WordTemplate" />
   </CustomActions>
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
