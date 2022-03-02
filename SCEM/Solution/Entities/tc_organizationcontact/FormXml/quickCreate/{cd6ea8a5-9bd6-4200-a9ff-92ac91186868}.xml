@@ -87,13 +87,13 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{836cd812-d5de-7e8b-28d4-1d99aa8d16c0}" showlabel="false">
+                      <cell id="{a34673a5-01e2-11c4-6751-d2ac65b73379}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Position" languagecode="1033" />
                         </labels>
+                        <control id="tc_position" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_position" disabled="false" />
                       </cell>
                     </row>
-                    <row></row>
                   </rows>
                 </section>
               </sections>

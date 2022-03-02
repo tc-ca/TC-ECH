@@ -74,63 +74,19 @@
                         <control id="tc_position" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_position" disabled="false" uniqueid="{0a257de8-146a-9834-d83c-ed09e6bca1b2}" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{bad83190-2aeb-4ead-8eab-ffc872bad76c}" locklevel="0" colspan="1" rowspan="3">
-                        <labels>
-                          <label description="Roles and Responsibilities" languagecode="1033" />
-                          <label description="Rôles et Responsabilités" languagecode="1036" />
-                        </labels>
-                        <control id="tc_rolesandresponsibilities" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="tc_rolesandresponsibilities" disabled="false" />
-                      </cell>
-                    </row>
+                    <row></row>
                   </rows>
                 </section>
               </sections>
             </column>
             <column width="66%">
-              <sections>
-                <section showlabel="false" showbar="false" id="{0a53b195-7ba6-4bfa-9b5d-9cef0271c2e8}" IsUserDefined="0" height="auto">
-                  <labels>
-                    <label description="Notes" languagecode="1033" />
-                    <label description="Remarques" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell showlabel="false" rowspan="15" auto="false" id="{28d705c4-6806-4a8a-9133-82e03e288b1b}">
-                        <labels>
-                          <label description="Note Text" languagecode="1033" />
-                          <label description="Texte de la remarque" languagecode="1036" />
-                        </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
-                          <parameters>
-                            <DefaultTabId>NotesTab</DefaultTabId>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row height="auto" />
-                  </rows>
-                </section>
-              </sections>
+              <sections></sections>
             </column>
           </columns>
         </tab>
       </tabs>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
