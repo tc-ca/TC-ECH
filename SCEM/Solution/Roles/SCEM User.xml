@@ -7,6 +7,8 @@
     <RolePrivilege name="prvAppendToActionCard" level="Global" />
     <RolePrivilege name="prvAppendTotc_address" level="Deep" />
     <RolePrivilege name="prvAppendTotc_TYEventType" level="Global" />
+    <RolePrivilege name="prvAppendToWorkflow" level="Global" />
+    <RolePrivilege name="prvAppendWorkflow" level="Global" />
     <RolePrivilege name="prvAssigntc_address" level="Deep" />
     <RolePrivilege name="prvCreateActionCard" level="Basic" />
     <RolePrivilege name="prvCreateActionCardUserSettings" level="Basic" />
