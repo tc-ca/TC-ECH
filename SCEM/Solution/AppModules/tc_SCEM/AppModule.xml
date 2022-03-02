@@ -38,6 +38,7 @@
     <AppModuleComponent type="26" id="{39bcc047-e76f-ec11-8f8e-000d3af4c618}" />
     <AppModuleComponent type="26" id="{6505ce6b-e76f-ec11-8f8e-000d3af4c618}" />
     <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="60" id="{2e68b5d3-1b01-ec11-94f0-0022486d6eca}" />
     <AppModuleComponent type="26" id="{8bf29375-2604-ec11-b6e7-0022486d73fd}" />
     <AppModuleComponent type="26" id="{69969211-241f-ec11-b6e6-0022486d8d6f}" />
     <AppModuleComponent type="62" schemaName="tc_SCEM" />
