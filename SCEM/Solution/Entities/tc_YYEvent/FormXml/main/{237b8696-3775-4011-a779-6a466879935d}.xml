@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="false" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
+    <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
@@ -2616,7 +2616,77 @@
       </footer>
       <Navigation>
         <NavBar>
-          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYComment_EventId" Sequence="10000" Area="Info" Id="nav_tc_YYEvent_YYComment_EventId" Show="false">
+          <NavBarByRelationshipItem RelationshipName="bpf_tc_yyevent_tc_businessprocessflowevent" Sequence="10001" Area="Info" Id="nav_bpf_tc_yyevent_tc_businessprocessflowevent" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="tc_yyevent" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventdetail_EventId" Sequence="10002" Area="Info" Id="nav_tc_yyevent_yyeventdetail_EventId">
+            <Titles>
+              <Title LCID="1033" Text="Event Details" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventgiftexchanged_EventId" Sequence="10003" Area="Info" Id="nav_tc_yyevent_yyeventgiftexchanged_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Gifts Exchanged" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventissue_EventId" Sequence="10004" Area="Info" Id="nav_tc_yyevent_yyeventissue_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Engagement Themes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventkeymessage_EventId" Sequence="10005" Area="Info" Id="nav_tc_yyevent_yyeventkeymessage_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Key Messages" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventobjective_EventId" Sequence="10006" Area="Info" Id="nav_tc_yyevent_yyeventobjective_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Objectives" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventoutcome_EventId" Sequence="10007" Area="Info" Id="nav_tc_yyevent_yyeventoutcome_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Outcomes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yystakeholderposition_EventId" Sequence="10008" Area="Info" Id="nav_tc_yyevent_yystakeholderposition_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Stakeholders Position" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventindicator_EventId" Sequence="10009" Area="Info" Id="nav_tc_yyevent_yyeventindicator_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Indicators" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_event_eventsregions" Sequence="10010" Area="Info" Id="nav_tc_event_eventsregions" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Regions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_event_protectedbdocuments" Sequence="10011" Area="Info" Id="nav_tc_event_protectedbdocuments" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Protected B Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_event_address" Sequence="10012" Area="Info" Id="nav_tc_event_address" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Addresses" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYInitiative" Sequence="10013" Area="Info" Id="nav_tc_YYEvent_YYInitiative" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Initiatives" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_Event_Region" Sequence="10014" Area="Info" Id="nav_tc_Event_Region" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Events Regions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYComment_EventId" Sequence="10015" Area="Info" Id="nav_tc_YYEvent_YYComment_EventId" Show="false">
             <Titles>
               <Title LCID="1033" Text="Comments" />
             </Titles>
