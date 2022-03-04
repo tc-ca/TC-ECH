@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="tc_lead" localizedName="Lead for materials Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.119.1.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Lead for materials Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="948010000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="TDG Secretariat" languagecode="1033" />
+        <label description="Secrétariat du TMD" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Compliance and Response Branch" languagecode="1033" />
+        <label description="Direction de la confirmité et de l’intervention" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Regulatory Framework and International Engagement Branch" languagecode="1033" />
+        <label description="Direction des cadres réglementaires et de l’engagement international" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="CANUTEC" languagecode="1033" />
+        <label description="CANUTEC" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Safety Research and Analysis Branch" languagecode="1033" />
+        <label description="Direction de la recherche et analyse de sécurité" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

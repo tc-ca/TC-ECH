@@ -3925,7 +3925,7 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <OptionSetName>tc_desiredlevel</OptionSetName>
           <displaynames>
-            <displayname description="Type of desired level " languagecode="1033" />
+            <displayname description="Type of desired level" languagecode="1033" />
             <displayname description="Type de niveau souhaité" languagecode="1036" />
           </displaynames>
           <Descriptions>
@@ -7028,6 +7028,45 @@
           <Descriptions>
             <Description description="Longtitude of the event location (Removed as per PBI 31469)" languagecode="1033" />
             <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="tc_materialslead">
+          <Type>picklist</Type>
+          <Name>tc_materialslead</Name>
+          <LogicalName>tc_materialslead</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.119.1.1</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <OptionSetName>tc_lead</OptionSetName>
+          <displaynames>
+            <displayname description="Lead for materials" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="tc_MealsIncidentalsActualAmt">

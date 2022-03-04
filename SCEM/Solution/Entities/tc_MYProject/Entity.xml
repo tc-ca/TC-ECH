@@ -48,6 +48,7 @@
       </attributes>
     </entity>
   </EntityInfo>
+  <FormXml />
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
