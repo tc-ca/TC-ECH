@@ -1,0 +1,2863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{12126b15-a541-4951-beb5-754a15726542}</formid>
+    <IntroducedVersion>0.1.0.21</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900" headerdensity="HighWithControls">
+      <tabs>
+        <tab name="tab_18" id="{ea0a8278-70e4-43ed-0377-e49cba741adb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{31de941d-c6bd-49f9-9d72-746b5077cc3d}">
+          <labels>
+            <label description="Project/Activity Information" languagecode="1033" />
+            <label description="Renseignements du projet / de l’activité" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_17_section_4" showlabel="true" showbar="true" locklevel="0" id="{206834ba-39a9-9364-4ab9-4d695781d626}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" labelid="{91fb93cc-229e-4fae-a6bc-19aa82e36312}">
+                  <labels>
+                    <label description="General Details" languagecode="1033" />
+                    <label description="Détails généraux" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bafdb29e-f239-4531-835b-37c35e2d525f}" labelid="{b180a4c5-2a29-4569-bf62-1f659dafd96f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Title" languagecode="1033" />
+                          <label description="Titre du projet" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_projectnm" uniqueid="{d4910044-8b9b-2160-c0ca-2d7638d71409}" disabled="false" />
+                      </cell>
+                      <cell id="{b558122b-65bb-3bd0-9cd1-b347331ed215}" showlabel="true" locklevel="0" labelid="{07c89a8f-daef-421a-bf8e-5eeff301dafc}">
+                        <labels>
+                          <label description="NEATS File Reference" languagecode="1033" />
+                          <label description="Référence du dossier NEATS" languagecode="1036" />
+                        </labels>
+                        <control id="tc_neatsfilenum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_neatsfilenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50022073-4584-24c3-dacd-d5b6168a8345}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                          <label description="Région" languagecode="1036" />
+                        </labels>
+                        <control id="tc_region" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_region" disabled="false" uniqueid="{27b359be-6c18-252e-385c-40b866e459c8}" />
+                      </cell>
+                      <cell id="{527aace9-09d5-2c98-2bdb-0da9cd00e878}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="NEATS Contact" languagecode="1033" />
+                          <label description="Contact NEATS" languagecode="1036" />
+                        </labels>
+                        <control id="tc_neatscontact" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_neatscontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13b53b25-8564-12c9-ebd9-5dbd1e3313ae}" showlabel="true" locklevel="0" labelid="{6c7af28c-e623-4a78-bc11-9a1ad2d1e50e}">
+                        <labels>
+                          <label description="Province" languagecode="1033" />
+                          <label description="Province" languagecode="1036" />
+                        </labels>
+                        <control id="tc_provincecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_provincecd" disabled="false" />
+                      </cell>
+                      <cell id="{4a7053e0-5c8b-ed8d-4c64-25468dc6d312}" showlabel="true" locklevel="0" labelid="{d2d673c5-4413-4c07-b7f4-1a63316058ce}">
+                        <labels>
+                          <label description="NPP File Reference" languagecode="1033" />
+                          <label description="Référence du dossier du NPP" languagecode="1036" />
+                        </labels>
+                        <control id="tc_nppfilenum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_nppfilenum" disabled="false" uniqueid="{54cb0b37-d35a-2c54-c89c-4037ae6b5ee7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{577dd59b-ee88-1cbd-a84d-450edce39c34}" showlabel="true" locklevel="0" labelid="{4ad24709-a372-4165-85f2-1a609c7c5a93}">
+                        <labels>
+                          <label description="Site" languagecode="1033" />
+                          <label description="Site" languagecode="1036" />
+                        </labels>
+                        <control id="tc_sitetxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_sitetxt" disabled="false" />
+                      </cell>
+                      <cell id="{d634be85-9861-35e6-1551-17d5a33b2768}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="NPP Contact" languagecode="1033" />
+                          <label description="Informations de contact" languagecode="1036" />
+                        </labels>
+                        <control id="tc_contactinfo" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_contactinfo" disabled="false" uniqueid="{5957856d-ca90-1843-4c6a-62597a836479}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{298993e5-5690-a447-0152-712ac492165c}" showlabel="true" locklevel="0" labelid="{e7f27ffc-47f3-46ff-bc66-dfe3cd44f455}">
+                        <labels>
+                          <label description="Regional Project Number" languagecode="1033" />
+                          <label description="Numéro de projet régional" languagecode="1036" />
+                        </labels>
+                        <control id="tc_regionalprojectnum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_regionalprojectnum" disabled="false" />
+                      </cell>
+                      <cell id="{6c8e0e3d-88d4-83b2-9e92-52273b5da748}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="NAVINFO Submission" languagecode="1033" />
+                          <label description="NAVINFO Soumissions" languagecode="1036" />
+                        </labels>
+                        <control id="tc_submission" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_submission" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d434531a-0863-917b-d8b8-e2459ac2eabe}" showlabel="true" locklevel="0" labelid="{486a6011-ebb7-42e2-a791-c7e9793bb845}">
+                        <labels>
+                          <label description="Date of Request" languagecode="1033" />
+                          <label description="Date de la demande" languagecode="1036" />
+                        </labels>
+                        <control id="tc_daterequestdte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_daterequestdte" disabled="false" uniqueid="{d5e0ead3-600e-1be1-3a60-270718865716}" />
+                      </cell>
+                      <cell id="{153c466a-6338-5b18-d4a1-eeecde46c81e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other File Reference" languagecode="1033" />
+                          <label description="Autre référence du dossier" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherfilenum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_otherfilenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{274548c2-7279-a4b5-6585-0d5e7e283925}" showlabel="true" locklevel="0" labelid="{0a3b1605-8fd7-4145-84bd-6feb0dd52261}">
+                        <labels>
+                          <label description="EA File Reference" languagecode="1033" />
+                          <label description="Référence du dossier d’EE" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eafilenum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eafilenum" disabled="false" />
+                      </cell>
+                      <cell id="{88941056-01ee-d719-33b5-81e773175989}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other Contact" languagecode="1033" />
+                          <label description="Autre contact" languagecode="1036" />
+                        </labels>
+                        <control id="tc_othercontact" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_othercontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3342e86-eb62-c521-7e72-63a43c32542e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="EA Contact" languagecode="1033" />
+                          <label description="Contact EA" languagecode="1036" />
+                        </labels>
+                        <control id="tc_eacontact" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eacontact" disabled="false" />
+                      </cell>
+                      <cell id="{8d2564d1-da80-b033-380a-290d99c24766}" showlabel="true" locklevel="1" labelid="{358d6a0d-e4eb-4c01-9b58-09ea0883625e}">
+                        <labels>
+                          <label description="Current Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" uniqueid="{68152839-c933-ea05-384b-165b15c524ca}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93754690-c1ec-6cee-a344-e11b909d6b1b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{e6ba3cca-c074-4356-8c1c-5948a10a2e06}" showlabel="true" locklevel="0" labelid="{ef2f3c8e-70e3-47d5-b777-5d5173017249}">
+                        <labels>
+                          <label description="Bring Forward Date" languagecode="1033" />
+                          <label description="Date de rappel" languagecode="1036" />
+                        </labels>
+                        <control id="tc_datebringforwarddte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_datebringforwarddte" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88342181-cb64-7a9b-7cd8-e16d531d9038}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{d236e85c-19a3-bcb0-dec2-95de31dcaa8b}" showlabel="true" locklevel="0" labelid="{0f237ecb-f3d4-45aa-a4b6-51229d791cab}">
+                        <labels>
+                          <label description="Project Status" languagecode="1033" />
+                          <label description="État du projet" languagecode="1036" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" uniqueid="{28ad0661-b293-87b5-3b64-39c4acbcc305}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a602dd07-3be7-8537-cbbd-25a9dbd23a82}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{c206864e-e6c1-1eba-59a8-dd81e78278c8}" showlabel="true" locklevel="0" visible="false" labelid="{1f394286-078f-48e3-8501-e0342bd3041c}">
+                        <labels>
+                          <label description="Documents" languagecode="1033" />
+                          <label description="Documents" languagecode="1036" />
+                        </labels>
+                        <control id="tc_documentstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_documentstxt" disabled="false" uniqueid="{41922c06-6b71-891d-7728-105ea45052bc}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_17_section_2" showlabel="true" showbar="true" locklevel="0" id="{c787bc48-4957-dae1-11b1-ca2720c404d4}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" labelid="{b9f720af-8087-4eb7-8d53-f89fa91172b3}" height="auto">
+                  <labels>
+                    <label description="Activity Information" languagecode="1033" />
+                    <label description="Renseignements sur l’activité" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{000c8edc-325b-4289-29dc-528c85904ec0}" showlabel="true" colspan="1" auto="true" rowspan="5" labelid="{e76fc9b2-70a2-4e44-9777-c95458746ae1}">
+                        <labels>
+                          <label description="TC Branch(es) / Program(s) Involved" languagecode="1033" />
+                          <label description="Direction(s) / programme(s) impliqués de TC" languagecode="1036" />
+                        </labels>
+                        <control id="TCBranchGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{84e26063-9d79-018e-d801-681869d03d75}">
+                          <parameters>
+                            <ViewId>{E7F132A9-33DE-453E-A33A-12E9552734D7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProject_TYBranch</RelationshipName>
+                            <TargetEntityType>tc_tybranch</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{E7F132A9-33DE-453E-A33A-12E9552734D7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{3c45411e-392e-96e5-ab72-1490442421dd}" showlabel="true" locklevel="0" rowspan="4" labelid="{8ce49104-bf74-4b60-b2f7-b2a3fc4468ab}">
+                        <labels>
+                          <label description="Project/Activities" languagecode="1033" />
+                          <label description="Projet/activités" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectactivitytxt" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_projectactivitytxt" disabled="false" uniqueid="{7c30c16b-84be-5a67-302a-0b653450ba22}" />
+                      </cell>
+                      <cell id="{331ac857-7bc1-4c7e-0b6c-bc6c4386ad65}" showlabel="true" locklevel="0" rowspan="4" labelid="{62779c12-f3dd-40cd-96a6-0b89f6631856}">
+                        <labels>
+                          <label description="Project Components/Structures" languagecode="1033" />
+                          <label description="Éléments/structures du projet" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectcomponentstructuretxt" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_projectcomponentstructuretxt" disabled="false" uniqueid="{4d3ee08c-09b3-d6eb-5731-05bdcab6eb00}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto">
+                      <cell id="{50eccd84-1d78-7d62-b576-60d0855289e2}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{7890a447-c88e-a9c2-78b7-9306b3eb89d0}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_18_section_5" showlabel="true" showbar="false" locklevel="0" id="{d7064ddd-4501-67e0-b523-c1021e0e3654}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{9fe5a71f-6c49-4e41-bc3d-6e159115d4be}" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{babe98a4-eb0e-4a58-79e7-726b9108a19e}" showlabel="false" labelid="{61c52873-ac02-417d-91f9-d4873fb18776}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26ec23a3-aecb-b267-77a5-1a61c600aaad}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0" labelid="{0363b951-2c7b-4267-b67f-c41fd1c04e3b}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="Texte de la remarque" languagecode="1036" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{47e37d10-69ed-3897-7257-4b53117c4d2b}" disabled="false">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>6</UClientRecordPerPage>
+                            <UClientEnableWhatsNewFilter>false</UClientEnableWhatsNewFilter>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>cardform</UClientDisplayActivityUsing>
+                            <UClientActivityCardMap>appointment:4201:,campaignactivity:4402:,campaignresponse:4401:,incidentresolution:4206:,email:4202:,fax:4204:,letter:4207:,opportunityclose:4208:,phonecall:4210:,task:4212:,msdyn_bookingalert:10060:,msfp_alert:10391:,msfp_surveyinvite:10051:,msfp_surveyresponse:10052:</UClientActivityCardMap>
+                            <EmailConversationView>true</EmailConversationView>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_17_section_9" showlabel="true" showbar="true" locklevel="0" id="{23c4b3d3-8353-d6b0-ee17-23b4b94d4aae}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="200" celllabelalignment="Left" celllabelposition="Top" labelid="{187fa6fa-ec9d-4c99-a9c3-a01ab67554a2}">
+                  <labels>
+                    <label description="Project Exemption" languagecode="1033" />
+                    <label description="Exemption de projet" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e02dc4a6-3866-d0ee-226c-289d22e60be9}" showlabel="true" locklevel="0" labelid="{e438710a-a42b-41e2-a390-7cb900361dfe}">
+                        <labels>
+                          <label description="Exempt" languagecode="1033" />
+                          <label description="Exemption" languagecode="1036" />
+                        </labels>
+                        <control id="tc_exemptind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_exemptind" disabled="false" uniqueid="{e896a8b1-e502-42df-9ce9-4f65fdc6a185}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d689ab28-347e-b688-954a-6ce2eea3dac5}" showlabel="true" locklevel="0" rowspan="2" labelid="{fb501a9e-3d06-421f-8948-4b86d61974c3}">
+                        <labels>
+                          <label description="Exemption Description" languagecode="1033" />
+                          <label description="Description de l’Exemption" languagecode="1036" />
+                        </labels>
+                        <control id="tc_exemptiontxt" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_exemptiontxt" disabled="false" uniqueid="{701929c1-38b7-017d-0234-97759e036330}" />
+                      </cell>
+                    </row>
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_17_section_5" showlabel="true" showbar="true" locklevel="0" id="{cbe08b67-b3a9-14a0-63b8-5153216a65d7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="200" celllabelalignment="Left" celllabelposition="Left" visible="false" labelid="{795553d5-e104-4779-a5f6-d8883815facd}">
+                  <labels>
+                    <label description="Adequacy Assessment" languagecode="1033" />
+                    <label description="Évaluation de l’adéquation" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c815479a-72a7-deae-cc69-283c4bcd0be2}" showlabel="true" locklevel="0" labelid="{ed87b208-e2ca-4649-92e1-be1f1fc2c3ce}">
+                        <labels>
+                          <label description="Adequacy Assessment Completed?" languagecode="1033" />
+                          <label description="Achèvement de l’évaluation de l’adéquation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_adequacycompletedind" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_adequacycompletedind" disabled="false" uniqueid="{361ddc99-20bd-66b0-22b0-2581dec46043}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7c3d758-7c86-2aed-32a2-78c958eebb43}" showlabel="true" locklevel="0" labelid="{dedad46b-7d52-4a5f-8c0f-aa3dd5f8adfa}">
+                        <labels>
+                          <label description="Adequacy Assessment Details" languagecode="1033" />
+                          <label description="Détails sur l’évaluation de l’adéquation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_adequacyassessmenttxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_adequacyassessmenttxt" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_18_section_6" showlabel="false" showbar="false" locklevel="0" id="{72e7a232-8e4c-51b3-79d6-450bc5854920}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a034e3e3-0306-d281-2299-745e6c79d307}" showlabel="true" colspan="1" rowspan="8">
+                        <labels>
+                          <label description="Indigenous Groups Involved" languagecode="1033" />
+                          <label description="Nations autochtones impliquées" languagecode="1036" />
+                        </labels>
+                        <control id="EngagementInfo" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a8c6b591-0133-b4e1-83be-bd63404e21a5}">
+                          <parameters>
+                            <ViewId>{6CAAF5E1-524B-43C1-9216-47591943F151}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProject_MYProjectright</RelationshipName>
+                            <TargetEntityType>tc_myprojectright</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{6CAAF5E1-524B-43C1-9216-47591943F151}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Geographical" id="{0281ce00-470c-1b15-b4e1-3ab439edc22e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{0719a052-e60d-4219-916b-70ee023f6295}">
+          <labels>
+            <label description="Geographical Setting" languagecode="1033" />
+            <label description="Contexte géographique" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="30%">
+              <sections>
+                <section name="GeographicalSetting_section_6" showlabel="false" showbar="false" locklevel="0" id="{135de800-02c9-3035-61d0-c874664a9865}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0ea45b99-1c86-e65c-4140-a508b5dc3548}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lat Long Input Type" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latlonginputtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_latlonginputtype" disabled="false" uniqueid="{7846d67a-404b-534b-32eb-a3819e506dc8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c9aa49d5-9e4d-a22d-2e39-e2d8932e63ba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Coordinates" languagecode="1033" />
+                        </labels>
+                        <control id="tc_coordinatescalc" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_coordinatescalc" disabled="false" uniqueid="{b1b5aa58-ae52-79ac-4724-88460bb766d7}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_Geographical_section_Decimal" showlabel="false" showbar="false" locklevel="0" id="{5d282725-c467-8c59-9ca3-758be1b0641a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Decimal" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{375e1a0b-8411-0817-6dad-5072ca384425}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude" languagecode="1033" />
+                          <label description="Latitude" languagecode="1036" />
+                        </labels>
+                        <control id="tc_latitudegis" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudegis" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b9d9bd4-a937-4740-cbc5-00e32a402721}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longtitude" languagecode="1033" />
+                          <label description="Longitude" languagecode="1036" />
+                        </labels>
+                        <control id="tc_longtitudegis" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longtitudegis" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_Geographical_section_DMS" showlabel="false" showbar="false" locklevel="0" id="{537584e4-7679-e327-37d5-b2b16e2b7d74}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="200" celllabelalignment="Left" celllabelposition="Left" labelid="{8fc9feac-1227-4f57-affe-0ff7d8638398}">
+                  <labels>
+                    <label description="DMS" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5d7d447a-211a-274b-d21d-a6b5ac11d96a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude in Degrees (e.g. 360)" languagecode="1033" />
+                          <label description="Latitude en degrés (par exemple, 360)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_latitudedegreegis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_latitudedegreegis" disabled="false" uniqueid="{8a507506-1364-cd86-e1d9-8ee317003640}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2451124c-6d22-dab9-b6d1-551396d04269}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude in Minutes  (e.g. 60)" languagecode="1033" />
+                          <label description="Latitude en minutes (par exemple, 60)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_latitudeminutegis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_latitudeminutegis" disabled="false" uniqueid="{749ead09-b24d-2a16-9a54-708023e77062}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9372d75-911e-3195-5478-6462e69ab98a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude in Seconds  (e.g. 60)" languagecode="1033" />
+                          <label description="Latitude en secondes (par exemple, 60)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_latitudesecondgis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_latitudesecondgis" disabled="false" uniqueid="{a430bc23-16d7-e81e-c5d0-d4433eea9153}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{86d8e3c3-d410-4edb-5ad0-480297a015c5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude in Degrees (e.g. 360)" languagecode="1033" />
+                          <label description="Longitude en degrés (par exemple, 360)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_longtitudedegreegis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_longtitudedegreegis" disabled="false" uniqueid="{3e26758b-d18e-a6e1-b014-9259765a103c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd703238-e77e-d623-2b56-150891c0bb1a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude in Minutes (e.g 60)" languagecode="1033" />
+                          <label description="Longitude en minutes (par exemple, 60)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_longtitudeminutegis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_longtitudeminutegis" disabled="false" uniqueid="{7443da58-768a-e301-aae3-5292aba78db7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a90a82ca-a754-0e82-635c-10b6a22e165a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude in Seconds (e.g. 60)" languagecode="1033" />
+                          <label description="Longitude en secondes (par exemple, 60)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_longtitudesecondgis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_longtitudesecondgis" disabled="false" uniqueid="{00c8b981-43bc-e9da-ae7a-16b3656886dd}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_Geographical_section_DMD" showlabel="false" showbar="false" locklevel="0" id="{022a9634-864e-868e-ea87-d23aa504e246}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Degree Minute Decimal" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ba415a82-8db5-60d4-15a4-73e2b779247a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude in Degrees" languagecode="1033" />
+                          <label description="Latitude en degrés (par exemple, 360)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_latitudedegreegis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_latitudedegreegis" disabled="false" uniqueid="{9dd6cbe2-023a-88d8-d4d6-ae50aebb8ca8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d8be2ac-e64a-a2c8-e421-3ba14cda93ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude Minute Decimal" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latitudeminutedecimal" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudeminutedecimal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2478da5-839b-ce16-92ab-9c4ae099d0b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude in Degrees" languagecode="1033" />
+                          <label description="Longitude en degrés (par exemple, 360)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_longtitudedegreegis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_longtitudedegreegis" disabled="false" uniqueid="{84688330-a010-7d24-3276-9d19468d01ae}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e61c95a-38ed-4a67-0b10-d1e0c8c1adee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude Minute Decimal" languagecode="1033" />
+                        </labels>
+                        <control id="tc_longitudeminutedecimal" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudeminutedecimal" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="70%">
+              <sections>
+                <section name="GeographicalSetting_section_2" showlabel="false" showbar="false" locklevel="0" id="{70cbeb84-4b01-cd0a-9365-a9bc537c9b9d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{70036d98-c78e-871a-bb38-c48b631b5769}" showlabel="false" colspan="1" auto="true" rowspan="12">
+                        <labels>
+                          <label description="EsriAboriginalConsultationMaps" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_EsriAboriginalConsultationMaps" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/EGISIntegration/EsriAboriginalConsultationMaps.html</Url>
+                            <Data>{
+  "coordinates": "tc_coordinatescalc",
+  "aboriginalConsultationActivitiesLog": false,
+  "aboriginalFirstNations": true,
+  "aboriginalLandsCanadaLegislativeBoundaries": true,
+  "tribalCouncil": false,
+  "historicTreaties": false,
+  "modernTreaties": false,
+  "bcSettlementAreas": false,
+  "pnrTerritories": false,
+  "firstNationFriendshipCentre": false,
+  "screenshotWidget": true,
+  "openStreetMapBaseLayer": false
+}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{710080D5-447E-EA11-A811-000D3AF4346A}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+                <section name="GeographicalSetting_section_4" showlabel="false" showbar="false" locklevel="0" id="{33278717-dde8-1578-abe0-7e4872b52608}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5a52fcc9-de31-4560-b447-1351d8077229}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Map Screenshot 1" languagecode="1033" />
+                          <label description="Capture d'écran de la carte 1" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mapscreenshot" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot" disabled="false" uniqueid="{554da6d5-8878-87b4-d49c-76a7284eed67}" />
+                      </cell>
+                      <cell id="{da91645d-127f-4c68-bdfa-485943b37ac1}" locklevel="0">
+                        <labels>
+                          <label description="Map Screenshot 2" languagecode="1033" />
+                          <label description="Capture d'écran de la carte 2" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mapscreenshot2" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot2" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="GeographicalSetting_section_3" showlabel="false" showbar="false" locklevel="0" id="{169be9e9-6331-0a47-a586-13b68e74b515}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{112b6cb2-c408-730e-a719-b662d29193de}" showlabel="true" locklevel="0" labelid="{1a2ad8d7-e597-40d6-8e94-2172bc95656c}">
+                        <labels>
+                          <label description="Environmental Setting" languagecode="1033" />
+                          <label description="Contexte environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_envsettingid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_envsettingid" disabled="false" uniqueid="{2c66dc90-bc3e-20ea-8542-7ecbc954543d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21e79524-8e16-38db-89ac-e24cc47dced8}" showlabel="true" locklevel="0" rowspan="6" labelid="{b73bddbd-4f5a-4f97-b37f-e42508e2136e}">
+                        <labels>
+                          <label description="Environmental Setting Details" languagecode="1033" />
+                          <label description="Détails sur le contexte environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_envsettingdetailtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_envsettingdetailtxt" disabled="false" uniqueid="{8e1aec35-938a-1d76-deed-33546634ea3b}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{ae078827-e162-eba4-64c0-33749924014b}" showlabel="true" locklevel="0" rowspan="6" labelid="{6350b7b7-29fc-4800-992f-4f9a36b1dd5c}">
+                        <labels>
+                          <label description="Size of Project Area" languagecode="1033" />
+                          <label description="Superficie de la zone du projet" languagecode="1036" />
+                        </labels>
+                        <control id="tc_projectareasizetxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_projectareasizetxt" disabled="false" uniqueid="{782ea656-22a3-2863-3827-ac5ac19411a2}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{05811760-0c23-2152-2c45-898d964b3c20}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Legal Land Description" languagecode="1033" />
+                          <label description="Description légale du terrain" languagecode="1036" />
+                        </labels>
+                        <control id="tc_legallanddescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_legallanddescription" disabled="false" uniqueid="{e6b7562d-226c-278c-3974-ca7c79d7eb9d}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{acb8b90e-04a1-a386-76cb-bd7b96951c1a}" showlabel="true" locklevel="0" labelid="{4fc36a24-6bb4-42db-97e3-bf7ce853ba65}">
+                        <labels>
+                          <label description="Land Ownership" languagecode="1033" />
+                          <label description="Propriété foncière" languagecode="1036" />
+                        </labels>
+                        <control id="tc_landownershipid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_landownershipid" disabled="false" uniqueid="{8ce9cd8e-c0c3-25ac-7732-320a4543549c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aed97b28-4933-748e-1068-7090a14a7970}" showlabel="true" locklevel="0" rowspan="6" labelid="{5f12b1b4-ebaf-4357-8d9c-7895e90e9c32}">
+                        <labels>
+                          <label description="Additional Land Ownership Info" languagecode="1033" />
+                          <label description="Renseignements supplémentaires sur la propriété foncière" languagecode="1036" />
+                        </labels>
+                        <control id="tc_addlandownershiptxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_addlandownershiptxt" disabled="false" uniqueid="{091e2850-a53c-818e-e676-1cb4186cbac4}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Proponents" id="{57c594c9-deb1-b849-8110-0a9c64262b10}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{3eadc313-6a6c-4bd9-a5a0-075864bc130e}">
+          <labels>
+            <label description="Proponents" languagecode="1033" />
+            <label description="Promoteurs" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="{03faa8a3-26b1-4419-9088-2fb82e6f69d8}_section_5" showlabel="false" showbar="false" locklevel="0" id="{eeac8cd0-5921-2e13-c2d7-88a810082899}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" labelid="{6399f502-405f-485e-9515-e3b24fb7679d}">
+                  <labels>
+                    <label description="Proponents" languagecode="1033" />
+                    <label description="Promoteurs" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4db28a5b-db55-b7da-0ca9-4bad199e8d41}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Proponents" languagecode="1033" />
+                          <label description="Promoteurs" languagecode="1036" />
+                        </labels>
+                        <control id="proponentGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{69A191EC-AB5C-4D9C-9F14-1A8B92B1C02D}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_project_proponentsprojects</RelationshipName>
+                            <TargetEntityType>tc_proponentsprojects</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{69A191EC-AB5C-4D9C-9F14-1A8B92B1C02D}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="CrownConduct" id="{db051708-d95c-728d-bbbc-eace6253b157}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{f49c3f63-4064-4b6c-b6b9-1eacac57b540}">
+          <labels>
+            <label description="Crown Conduct" languagecode="1033" />
+            <label description="Conduite de la Couronne" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_16_section_1" showlabel="false" showbar="false" locklevel="0" id="{856cb5ba-c227-04c7-9cd8-ce7265e708a5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="210" celllabelalignment="Left" celllabelposition="Left" labelid="{aa3a127f-dd5f-4122-b596-78d7395edaef}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section " languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e7e23462-2a4a-e254-1b30-311ac2ccb197}" showlabel="true" locklevel="0" labelid="{87868c31-b57e-475e-8e34-bc5cf3a661cd}">
+                        <labels>
+                          <label description="CNWA Approvals" languagecode="1033" />
+                          <label description="Approbations de la LPN" languagecode="1036" />
+                        </labels>
+                        <control id="tc_npaapprovalind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_npaapprovalind" disabled="false" uniqueid="{314b7179-1e57-41b8-b996-f920a673464b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84a94211-ddec-1745-2617-3bb015e9a5c1}" showlabel="true" locklevel="0" labelid="{abed0f42-b06c-4453-9bb0-878a5bfd15db}">
+                        <labels>
+                          <label description="CNWA Approvals Section" languagecode="1033" />
+                          <label description="Section des approbations de la LPN" languagecode="1036" />
+                        </labels>
+                        <control id="tc_npaapprovalsectionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_npaapprovalsectionid" disabled="false" uniqueid="{62e14522-a271-8e16-84c5-69b7c9711b5a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ea38802-e9e9-3d94-b4b2-2cb63bb6bd19}" showlabel="true" locklevel="0" rowspan="6" labelid="{970f57d5-9c44-40ce-b393-e9d83f08cab9}">
+                        <labels>
+                          <label description="CNWA Approvals Description" languagecode="1033" />
+                          <label description="Description des approbations de la LPN" languagecode="1036" />
+                        </labels>
+                        <control id="tc_npaapprovaltxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_npaapprovaltxt" disabled="false" uniqueid="{ba887c84-1546-5491-4a0e-6cda1b55c18c}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{59843397-4ed2-85b1-e89c-1022666268c5}" showlabel="true" locklevel="0" labelid="{510a7b17-c0ec-4a59-b58f-76ca8d5d0cab}">
+                        <labels>
+                          <label description="Grants and Contribution Funding" languagecode="1033" />
+                          <label description="Subventions et contributions" languagecode="1036" />
+                        </labels>
+                        <control id="tc_grantcontributionfundingind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_grantcontributionfundingind" disabled="false" uniqueid="{9f716cbf-8ee0-403f-80d5-ddf802234eb3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4b20cb8-9e63-c5c0-2300-7466bd140c80}" showlabel="true" locklevel="0" rowspan="6" labelid="{0cf7744d-2ab9-449c-8697-b97948b95cca}">
+                        <labels>
+                          <label description="Grants Funding Program" languagecode="1033" />
+                          <label description="Programme de subventions" languagecode="1036" />
+                        </labels>
+                        <control id="tc_granttxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_granttxt" disabled="false" uniqueid="{96cb388e-1cd4-d7e4-497d-2c08dbeaa462}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{8eee917a-acb7-6b79-b3e6-c9ba6522161a}" showlabel="true" locklevel="0" labelid="{c47e7a33-f24d-4cca-b256-c72ca544da9c}">
+                        <labels>
+                          <label description="Land Development/ Management/Disposal" languagecode="1033" />
+                          <label description="Aménagement/gestion/cession des terres" languagecode="1036" />
+                        </labels>
+                        <control id="tc_landdevmngtdisposalind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_landdevmngtdisposalind" disabled="false" uniqueid="{5c3f7b3a-4856-40b2-910d-0374f73f9150}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{926568e9-0abd-581b-0847-5ee4a371c82a}" showlabel="true" locklevel="0" rowspan="6" labelid="{710390e3-53b7-4109-bbc1-99ea57f0eeab}">
+                        <labels>
+                          <label description="Nature of Activity" languagecode="1033" />
+                          <label description="Nature de l’activité" languagecode="1036" />
+                        </labels>
+                        <control id="tc_natureofactivitytxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_natureofactivitytxt" disabled="false" uniqueid="{bdbb50c2-c517-7368-da4d-a51a455d0752}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_16_section_2" showlabel="false" showbar="false" locklevel="0" id="{dd6b3e20-b7be-b64c-e186-737077d1734e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="210" celllabelalignment="Left" celllabelposition="Left" labelid="{1b06e7b8-55ee-4ff8-8769-6ebf047f94ed}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{81857252-2609-10bd-5569-33780e9304c6}" showlabel="true" locklevel="0" labelid="{c8735cab-1dce-482f-84dd-a43367c06c5d}">
+                        <labels>
+                          <label description="Other Regulatory" languagecode="1033" />
+                          <label description="Autre règlementation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherregulatoryind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_otherregulatoryind" disabled="false" uniqueid="{5b5b3454-2727-47e3-9c05-8a66cf39d570}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2501d6b5-3b86-ea40-9754-cb94926c4e27}" showlabel="true" locklevel="0" rowspan="6" labelid="{c0dfd507-a68f-42d9-be4d-6f18c0d7ca2e}">
+                        <labels>
+                          <label description="Other Regulatory Activity" languagecode="1033" />
+                          <label description="Autre activité règlementaire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherregulatorytxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_otherregulatorytxt" disabled="false" uniqueid="{abe74841-3a5b-b799-d835-76c3718eb5d4}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{5ecd4dac-bcb6-c17b-31d5-7a9ac5e2c599}" showlabel="true" locklevel="0" labelid="{15d69aa2-98c1-41a7-863a-d2578d436160}">
+                        <labels>
+                          <label description="Environmental Remediation" languagecode="1033" />
+                          <label description="Réhabilitation environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_environmentalremediationind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_environmentalremediationind" disabled="false" uniqueid="{3966f695-1734-4819-9cbc-d4efc86de3d3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da5609ee-7452-d3d1-247b-48a7e8d912c4}" showlabel="true" locklevel="0" rowspan="6" labelid="{bdd17d8e-33e5-4015-813f-f85e6d4f3f1e}">
+                        <labels>
+                          <label description="Environmental Remediation Details" languagecode="1033" />
+                          <label description="Détails sur l’assainissement environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_envremediationtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_envremediationtxt" disabled="false" uniqueid="{2cb3148a-5c0e-787a-e589-ccc09d67b3a4}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{522aab91-c615-52d6-c5e7-6ed1a414da8c}" showlabel="true" locklevel="0" labelid="{905f9391-df20-4f89-817a-9acba5d4699f}">
+                        <labels>
+                          <label description="Other" languagecode="1033" />
+                          <label description="Autre" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_otherind" disabled="false" uniqueid="{890890d3-ca08-49b7-83dd-87b861005c55}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2aec989a-c7c6-98b3-e661-bd3ba987559e}" showlabel="true" locklevel="0" rowspan="6" labelid="{db44fb68-128f-4066-ae9d-6d3bd941a422}">
+                        <labels>
+                          <label description="Other Details" languagecode="1033" />
+                          <label description="Autres détails" languagecode="1036" />
+                        </labels>
+                        <control id="tc_crownconductothertxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_crownconductothertxt" disabled="false" uniqueid="{835d42c6-b960-4be8-bebc-68acc06be803}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_15" id="{74083873-8a80-8e46-2727-2481bc970072}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{5a037694-b899-466b-b843-2f47edfebfc2}">
+          <labels>
+            <label description="Other Federal Departments/Involved Governments" languagecode="1033" />
+            <label description="Autres ministères / gouvernements impliqués" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_15_section_1" showlabel="true" showbar="true" locklevel="0" id="{901dd190-00b3-4ecb-bd69-952eeadd3123}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="283" celllabelalignment="Right" celllabelposition="Left" labelid="{af0bec38-bf4e-4d62-afdb-0b1f1988d72d}" height="auto">
+                  <labels>
+                    <label description="Other Federal Departments Involved" languagecode="1033" />
+                    <label description="Autres ministères impliqués" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{54d8323b-5b2a-b4b5-47e4-3b92e13c454b}" showlabel="true" locklevel="0" labelid="{9868a911-0cac-47fd-917e-61c007d5f737}">
+                        <labels>
+                          <label description="Other Federal Departments?" languagecode="1033" />
+                          <label description="Autres ministères?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherfederaldepartmentind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_otherfederaldepartmentind" disabled="false" uniqueid="{efce78b2-98c4-406c-9b30-3b831730d501}" />
+                      </cell>
+                      <cell id="{02142b7b-1b43-60a9-1a04-5aa3d15e0324}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Select all other Federal Departments involved" languagecode="1033" />
+                          <label description="Sélectionnez tous les autres départements fédéraux concernés" languagecode="1036" />
+                        </labels>
+                        <control id="federalDepartmentsGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e12c2ce6-dd6c-ecc2-6e82-7cb65c6263bb}">
+                          <parameters>
+                            <ViewId>{DD45C675-97FF-45FD-9B31-D050ECDC0C3D}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_project_organizationsprojects</RelationshipName>
+                            <TargetEntityType>tc_organizationsprojects</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{DD45C675-97FF-45FD-9B31-D050ECDC0C3D}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6192ac8d-dd93-3043-b1eb-28ac041a6372}" showlabel="true" locklevel="0" rowspan="6" labelid="{78741edb-72d4-4038-a0c2-ae21d4f11a68}" auto="false">
+                        <labels>
+                          <label description="Description for Selected Departments" languagecode="1033" />
+                          <label description="Description pour les ministères sélectionnés" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherfederaldepttxt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="tc_otherfederaldepttxt" disabled="false" uniqueid="{a0d030ee-955d-7cd0-dcb3-d3b6c0a395ab}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{c44c370c-c021-286b-437e-7269b6b62e82}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{c45e53a1-4976-42e6-a2e9-2adafa2c798e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{b0a0c706-36b3-45af-9806-3358e519640b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_15_section_2" showlabel="true" showbar="true" locklevel="0" id="{733d032d-ab98-2232-be79-20381c0b8104}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="200" celllabelalignment="Left" celllabelposition="Left" labelid="{fdc2cb37-1803-49c2-ae59-0dd541c969a9}">
+                  <labels>
+                    <label description="Other Involved Governments" languagecode="1033" />
+                    <label description="Autres gouvernements impliqués" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{84592719-937a-bdae-4da9-1c8e7149a420}" showlabel="true" locklevel="0" rowspan="6" labelid="{73e5bfd5-65ab-40e7-bc10-fcc89256b2c5}">
+                        <labels>
+                          <label description="Description of Involvement" languagecode="1033" />
+                          <label description="Description de la participation" languagecode="1036" />
+                        </labels>
+                        <control id="tc_othergovinvolvementtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_othergovinvolvementtxt" disabled="false" uniqueid="{25913546-3eac-30cb-a21b-249905d4126b}" />
+                      </cell>
+                      <cell id="{a90d3417-d750-5507-c0e3-91a28ee3d4d8}" showlabel="true" colspan="1" auto="false" rowspan="6" labelid="{16e66e23-e7ff-42ec-a9b9-a0223482ca31}">
+                        <labels>
+                          <label description="Other Governments" languagecode="1033" />
+                          <label description="Autres gouvernement" languagecode="1036" />
+                        </labels>
+                        <control id="OtherGovernmentGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a595ba9e-8bda-2d89-43eb-e32ace1a0992}">
+                          <parameters>
+                            <ViewId>{66D30869-9513-465C-B586-B55F7E5C4971}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProject_TYOthergovernment</RelationshipName>
+                            <TargetEntityType>tc_tyothergovernment</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{66D30869-9513-465C-B586-B55F7E5C4971}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                            <HeaderColorCode />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{9a1c4e07-e282-0428-000c-3296d1ca984c}" showlabel="true" locklevel="0" rowspan="6" labelid="{550ec442-f6a5-4a1f-ad69-cf3ce3d260ec}">
+                        <labels>
+                          <label description="Other Parties" languagecode="1033" />
+                          <label description="Autres parties" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherinvolvedpartytxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_otherinvolvedpartytxt" disabled="false" uniqueid="{347ae2ed-d959-5768-a894-5805554676d0}" />
+                      </cell>
+                      <cell id="{2dd58dc7-cd00-9c25-2b37-94d9c3346b34}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d75adcae-b72d-a747-3b19-91a15c010b73}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{619b0ada-49a2-8ae8-add8-b66337978373}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26634d4d-9c18-22ba-66db-362daaceb805}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59b0cd51-deb4-1d56-6a57-c5d5142e1279}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0dbc090-332e-36e2-ce1e-d5eded2d48ad}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="OtherProcesses" id="{53b50e24-2d7b-a781-0828-2a484ae4c29a}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{c884d027-0395-47c7-bf4d-b7d0a3e7f166}">
+          <labels>
+            <label description="Other Processes" languagecode="1033" />
+            <label description="Autres processus" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_18_section_1" showlabel="false" showbar="false" locklevel="0" id="{20395871-ae0c-9e83-4b9b-733b20ca171a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="210" celllabelalignment="Left" celllabelposition="Left" labelid="{b0b65383-2015-4fd4-8a2f-b7f31b5d4954}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{97ace111-582b-c23a-d606-6695dccc2edb}" showlabel="true" locklevel="0" labelid="{4a9b3c9d-ff1e-41c8-ba37-17cb7b35574f}">
+                        <labels>
+                          <label description="Federal Environmental Review?" languagecode="1033" />
+                          <label description="Examen environnemental fédéral?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_federalenvreviewind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_federalenvreviewind" disabled="false" uniqueid="{d787afb1-e367-4e45-9c06-5bfa3cdf4dd2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2007805a-0d3b-817c-c1b0-32102d087213}" showlabel="true" locklevel="0" labelid="{a65a819e-4289-4895-832d-bd3842ea9cdb}">
+                        <labels>
+                          <label description="Type of Environmental Review" languagecode="1033" />
+                          <label description="Type d’examen environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_envreviewtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_envreviewtypeid" disabled="false" uniqueid="{70ba3dc9-2eda-2880-9a2c-c3159543b047}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7F25A5F-3A5D-44C4-89DF-DBBC79FB47E4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{147dc19a-a53c-49ed-1936-3880d16d0467}" showlabel="true" locklevel="0" rowspan="6" labelid="{7f76649e-6f21-4d6a-8ba0-16a4a4c9f268}">
+                        <labels>
+                          <label description="Details / Responsible Authority" languagecode="1033" />
+                          <label description="Détails / autorité responsable" languagecode="1036" />
+                        </labels>
+                        <control id="tc_fedenvreviewtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_fedenvreviewtxt" disabled="false" uniqueid="{d99e4b90-20a7-ca96-7996-54c642332a45}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{2e344688-9a69-7bbc-54c3-8c4aa10785a0}" showlabel="true" locklevel="0" rowspan="6" labelid="{81bf11b6-7127-48e8-b30a-24b02b3f77ad}">
+                        <labels>
+                          <label description="Scope of the Environmental Review" languagecode="1033" />
+                          <label description="Portée de l’examen environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_scopereviewtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_scopereviewtxt" disabled="false" uniqueid="{da688cb6-32c2-66b8-9cd1-6683c6c138be}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{d90e44d9-7d0b-ac4a-2a60-ccb85d6b469b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status of Environmental Review" languagecode="1033" />
+                          <label description="État de l'examen environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_statusofreview" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_statusofreview" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3645ceda-01c2-1d7d-1430-96e204168317}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Environmental Review Contact" languagecode="1033" />
+                          <label description="Contact pour l'examen environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_reviewcontact" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_reviewcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c49228e-7490-81cb-ad15-d61320674d26}" showlabel="true" locklevel="0" labelid="{0198158e-ac28-4030-a192-cde4106c13d4}">
+                        <labels>
+                          <label description="Other Federal Processes Involved" languagecode="1033" />
+                          <label description="Autres processus fédéraux impliqués" languagecode="1036" />
+                        </labels>
+                        <control id="tc_affectedorganizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_affectedorganizationid" disabled="false" uniqueid="{cc5b9dd2-9932-ca47-b36c-779d9d6ecb4b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{2536DC68-BA2B-E911-80EF-005056815FA7}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{2536DC68-BA2B-E911-80EF-005056815FA7},{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec429ab9-ea69-3916-483d-10860993a17c}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{3cd752a0-315f-4946-8891-d4a00577ad21}">
+                        <labels>
+                          <label description="Other Federal Process " languagecode="1033" />
+                          <label description="Autres processus fédéraux" languagecode="1036" />
+                        </labels>
+                        <control id="OtherFederalProcessGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e5d6383b-543b-163b-410a-bd838e68e480}">
+                          <parameters>
+                            <ViewId>{3105C74B-5831-E911-80F1-005056810AF7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_myproject_connections1</RelationshipName>
+                            <TargetEntityType>connection</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F},{3105C74B-5831-E911-80F1-005056810AF7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_18_section_2" showlabel="false" showbar="false" locklevel="0" id="{8a53e483-7e6e-ac97-8c9b-645c8c16cec0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="210" celllabelalignment="Left" celllabelposition="Left" labelid="{7c6a5d70-ed1e-4cef-b9b4-c5194a6bed1f}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{57e8eb9d-41ec-a329-6e88-66e278316894}" showlabel="true" locklevel="0" rowspan="6" labelid="{c47541f0-e62d-4625-b974-78811cbd64eb}">
+                        <labels>
+                          <label description="Description of Other Federal Process" languagecode="1033" />
+                          <label description="Description des autres processus fédéraux" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherfederalprocesstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_otherfederalprocesstxt" disabled="false" uniqueid="{dec17cae-081e-356d-23d1-b3e44909a343}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{ab1b4c45-3e4e-465b-c99b-25e3ed8ca1ab}" showlabel="true" locklevel="0" labelid="{ded96980-a1ad-474a-9569-1054e5cb6aaa}">
+                        <labels>
+                          <label description="Other Environmental Review Process?" languagecode="1033" />
+                          <label description="Autres processus d’examen environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherenvreviewprocessind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_otherenvreviewprocessind" disabled="false" uniqueid="{ff94cb67-fa3d-434a-b9c7-9ed25db47f09}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c692e12-cdb6-16e3-15b4-a0667c53b985}" showlabel="true" locklevel="0" rowspan="6" labelid="{d0a4f62a-a7ec-4bb6-bd72-7886ce2c54c4}">
+                        <labels>
+                          <label description="Other Environmental Review Details" languagecode="1033" />
+                          <label description="Autres détails de l’examen environnemental" languagecode="1036" />
+                        </labels>
+                        <control id="tc_otherenvreviewtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_otherenvreviewtxt" disabled="false" uniqueid="{445355da-6d95-5320-b286-795a9eb6d6c2}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{a4a7b795-0692-8806-0a3b-c93924ad0e22}" showlabel="true" locklevel="0" labelid="{7e49904a-a1a5-4841-bfe1-8d3a042c0624}">
+                        <labels>
+                          <label description="Regulatory Consultation?" languagecode="1033" />
+                          <label description="Consultation règlementaire?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_regulatoryconsultationind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_regulatoryconsultationind" disabled="false" uniqueid="{1de54274-80ae-402c-89e7-57dd285e2bb5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4cec4125-7b18-2bb2-5460-b2eca3309c62}" showlabel="true" locklevel="0" rowspan="6" labelid="{06f74dbf-a8eb-40cb-80ba-ff499faa5eef}">
+                        <labels>
+                          <label description="Regulatory Consultation Details" languagecode="1033" />
+                          <label description="Détails de la Consultation règlementaire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_regulatoryconsultationtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_regulatoryconsultationtxt" disabled="false" uniqueid="{e6647d9c-c27b-2a04-6239-1e06509d276d}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{48e13ba2-a90e-4076-c8ca-358de9b77aa8}" showlabel="true" locklevel="0" labelid="{b7581a1f-4ce0-41bb-9250-86a5d2f5f900}">
+                        <labels>
+                          <label description="Does this help meet TC’s DTC" languagecode="1033" />
+                          <label description="Est-ce que ceci aidera à respecter l’obligation de consulter de TC?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_meetdtcind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_meetdtcind" disabled="false" uniqueid="{c7b62bec-638d-40ff-8d59-ac2626e552ea}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28c7dc7a-0496-a05c-5ac9-1c54e462b533}" showlabel="true" locklevel="0" rowspan="6" labelid="{2465d70b-35d3-4948-b572-abb1a8d75008}">
+                        <labels>
+                          <label description="Duty to Consult Details" languagecode="1033" />
+                          <label description="Détails sur l’obligation de consulter" languagecode="1036" />
+                        </labels>
+                        <control id="tc_dutytoconsulttxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_dutytoconsulttxt" disabled="false" uniqueid="{1c092a1e-3897-eb4e-4396-b4235e84eca4}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="ExistingConsultation" id="{abc81c0b-2651-e9ab-9c81-6c86e07c1e59}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{f9c87490-3fa0-4144-9827-3c4e1f82ea61}">
+          <labels>
+            <label description="Existing Indigenous Consultation" languagecode="1033" />
+            <label description="Consultation autochtone existante" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_19_section_1" showlabel="false" showbar="false" locklevel="0" id="{0c1d2955-d5c8-562c-b3db-e42196257b13}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="210" celllabelalignment="Left" celllabelposition="Left" labelid="{7d2871eb-2259-4fcc-a7b8-905bc7cb763b}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{99090b12-e0da-d19b-873a-b962364a2c20}" showlabel="true" locklevel="0" labelid="{2812a70c-4734-4d08-9225-5ab6f61e7c10}">
+                        <labels>
+                          <label description="Led by TC?" languagecode="1033" />
+                          <label description="Dirigée par TC?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_ledbytcind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_ledbytcind" disabled="false" uniqueid="{d172f119-31ee-40fd-afb2-fed295fae4f4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee55c718-aca6-1020-96c6-65ab85618e5c}" showlabel="true" locklevel="0" rowspan="6" labelid="{bb66a6e7-1bca-4a73-9095-e8b19d2d39f3}">
+                        <labels>
+                          <label description="Details if led by TC" languagecode="1033" />
+                          <label description="Détails si dirigée par TC" languagecode="1036" />
+                        </labels>
+                        <control id="tc_ledbytctxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_ledbytctxt" disabled="false" uniqueid="{22bd61a5-7d40-3243-e235-866830400de4}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{27d6c0db-0a3d-3e67-cde0-777b37a73b0c}" showlabel="true" locklevel="0" labelid="{f3b9af91-f1ac-4c63-88f3-4ca28ef7df3d}">
+                        <labels>
+                          <label description="Led By OGD?" languagecode="1033" />
+                          <label description="Dirigée par un autre ministère" languagecode="1036" />
+                        </labels>
+                        <control id="tc_ledbyogdind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_ledbyogdind" disabled="false" uniqueid="{ceb33783-8132-440a-a4ea-55159b67d033}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87d6236c-766b-6861-491e-5cc7aab51d25}" showlabel="true" locklevel="0" rowspan="6" labelid="{29c9a801-6875-486e-8b62-b08146df10dc}">
+                        <labels>
+                          <label description="Details if led by OGD" languagecode="1033" />
+                          <label description="Détails si dirigée par un autre ministère" languagecode="1036" />
+                        </labels>
+                        <control id="tc_ledbyogdtxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_ledbyogdtxt" disabled="false" uniqueid="{d584aa28-06ae-5d47-0904-2b17be8ddc3a}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{1b38c270-c5eb-3e07-8493-4399c46d83d0}" showlabel="true" locklevel="0" labelid="{a24127a5-798d-4bf8-bb47-31eb0e1c622a}">
+                        <labels>
+                          <label description="Is the Proponent an Aboriginal Group?" languagecode="1033" />
+                          <label description="Est-ce que le promoteur est un groupe autochtone?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_proponentaboriginalgroupind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_proponentaboriginalgroupind" disabled="false" uniqueid="{000eff5a-83b8-4eab-80c1-5060b093c3c3}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_19_section_2" showlabel="false" showbar="false" locklevel="0" id="{78d415ee-05e8-a960-8e7d-861c9e471122}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="210" celllabelalignment="Left" celllabelposition="Left" labelid="{93aa4c58-9f80-46d8-9552-f1d4c8d5a657}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4a67dac5-217b-b26d-1721-b2a19bb2e51c}" showlabel="true" locklevel="0" labelid="{c5406ce0-db1c-4be6-a45f-f6672bbe935e}">
+                        <labels>
+                          <label description="Led by Province or Territory?" languagecode="1033" />
+                          <label description="Dirigée par une province ou un territoire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_ledprovinceterritoryind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_ledprovinceterritoryind" disabled="false" uniqueid="{6eb979f0-7189-4c0d-9a3c-732a5ed521c2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{268e8d76-c584-8ea0-c6c4-0c771221bebe}" showlabel="true" locklevel="0" rowspan="6" labelid="{09056a55-8462-4fc8-b2a8-ca5b2e68076c}">
+                        <labels>
+                          <label description="Details if led by Province or Territory" languagecode="1033" />
+                          <label description="Détails si dirigée par une province ou un territoire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_ledbyprovincetxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_ledbyprovincetxt" disabled="false" uniqueid="{ae8a4c57-a864-c1e1-0a5d-ae0a88046a42}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{641327a9-4027-2ace-e448-28e18ed298ae}" showlabel="true" locklevel="0" labelid="{8fd9f8bb-a636-4fb9-a6c0-8be015c09ef9}">
+                        <labels>
+                          <label description="Activities Conducted by Proponent?" languagecode="1033" />
+                          <label description="Activités réalisées par le promoteur" languagecode="1036" />
+                        </labels>
+                        <control id="tc_proponentactivityind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_proponentactivityind" disabled="false" uniqueid="{0e676ba6-5c30-4792-a680-dad72ce5b190}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5949032-1262-a8ac-6c86-e8c9586131d9}" showlabel="true" locklevel="0" rowspan="6" labelid="{78ef9095-52eb-4e30-ad96-b655a1c84185}">
+                        <labels>
+                          <label description="Proponents Activities Details" languagecode="1033" />
+                          <label description="Détails sur les activités du promoteur" languagecode="1036" />
+                        </labels>
+                        <control id="tc_proponentactivitytxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_proponentactivitytxt" disabled="false" uniqueid="{b95d7258-6e8d-8bcb-4c9a-6a865664470d}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="AdverseImpact" id="{2dd711d8-1591-4c69-0515-33707b45920c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{97e5f92e-9ef7-4eba-bd7f-2528a3830cb8}">
+          <labels>
+            <label description="Adverse Impact Assessment" languagecode="1033" />
+            <label description="Analyse des effets préjudiciables" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_13_section_1" showlabel="true" showbar="false" locklevel="0" id="{08a32d67-1e74-a498-4821-140479847e48}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{211a0832-b2ce-49f6-8e91-ee40a79b255a}" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Impacts" languagecode="1033" />
+                    <label description="Impacts" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{019310d5-9d09-1c51-3117-3ec7d52a7a17}" showlabel="false" colspan="1" auto="true" rowspan="4" labelid="{654870ba-0974-44b4-a438-e4aa80086479}">
+                        <labels>
+                          <label description="Adverse Impact" languagecode="1033" />
+                          <label description="Incidence négative" languagecode="1036" />
+                        </labels>
+                        <control id="AdverseImpactGrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{9d52d964-d926-8bac-30ba-7b946961bb37}">
+                          <parameters>
+                            <ViewId>{B226E251-DF19-4006-B850-982B90A6D1FA}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProject_MYImpact</RelationshipName>
+                            <TargetEntityType>tc_myimpact</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B226E251-DF19-4006-B850-982B90A6D1FA}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_17" id="{121086bd-e2a2-36dc-be41-4a882e8437d2}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Section 35" languagecode="1033" />
+            <label description="Chapitre 35" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_17_section_1" showlabel="true" showbar="false" locklevel="0" id="{c410dcbb-1ed6-acc9-d362-01360bb98e1a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Section 35" languagecode="1033" />
+                    <label description="Chapitre 35" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c78cd685-342e-4157-86c2-c667dce7d472}" showlabel="false" colspan="1" auto="true" rowspan="4">
+                        <labels>
+                          <label description="Indigenous Groups" languagecode="1033" />
+                          <label description="Nations autochtones" languagecode="1036" />
+                        </labels>
+                        <control id="Section35Grid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{9b742792-8d33-8aa3-d027-eb312498e4ed}">
+                          <parameters>
+                            <ViewId>{6CAAF5E1-524B-43C1-9216-47591943F151}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProject_MYProjectright</RelationshipName>
+                            <TargetEntityType>tc_myprojectright</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{6CAAF5E1-524B-43C1-9216-47591943F151}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="LegalDuty" id="{8bc012ba-3339-40a5-8551-6e58545ecb39}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{f45c5ca1-58eb-4fbe-997b-47a4d73a140f}">
+          <labels>
+            <label description="Determination of Legal Duty to Consult" languagecode="1033" />
+            <label description="Détermination de l’obligation juridique de consulter" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_14_section_2" showlabel="false" showbar="false" locklevel="0" id="{d74c080c-b6a3-d585-7410-370d07060139}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="225" celllabelalignment="Left" celllabelposition="Left" labelid="{c1971022-3b48-4c68-bb0e-c19fb553533c}" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e8265107-1545-d51a-313c-a73e495c7a0b}" showlabel="true" locklevel="0" labelid="{a0c67248-549c-4566-b4d8-909b0228efcb}">
+                        <labels>
+                          <label description="Is there contemplated Crown Conduct?" languagecode="1033" />
+                          <label description="Y’a-t-il une conduite envisagée par la Couronne" languagecode="1036" />
+                        </labels>
+                        <control id="tc_crownconductind" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_crownconductind" disabled="false" uniqueid="{3b11473e-3ebc-a1dd-e32c-0ae7876dc7c5}" />
+                      </cell>
+                      <cell id="{d34aec80-99b7-156c-7b20-69b686755934}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Does the Legal Duty to Consult Arise?" languagecode="1033" />
+                          <label description="Est-ce que l’obligation légale de consulter se présente?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_consultationduty" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_consultationduty" disabled="false" uniqueid="{0b9c2a50-002c-a805-853b-78602edbeabe}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02b78949-36d8-78b8-0bd8-0ca87a4cd8c9}" showlabel="true" locklevel="0" labelid="{8c69eb09-47ac-40fd-b307-209928c76b0e}">
+                        <labels>
+                          <label description="Aboriginal or Treaty Rights in the area?" languagecode="1033" />
+                          <label description="Y’a-t-il des droits autochtones ou issus de traités dans la zone?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_treatyrightsind" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_treatyrightsind" disabled="false" uniqueid="{19987271-3815-8ddd-a01e-4c0e1b89ab59}" />
+                      </cell>
+                      <cell id="{39c18578-9214-0e61-335c-e5904adc96c1}" showlabel="true" locklevel="0" labelid="{72d12f0d-5623-4634-8bdd-b24f11fc0503}">
+                        <labels>
+                          <label description="Will Consultations take place?" languagecode="1033" />
+                          <label description="Est-ce que des consultations auront lieu?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_consultationind" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_consultationind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be5ea73c-1232-3844-aa4e-79a4a0460d30}" showlabel="true" locklevel="0" labelid="{c50402a4-1d3a-45a9-a2ad-3d7ae3cbaea2}">
+                        <labels>
+                          <label description="Potential Adverse Impact?" languagecode="1033" />
+                          <label description="Incidence négative potentielle?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_adverseimpactind" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_adverseimpactind" disabled="false" />
+                      </cell>
+                      <cell id="{c550861a-ebc9-4052-1c82-e5375d43dc14}" showlabel="true" locklevel="0" labelid="{a744c5aa-863c-49aa-ae9b-f2bdb8abfa6f}">
+                        <labels>
+                          <label description="Reasons for Consultations" languagecode="1033" />
+                          <label description="Raisons pour les consultations" languagecode="1036" />
+                        </labels>
+                        <control id="tc_consultationreasoncd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_consultationreasoncd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20295b1a-e610-0380-7caa-4d2eb97c19e3}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Legal Advice Sought" languagecode="1033" />
+                          <label description="Conseils juridiques recherchés" languagecode="1036" />
+                        </labels>
+                        <control id="tc_legaladvicesought" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_legaladvicesought" disabled="false" uniqueid="{c9cd3531-eb8e-8343-9bc1-6cd07e037512}" />
+                      </cell>
+                      <cell id="{810e9978-b6a3-39d3-47cd-10e0c8d49280}" showlabel="true" locklevel="0" rowspan="2" visible="false">
+                        <labels>
+                          <label description="Legal Advice Summary" languagecode="1033" />
+                          <label description="Résumé des avis juridiques" languagecode="1036" />
+                        </labels>
+                        <control id="tc_legaladvicesummary" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_legaladvicesummary" disabled="false" uniqueid="{13be3942-70d6-5a79-58b2-98292885cd0a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2258363d-be36-71e5-9578-19154c948a57}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae90da07-c9ed-45c2-b685-c7d7e6b53502}" showlabel="true" locklevel="0" rowspan="6" labelid="{9f15664f-7eeb-4033-87ea-b02d8c8ec759}" auto="false" colspan="2">
+                        <labels>
+                          <label description="Rationale" languagecode="1033" />
+                          <label description="Justification" languagecode="1036" />
+                        </labels>
+                        <control id="tc_rationaletxt" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_rationaletxt" disabled="false" uniqueid="{3b827323-9898-97cb-d1eb-1acd62c52d3d}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_16" id="{6c6229c0-4c34-736c-1709-9d6bc52b0344}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Adequacy Assessment" languagecode="1033" />
+            <label description="Évaluation de la consultation" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_16_section_4" showlabel="false" showbar="false" locklevel="0" id="{1561a20b-cc0b-73e1-3b13-75d9c23d114c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5748c3a0-74e3-2123-09c6-3870d1d27b00}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Has Duty to Consult been met?" languagecode="1033" />
+                          <label description="L'obligation légale de consulter a-t-elle été rencontrée?" languagecode="1036" />
+                        </labels>
+                        <control id="tc_hasdutytoconsultbeenmet" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_hasdutytoconsultbeenmet" disabled="false" uniqueid="{cc967cd4-3d86-32e6-1c9b-7d949c827dd4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3a2bd76e-625e-9ca8-9926-42b8263c29d6}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Main concerns" languagecode="1033" />
+                          <label description="Préoccupations principales" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mainconcerns" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_mainconcerns" disabled="false" uniqueid="{c7149b8a-8042-dea3-cbb7-1738e3d0dbcc}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{9a961a4c-d683-717e-4610-e85b740c8b09}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="How concerns were addressed" languagecode="1033" />
+                          <label description="Comment les préoccupations ont été adressées" languagecode="1036" />
+                        </labels>
+                        <control id="tc_howconcernswereaddressed" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_howconcernswereaddressed" disabled="false" uniqueid="{0a8954ad-5c24-e066-b053-99009291eb65}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{5787e60b-6a50-85ac-2395-70ce2bc20275}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Manager approval" languagecode="1033" />
+                          <label description="Approbation du gestionnaire" languagecode="1036" />
+                        </labels>
+                        <control id="tc_managerapproval" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="tc_managerapproval" disabled="false" uniqueid="{a318eb5e-d074-9b3b-7567-b6355234b552}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{421049d6-9717-a01b-7be8-3d04c7282956}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Recommended next steps" languagecode="1033" />
+                          <label description="Prochaines étapes recommandées" languagecode="1036" />
+                        </labels>
+                        <control id="tc_recommendednextsteps" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_recommendednextsteps" disabled="false" uniqueid="{12d7885d-5d18-755c-75a6-7c134348336c}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_20" id="{8d7b2421-14b0-187e-aeee-074e6c695289}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{a5e85ef6-ef86-4241-9969-8f5368269a11}">
+          <labels>
+            <label description="Project Tasks (Reviewers and Approvers)" languagecode="1033" />
+            <label description="Tâches du projet (examinateurs et approbateurs)" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_20_section_1" showlabel="true" showbar="false" locklevel="0" id="{5aa65c32-9b53-cb08-9ed3-8da1dba8e62d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{5be5df64-aad3-44cc-a0b7-3c14eb01ecca}" height="auto" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Project Tasks" languagecode="1033" />
+                    <label description="Tâches du projet" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{52ad7367-4d7e-892d-78ae-909dd8949012}" showlabel="false" colspan="1" auto="true" rowspan="4" labelid="{d9dea5a7-76c8-4725-a265-d2dc05799ab7}">
+                        <labels>
+                          <label description="Project Tasks" languagecode="1033" />
+                          <label description="Tâches du projet" languagecode="1036" />
+                        </labels>
+                        <control id="ProjectTask" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{c669d9d3-2a9b-9b96-0d92-41aac78d8260}">
+                          <parameters>
+                            <ViewId>{A146E9DD-7239-4A3B-BD16-39D86FAF0AE2}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProject_MYProjecttask</RelationshipName>
+                            <TargetEntityType>tc_myprojecttask</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A146E9DD-7239-4A3B-BD16-39D86FAF0AE2}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="{a49e289a-a71b-dc80-d4e2-454a159cce55}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{de850593-e482-469b-8264-5b0027d6752f}">
+          <labels>
+            <label description="Activities/Events" languagecode="1033" />
+            <label description="Activités/événements" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="true" showbar="false" locklevel="0" id="{2b088d6d-4301-d1c5-3128-6d8d1b33bbc7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{b4b43c4d-b530-4140-9328-a0511d308997}" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Project Activities" languagecode="1033" />
+                    <label description="Les activités du projet" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e828211b-1ba2-9002-6c70-300b831ade92}" showlabel="false" colspan="1" auto="true" rowspan="4" labelid="{e7cfdc0f-8818-456f-9a22-69f0e87e43e6}">
+                        <labels>
+                          <label description="Project Activities (Project Activity)" languagecode="1033" />
+                          <label description="Activités du projet (activité du projet)" languagecode="1036" />
+                        </labels>
+                        <control id="ProjectActivityGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{4b8d4438-1c5b-37ba-98c8-e7a591eb4cd5}">
+                          <parameters>
+                            <ViewId>{49C08EC2-D96B-4D89-8830-90233B65C65E}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_MYProject_MYProjectactivity</RelationshipName>
+                            <TargetEntityType>tc_myprojectactivity</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{49C08EC2-D96B-4D89-8830-90233B65C65E}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_14" id="{2038a59a-cd1d-3474-c7a4-0b51a3b91841}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{d37cbcb4-d731-46d9-b4b9-31236323d1cb}">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+            <label description="Documents" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="tab_14_section_1" showlabel="true" showbar="true" locklevel="0" id="{eab89d90-1b4d-a319-e734-603168094926}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{6e9dde4e-0b6b-4c72-ba60-b0881ee9eb23}">
+                  <labels>
+                    <label description="View Documents" languagecode="1033" />
+                    <label description="Voir documents" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{85b9c125-13aa-1883-b716-690aa5d6c65d}" showlabel="false" colspan="1" auto="false" rowspan="1" labelid="{e258d591-fb08-41c5-aafa-a309a97aca9f}">
+                        <labels>
+                          <label description="List" languagecode="1033" />
+                          <label description="Liste" languagecode="1036" />
+                        </labels>
+                        <control id="WebResource_List" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/List.html</Url>
+                            <Data>{
+  "control": "WebResource_List",
+  "field": "tc_documentstxt"
+}
+</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{9E41960E-6579-E811-8B89-00155DDC0400}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_14_section_4" showlabel="true" showbar="true" locklevel="0" id="{be360cd2-32e0-be77-be03-5a9047acb343}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto" celllabelalignment="Left" celllabelposition="Left" labelid="{67c8cca6-eb2a-4810-a88c-9b67e8ec7361}">
+                  <labels>
+                    <label description="Associate an Existing RDIMS Document" languagecode="1033" />
+                    <label description="Associer un document du SGDDI existant" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{25436c36-e546-4021-26e2-919292469e71}" showlabel="false" colspan="1" rowspan="1" labelid="{e2d230df-51b4-4762-950c-43c338bc23d0}">
+                        <labels>
+                          <label description="Search" languagecode="1033" />
+                          <label description="Rechercher" languagecode="1036" />
+                        </labels>
+                        <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/Search.html</Url>
+                            <Data>{
+  "control": "WebResource_Search",
+  "field": "tc_documentstxt",
+  "view": "WebResource_List"
+}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_14_section_5" showlabel="true" showbar="true" locklevel="0" id="{c38bb64b-97d4-4965-40e4-7d478eae0dbc}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Documents" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e6a72ea6-8727-042e-b41b-38aac5d09da2}" showlabel="false" locklevel="0" rowspan="20">
+                        <labels>
+                          <label description="Documents" languagecode="1033" />
+                        </labels>
+                        <control id="tc_rdimsdocuments" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_rdimsdocuments" disabled="false" uniqueid="{900a6590-2502-29e4-edad-364b89dac33c}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_14_section_3" showlabel="true" showbar="true" locklevel="0" id="{b7daeb12-11aa-be36-c8ca-9d5b5c366470}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto" labelid="{93107db5-3dce-46ba-8aff-8bdf4563e9f7}" visible="false">
+                  <labels>
+                    <label description="Upload a Document to RDIMS" languagecode="1033" />
+                    <label description="Télécharger un document dans le SGDDI" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row height="auto">
+                      <cell id="{00ea249e-a367-50de-670b-1ad372571669}" showlabel="false" colspan="1" rowspan="1" auto="true" labelid="{a2326737-96de-4c52-87f3-a4b6654c6e14}">
+                        <labels>
+                          <label description="Update" languagecode="1033" />
+                          <label description="Mise à jour" languagecode="1036" />
+                        </labels>
+                        <control id="WebResource_Update" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/Core/Documents/Upload.html</Url>
+                            <Data>{
+  "control": "WebResource_Update",
+  "field": "tc_documentstxt",
+  "view": "WebResource_List"
+}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{CA0CAB12-9A02-E711-8133-000C2958E3A5}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="relatedProjectsTab" id="{dbbc03d3-db64-5b3c-7d01-11cb42387b8b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Related Projects" languagecode="1033" />
+            <label description="Projets liés" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_16_section_3" showlabel="false" showbar="false" locklevel="0" id="{1dee7423-8e13-aa4d-3c94-9900453ab6cb}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec150127-8987-ee69-0c43-a764ab51082c}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Related Projects" languagecode="1033" />
+                          <label description="Projets liés" languagecode="1036" />
+                        </labels>
+                        <control id="relatedProjectsGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{B470D3D4-8B4E-EB11-A812-000D3AF4346A}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_Project_RelatedProject</RelationshipName>
+                            <TargetEntityType>tc_myproject</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{8D4E82BD-5AB4-4DBE-B188-DAE5DEB1E487},{B470D3D4-8B4E-EB11-A812-000D3AF4346A}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{31486E02-DD20-E911-80ED-0050568105E6}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a6c3f98e-85b6-4a0e-b4e8-050e48e59b8e}" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{806c380d-6959-e506-e9b1-dbca62dcc443}" showlabel="true" locklevel="0" labelid="{96b5d064-fca2-49ae-80a1-191ee37c72e1}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="État" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{b8c588b9-eb01-c049-e248-98872c8de55c}" showlabel="true" locklevel="0" labelid="{f878197a-f58e-458c-a01a-c570ab4b1692}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{834f70b2-b365-4398-afc4-0cfb7fcdee2a}" columns="111">
+        <rows>
+          <row>
+            <cell id="{9cb843bc-1b9d-2d50-b313-573715b71b15}" showlabel="true" locklevel="0" labelid="{561ef502-e303-412e-b6cc-374907ce9c76}">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{561a5696-0105-1838-68a4-bb3152d677ca}" showlabel="true" locklevel="0" labelid="{7f103fb1-b7ce-45e9-83a9-1de59c5d5eae}">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+                <label description="Modifié par" languagecode="1036" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{2b549969-396a-c273-de37-06bd2daee762}" showlabel="true" locklevel="0" labelid="{1a90f479-3e6a-4c1e-a8ab-f7de7a78591b}">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{701929c1-38b7-017d-0234-97759e036330}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>tc_exemptiontxt</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_exemptiontxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_exemptiontxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_exemptiontxt</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{7c30c16b-84be-5a67-302a-0b653450ba22}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>tc_projectactivitytxt</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_projectactivitytxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_projectactivitytxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_projectactivitytxt</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{4d3ee08c-09b3-d6eb-5731-05bdcab6eb00}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>tc_projectcomponentstructuretxt</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_projectcomponentstructuretxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_projectcomponentstructuretxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_projectcomponentstructuretxt</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{314b7179-1e57-41b8-b996-f920a673464b}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_npaapprovalind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_npaapprovalind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_npaapprovalind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_npaapprovalind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{9f716cbf-8ee0-403f-80d5-ddf802234eb3}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_grantcontributionfundingind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_grantcontributionfundingind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_grantcontributionfundingind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_grantcontributionfundingind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5c3f7b3a-4856-40b2-910d-0374f73f9150}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_landdevmngtdisposalind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_landdevmngtdisposalind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_landdevmngtdisposalind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_landdevmngtdisposalind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5b5b3454-2727-47e3-9c05-8a66cf39d570}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_otherregulatoryind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherregulatoryind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherregulatoryind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherregulatoryind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{3966f695-1734-4819-9cbc-d4efc86de3d3}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_environmentalremediationind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_environmentalremediationind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_environmentalremediationind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_environmentalremediationind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{890890d3-ca08-49b7-83dd-87b861005c55}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_otherind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{efce78b2-98c4-406c-9b30-3b831730d501}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_otherfederaldepartmentind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherfederaldepartmentind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherfederaldepartmentind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherfederaldepartmentind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{d787afb1-e367-4e45-9c06-5bfa3cdf4dd2}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_federalenvreviewind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_federalenvreviewind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_federalenvreviewind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_federalenvreviewind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ff94cb67-fa3d-434a-b9c7-9ed25db47f09}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_otherenvreviewprocessind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherenvreviewprocessind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherenvreviewprocessind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_otherenvreviewprocessind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{1de54274-80ae-402c-89e7-57dd285e2bb5}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_regulatoryconsultationind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_regulatoryconsultationind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_regulatoryconsultationind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_regulatoryconsultationind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{c7b62bec-638d-40ff-8d59-ac2626e552ea}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_meetdtcind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_meetdtcind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_meetdtcind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_meetdtcind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{d172f119-31ee-40fd-afb2-fed295fae4f4}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_ledbytcind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledbytcind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledbytcind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledbytcind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ceb33783-8132-440a-a4ea-55159b67d033}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_ledbyogdind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledbyogdind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledbyogdind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledbyogdind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{000eff5a-83b8-4eab-80c1-5060b093c3c3}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_proponentaboriginalgroupind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_proponentaboriginalgroupind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_proponentaboriginalgroupind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_proponentaboriginalgroupind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{6eb979f0-7189-4c0d-9a3c-732a5ed521c2}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_ledprovinceterritoryind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledprovinceterritoryind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledprovinceterritoryind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_ledprovinceterritoryind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{0e676ba6-5c30-4792-a680-dad72ce5b190}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_proponentactivityind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_proponentactivityind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_proponentactivityind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_proponentactivityind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{3b827323-9898-97cb-d1eb-1acd62c52d3d}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>tc_rationaletxt</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_rationaletxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_rationaletxt</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>tc_rationaletxt</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{c9cd3531-eb8e-8343-9bc1-6cd07e037512}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_legaladvicesought</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_legaladvicesought</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_legaladvicesought</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_legaladvicesought</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{e896a8b1-e502-42df-9ce9-4f65fdc6a185}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_exemptind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">tc_exemptind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">tc_exemptind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">tc_exemptind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{cc967cd4-3d86-32e6-1c9b-7d949c827dd4}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_hasdutytoconsultbeenmet</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_hasdutytoconsultbeenmet</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_hasdutytoconsultbeenmet</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_hasdutytoconsultbeenmet</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{a318eb5e-d074-9b3b-7567-b6355234b552}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>tc_managerapproval</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_managerapproval</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_managerapproval</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>tc_managerapproval</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{9d52d964-d926-8bac-30ba-7b946961bb37}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <ViewId>{B226E251-DF19-4006-B850-982B90A6D1FA}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>tc_MYProject_MYImpact</RelationshipName>
+              <TargetEntityType>tc_myimpact</TargetEntityType>
+              <AutoExpand>Auto</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{B226E251-DF19-4006-B850-982B90A6D1FA}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>20</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{B226E251-DF19-4006-B850-982B90A6D1FA}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>tc_MYProject_MYImpact</RelationshipName>
+                <TargetEntityType>tc_myimpact</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{B226E251-DF19-4006-B850-982B90A6D1FA}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{B226E251-DF19-4006-B850-982B90A6D1FA}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>tc_MYProject_MYImpact</RelationshipName>
+                <TargetEntityType>tc_myimpact</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{B226E251-DF19-4006-B850-982B90A6D1FA}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="tc_/asce/save.form.js" libraryUniqueId="{767eec43-76b1-d662-c038-7454ee234486}" />
+        <Library name="tc_ASCEScripts" libraryUniqueId="{e9d61db0-2439-007b-e336-eb620a619164}" />
+        <Library name="tc_/EGISIntegration/EsriAboriginalConsultationMaps.js" libraryUniqueId="{744751c1-9194-e5ec-cede-638caa9d0db7}" />
+        <Library name="tc_scem/iecproject.js" libraryUniqueId="{030edbe8-27b4-bbdc-1216-d556520c5a11}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="init" libraryName="tc_/asce/save.form.js" handlerUniqueId="{45353d53-4ebd-e60e-08b9-22a631948a2e}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="setDisplayState" libraryName="tc_ASCEScripts" handlerUniqueId="{b20514cd-a061-dc3e-3b34-b3d2a1d30407}" enabled="false" parameters="" passExecutionContext="false" />
+            <Handler functionName="preFilterEnvSetLookup" libraryName="tc_ASCEScripts" handlerUniqueId="{7ec6a1c8-111b-1012-b538-5c0ba218129c}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="preFilterNPASectionLookup" libraryName="tc_ASCEScripts" handlerUniqueId="{db4ba354-9193-4530-2dd3-79a45423d4e1}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="preFilterEnvRevLookup" libraryName="tc_ASCEScripts" handlerUniqueId="{0db7821b-e6e5-41b3-0b9e-ed019b246965}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="preFilterLandOwnLookup" libraryName="tc_ASCEScripts" handlerUniqueId="{21e35175-1dc5-c1eb-6905-350e596c0044}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="onformload" libraryName="tc_scem/iecproject.js" handlerUniqueId="{5880a3ac-1872-a390-61b8-2b95c914638a}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_latlonginputtype">
+          <Handlers>
+            <Handler functionName="geographical_onchange" libraryName="tc_scem/iecproject.js" handlerUniqueId="{0054d10d-d5e2-4105-41be-bac00d42619b}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="IEC Projects" languagecode="1033" />
+      <LocalizedName description="Projets de la CMA" languagecode="1036" />
+    </LocalizedNames>
+  </systemform>
+</forms>

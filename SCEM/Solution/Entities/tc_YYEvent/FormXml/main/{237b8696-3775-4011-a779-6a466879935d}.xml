@@ -426,11 +426,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3a56a222-703b-2c48-edaa-56dd9118aabe}" showlabel="true" locklevel="0">
+                      <cell id="{b43d47bb-6853-2dcc-88d1-b0792cd8e3db}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Lead for material" languagecode="1033" />
+                          <label description="Lead for materials" languagecode="1033" />
                         </labels>
-                        <control id="tc_leadformaterial" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_leadformaterial" disabled="false" />
+                        <control id="tc_materialslead" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_materialslead" disabled="false" />
                       </cell>
                       <cell id="{ee945617-09b3-10de-d96e-c90984de25b7}" showlabel="true" locklevel="0">
                         <labels>
@@ -556,7 +556,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{924ba284-7dcc-9165-91ba-e7d6ad59784a}" showlabel="false">
+                      <cell id="{e179dcd8-3119-a229-b907-76b52dd2a74a}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
