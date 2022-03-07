@@ -146,6 +146,7 @@
     <RolePrivilege name="prvAssigntc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYStakeholderPosition" level="Deep" />
+    <RolePrivilege name="prvAssignUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvAssignUserForm" level="Basic" />
     <RolePrivilege name="prvAssignUserQuery" level="Basic" />
     <RolePrivilege name="prvCreateAccount" level="Deep" />
@@ -198,6 +199,8 @@
     <RolePrivilege name="prvCreatetc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvCreateTranslationProcess" level="Global" />
+    <RolePrivilege name="prvCreateUserEntityInstanceData" level="Basic" />
+    <RolePrivilege name="prvCreateUserEntityUISettings" level="Basic" />
     <RolePrivilege name="prvCreateUserForm" level="Basic" />
     <RolePrivilege name="prvCreateUserQuery" level="Basic" />
     <RolePrivilege name="prvDeleteActionCardUserSettings" level="Basic" />
@@ -217,6 +220,8 @@
     <RolePrivilege name="prvDeletetc_ForwardAgendaItem" level="Deep" />
     <RolePrivilege name="prvDeletetc_forwardagendaitemcontact" level="Deep" />
     <RolePrivilege name="prvDeleteTranslationProcess" level="Global" />
+    <RolePrivilege name="prvDeleteUserEntityInstanceData" level="Basic" />
+    <RolePrivilege name="prvDeleteUserEntityUISettings" level="Basic" />
     <RolePrivilege name="prvDeleteUserForm" level="Basic" />
     <RolePrivilege name="prvDeleteUserQuery" level="Basic" />
     <RolePrivilege name="prvDocumentGeneration" level="Global" />
@@ -293,6 +298,8 @@
     <RolePrivilege name="prvReadtc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvReadtc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvReadTranslationProcess" level="Global" />
+    <RolePrivilege name="prvReadUserEntityInstanceData" level="Basic" />
+    <RolePrivilege name="prvReadUserEntityUISettings" level="Basic" />
     <RolePrivilege name="prvReadUserForm" level="Basic" />
     <RolePrivilege name="prvReadUserQuery" level="Basic" />
     <RolePrivilege name="prvShareAccount" level="Deep" />
@@ -333,6 +340,8 @@
     <RolePrivilege name="prvSharetc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvSharetc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvSharetc_YYStakeholderPosition" level="Deep" />
+    <RolePrivilege name="prvShareUserEntityInstanceData" level="Basic" />
+    <RolePrivilege name="prvShareUserEntityUISettings" level="Basic" />
     <RolePrivilege name="prvShareUserForm" level="Basic" />
     <RolePrivilege name="prvShareUserQuery" level="Basic" />
     <RolePrivilege name="prvWriteAccount" level="Deep" />
@@ -387,6 +396,8 @@
     <RolePrivilege name="prvWritetc_YYOrganizationUrl" level="Deep" />
     <RolePrivilege name="prvWritetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvWriteTranslationProcess" level="Global" />
+    <RolePrivilege name="prvWriteUserEntityInstanceData" level="Basic" />
+    <RolePrivilege name="prvWriteUserEntityUISettings" level="Basic" />
     <RolePrivilege name="prvWriteUserForm" level="Basic" />
     <RolePrivilege name="prvWriteUserQuery" level="Basic" />
   </RolePrivileges>
