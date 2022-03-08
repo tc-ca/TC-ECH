@@ -147,6 +147,7 @@
   <EntityRelationship Name="tc_organizationcontact_contactevents" />
   <EntityRelationship Name="tc_project_organizationsprojects" />
   <EntityRelationship Name="tc_project_proponentsprojects" />
+  <EntityRelationship Name="tc_Project_RelatedProject" />
   <EntityRelationship Name="tc_proponent_proponentsprojects" />
   <EntityRelationship Name="tc_stakeholdergroup_eventdetail" />
   <EntityRelationship Name="tc_tc_forwardagendaitem_tc_forwardagendaitem" />
