@@ -64,7 +64,7 @@
                     <row>
                       <cell id="{e32b8129-93c8-9ac7-a120-599276b4b742}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Mobil Phone" languagecode="1033" />
+                          <label description="Phone" languagecode="1033" />
                           <label description="Téléphone mobile" languagecode="1036" />
                         </labels>
                         <control id="mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" uniqueid="{4d0b197d-021b-d21c-1a73-bda644527a51}" />

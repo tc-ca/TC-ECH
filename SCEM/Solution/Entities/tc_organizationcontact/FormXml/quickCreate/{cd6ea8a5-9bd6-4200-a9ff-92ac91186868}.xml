@@ -60,10 +60,10 @@
                     <row>
                       <cell id="{42b8ca46-306d-3e87-1ae5-1c4c539857c8}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Mobile Phone" languagecode="1033" />
+                          <label description="Phone" languagecode="1033" />
                           <label description="Téléphone mobile" languagecode="1036" />
                         </labels>
-                        <control id="tc_mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_mobilephone" disabled="false" />
+                        <control id="tc_mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_mobilephone" disabled="false" uniqueid="{97a61271-e794-6181-9a44-04b7203acb2a}" />
                       </cell>
                     </row>
                   </rows>

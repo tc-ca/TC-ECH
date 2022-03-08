@@ -826,7 +826,7 @@
           <MaxLength>51</MaxLength>
           <Length>102</Length>
           <displaynames>
-            <displayname description="Mobile Phone" languagecode="1033" />
+            <displayname description="Phone" languagecode="1033" />
             <displayname description="Téléphone mobile" languagecode="1036" />
           </displaynames>
           <Descriptions>
