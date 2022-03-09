@@ -15,6 +15,9 @@
           <cell name="a_b5197a5e5337e8118141000c2958e3a5.tc_categorycd" width="150" disableSorting="1" />
           <cell name="primarycontactid" width="150" />
           <cell name="a_410707b195544cd984376608b1802904.emailaddress1" width="200" disableSorting="1" />
+          <cell name="tc_engagementid" width="100" />
+          <cell name="tc_lastengagementdate" width="100" />
+          <cell name="tc_lastregion" width="100" disableSorting="1" />
         </row>
       </grid>
     </layoutxml>
@@ -36,6 +39,9 @@
           <link-entity name="tc_tyaccounttype" from="tc_tyaccounttypeid" to="tc_oppaccounttypeid" visible="false" link-type="outer" alias="a_b5197a5e5337e8118141000c2958e3a5">
             <attribute name="tc_categorycd" />
           </link-entity>
+          <attribute name="tc_lastregion" />
+          <attribute name="tc_lastengagementdate" />
+          <attribute name="tc_engagementid" />
           <attribute name="accountid" />
         </entity>
       </fetch>
