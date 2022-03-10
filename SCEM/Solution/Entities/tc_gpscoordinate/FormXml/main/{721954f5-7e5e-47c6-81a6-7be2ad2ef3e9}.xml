@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{721954f5-7e5e-47c6-81a6-7be2ad2ef3e9}</formid>
+    <IntroducedVersion>1.126.1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="tab_General" id="{979e2067-d0c7-0eae-6029-88272d42d514}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="35%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{7934d585-05b4-8765-8e47-71947ea577bd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{132bb17a-4b24-7947-e69a-ca893205570d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="tc_projectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_projectid" disabled="true" uniqueid="{de745394-89d7-002d-d5ed-e5204776d232}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9AE25F50-628C-46DB-B3B6-0AA14DD7EB85}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2246667a-31a9-4723-96f5-10ccb3355bce}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="tc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b69268c5-d4bd-1083-4386-c0b648e6a958}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Coordinates" languagecode="1033" />
+                        </labels>
+                        <control id="tc_coordinates" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_coordinates" disabled="true" uniqueid="{662dd0b2-2e69-08d8-3d68-28d259b88c3c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7ddcbab-c336-ea6a-1c7d-49d759b53b3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary" languagecode="1033" />
+                        </labels>
+                        <control id="tc_primary" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="tc_primary" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b95ee6a-6c09-9563-2dcb-adc4e3ccc9dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lat Long Input Type" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latlonginputtypecd" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_latlonginputtypecd" disabled="false" uniqueid="{ade9c568-4b96-c95a-bc43-199e92986db3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc332b36-65a8-46d6-8aaa-d5a38f2b1363}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{498c2291-6e25-c69b-d55a-21de3a5ed9c3}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_General_section_Decimal" showlabel="false" showbar="false" locklevel="0" id="{a7306123-e355-2b6e-4662-77eeaaae7877}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Decimal" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c19b1115-3009-217c-88da-b095da92e725}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latitudenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12ad07e0-bc32-2b96-3d46-a05e63561b16}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude" languagecode="1033" />
+                        </labels>
+                        <control id="tc_longitudenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudenum" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_General_section_DMS" showlabel="false" showbar="false" locklevel="0" id="{5e6751c5-6eb1-ee94-7994-74a5b2c63d76}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="D-M-S" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3b74362a-6459-663d-a94c-11496e078d59}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude Degree" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudedegreenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{911526a3-3bd8-1abe-c25e-3a92b64e5eb2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude Minute" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latitudeminutenum" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_latitudeminutenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a5b017a-84c4-4053-7b00-68303460a2a5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude Second" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latitudesecondnum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudesecondnum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76dc6001-4c3b-a005-2e8b-9163563e957a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude Degree" languagecode="1033" />
+                        </labels>
+                        <control id="tc_longitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudedegreenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{366cdd90-7ca7-22cb-e306-790131dab2ab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude Minute" languagecode="1033" />
+                        </labels>
+                        <control id="tc_longitudeminutenum" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_longitudeminutenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a455637e-3308-0dd8-38ed-2a6d8ee52226}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude Second" languagecode="1033" />
+                        </labels>
+                        <control id="tc_longitudesecondnum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudesecondnum" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_General_section_DMD" showlabel="false" showbar="false" locklevel="0" id="{98ecc93e-e601-7c29-bb32-67d993a9665e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Degree Minute Decimal" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{26eb3892-c1e7-cd9d-a1b6-ccc994e6da2c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude Degree" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudedegreenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39e0c4ad-3c79-49ce-0d1a-7b4b5463849a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude Minute Decimal" languagecode="1033" />
+                        </labels>
+                        <control id="tc_latitudeminutedecimalnum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudeminutedecimalnum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ac148bb-007b-6b93-a331-28e491aeb111}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude Degree" languagecode="1033" />
+                        </labels>
+                        <control id="tc_longitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudedegreenum" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67775b46-3782-5659-8b9b-3883a8b09c3d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude Minute Decimal" languagecode="1033" />
+                        </labels>
+                        <control id="tc_longitudeminutedecimalnum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudeminutedecimalnum" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="65%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{19e38230-b676-573b-90d9-be11a3b4d972}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2b67b27e-8e7a-5baa-57e6-482dd8038374}" showlabel="false" colspan="1" auto="true" rowspan="10">
+                        <labels>
+                          <label description="EsriAboriginalConsultationMaps" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_WebResource_EsriAboriginalConsultationMaps" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>tc_/EGISIntegration/EsriAboriginalConsultationMaps.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Data>{
+  "coordinates": "tc_coordinatescalc",
+  "aboriginalConsultationActivitiesLog": false,
+  "aboriginalFirstNations": true,
+  "aboriginalLandsCanadaLegislativeBoundaries": true,
+  "tribalCouncil": false,
+  "historicTreaties": false,
+  "modernTreaties": false,
+  "bcSettlementAreas": false,
+  "pnrTerritories": false,
+  "firstNationFriendshipCentre": false,
+  "screenshotWidget": true,
+  "openStreetMapBaseLayer": false
+}</Data>
+                            <WebResourceId>{710080D5-447E-EA11-A811-000D3AF4346A}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="tc_/scem/gpscoordinate.js" libraryUniqueId="{de8a84c9-8216-5bde-1692-2536ba7e3540}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="onformload" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{0b724550-0d6a-ce03-4887-5c35dce6ec94}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_latlonginputtypecd">
+          <Handlers>
+            <Handler functionName="inputtype_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{a329e1d7-e83a-b39a-134d-c4aec0893d69}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

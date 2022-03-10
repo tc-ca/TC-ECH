@@ -10,6 +10,7 @@
   <EntityRelationship Name="business_unit_tc_feedbackform" />
   <EntityRelationship Name="business_unit_tc_forwardagendaitem" />
   <EntityRelationship Name="business_unit_tc_forwardagendaitemcontact" />
+  <EntityRelationship Name="business_unit_tc_gpscoordinate" />
   <EntityRelationship Name="business_unit_tc_myimpact" />
   <EntityRelationship Name="business_unit_tc_myprojectactivity" />
   <EntityRelationship Name="business_unit_tc_myprojecttask" />
@@ -45,6 +46,8 @@
   <EntityRelationship Name="lk_tc_forwardagendaitem_modifiedby" />
   <EntityRelationship Name="lk_tc_forwardagendaitemcontact_createdby" />
   <EntityRelationship Name="lk_tc_forwardagendaitemcontact_modifiedby" />
+  <EntityRelationship Name="lk_tc_gpscoordinate_createdby" />
+  <EntityRelationship Name="lk_tc_gpscoordinate_modifiedby" />
   <EntityRelationship Name="lk_tc_myimpact_createdby" />
   <EntityRelationship Name="lk_tc_myimpact_modifiedby" />
   <EntityRelationship Name="lk_tc_myprojectactivity_createdby" />
@@ -89,6 +92,7 @@
   <EntityRelationship Name="owner_tc_feedbackform" />
   <EntityRelationship Name="owner_tc_forwardagendaitem" />
   <EntityRelationship Name="owner_tc_forwardagendaitemcontact" />
+  <EntityRelationship Name="owner_tc_gpscoordinate" />
   <EntityRelationship Name="owner_tc_myimpact" />
   <EntityRelationship Name="owner_tc_myprojectactivity" />
   <EntityRelationship Name="owner_tc_myprojecttask" />
@@ -151,6 +155,7 @@
   <EntityRelationship Name="tc_proponent_proponentsprojects" />
   <EntityRelationship Name="tc_stakeholdergroup_eventdetail" />
   <EntityRelationship Name="tc_tc_forwardagendaitem_tc_forwardagendaitem" />
+  <EntityRelationship Name="tc_tc_myproject_tc_gpscoordinate" />
   <EntityRelationship Name="tc_tc_tyaerodrome_yyevent_AerodromeId" />
   <EntityRelationship Name="tc_tc_tylookupreference_account_historical" />
   <EntityRelationship Name="tc_tc_tylookupreference_account_modern" />
@@ -188,6 +193,7 @@
   <EntityRelationship Name="team_tc_feedbackform" />
   <EntityRelationship Name="team_tc_forwardagendaitem" />
   <EntityRelationship Name="team_tc_forwardagendaitemcontact" />
+  <EntityRelationship Name="team_tc_gpscoordinate" />
   <EntityRelationship Name="team_tc_myimpact" />
   <EntityRelationship Name="team_tc_myprojectactivity" />
   <EntityRelationship Name="team_tc_myprojecttask" />
@@ -211,6 +217,7 @@
   <EntityRelationship Name="user_tc_feedbackform" />
   <EntityRelationship Name="user_tc_forwardagendaitem" />
   <EntityRelationship Name="user_tc_forwardagendaitemcontact" />
+  <EntityRelationship Name="user_tc_gpscoordinate" />
   <EntityRelationship Name="user_tc_myimpact" />
   <EntityRelationship Name="user_tc_myprojectactivity" />
   <EntityRelationship Name="user_tc_myprojecttask" />

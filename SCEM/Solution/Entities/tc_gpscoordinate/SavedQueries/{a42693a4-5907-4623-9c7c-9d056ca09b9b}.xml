@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a42693a4-5907-4623-9c7c-9d056ca09b9b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_name" select="1" icon="1" preview="1">
+        <row name="result" id="tc_gpscoordinateid">
+          <cell name="tc_name" width="300" />
+          <cell name="tc_coordinates" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_latlonginputtypecd" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_primary" width="100" />
+          <cell name="tc_projectid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_gpscoordinate">
+          <attribute name="tc_name" />
+          <order attribute="tc_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="tc_projectid" />
+          <attribute name="tc_primary" />
+          <attribute name="tc_latlonginputtypecd" />
+          <attribute name="tc_coordinates" />
+          <attribute name="tc_gpscoordinateid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.126.1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active GPS Coordinates" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
