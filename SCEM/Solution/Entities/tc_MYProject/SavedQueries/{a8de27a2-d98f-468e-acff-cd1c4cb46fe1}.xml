@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a8de27a2-d98f-468e-acff-cd1c4cb46fe1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_projectnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_myprojectid">
+          <cell name="tc_projectnm" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_region" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_regionalprojectnum" width="100" />
+          <cell name="tc_daterequestdte" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tc_myproject">
+          <attribute name="tc_projectnm" />
+          <order attribute="tc_projectnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="tc_consultationind" operator="like" value="{0}" />
+            <condition attribute="tc_envreviewtypeid" operator="like" value="{0}" />
+            <condition attribute="statecode" operator="like" value="{0}" />
+            <condition attribute="tc_specificclaimtxt" operator="like" value="{0}" />
+            <condition attribute="tc_projectareasizetxt" operator="like" value="{0}" />
+            <condition attribute="tc_sitetxt" operator="like" value="{0}" />
+            <condition attribute="tc_scopereviewtxt" operator="like" value="{0}" />
+            <condition attribute="tc_regulatoryconsultationtxt" operator="like" value="{0}" />
+            <condition attribute="tc_regulatoryconsultationind" operator="like" value="{0}" />
+            <condition attribute="tc_regionalprojectnum" operator="like" value="{0}" />
+            <condition attribute="overriddencreatedon" operator="on" value="{3}" />
+            <condition attribute="tc_consultationreasoncd" operator="like" value="{0}" />
+            <condition attribute="tc_processreasontxt" operator="like" value="{0}" />
+            <condition attribute="tc_rationaletxt" operator="like" value="{0}" />
+            <condition attribute="tc_proximitytxt" operator="like" value="{0}" />
+            <condition attribute="tc_provincecd" operator="like" value="{0}" />
+            <condition attribute="tc_proponentactivitytxt" operator="like" value="{0}" />
+            <condition attribute="tc_supportedorganizationid" operator="like" value="{0}" />
+            <condition attribute="tc_projectactivitytxt" operator="like" value="{0}" />
+            <condition attribute="tc_projectstatusdesctxt" operator="like" value="{0}" />
+            <condition attribute="statuscode" operator="like" value="{0}" />
+            <condition attribute="tc_projectcomponentstructuretxt" operator="like" value="{0}" />
+            <condition attribute="tc_adverseimpactind" operator="like" value="{0}" />
+            <condition attribute="ownerid" operator="like" value="{0}" />
+            <condition attribute="tc_othersourceinfotxt" operator="like" value="{0}" />
+            <condition attribute="tc_otherregulatorytxt" operator="like" value="{0}" />
+            <condition attribute="tc_otherregulatoryind" operator="like" value="{0}" />
+            <condition attribute="tc_otherinvolvedpartytxt" operator="like" value="{0}" />
+            <condition attribute="tc_otherfederalprocesstxt" operator="like" value="{0}" />
+            <condition attribute="tc_otherfederaldepartmentind" operator="like" value="{0}" />
+            <condition attribute="tc_otherenvreviewprocessind" operator="like" value="{0}" />
+            <condition attribute="tc_otherenvreviewtxt" operator="like" value="{0}" />
+            <condition attribute="tc_crownconductothertxt" operator="like" value="{0}" />
+            <condition attribute="tc_otherind" operator="like" value="{0}" />
+            <condition attribute="tc_nppfilenum" operator="like" value="{0}" />
+            <condition attribute="tc_projectownerid" operator="like" value="{0}" />
+            <condition attribute="tc_neatsfilenum" operator="like" value="{0}" />
+            <condition attribute="tc_natureofactivitytxt" operator="like" value="{0}" />
+            <condition attribute="tc_projectnm" operator="like" value="{0}" />
+            <condition attribute="modifiedon" operator="on" value="{3}" />
+            <condition attribute="modifiedonbehalfby" operator="like" value="{0}" />
+            <condition attribute="modifiedby" operator="like" value="{0}" />
+            <condition attribute="tc_moderntreatyid" operator="like" value="{0}" />
+            <condition attribute="tc_longtitudegis" operator="eq" value="{4}" />
+            <condition attribute="tc_longtitudesecondgis" operator="eq" value="{1}" />
+            <condition attribute="tc_longtitudeminutegis" operator="eq" value="{1}" />
+            <condition attribute="tc_longtitudedegreegis" operator="eq" value="{1}" />
+            <condition attribute="tc_litigationtxt" operator="like" value="{0}" />
+            <condition attribute="tc_legaladvicesummary" operator="like" value="{0}" />
+            <condition attribute="tc_legaladvicesought" operator="like" value="{0}" />
+            <condition attribute="tc_ledbytcind" operator="like" value="{0}" />
+            <condition attribute="tc_ledprovinceterritoryind" operator="like" value="{0}" />
+            <condition attribute="tc_ledbyogdind" operator="like" value="{0}" />
+            <condition attribute="tc_latitudesecondgis" operator="eq" value="{1}" />
+            <condition attribute="tc_latitudeminutegis" operator="eq" value="{1}" />
+            <condition attribute="tc_latitudedegreegis" operator="eq" value="{1}" />
+            <condition attribute="tc_latitudegis" operator="eq" value="{4}" />
+            <condition attribute="tc_landownershipid" operator="like" value="{0}" />
+            <condition attribute="tc_landdevmngtdisposalind" operator="like" value="{0}" />
+            <condition attribute="tc_crownconductind" operator="like" value="{0}" />
+            <condition attribute="tc_proponentaboriginalgroupind" operator="like" value="{0}" />
+            <condition attribute="importsequencenumber" operator="eq" value="{1}" />
+            <condition attribute="tc_historicaltreatyid" operator="like" value="{0}" />
+            <condition attribute="tc_granttxt" operator="like" value="{0}" />
+            <condition attribute="tc_grantcontributionfundingind" operator="like" value="{0}" />
+            <condition attribute="tc_federalenvreviewind" operator="like" value="{0}" />
+            <condition attribute="tc_existingprotocolid" operator="like" value="{0}" />
+            <condition attribute="tc_existingconsultationprotocolind" operator="like" value="{0}" />
+            <condition attribute="tc_exemptiontxt" operator="like" value="{0}" />
+            <condition attribute="tc_exemptind" operator="like" value="{0}" />
+            <condition attribute="tc_envsettingdetailtxt" operator="like" value="{0}" />
+            <condition attribute="tc_envsettingid" operator="like" value="{0}" />
+            <condition attribute="tc_envremediationtxt" operator="like" value="{0}" />
+            <condition attribute="tc_environmentalremediationind" operator="like" value="{0}" />
+            <condition attribute="tc_eafilenum" operator="like" value="{0}" />
+            <condition attribute="tc_dutytoconsulttxt" operator="like" value="{0}" />
+            <condition attribute="tc_meetdtcind" operator="like" value="{0}" />
+            <condition attribute="tc_documentstxt" operator="like" value="{0}" />
+            <condition attribute="tc_ledbytctxt" operator="like" value="{0}" />
+            <condition attribute="tc_ledbyprovincetxt" operator="like" value="{0}" />
+            <condition attribute="tc_ledbyogdtxt" operator="like" value="{0}" />
+            <condition attribute="tc_fedenvreviewtxt" operator="like" value="{0}" />
+            <condition attribute="tc_protocoltxt" operator="like" value="{0}" />
+            <condition attribute="tc_othergovinvolvementtxt" operator="like" value="{0}" />
+            <condition attribute="tc_otherfederaldepttxt" operator="like" value="{0}" />
+            <condition attribute="tc_daterequestdte" operator="on" value="{3}" />
+            <condition attribute="createdon" operator="on" value="{3}" />
+            <condition attribute="createdonbehalfby" operator="like" value="{0}" />
+            <condition attribute="createdby" operator="like" value="{0}" />
+            <condition attribute="tc_comprehensiveclaimtxt" operator="like" value="{0}" />
+            <condition attribute="tc_npaapprovalsectionid" operator="like" value="{0}" />
+            <condition attribute="tc_npaapprovaltxt" operator="like" value="{0}" />
+            <condition attribute="tc_npaapprovalind" operator="like" value="{0}" />
+            <condition attribute="tc_datebringforwarddte" operator="on" value="{3}" />
+            <condition attribute="tc_adequacyassessmenttxt" operator="like" value="{0}" />
+            <condition attribute="tc_adequacycompletedind" operator="like" value="{0}" />
+            <condition attribute="tc_additionaltreatyinfotxt" operator="like" value="{0}" />
+            <condition attribute="tc_addlandownershiptxt" operator="like" value="{0}" />
+            <condition attribute="tc_proponentactivityind" operator="like" value="{0}" />
+            <condition attribute="tc_treatyrightsind" operator="like" value="{0}" />
+          </filter>
+          <attribute name="tc_regionalprojectnum" />
+          <attribute name="statuscode" />
+          <attribute name="ownerid" />
+          <attribute name="tc_daterequestdte" />
+          <attribute name="tc_region" />
+          <attribute name="tc_myprojectid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Projects" languagecode="1033" />
+      <LocalizedName description="Recherche rapide de projets actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

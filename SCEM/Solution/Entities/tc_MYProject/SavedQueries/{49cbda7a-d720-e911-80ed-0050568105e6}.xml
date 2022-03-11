@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{49cbda7a-d720-e911-80ed-0050568105e6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_projectnm" select="1" preview="1" icon="1">
+        <row name="result" id="tc_myprojectid">
+          <cell name="tc_projectnm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_datebringforwarddte" width="100" />
+          <cell name="tc_daterequestdte" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="tc_myproject">
+          <attribute name="tc_projectnm" />
+          <attribute name="statuscode" />
+          <attribute name="tc_daterequestdte" />
+          <order attribute="tc_daterequestdte" descending="false" />
+          <order attribute="tc_projectnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="statuscode" operator="not-in">
+              <value>948010006</value>
+              <value>2</value>
+            </condition>
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
+          <attribute name="tc_myprojectid" />
+          <attribute name="tc_datebringforwarddte" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1.0.16</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Active Projects" languagecode="1033" />
+      <LocalizedName description="Mes projets actifs" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="My Active Projects" languagecode="1033" />
+      <Description description="Mes projets actifs" languagecode="1036" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

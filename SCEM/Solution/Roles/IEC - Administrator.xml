@@ -110,7 +110,6 @@
     <RolePrivilege name="prvDeleteTerritory" level="Global" />
     <RolePrivilege name="prvDocumentGeneration" level="Global" />
     <RolePrivilege name="prvExportToExcel" level="Global" />
-    <RolePrivilege name="prvMerge" level="Global" />
     <RolePrivilege name="prvPublishOrgMailMergeTemplate" level="Global" />
     <RolePrivilege name="prvPublishOrgReport" level="Global" />
     <RolePrivilege name="prvPublishRSReport" level="Global" />
