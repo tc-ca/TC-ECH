@@ -134,7 +134,6 @@
     <RolePrivilege name="prvDeleteUserQuery" level="Basic" />
     <RolePrivilege name="prvDocumentGeneration" level="Global" />
     <RolePrivilege name="prvExportToExcel" level="Global" />
-    <RolePrivilege name="prvMerge" level="Global" />
     <RolePrivilege name="prvPublishOrgReport" level="Global" />
     <RolePrivilege name="prvPublishRSReport" level="Global" />
     <RolePrivilege name="prvReadAccount" level="Deep" />

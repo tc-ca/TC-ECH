@@ -100,6 +100,23 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{e1858e8b-660c-2a6a-e7be-801464787022}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                          <label description="Contact principal" languagecode="1036" />
+                        </labels>
+                        <control id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c8c85007-e164-4712-2e37-6e625de96c57}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary IEC Contact" languagecode="1033" />
+                        </labels>
+                        <control id="tc_primaryieccontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_primaryieccontactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{0d68e7d4-3210-11b0-0e64-c02cac946abb}" showlabel="true" locklevel="0" rowspan="3" labelid="{9953d297-be30-4183-b6c1-2c0ee6d4dc4b}">
                         <labels>
                           <label description="Description" languagecode="1033" />

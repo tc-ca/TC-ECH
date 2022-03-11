@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="SCEM - Stakeholder Consultation and Engagement Management" languagecode="1033" />
     </Descriptions>
-    <Version>1.128.0.0</Version>
+    <Version>1.130.0.1</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -150,12 +150,13 @@
       <RootComponent type="1" schemaName="tc_forwardagendaitemcontact" behavior="0" />
       <RootComponent type="1" schemaName="tc_gpscoordinate" behavior="0" />
       <RootComponent type="1" schemaName="tc_myimpact" behavior="0" />
-      <RootComponent type="1" schemaName="tc_myproject" behavior="2" />
+      <RootComponent type="1" schemaName="tc_myproject" behavior="0" />
       <RootComponent type="1" schemaName="tc_myprojectactivity" behavior="0" />
       <RootComponent type="1" schemaName="tc_myprojecttask" behavior="0" />
       <RootComponent type="1" schemaName="tc_organizationcontact" behavior="0" />
       <RootComponent type="1" schemaName="tc_organizationsprojects" behavior="0" />
       <RootComponent type="1" schemaName="tc_proponentsprojects" behavior="0" />
+      <RootComponent type="1" schemaName="tc_submission" behavior="1" />
       <RootComponent type="1" schemaName="tc_tyaccounttype" behavior="0" />
       <RootComponent type="1" schemaName="tc_tyindigenousgroup" behavior="0" />
       <RootComponent type="1" schemaName="tc_tylookupreference" behavior="0" />
@@ -215,6 +216,7 @@
       <RootComponent type="29" id="{43aa49d5-3b4c-4b78-bcc4-5b35aa288cc3}" behavior="0" />
       <RootComponent type="29" id="{5857ea90-ab60-43a0-8c77-d612581f294e}" behavior="0" />
       <RootComponent type="29" id="{5aaf3676-2751-450c-afd4-1fd9b8600f4a}" behavior="0" />
+      <RootComponent type="29" id="{5af69479-6aa1-ec11-b3fe-0022486da945}" behavior="0" />
       <RootComponent type="29" id="{5d7949b5-3bf3-4032-a313-eaf2985b1921}" behavior="0" />
       <RootComponent type="29" id="{858ef987-3f22-e911-80ee-005056810268}" behavior="0" />
       <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />

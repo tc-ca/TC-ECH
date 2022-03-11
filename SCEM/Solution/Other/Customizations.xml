@@ -11,6 +11,18 @@
       <primaryimageattribute>tc_mapscreenshot</primaryimageattribute>
     </EntityImageConfig>
   </EntityImageConfigs>
+  <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>tc_mapscreenshot2</attributelogicalname>
+      <parententitylogicalname>tc_myproject</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>tc_mapscreenshot</attributelogicalname>
+      <parententitylogicalname>tc_myproject</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+  </AttributeImageConfigs>
   <EntityMaps />
   <EntityRelationships />
   <OrganizationSettings />
@@ -22,6 +34,22 @@
   <AppModuleSiteMaps />
   <AppModules />
   <EntityDataProviders />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="tc_sharedcommondataservice_d59dc">
+      <connectionreferencedisplayname>Microsoft Dataverse (legacy) IEC-d59dc</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataservice</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tc_sharedcommondataserviceforapps_e1072">
+      <connectionreferencedisplayname>Microsoft Dataverse IEC-e1072</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
   <Languages>
     <Language>1033</Language>
     <Language>1036</Language>

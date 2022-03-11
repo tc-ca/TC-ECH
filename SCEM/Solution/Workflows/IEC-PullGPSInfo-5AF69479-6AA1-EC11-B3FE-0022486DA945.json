@@ -1,0 +1,220 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataservice": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "tc_sharedcommondataservice_d59dc"
+        },
+        "api": {
+          "name": "shared_commondataservice"
+        }
+      },
+      "shared_commondataserviceforapps": {
+        "impersonation": {},
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "tc_sharedcommondataserviceforapps_e1072"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "metadata": {
+            "operationMetadataId": "362875dd-edd4-4399-8897-118b9f4b77c8"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "tc_myproject",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/runas": 3,
+              "subscriptionRequest/name": "5af69479-6aa1-ec11-b3fe-0022486da945"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Condition": {
+          "actions": {
+            "NavInfoCoordinates": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "f06d7ce3-518e-4d0b-9712-496756b363ad"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataservice",
+                  "connectionName": "shared_commondataservice",
+                  "operationId": "GetItems_V2"
+                },
+                "parameters": {
+                  "dataset": "https://tcd365.crm3.dynamics.com",
+                  "table": "tc_yygiscoordinates",
+                  "$filter": "_tc_submission_value eq @{variables('SubmissionID')}"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            },
+            "Apply_to_each": {
+              "foreach": "@outputs('NavInfoCoordinates')?['body/value']",
+              "actions": {
+                "Set_variable_2": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "c8434564-04c3-420b-8b07-2d151488fa3e"
+                  },
+                  "type": "SetVariable",
+                  "inputs": {
+                    "name": "FileNumber",
+                    "value": "@items('Apply_to_each')?['tc_giscoordinatenm']"
+                  }
+                },
+                "Add_a_new_row": {
+                  "runAfter": {
+                    "Set_variable_2": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "3394933f-9670-45c8-9fe0-211927ac1303"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                      "connectionName": "shared_commondataserviceforapps",
+                      "operationId": "CreateRecord"
+                    },
+                    "parameters": {
+                      "entityName": "tc_gpscoordinates",
+                      "item/tc_ProjectId@odata.bind": "/tc_myprojects/@{triggerOutputs()?['body/tc_myprojectid']}",
+                      "item/tc_latitudenum": "@items('Apply_to_each')?['tc_latitudenum']",
+                      "item/tc_latitudedegree": "@items('Apply_to_each')?['tc_latitudedegreenum']",
+                      "item/tc_latitudeminutenum": "@items('Apply_to_each')?['tc_latitudeminutenum']",
+                      "item/tc_latitudeminutedecimalnum": "@items('Apply_to_each')?['tc_latitudeminutedecimalnum']",
+                      "item/tc_latitudesecond": "@items('Apply_to_each')?['tc_latitudesecondnum']",
+                      "item/tc_longitudenum": "@items('Apply_to_each')?['tc_longitudenum']",
+                      "item/tc_longitudedegree": "@items('Apply_to_each')?['tc_longitudedegreenum']",
+                      "item/tc_longitudeminutenum": "@items('Apply_to_each')?['tc_longitudeminutenum']",
+                      "item/tc_longitudeminutedecimalnum": "@items('Apply_to_each')?['tc_longitudeminutedecimalnum']",
+                      "item/tc_longitudesecond": "@items('Apply_to_each')?['tc_longitudesecondnum']",
+                      "item/tc_name": "@items('Apply_to_each')?['tc_giscoordinatenm']"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                }
+              },
+              "runAfter": {
+                "NavInfoCoordinates": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "4341a3a3-f832-41e6-bfd3-776aaf27b98c"
+              },
+              "type": "Foreach"
+            }
+          },
+          "runAfter": {
+            "gFileNumber": [
+              "Succeeded"
+            ]
+          },
+          "expression": {
+            "not": {
+              "equals": [
+                "@triggerOutputs()?['body/_tc_submission_value']",
+                null
+              ]
+            }
+          },
+          "metadata": {
+            "operationMetadataId": "e752850c-3d13-41e4-b146-ed15daab6b32"
+          },
+          "type": "If"
+        },
+        "gSubmissionID": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "b32f6cff-5e06-4d67-8cad-2f2fb2173f04"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "SubmissionID",
+                "type": "string",
+                "value": "@triggerOutputs()?['body/_tc_submission_value']"
+              }
+            ]
+          }
+        },
+        "gFileNumber": {
+          "runAfter": {
+            "gProjectID": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "a69383e7-f1d1-4a3f-86f4-c715f6952e31"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "FileNumber",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "gProjectID": {
+          "runAfter": {
+            "gSubmissionID": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "e8c0864f-63df-484b-aa04-d75fdba8a72c"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "ProjectID",
+                "type": "string",
+                "value": "@triggerOutputs()?['body/tc_myprojectid']"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "schemaVersion": "1.0.0.0"
+}
