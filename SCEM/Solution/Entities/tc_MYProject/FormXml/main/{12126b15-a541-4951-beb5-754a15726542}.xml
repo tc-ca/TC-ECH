@@ -421,9 +421,9 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_Geographical" id="{0281ce00-470c-1b15-b4e1-3ab439edc22e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{0719a052-e60d-4219-916b-70ee023f6295}">
+        <tab name="tab_Geographical1" id="{0281ce00-470c-1b15-b4e1-3ab439edc22e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{0719a052-e60d-4219-916b-70ee023f6295}" visible="false">
           <labels>
-            <label description="Geographical Setting" languagecode="1033" />
+            <label description="Geographical Setting old" languagecode="1033" />
             <label description="Contexte géographique" languagecode="1036" />
           </labels>
           <columns>
@@ -660,6 +660,55 @@
                         <control id="tc_mapscreenshot2" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot2" disabled="false" />
                       </cell>
                     </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Geographical" id="{d34bee0c-2080-5b1a-9c02-4ea472b4603d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Geographical Setting" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_19_section_3" showlabel="false" showbar="false" locklevel="0" id="{054eb4d3-1444-7269-d643-662eedea1b74}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{68ec8a03-3239-7cb4-7ec6-e0eaa6d90cba}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="GPS Coordinates (Project)" languagecode="1033" />
+                        </labels>
+                        <control id="gpscoordinates" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{A42693A4-5907-4623-9C7C-9D056CA09B9B}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>tc_tc_myproject_tc_gpscoordinate</RelationshipName>
+                            <TargetEntityType>tc_gpscoordinate</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A42693A4-5907-4623-9C7C-9D056CA09B9B}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                   </rows>
                 </section>
                 <section name="GeographicalSetting_section_3" showlabel="false" showbar="false" locklevel="0" id="{169be9e9-6331-0a47-a586-13b68e74b515}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">

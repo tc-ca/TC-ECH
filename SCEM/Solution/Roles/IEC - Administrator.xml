@@ -96,7 +96,6 @@
     <RolePrivilege name="prvCreatetc_TYRegion" level="Global" />
     <RolePrivilege name="prvCreatetc_TYTag" level="Local" />
     <RolePrivilege name="prvCreateTerritory" level="Global" />
-    <RolePrivilege name="prvDeleteAccount" level="Deep" />
     <RolePrivilege name="prvDeleteContact" level="Deep" />
     <RolePrivilege name="prvDeleteEmailTemplate" level="Deep" />
     <RolePrivilege name="prvDeleteMailMergeTemplate" level="Deep" />
@@ -111,6 +110,7 @@
     <RolePrivilege name="prvDeleteTerritory" level="Global" />
     <RolePrivilege name="prvDocumentGeneration" level="Global" />
     <RolePrivilege name="prvExportToExcel" level="Global" />
+    <RolePrivilege name="prvMerge" level="Global" />
     <RolePrivilege name="prvPublishOrgMailMergeTemplate" level="Global" />
     <RolePrivilege name="prvPublishOrgReport" level="Global" />
     <RolePrivilege name="prvPublishRSReport" level="Global" />
