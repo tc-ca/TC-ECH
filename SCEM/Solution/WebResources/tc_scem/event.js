@@ -122,7 +122,7 @@ function refreshsection(formContext) {
         formContext.getAttribute("tc_startdte").setRequiredLevel("none")
         formContext.getAttribute("tc_enddte").setRequiredLevel("none")
     }
-    //if (!isSafety) {
-        //formContext.getAttribute("tc_citynm").setRequiredLevel("none")
-    //}
+
+    formContext.getControl("tc_tdgsecretariatlead").setVisible(isEngagement);
+    formContext.getControl("tc_tclead").setVisible(!isEngagement);
 }

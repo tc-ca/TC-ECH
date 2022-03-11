@@ -2,7 +2,7 @@
 function onformload(executionContext) {
     var formContext = executionContext.getFormContext();
 
-    RefreshGeographical(formContext);
+    //RefreshGeographical(formContext);
     
 }
 function geographical_onchange(executionContext) {

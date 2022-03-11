@@ -180,7 +180,7 @@
                           <label description="TC Lead" languagecode="1033" />
                           <label description="Responsable de TC" languagecode="1036" />
                         </labels>
-                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" />
+                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" uniqueid="{c30bc181-61a5-9379-8c9a-1de5e312ecce}" />
                       </cell>
                     </row>
                     <row>
@@ -191,12 +191,11 @@
                         </labels>
                         <control id="tc_startdte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
                       </cell>
-                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
+                      <cell id="{dd346b62-ad31-ae18-872c-5441516e6311}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Topics of interest " languagecode="1033" />
-                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
+                          <label description="TDG Secretariat Lead" languagecode="1033" />
                         </labels>
-                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" uniqueid="{b0d02612-289c-8959-42d6-2884dde2937a}" />
+                        <control id="tc_tdgsecretariatlead" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_tdgsecretariatlead" disabled="false" uniqueid="{acaa245a-c00c-9065-5230-8ae9239073c9}" />
                       </cell>
                     </row>
                     <row>
@@ -206,6 +205,20 @@
                           <label description="Fin" languagecode="1036" />
                         </labels>
                         <control id="tc_enddte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
+                      </cell>
+                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Topics of interest " languagecode="1033" />
+                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" uniqueid="{b0d02612-289c-8959-42d6-2884dde2937a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8494187e-d542-9c25-a18b-631ec678abaa}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                       <cell id="{9428675d-d1a5-331a-13b9-ed6192a67e95}" showlabel="true" locklevel="0">
                         <labels>

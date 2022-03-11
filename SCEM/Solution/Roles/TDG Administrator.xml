@@ -229,7 +229,6 @@
     <RolePrivilege name="prvCreatetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvCreateTranslationProcess" level="Global" />
     <RolePrivilege name="prvCreateUserQuery" level="Basic" />
-    <RolePrivilege name="prvDeleteAccount" level="Deep" />
     <RolePrivilege name="prvDeleteActionCardUserSettings" level="Basic" />
     <RolePrivilege name="prvDeleteActivity" level="Basic" />
     <RolePrivilege name="prvDeleteConnection" level="Deep" />

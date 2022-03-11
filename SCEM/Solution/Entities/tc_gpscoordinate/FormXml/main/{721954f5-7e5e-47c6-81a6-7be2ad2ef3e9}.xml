@@ -24,7 +24,7 @@
                         <labels>
                           <label description="Project" languagecode="1033" />
                         </labels>
-                        <control id="tc_projectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_projectid" disabled="true" uniqueid="{de745394-89d7-002d-d5ed-e5204776d232}">
+                        <control id="tc_projectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_projectid" disabled="false" uniqueid="{de745394-89d7-002d-d5ed-e5204776d232}">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -45,11 +45,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b69268c5-d4bd-1083-4386-c0b648e6a958}" showlabel="true" locklevel="0">
+                      <cell id="{2ebe5c9b-910b-0130-85c9-8e1425475da8}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Coordinates" languagecode="1033" />
+                          <label description="Coordinate" languagecode="1033" />
                         </labels>
-                        <control id="tc_coordinates" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_coordinates" disabled="true" uniqueid="{662dd0b2-2e69-08d8-3d68-28d259b88c3c}" />
+                        <control id="tc_calculatedcoordinate" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_calculatedcoordinate" disabled="false" uniqueid="{b5eea0c5-d217-c00b-3722-70b96b126ad3}" />
                       </cell>
                     </row>
                     <row>
@@ -113,11 +113,11 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{3b74362a-6459-663d-a94c-11496e078d59}" showlabel="true" locklevel="0">
+                      <cell id="{d7e1d3aa-0033-ac84-56aa-b067a1dca055}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Latitude Degree" languagecode="1033" />
                         </labels>
-                        <control id="tc_latitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudedegreenum" disabled="false" />
+                        <control id="tc_latitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_latitudedegree" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -129,19 +129,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8a5b017a-84c4-4053-7b00-68303460a2a5}" showlabel="true" locklevel="0">
+                      <cell id="{b59a96c8-38ba-7623-44c5-229b82d84202}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Latitude Second" languagecode="1033" />
                         </labels>
-                        <control id="tc_latitudesecondnum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudesecondnum" disabled="false" />
+                        <control id="tc_latitudesecond" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_latitudesecond" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{76dc6001-4c3b-a005-2e8b-9163563e957a}" showlabel="true" locklevel="0">
+                      <cell id="{4e2a24e0-9ba7-44ad-8046-13a9ba6b2bb9}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Longitude Degree" languagecode="1033" />
                         </labels>
-                        <control id="tc_longitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudedegreenum" disabled="false" />
+                        <control id="tc_longitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_longitudedegree" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -153,11 +153,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a455637e-3308-0dd8-38ed-2a6d8ee52226}" showlabel="true" locklevel="0">
+                      <cell id="{5032271c-be5d-ac91-9603-46c349c5e123}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Longitude Second" languagecode="1033" />
                         </labels>
-                        <control id="tc_longitudesecondnum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudesecondnum" disabled="false" />
+                        <control id="tc_longitudesecond" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_longitudesecond" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -168,11 +168,11 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{26eb3892-c1e7-cd9d-a1b6-ccc994e6da2c}" showlabel="true" locklevel="0">
+                      <cell id="{34eda480-e961-e81c-ec11-beee0b8c82ab}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Latitude Degree" languagecode="1033" />
                         </labels>
-                        <control id="tc_latitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudedegreenum" disabled="false" />
+                        <control id="tc_latitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_latitudedegree" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -184,11 +184,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{5ac148bb-007b-6b93-a331-28e491aeb111}" showlabel="true" locklevel="0">
+                      <cell id="{c825e3b7-de79-c1a0-a6e9-1c868717b602}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Longitude Degree" languagecode="1033" />
                         </labels>
-                        <control id="tc_longitudedegreenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudedegreenum" disabled="false" />
+                        <control id="tc_longitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_longitudedegree" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -218,13 +218,8 @@
                         <control id="WebResource_WebResource_EsriAboriginalConsultationMaps" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
                           <parameters>
                             <Url>tc_/EGISIntegration/EsriAboriginalConsultationMaps.html</Url>
-                            <PassParameters>false</PassParameters>
-                            <Security>false</Security>
-                            <Scrolling>auto</Scrolling>
-                            <Border>true</Border>
-                            <ShowOnMobileClient>false</ShowOnMobileClient>
                             <Data>{
-  "coordinates": "tc_coordinatescalc",
+  "coordinates": "tc_calculatedcoordinate",
   "aboriginalConsultationActivitiesLog": false,
   "aboriginalFirstNations": true,
   "aboriginalLandsCanadaLegislativeBoundaries": true,
@@ -237,6 +232,11 @@
   "screenshotWidget": true,
   "openStreetMapBaseLayer": false
 }</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
                             <WebResourceId>{710080D5-447E-EA11-A811-000D3AF4346A}</WebResourceId>
                           </parameters>
                         </control>

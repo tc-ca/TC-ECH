@@ -644,6 +644,47 @@
             <Description description="Raison du statut de l'élément GPS Coordinate" languagecode="1036" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_calculatedcoordinate">
+          <Type>nvarchar</Type>
+          <Name>tc_calculatedcoordinate</Name>
+          <LogicalName>tc_calculatedcoordinate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.127.1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>1</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>4000</MaxLength>
+          <Length>8000</Length>
+          <displaynames>
+            <displayname description="Coordinate" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/tc_gpscoordinate-tc_calculatedcoordinate.xaml</FormulaDefinitionFileName>
+        </attribute>
         <attribute PhysicalName="tc_coordinates">
           <Type>nvarchar</Type>
           <Name>tc_coordinates</Name>
@@ -722,6 +763,46 @@
             <Description description="Identificateur unique des instances d'entité" languagecode="1036" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_LatitudeDegree">
+          <Type>decimal</Type>
+          <Name>tc_latitudedegree</Name>
+          <LogicalName>tc_latitudedegree</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.127.1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>40</MinValue>
+          <MaxValue>86</MaxValue>
+          <Accuracy>1</Accuracy>
+          <displaynames>
+            <displayname description="Latitude Degree" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="+40 to +86" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="tc_latitudedegreenum">
           <Type>float</Type>
           <Name>tc_latitudedegreenum</Name>
@@ -756,7 +837,7 @@
           <MaxValue>86</MaxValue>
           <Accuracy>1</Accuracy>
           <displaynames>
-            <displayname description="Latitude Degree" languagecode="1033" />
+            <displayname description="TBD-Latitude Degree" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="+40 to +86" languagecode="1033" />
@@ -882,6 +963,46 @@
             <Description description="-90 to +90" languagecode="1033" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_LatitudeSecond">
+          <Type>decimal</Type>
+          <Name>tc_latitudesecond</Name>
+          <LogicalName>tc_latitudesecond</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.127.1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>59</MaxValue>
+          <Accuracy>3</Accuracy>
+          <displaynames>
+            <displayname description="Latitude Second" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="tc_latitudesecondnum">
           <Type>float</Type>
           <Name>tc_latitudesecondnum</Name>
@@ -916,7 +1037,7 @@
           <MaxValue>59</MaxValue>
           <Accuracy>3</Accuracy>
           <displaynames>
-            <displayname description="Latitude Second" languagecode="1033" />
+            <displayname description="TBD-Latitude Second" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="0 to 59.99" languagecode="1033" />
@@ -961,6 +1082,46 @@
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_LongitudeDegree">
+          <Type>decimal</Type>
+          <Name>tc_longitudedegree</Name>
+          <LogicalName>tc_longitudedegree</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.127.1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>-143</MinValue>
+          <MaxValue>-51</MaxValue>
+          <Accuracy>1</Accuracy>
+          <displaynames>
+            <displayname description="Longitude Degree" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="tc_longitudedegreenum">
           <Type>float</Type>
           <Name>tc_longitudedegreenum</Name>
@@ -995,7 +1156,7 @@
           <MaxValue>-51</MaxValue>
           <Accuracy>1</Accuracy>
           <displaynames>
-            <displayname description="Longitude Degree" languagecode="1033" />
+            <displayname description="TBD-Longitude Degree" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="-143 to -51" languagecode="1033" />
@@ -1121,6 +1282,46 @@
             <Description description="-143 to -51" languagecode="1033" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_LongitudeSecond">
+          <Type>decimal</Type>
+          <Name>tc_longitudesecond</Name>
+          <LogicalName>tc_longitudesecond</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.127.1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>59</MaxValue>
+          <Accuracy>3</Accuracy>
+          <displaynames>
+            <displayname description="Longitude Second" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="tc_longitudesecondnum">
           <Type>float</Type>
           <Name>tc_longitudesecondnum</Name>
@@ -1155,7 +1356,7 @@
           <MaxValue>59</MaxValue>
           <Accuracy>3</Accuracy>
           <displaynames>
-            <displayname description="Longitude Second" languagecode="1033" />
+            <displayname description="TBD-Longitude Second" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="0 to 59.999" languagecode="1033" />

@@ -12,7 +12,7 @@
         <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
       </hiddencontrols>
       <tabs>
-        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" locklevel="0" labelid="{1319f741-ea04-4e76-a5cf-6d40020b4e0c}" expanded="true">
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" locklevel="0" labelid="{1319f741-ea04-4e76-a5cf-6d40020b4e0c}" expanded="false">
           <labels>
             <label description="Summary" languagecode="1033" />
             <label description="Sommaire" languagecode="1036" />
@@ -545,7 +545,7 @@
                           <parameters>
                             <ViewId>{ECE93FEA-0726-4B1D-86FA-21DC5FA6D943}</ViewId>
                             <IsUserView>false</IsUserView>
-                            <RelationshipName />
+                            <RelationshipName>tc_Account_YYOrganizationAgreement_OrganizationId</RelationshipName>
                             <TargetEntityType>tc_yyorganizationagreement</TargetEntityType>
                             <AutoExpand>Fixed</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
@@ -639,7 +639,7 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_6" id="{2827a39e-2a0a-38c0-8425-11b8e89b97d0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab name="tab_Documents" id="{2827a39e-2a0a-38c0-8425-11b8e89b97d0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
           <labels>
             <label description="Documents" languagecode="1033" />
           </labels>
