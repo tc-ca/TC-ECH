@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="false" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
+    <form shownavigationbar="true" showImage="false" maxWidth="1920" headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{cd10c8cf-92eb-4a51-b242-1e01fd09b882}" IsUserDefined="1" name="tabGeneral" locklevel="0" expanded="true" showlabel="true" labelid="{183cc7bb-b64d-483d-80bf-dee510369a4b}">
           <labels>
@@ -180,7 +180,7 @@
                           <label description="TC Lead" languagecode="1033" />
                           <label description="Responsable de TC" languagecode="1036" />
                         </labels>
-                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" />
+                        <control id="tc_tclead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_tclead" disabled="false" uniqueid="{c30bc181-61a5-9379-8c9a-1de5e312ecce}" />
                       </cell>
                     </row>
                     <row>
@@ -191,12 +191,11 @@
                         </labels>
                         <control id="tc_startdte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_startdte" disabled="false" />
                       </cell>
-                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
+                      <cell id="{dd346b62-ad31-ae18-872c-5441516e6311}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Topics of interest " languagecode="1033" />
-                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
+                          <label description="TDG Secretariat Lead" languagecode="1033" />
                         </labels>
-                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" uniqueid="{b0d02612-289c-8959-42d6-2884dde2937a}" />
+                        <control id="tc_tdgsecretariatlead" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_tdgsecretariatlead" disabled="false" uniqueid="{acaa245a-c00c-9065-5230-8ae9239073c9}" />
                       </cell>
                     </row>
                     <row>
@@ -206,6 +205,20 @@
                           <label description="Fin" languagecode="1036" />
                         </labels>
                         <control id="tc_enddte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="tc_enddte" disabled="false" />
+                      </cell>
+                      <cell id="{4d0be298-d473-a8e7-9e2b-8ca9a073ede2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Topics of interest " languagecode="1033" />
+                          <label description="Sujets d'intérêt (description)" languagecode="1036" />
+                        </labels>
+                        <control id="tc_topicsofinterest" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_topicsofinterest" disabled="false" uniqueid="{b0d02612-289c-8959-42d6-2884dde2937a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8494187e-d542-9c25-a18b-631ec678abaa}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                       <cell id="{9428675d-d1a5-331a-13b9-ed6192a67e95}" showlabel="true" locklevel="0">
                         <labels>
@@ -426,11 +439,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3a56a222-703b-2c48-edaa-56dd9118aabe}" showlabel="true" locklevel="0">
+                      <cell id="{b43d47bb-6853-2dcc-88d1-b0792cd8e3db}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Lead for material" languagecode="1033" />
+                          <label description="Lead for materials" languagecode="1033" />
                         </labels>
-                        <control id="tc_leadformaterial" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_leadformaterial" disabled="false" />
+                        <control id="tc_materialslead" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_materialslead" disabled="false" />
                       </cell>
                       <cell id="{ee945617-09b3-10de-d96e-c90984de25b7}" showlabel="true" locklevel="0">
                         <labels>
@@ -556,7 +569,7 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{924ba284-7dcc-9165-91ba-e7d6ad59784a}" showlabel="false">
+                      <cell id="{e179dcd8-3119-a229-b907-76b52dd2a74a}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -2616,7 +2629,82 @@
       </footer>
       <Navigation>
         <NavBar>
-          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYComment_EventId" Sequence="10000" Area="Info" Id="nav_tc_YYEvent_YYComment_EventId" Show="false">
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Background Processes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_tc_yyevent_tc_businessprocessflowevent" Sequence="10001" Area="Info" Id="nav_bpf_tc_yyevent_tc_businessprocessflowevent" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="tc_yyevent" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventdetail_EventId" Sequence="10002" Area="Info" Id="nav_tc_yyevent_yyeventdetail_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Details" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventgiftexchanged_EventId" Sequence="10003" Area="Info" Id="nav_tc_yyevent_yyeventgiftexchanged_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Gifts Exchanged" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventissue_EventId" Sequence="10004" Area="Info" Id="nav_tc_yyevent_yyeventissue_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Engagement Themes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventkeymessage_EventId" Sequence="10005" Area="Info" Id="nav_tc_yyevent_yyeventkeymessage_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Key Messages" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventobjective_EventId" Sequence="10006" Area="Info" Id="nav_tc_yyevent_yyeventobjective_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Objectives" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventoutcome_EventId" Sequence="10007" Area="Info" Id="nav_tc_yyevent_yyeventoutcome_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Outcomes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yystakeholderposition_EventId" Sequence="10008" Area="Info" Id="nav_tc_yyevent_yystakeholderposition_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Stakeholders Position" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_yyevent_yyeventindicator_EventId" Sequence="10009" Area="Info" Id="nav_tc_yyevent_yyeventindicator_EventId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Indicators" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_event_eventsregions" Sequence="10010" Area="Info" Id="nav_tc_event_eventsregions" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Event Regions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_event_protectedbdocuments" Sequence="10011" Area="Info" Id="nav_tc_event_protectedbdocuments" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Protected B Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_event_address" Sequence="10012" Area="Info" Id="nav_tc_event_address" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Addresses" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYInitiative" Sequence="10013" Area="Info" Id="nav_tc_YYEvent_YYInitiative" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Initiatives" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_Event_Region" Sequence="10014" Area="Info" Id="nav_tc_Event_Region" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Events Regions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="tc_YYEvent_YYComment_EventId" Sequence="10015" Area="Info" Id="nav_tc_YYEvent_YYComment_EventId" Show="false">
             <Titles>
               <Title LCID="1033" Text="Comments" />
             </Titles>

@@ -1,14 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions />
+  <CustomActions>
+    <CustomAction Id="tc.systemuser.Button.OpenLink.CustomAction" Location="Mscrm.HomepageGrid.systemuser.MainTab.Management.Controls._children" Sequence="28">
+      <CommandUIDefinition>
+        <Button Command="tc.systemuser.Command.OpenLink" Id="tc.systemuser.Button.OpenLink" LabelText="$LocLabels:tc.systemuser.Button.OpenLink.LabelText" Sequence="28" TemplateAlias="o2" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>
-  <CommandDefinitions />
+  <CommandDefinitions>
+    <CommandDefinition Id="tc.systemuser.Command.OpenLink">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="OpenLink" Library="$webresource:tc_/Core/OpenLink.js">
+          <StringParameter Value="https://forms.office.com/Pages/ResponsePage.aspx?id=qf8IILLJl02a2UrOJThr56bkD2ECyRNOpBeYynQgVHJUREYxVzlTRkxQRElHVTUzUlkzVlc2RjFPTyQlQCN0PWcu" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
   <RuleDefinitions>
     <TabDisplayRules />
     <DisplayRules />
     <EnableRules />
   </RuleDefinitions>
-  <LocLabels />
+  <LocLabels>
+    <LocLabel Id="tc.systemuser.Button.OpenLink.LabelText">
+      <Titles>
+        <Title description="Request License(s)" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
 </RibbonDiffXml>

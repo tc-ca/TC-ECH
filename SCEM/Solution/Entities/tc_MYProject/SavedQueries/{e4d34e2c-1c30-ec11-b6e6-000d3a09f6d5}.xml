@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{e4d34e2c-1c30-ec11-b6e6-000d3a09f6d5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_projectnm" select="1" icon="1" preview="1">
+        <row name="result" id="tc_myprojectid">
+          <cell name="tc_region" width="100" />
+          <cell name="tc_regionalprojectnum" width="100" />
+          <cell name="tc_projectnm" width="200" />
+          <cell name="statuscode" width="100" />
+          <cell name="tc_daterequestdte" width="100" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="tc_myproject">
+          <attribute name="tc_projectnm" />
+          <attribute name="tc_myprojectid" />
+          <attribute name="tc_region" />
+          <attribute name="tc_regionalprojectnum" />
+          <attribute name="statuscode" />
+          <attribute name="tc_daterequestdte" />
+          <attribute name="ownerid" />
+          <order attribute="tc_projectnm" descending="false" />
+          <filter type="and">
+            <condition attribute="statuscode" operator="in">
+              <value>948010006</value>
+              <value>2</value>
+            </condition>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.149.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Closed Projects" languagecode="1033" />
+      <LocalizedName description="Projets fermés" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -51,10 +51,10 @@
                     <row>
                       <cell id="{c965768d-1ea4-2350-3767-318e065064a0}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Mobile Phone" languagecode="1033" />
+                          <label description="Phone" languagecode="1033" />
                           <label description="Téléphone mobile" languagecode="1036" />
                         </labels>
-                        <control id="tc_mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_mobilephone" disabled="false" />
+                        <control id="tc_mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_mobilephone" disabled="false" uniqueid="{0abebdec-86d3-e0d0-4936-77263763d639}" />
                       </cell>
                     </row>
                     <row>
@@ -74,13 +74,39 @@
                         <control id="tc_position" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_position" disabled="false" uniqueid="{0a257de8-146a-9834-d83c-ed09e6bca1b2}" />
                       </cell>
                     </row>
-                    <row></row>
+                    <row>
+                      <cell id="{53ae65bd-2a40-491b-8208-84b419602321}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
             </column>
             <column width="66%">
-              <sections></sections>
+              <sections>
+                <section id="{892bbd10-65ca-4777-b296-f7f645528259}" name="_column_2_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3a036198-f293-4567-aa6a-4c296ea36b36}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{6dfa6476-77c1-4708-8e55-b96fff6fadda}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
             </column>
           </columns>
         </tab>
@@ -161,6 +187,7 @@
           </row>
         </rows>
       </footer>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>

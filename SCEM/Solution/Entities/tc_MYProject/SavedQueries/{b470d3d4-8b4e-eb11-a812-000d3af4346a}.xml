@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b470d3d4-8b4e-eb11-a812-000d3af4346a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tc_projectnm" select="1" preview="1" icon="1">
+        <row name="result" id="tc_myprojectid">
+          <cell name="tc_projectnm" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_region" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_regionalprojectnum" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="tc_daterequestdte" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="tc_myproject">
+          <attribute name="tc_projectnm" />
+          <order attribute="tc_daterequestdte" descending="true" />
+          <order attribute="tc_region" descending="false" />
+          <attribute name="tc_region" />
+          <attribute name="tc_regionalprojectnum" />
+          <attribute name="statuscode" />
+          <attribute name="ownerid" />
+          <attribute name="tc_daterequestdte" />
+          <attribute name="tc_myprojectid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.41.1.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Projects" languagecode="1033" />
+      <LocalizedName description="Tous les projets" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

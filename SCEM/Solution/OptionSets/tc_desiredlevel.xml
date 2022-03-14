@@ -14,7 +14,8 @@
   <options>
     <option value="948010005" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="Working Level" languagecode="1033" />
+        <label description="Regional Director Level" languagecode="1033" />
+        <label description="Niveau directeur(trice) des régions" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -22,7 +23,8 @@
     </option>
     <option value="948010004" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="Manager" languagecode="1033" />
+        <label description="Chiefs or Manager Level" languagecode="1033" />
+        <label description="Niveau gestionnaire et chef" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -30,8 +32,8 @@
     </option>
     <option value="948010000" ExternalValue="" Color="">
       <labels>
-        <label description="Dir." languagecode="1033" />
-        <label description="Dir." languagecode="1036" />
+        <label description="Headquarter (HQ) Director Level" languagecode="1033" />
+        <label description="Niveau directeur(trice) de l’Administration centrale (AC)" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -39,8 +41,8 @@
     </option>
     <option value="948010001" ExternalValue="" Color="">
       <labels>
-        <label description="DG" languagecode="1033" />
-        <label description="DG" languagecode="1036" />
+        <label description="DG Level" languagecode="1033" />
+        <label description="Niveau du ou de la DG" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -48,8 +50,8 @@
     </option>
     <option value="948010002" ExternalValue="" Color="">
       <labels>
-        <label description="ADM" languagecode="1033" />
-        <label description="SMA" languagecode="1036" />
+        <label description="ADM Level" languagecode="1033" />
+        <label description="Niveau du SMA" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

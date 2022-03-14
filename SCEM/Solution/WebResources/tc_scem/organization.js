@@ -9,9 +9,6 @@ function onformload(executionContext) {
     formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Agreements").setVisible(!isNew);
     formContext.ui.tabs.get("tab_Address").setVisible(!isNew);
-    formContext.ui.tabs.get("tab_Contacts").setVisible(!isNew);
-    formContext.ui.tabs.get("tab_Events").setVisible(!isNew);
-
 
     if (isNew) {
         formContext.ui.tabs.get("tab_Details").sections.get("tab_Details_section_Indigenous").setVisible(false);
@@ -75,6 +72,30 @@ function onformload(executionContext) {
             // handle error conditions
         }
     );
+
+}
+function onformload1(executionContext) {
+    var formContext = executionContext.getFormContext();
+    //refreshorgtype(formContext);
+
+    var isNew = formContext.ui.getFormType() == 1;
+
+    formContext.ui.tabs.get("tab_Documents").setVisible(!isNew);
+    formContext.ui.tabs.get("tab_Agreements").setVisible(!isNew);
+
+    var orgid = formContext.data.entity.getId();
+    Xrm.WebApi.retrieveMultipleRecords("tc_yyorganizationagreement", "?$select=tc_agreementnm&$filter=_tc_organizationid_value%20eq%20%27" + orgid + "%27").then(
+        function success(result) {
+            if (result.entities.length > 0) {
+                formContext.ui.tabs.get("tab_Agreements").setLabel("Agreements (" + result.entities.length + ")");
+            }
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
+    );
+
 
 }
 function orgtype_onchange(executionContext) {

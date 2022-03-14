@@ -19,6 +19,7 @@
     <RolePrivilege name="prvAppendtc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvAppendtc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvAppendtc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvAppendtc_submission" level="Global" />
     <RolePrivilege name="prvAppendtc_TYAccountType" level="Global" />
     <RolePrivilege name="prvAppendtc_TYTag" level="Local" />
     <RolePrivilege name="prvAppendToAccount" level="Deep" />
@@ -38,6 +39,7 @@
     <RolePrivilege name="prvAppendTotc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvAppendTotc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvAppendTotc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_submission" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYAccountType" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYTag" level="Local" />
     <RolePrivilege name="prvAssignAccount" level="Deep" />
@@ -77,7 +79,6 @@
     <RolePrivilege name="prvCreatetc_proponentsprojects" level="Deep" />
     <RolePrivilege name="prvCreatetc_TYAccountType" level="Deep" />
     <RolePrivilege name="prvCreatetc_TYTag" level="Local" />
-    <RolePrivilege name="prvDeleteAccount" level="Deep" />
     <RolePrivilege name="prvDeleteActivity" level="Global" />
     <RolePrivilege name="prvDeleteContact" level="Deep" />
     <RolePrivilege name="prvDeleteNote" level="Deep" />
@@ -116,6 +117,7 @@
     <RolePrivilege name="prvReadtc_MYProjectTask" level="Deep" />
     <RolePrivilege name="prvReadtc_organizationsprojects" level="Deep" />
     <RolePrivilege name="prvReadtc_proponentsprojects" level="Deep" />
+    <RolePrivilege name="prvReadtc_submission" level="Global" />
     <RolePrivilege name="prvReadtc_TYAccountType" level="Global" />
     <RolePrivilege name="prvReadtc_TYBranch" level="Deep" />
     <RolePrivilege name="prvReadtc_TYIndigenousGroup" level="Deep" />

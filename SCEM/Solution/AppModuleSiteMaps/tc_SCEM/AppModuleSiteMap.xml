@@ -15,6 +15,11 @@
           <Title LCID="1033" Title="Dashboard" />
         </Titles>
         <SubArea Id="NewSubArea_f7f5ddb2" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" VectorIcon="/WebResources/msdyn_/Icons/SVG/Property.svg" Icon="/WebResources/msdyn_/Icons/SVG/Property.svg" Url="/workplace/home_dashboards.aspx" DefaultDashboard="9f3f1222-2e80-eb11-a812-000d3a09dd03" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_e75cfbaf" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Url="/workplace/home_dashboards.aspx" DefaultDashboard="2e68b5d3-1b01-ec11-94f0-0022486d6eca" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="Dashboards_ToolTip">
+          <Titles>
+            <Title LCID="1033" Title="OPP Events Dashboard" />
+          </Titles>
+        </SubArea>
         <SubArea Id="SubArea_Report" VectorIcon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Icon="/WebResources/msdyn_/fps/Icons/CommandBar/Copy.svg" Entity="report" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Privilege Entity="report" Privilege="Read" />
         </SubArea>
@@ -103,12 +108,6 @@
         <Titles>
           <Title LCID="1033" Title="User Management" />
         </Titles>
-        <SubArea Id="SubArea_Team" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="team" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
-          <Titles>
-            <Title LCID="1033" Title="License Management" />
-          </Titles>
-          <Privilege Entity="team" Privilege="Append" />
-        </SubArea>
         <SubArea Id="NewSubArea_10a1c9af" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="systemuser" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>

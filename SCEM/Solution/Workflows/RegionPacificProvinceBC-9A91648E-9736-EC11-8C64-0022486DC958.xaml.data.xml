@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{9a91648e-9736-ec11-8c64-0022486dc958}" Name="Region Pacific Province BC" Description="British  Columbia is automatically populated in the province section when Pacific region is selected. As per PBI 119796" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/RegionPacificProvinceBC-9A91648E-9736-EC11-8C64-0022486DC958.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.158.1.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>tc_MYProject</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Region Pacific Province BC" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="British  Columbia is automatically populated in the province section when Pacific region is selected. As per PBI 119796" />
+  </Descriptions>
+</Workflow>
