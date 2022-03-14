@@ -11,6 +11,7 @@
       <grid name="resultset" jump="name" select="1" preview="1" icon="1">
         <row name="result" id="accountid">
           <cell name="name" width="200" />
+          <cell name="tc_region" width="100" disableSorting="1" />
           <cell name="tc_oppaccounttypeid" width="150" />
           <cell name="a_b5197a5e5337e8118141000c2958e3a5.tc_categorycd" width="150" disableSorting="1" />
           <cell name="primarycontactid" width="150" />
@@ -42,6 +43,7 @@
           <attribute name="tc_lastregion" />
           <attribute name="tc_lastengagementdate" />
           <attribute name="tc_engagementid" />
+          <attribute name="tc_region" />
           <attribute name="accountid" />
         </entity>
       </fetch>
