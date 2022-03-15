@@ -10,10 +10,8 @@
     <HideCustomAction HideActionId="tc.Mscrm.Form.tc_yyevent.WordTemplate.Hide" Location="Mscrm.Form.tc_yyevent.WordTemplate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Activate.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Activate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Assign.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Assign" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Deactivate.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Deactivate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.DocumentTemplate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.ExportSelectedToExcel.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.ExportSelectedToExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.ExportToExcel.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.ExportToExcel" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Flows.RefreshCommandBar" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.Import.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.Import" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_yyevent.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.tc_yyevent.ImportDataFromExcel" />

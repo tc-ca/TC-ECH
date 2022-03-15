@@ -10,10 +10,8 @@
     <HideCustomAction HideActionId="tc.Mscrm.Form.tc_aystakeholdergroup.WordTemplate.Hide" Location="Mscrm.Form.tc_aystakeholdergroup.WordTemplate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.Activate.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.Activate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.Assign.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.Assign" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.Deactivate.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.Deactivate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.DocumentTemplate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.ExportSelectedToExcel.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.ExportSelectedToExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.ExportToExcel.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.ExportToExcel" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.Flows.RefreshCommandBar" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.ImportDataFromExcel" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.tc_aystakeholdergroup.RunReport.Hide" Location="Mscrm.HomepageGrid.tc_aystakeholdergroup.RunReport" />
