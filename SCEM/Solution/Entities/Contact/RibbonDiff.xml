@@ -21,10 +21,8 @@
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Activate.Hide" Location="Mscrm.HomepageGrid.contact.Activate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.AddToList.Hide" Location="Mscrm.HomepageGrid.contact.AddToList" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Assign.Hide" Location="Mscrm.HomepageGrid.contact.Assign" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Deactivate.Hide" Location="Mscrm.HomepageGrid.contact.Deactivate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.contact.DocumentTemplate" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.ExportSelectedToExcel.Hide" Location="Mscrm.HomepageGrid.contact.ExportSelectedToExcel" />
-    <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.ExportToExcel.Hide" Location="Mscrm.HomepageGrid.contact.ExportToExcel" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.FollowButton.Hide" Location="Mscrm.HomepageGrid.contact.FollowButton" />
     <HideCustomAction HideActionId="tc.Mscrm.HomepageGrid.contact.Import.Hide" Location="Mscrm.HomepageGrid.contact.Import" />
