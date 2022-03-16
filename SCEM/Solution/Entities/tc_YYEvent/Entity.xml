@@ -5847,6 +5847,78 @@
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="tc_fyear">
+          <Type>multiselectpicklist</Type>
+          <Name>tc_fyear</Name>
+          <LogicalName>tc_fyear</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.134.1.1</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="tc_yyevent_tc_fyear">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.134.1.1</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Fiscal Year" languagecode="1033" />
+              <displayname description="Année fiscale" languagecode="1036" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="948010000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="2021-2022" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="948010001" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="2022-2023" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="948010002" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="2023-2024" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="948010003" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="2024-2025" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Fiscal Year" languagecode="1033" />
+            <displayname description="Année fiscale" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="tc_GPACChairpersonslastmeeting">
           <Type>datetime</Type>
           <Name>tc_gpacchairpersonslastmeeting</Name>
