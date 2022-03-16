@@ -1113,7 +1113,7 @@
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-143</MinValue>
-          <MaxValue>-51</MaxValue>
+          <MaxValue>180</MaxValue>
           <Accuracy>1</Accuracy>
           <displaynames>
             <displayname description="Longitude Degree" languagecode="1033" />
