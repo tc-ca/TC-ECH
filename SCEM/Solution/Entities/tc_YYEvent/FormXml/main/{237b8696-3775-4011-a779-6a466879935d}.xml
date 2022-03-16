@@ -235,12 +235,12 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{a623bb9d-1507-3512-6ecb-e48ea972b1ec}" showlabel="true" locklevel="0">
+                      <cell id="{41b03749-5b1c-5568-6dc3-941de0a3306e}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Fiscal Year" languagecode="1033" />
                           <label description="Année fiscale" languagecode="1036" />
                         </labels>
-                        <control id="tc_fyear" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="tc_fyear" disabled="false" />
+                        <control id="tc_fisyear" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="tc_fisyear" disabled="false" />
                       </cell>
                       <cell id="{31cb1481-35ab-a0ea-71a3-40523129a622}" showlabel="true" locklevel="0">
                         <labels>
