@@ -94,7 +94,7 @@
                         <labels>
                           <label description="Latitude" languagecode="1033" />
                         </labels>
-                        <control id="tc_latitudenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudenum" disabled="false" />
+                        <control id="tc_latitudenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_latitudenum" disabled="false" uniqueid="{d02c3d48-964b-d47c-0d51-59b004e2d3ac}" />
                       </cell>
                     </row>
                     <row>
@@ -102,7 +102,7 @@
                         <labels>
                           <label description="Longitude" languagecode="1033" />
                         </labels>
-                        <control id="tc_longitudenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudenum" disabled="false" />
+                        <control id="tc_longitudenum" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="tc_longitudenum" disabled="false" uniqueid="{10944262-6995-6456-9222-c5e1a70230b0}" />
                       </cell>
                     </row>
                   </rows>
@@ -117,7 +117,7 @@
                         <labels>
                           <label description="Latitude Degree" languagecode="1033" />
                         </labels>
-                        <control id="tc_latitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_latitudedegree" disabled="false" />
+                        <control id="tc_latitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_latitudedegree" disabled="false" uniqueid="{ba6304b7-514a-7320-bd2e-5a142d62a798}" />
                       </cell>
                     </row>
                     <row>
@@ -125,7 +125,7 @@
                         <labels>
                           <label description="Latitude Minute" languagecode="1033" />
                         </labels>
-                        <control id="tc_latitudeminutenum" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_latitudeminutenum" disabled="false" />
+                        <control id="tc_latitudeminutenum" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_latitudeminutenum" disabled="false" uniqueid="{ac19ddb1-309a-97b9-c2e6-ecd85e779ae6}" />
                       </cell>
                     </row>
                     <row>
@@ -133,7 +133,7 @@
                         <labels>
                           <label description="Latitude Second" languagecode="1033" />
                         </labels>
-                        <control id="tc_latitudesecond" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_latitudesecond" disabled="false" />
+                        <control id="tc_latitudesecond" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_latitudesecond" disabled="false" uniqueid="{a0239e71-031b-ed19-33e7-d353a0c691bb}" />
                       </cell>
                     </row>
                     <row>
@@ -141,7 +141,7 @@
                         <labels>
                           <label description="Longitude Degree" languagecode="1033" />
                         </labels>
-                        <control id="tc_longitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_longitudedegree" disabled="false" />
+                        <control id="tc_longitudedegree" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_longitudedegree" disabled="false" uniqueid="{51227ae6-e1d3-4cb6-7ca4-a839c6a71417}" />
                       </cell>
                     </row>
                     <row>
@@ -149,7 +149,7 @@
                         <labels>
                           <label description="Longitude Minute" languagecode="1033" />
                         </labels>
-                        <control id="tc_longitudeminutenum" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_longitudeminutenum" disabled="false" />
+                        <control id="tc_longitudeminutenum" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="tc_longitudeminutenum" disabled="false" uniqueid="{ca95dc9e-be6b-bce3-bdb0-acd1424bdeb6}" />
                       </cell>
                     </row>
                     <row>
@@ -157,7 +157,7 @@
                         <labels>
                           <label description="Longitude Second" languagecode="1033" />
                         </labels>
-                        <control id="tc_longitudesecond" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_longitudesecond" disabled="false" />
+                        <control id="tc_longitudesecond" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="tc_longitudesecond" disabled="false" uniqueid="{51386262-2738-3b2c-e7d2-9609923c14c1}" />
                       </cell>
                     </row>
                   </rows>
@@ -306,6 +306,46 @@
         <event name="onchange" application="false" active="false" attribute="tc_latlonginputtypecd">
           <Handlers>
             <Handler functionName="inputtype_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{a329e1d7-e83a-b39a-134d-c4aec0893d69}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_latitudenum">
+          <Handlers>
+            <Handler functionName="declat_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{e4c38139-93dc-6bdd-bbeb-c0834aa8a335}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_longitudenum">
+          <Handlers>
+            <Handler functionName="declong_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{40345be4-5a76-54e4-2e5a-872999e42c84}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_latitudedegree">
+          <Handlers>
+            <Handler functionName="dmslat_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{92b13d7b-2942-79b5-d7ed-798bc7675cc1}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_latitudeminutenum">
+          <Handlers>
+            <Handler functionName="dmslat_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{61b50b80-7328-9bc9-5e90-83b8745338a1}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_latitudesecond">
+          <Handlers>
+            <Handler functionName="dmslat_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{0a05b188-c2c0-d6d2-ca4c-a331ba39a93c}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_longitudedegree">
+          <Handlers>
+            <Handler functionName="dmslong_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{4c95aad1-d910-6d3e-39a3-09ba1181c7d4}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_longitudeminutenum">
+          <Handlers>
+            <Handler functionName="dmslong_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{6dd78db9-6cc6-e9e4-4c85-2d76524d62eb}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="tc_longitudesecond">
+          <Handlers>
+            <Handler functionName="dmslong_onchange" libraryName="tc_/scem/gpscoordinate.js" handlerUniqueId="{6b2d4b7b-3784-bed6-bdac-58468c86dee1}" enabled="true" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
       </events>
