@@ -42,6 +42,13 @@
       <statecode>0</statecode>
       <statuscode>1</statuscode>
     </connectionreference>
+    <connectionreference connectionreferencelogicalname="tc_sharedcommondataservice_bf28a">
+      <connectionreferencedisplayname>Microsoft Dataverse (legacy) SCEM-bf28a</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataservice</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
     <connectionreference connectionreferencelogicalname="tc_sharedcommondataservice_d59dc">
       <connectionreferencedisplayname>Microsoft Dataverse (legacy) IEC-d59dc</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataservice</connectorid>
@@ -51,6 +58,13 @@
     </connectionreference>
     <connectionreference connectionreferencelogicalname="tc_sharedcommondataserviceforapps_e1072">
       <connectionreferencedisplayname>Microsoft Dataverse IEC-e1072</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tc_sharedcommondataserviceforapps_e617d">
+      <connectionreferencedisplayname>Microsoft Dataverse SCEM-e617d</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
       <iscustomizable>1</iscustomizable>
       <statecode>0</statecode>
