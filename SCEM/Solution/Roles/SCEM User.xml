@@ -5,9 +5,11 @@
     <RolePrivilege name="prvAppendActionCard" level="Basic" />
     <RolePrivilege name="prvAppendContact" level="Deep" />
     <RolePrivilege name="prvAppendtc_address" level="Deep" />
+    <RolePrivilege name="prvAppendtc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvAppendToActionCard" level="Global" />
     <RolePrivilege name="prvAppendToContact" level="Deep" />
     <RolePrivilege name="prvAppendTotc_address" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_AYStakeholderGroup" level="Deep" />
     <RolePrivilege name="prvAppendTotc_TYEventType" level="Global" />
     <RolePrivilege name="prvAppendToWorkflow" level="Global" />
     <RolePrivilege name="prvAppendWorkflow" level="Global" />
