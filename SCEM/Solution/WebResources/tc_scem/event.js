@@ -126,7 +126,7 @@ function refreshsection(formContext) {
     formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionOPP2").setVisible(isOPP);
     formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionPostEvent").setVisible(isOPP && !isNew);
 
-    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionTDG").setVisible(!isOPP);  
+    
 
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_safety").setVisible(isSafetyAwareness);
 
@@ -156,4 +156,5 @@ function refreshsection(formContext) {
 
     formContext.getControl("tc_tdgsecretariatlead").setVisible(isExternal);
     formContext.getControl("tc_tclead").setVisible(!isExternal);
+    formContext.ui.tabs.get("tabGeneral").sections.get("tabGeneral_sectionTDG").setVisible(!isOPP);
 }
