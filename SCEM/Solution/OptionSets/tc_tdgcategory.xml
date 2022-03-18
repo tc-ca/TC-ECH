@@ -14,7 +14,7 @@
   <options>
     <option value="948010003" ExternalValue="" Color="#0000ff">
       <labels>
-        <label description="TDG Secretariat – Committees and Working Groups" languagecode="1033" />
+        <label description="Committees and Working Groups" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -31,7 +31,7 @@
     </option>
     <option value="948010001" ExternalValue="" Color="">
       <labels>
-        <label description="TDG Secretariat - External Invitations" languagecode="1033" />
+        <label description="External Invitations" languagecode="1033" />
         <label description="Secrétariat du TMD - Invitations externes" languagecode="1036" />
       </labels>
       <Descriptions>

@@ -28,10 +28,37 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="948010002">
+    <option value="948010002" ExternalValue="" Color="">
       <labels>
         <label description="IEC" languagecode="1033" />
       </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Rail Safety" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="TDG Secretariat" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="948010005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Safety Awareness" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
     </option>
   </options>
 </optionset>
