@@ -134,7 +134,6 @@ function refreshsection(formContext) {
 
     formContext.ui.tabs.get("tabGeneral").sections.get("sect_indigenous").setVisible(isRailSafety);
     formContext.ui.tabs.get("tab_Participants").sections.get("TabParticipants_StakeholdersAttendee").setVisible(isCommittees);
-    formContext.ui.tabs.get("tabGeneral").sections.get("Contact_Person_Sender").setVisible(!isNew);
 
     formContext.ui.tabs.get("tabMarketing").setVisible(isSafetyAwareness);
     formContext.ui.tabs.get("tabAdministration").setVisible(isSafetyAwareness);

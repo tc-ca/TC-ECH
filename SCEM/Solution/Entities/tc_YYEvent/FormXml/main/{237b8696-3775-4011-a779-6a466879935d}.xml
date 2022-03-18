@@ -155,7 +155,7 @@
                     <row>
                       <cell id="{6f6d115b-0739-49a8-8721-04ae829aaab7}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
                         <labels>
-                          <label description="TDG Category" languagecode="1033" />
+                          <label description="Category" languagecode="1033" />
                           <label description="Catégorie TMD" languagecode="1036" />
                         </labels>
                         <control id="tc_tdgcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="tc_tdgcategory" disabled="false" uniqueid="{156c8c40-455e-ed0b-9e06-4e454a15c657}" />
@@ -704,45 +704,6 @@
                             <VisualizationId />
                             <IsUserChart>false</IsUserChart>
                             <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-                <section name="Contact_Person_Sender" showlabel="true" showbar="false" locklevel="0" id="{28637973-4333-b39d-a2b6-41379454092e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Contact Person/Sender" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{b056d084-046d-085e-1327-c0522cea4361}" showlabel="false" colspan="1" auto="false" rowspan="6">
-                        <labels>
-                          <label description="Contacts" languagecode="1033" />
-                          <label description="Détails de l'évènement" languagecode="1036" />
-                        </labels>
-                        <control id="Contact_Person" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{8dcd74c8-02e4-bb19-483e-01340c6e8c88}">
-                          <parameters>
-                            <ViewId>{E90A53CC-A18A-EC11-8D20-0022486DCDB9}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName />
-                            <TargetEntityType>tc_contact_yyevent</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{9B38A6BC-2984-48EE-8AF3-FBE7F8CBDDF1},{E90A53CC-A18A-EC11-8D20-0022486DCDB9}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId>{FDCEA99A-754A-E911-80F1-005056814435}</VisualizationId>
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
                             <RecordsPerPage>4</RecordsPerPage>
                             <HeaderColorCode>#F3F3F3</HeaderColorCode>
                           </parameters>

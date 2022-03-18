@@ -53,7 +53,6 @@
     <RolePrivilege name="prvAppendtc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvAppendtc_YYOrganizationUrl" level="Deep" />
-    <RolePrivilege name="prvAppendtc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvAppendToAccount" level="Deep" />
     <RolePrivilege name="prvAppendToActionCard" level="Global" />
     <RolePrivilege name="prvAppendToActivity" level="Deep" />
@@ -105,7 +104,6 @@
     <RolePrivilege name="prvAppendTotc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvAppendTotc_YYOrganizationUrl" level="Deep" />
-    <RolePrivilege name="prvAppendTotc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvAppendToTranslationProcess" level="Global" />
     <RolePrivilege name="prvAppendTranslationProcess" level="Global" />
     <RolePrivilege name="prvAssignAccount" level="Deep" />
@@ -145,7 +143,6 @@
     <RolePrivilege name="prvAssigntc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvAssigntc_YYOrganizationUrl" level="Deep" />
-    <RolePrivilege name="prvAssigntc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvAssignUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvAssignUserForm" level="Basic" />
     <RolePrivilege name="prvAssignUserQuery" level="Basic" />
@@ -197,7 +194,6 @@
     <RolePrivilege name="prvCreatetc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvCreatetc_YYOrganizationUrl" level="Deep" />
-    <RolePrivilege name="prvCreatetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvCreateTranslationProcess" level="Global" />
     <RolePrivilege name="prvCreateUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvCreateUserEntityUISettings" level="Basic" />
@@ -296,7 +292,6 @@
     <RolePrivilege name="prvReadtc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvReadtc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvReadtc_YYOrganizationUrl" level="Deep" />
-    <RolePrivilege name="prvReadtc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvReadTranslationProcess" level="Global" />
     <RolePrivilege name="prvReadUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvReadUserEntityUISettings" level="Basic" />
@@ -339,7 +334,6 @@
     <RolePrivilege name="prvSharetc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvSharetc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvSharetc_YYOrganizationUrl" level="Deep" />
-    <RolePrivilege name="prvSharetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvShareUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvShareUserEntityUISettings" level="Basic" />
     <RolePrivilege name="prvShareUserForm" level="Basic" />
@@ -389,12 +383,11 @@
     <RolePrivilege name="prvWritetc_YYEventKeyMessage" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEventObjective" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEventOutcome" level="Deep" />
-    <RolePrivilege name="prvWritetc_YYInitiative" level="Deep" />
+    <RolePrivilege name="prvWritetc_YYInitiative" level="Local" />
     <RolePrivilege name="prvWritetc_YYObjectivePriority" level="Deep" />
     <RolePrivilege name="prvWritetc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvWritetc_YYOrganizationObjective" level="Deep" />
     <RolePrivilege name="prvWritetc_YYOrganizationUrl" level="Deep" />
-    <RolePrivilege name="prvWritetc_YYStakeholderPosition" level="Deep" />
     <RolePrivilege name="prvWriteTranslationProcess" level="Global" />
     <RolePrivilege name="prvWriteUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvWriteUserEntityUISettings" level="Basic" />
