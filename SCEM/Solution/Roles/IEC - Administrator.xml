@@ -12,6 +12,7 @@
     <RolePrivilege name="prvAppendNote" level="Deep" />
     <RolePrivilege name="prvAppendReport" level="Basic" />
     <RolePrivilege name="prvAppendtc_address" level="Deep" />
+    <RolePrivilege name="prvAppendtc_gpscoordinate" level="Deep" />
     <RolePrivilege name="prvAppendtc_MYImpact" level="Deep" />
     <RolePrivilege name="prvAppendtc_MYProject" level="Deep" />
     <RolePrivilege name="prvAppendtc_MYProjectActivity" level="Deep" />
@@ -36,6 +37,7 @@
     <RolePrivilege name="prvAppendToNote" level="Deep" />
     <RolePrivilege name="prvAppendToReport" level="Basic" />
     <RolePrivilege name="prvAppendTotc_address" level="Deep" />
+    <RolePrivilege name="prvAppendTotc_gpscoordinate" level="Deep" />
     <RolePrivilege name="prvAppendTotc_MYImpact" level="Deep" />
     <RolePrivilege name="prvAppendTotc_MYProject" level="Deep" />
     <RolePrivilege name="prvAppendTotc_MYProjectActivity" level="Deep" />
@@ -59,6 +61,7 @@
     <RolePrivilege name="prvAssignNote" level="Deep" />
     <RolePrivilege name="prvAssignReport" level="Basic" />
     <RolePrivilege name="prvAssigntc_address" level="Deep" />
+    <RolePrivilege name="prvAssigntc_gpscoordinate" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYImpact" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProject" level="Deep" />
     <RolePrivilege name="prvAssigntc_MYProjectActivity" level="Deep" />
@@ -82,6 +85,7 @@
     <RolePrivilege name="prvCreateReport" level="Basic" />
     <RolePrivilege name="prvCreateSharePointData" level="Global" />
     <RolePrivilege name="prvCreatetc_address" level="Deep" />
+    <RolePrivilege name="prvCreatetc_gpscoordinate" level="Deep" />
     <RolePrivilege name="prvCreatetc_MYImpact" level="Deep" />
     <RolePrivilege name="prvCreatetc_MYProject" level="Global" />
     <RolePrivilege name="prvCreatetc_MYProjectActivity" level="Deep" />
@@ -131,6 +135,7 @@
     <RolePrivilege name="prvReadSharePointData" level="Global" />
     <RolePrivilege name="prvReadSharePointDocument" level="Global" />
     <RolePrivilege name="prvReadtc_address" level="Deep" />
+    <RolePrivilege name="prvReadtc_gpscoordinate" level="Deep" />
     <RolePrivilege name="prvReadtc_MYImpact" level="Deep" />
     <RolePrivilege name="prvReadtc_MYProject" level="Global" />
     <RolePrivilege name="prvReadtc_MYProjectActivity" level="Deep" />
@@ -154,6 +159,7 @@
     <RolePrivilege name="prvShareMailMergeTemplate" level="Deep" />
     <RolePrivilege name="prvShareNote" level="Deep" />
     <RolePrivilege name="prvShareReport" level="Basic" />
+    <RolePrivilege name="prvSharetc_gpscoordinate" level="Deep" />
     <RolePrivilege name="prvSharetc_TYIndigenousGroup" level="Deep" />
     <RolePrivilege name="prvSharetc_TYOtherGovernment" level="Deep" />
     <RolePrivilege name="prvSharetc_TYRegion" level="Global" />
@@ -169,6 +175,7 @@
     <RolePrivilege name="prvWriteReport" level="Basic" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
     <RolePrivilege name="prvWritetc_address" level="Deep" />
+    <RolePrivilege name="prvWritetc_gpscoordinate" level="Deep" />
     <RolePrivilege name="prvWritetc_MYImpact" level="Deep" />
     <RolePrivilege name="prvWritetc_MYProject" level="Global" />
     <RolePrivilege name="prvWritetc_MYProjectActivity" level="Deep" />

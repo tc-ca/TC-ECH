@@ -62,9 +62,9 @@ function declat_onchange(executionContext) {
     var minutes = Math.floor(minutesNotTruncated);
     var seconds = Math.floor((minutesNotTruncated - minutes) * 60);
 
-    formContext.getAttribute("tc_longitudedegree").setValue(Deg * tt);
-    formContext.getAttribute("tc_longitudeminutenum").setValue(minutes);
-    formContext.getAttribute("tc_longitudesecond").setValue(seconds);
+    formContext.getAttribute("tc_latitudedegree").setValue(Deg * tt);
+    formContext.getAttribute("tc_latitudeminutenum").setValue(minutes);
+    formContext.getAttribute("tc_latitudesecond").setValue(seconds);
 }
 function declong_onchange(executionContext) {
     var formContext = executionContext.getFormContext();

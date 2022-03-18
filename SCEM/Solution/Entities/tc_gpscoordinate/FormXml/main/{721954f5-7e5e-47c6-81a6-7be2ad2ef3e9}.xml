@@ -258,6 +258,29 @@
                     <row height="auto" />
                   </rows>
                 </section>
+                <section name="tab_General_section_6" showlabel="false" showbar="false" locklevel="0" id="{884612cd-7b54-4bb2-3c5b-94dce108993b}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2ca7e396-7808-5e28-4992-38325a697704}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Map Screenshot 1" languagecode="1033" />
+                          <label description="Capture d'écran de la carte 1" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mapscreenshot" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot1" disabled="false" />
+                      </cell>
+                      <cell id="{ba267c1a-d478-5cb9-5149-579d84ebc3ed}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Map Screenshot 2" languagecode="1033" />
+                          <label description="Capture d'écran de la carte 2" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mapscreenshot2" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot2" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
