@@ -639,29 +639,6 @@
                     <row height="auto" />
                   </rows>
                 </section>
-                <section name="GeographicalSetting_section_4" showlabel="false" showbar="false" locklevel="0" id="{33278717-dde8-1578-abe0-7e4872b52608}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{5a52fcc9-de31-4560-b447-1351d8077229}" locklevel="0" showlabel="true">
-                        <labels>
-                          <label description="Map Screenshot 1" languagecode="1033" />
-                          <label description="Capture d'écran de la carte 1" languagecode="1036" />
-                        </labels>
-                        <control id="tc_mapscreenshot" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot" disabled="false" uniqueid="{554da6d5-8878-87b4-d49c-76a7284eed67}" />
-                      </cell>
-                      <cell id="{da91645d-127f-4c68-bdfa-485943b37ac1}" locklevel="0">
-                        <labels>
-                          <label description="Map Screenshot 2" languagecode="1033" />
-                          <label description="Capture d'écran de la carte 2" languagecode="1036" />
-                        </labels>
-                        <control id="tc_mapscreenshot2" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot2" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
               </sections>
             </column>
           </columns>
@@ -709,6 +686,29 @@
                     <row />
                     <row />
                     <row />
+                  </rows>
+                </section>
+                <section name="GeographicalSetting_section_4" showlabel="false" showbar="false" locklevel="0" id="{33278717-dde8-1578-abe0-7e4872b52608}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5a52fcc9-de31-4560-b447-1351d8077229}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Map Screenshot 1" languagecode="1033" />
+                          <label description="Capture d'écran de la carte 1" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mapscreenshot" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot" disabled="false" uniqueid="{554da6d5-8878-87b4-d49c-76a7284eed67}" />
+                      </cell>
+                      <cell id="{da91645d-127f-4c68-bdfa-485943b37ac1}" locklevel="0">
+                        <labels>
+                          <label description="Map Screenshot 2" languagecode="1033" />
+                          <label description="Capture d'écran de la carte 2" languagecode="1036" />
+                        </labels>
+                        <control id="tc_mapscreenshot2" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="tc_mapscreenshot2" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="GeographicalSetting_section_3" showlabel="false" showbar="false" locklevel="0" id="{169be9e9-6331-0a47-a586-13b68e74b515}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
