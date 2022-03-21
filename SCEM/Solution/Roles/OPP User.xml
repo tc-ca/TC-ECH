@@ -152,6 +152,7 @@
     <RolePrivilege name="prvWritetc_YYContactInitiative" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEvent" level="Deep" />
     <RolePrivilege name="prvWritetc_YYEventDetail" level="Deep" />
+    <RolePrivilege name="prvWritetc_YYInitiative" level="Deep" />
     <RolePrivilege name="prvWritetc_YYOrganizationAgreement" level="Deep" />
     <RolePrivilege name="prvWriteTranslationProcess" level="Global" />
     <RolePrivilege name="prvWriteUserQuery" level="Basic" />
